@@ -19246,7 +19246,7 @@
 <TermInfo>
 <T>von Zeipel theorem</T>
 <BT>Methods and techniques</BT>
-<EN>Theorem denigrated.  -BG</EN>
+<EN>Theorem denigrated. -BG</EN>
 <RT>Stellar rotation</RT>
 <Status>Accepted</Status>
 <UF>von Zeipel's theorem</UF>
