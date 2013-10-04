@@ -2,6 +2,8 @@ Various bits and pieces for the Unified Astronomy Thesaurus.
 
 The dendrogram folder contains the code to used to create the interactive browser on the UAT website.
 
+The browsers folder contains the files needed to create the alphabetical and hierarchical browsers on the UAT website.
+
 The thesaurus folder contains the content of the UAT in four file formats.
 
 ===================== 
