@@ -1,6 +1,6 @@
 Various bits and pieces for the Unified Astronomy Thesaurus.
 
-The xmltojson folder contains the code to convert the XML version of the UAT into a json file.
+The dendrogram folder contains the code to used to create the interactive browser on the UAT website.
 
 The thesaurus folder contains the content of the UAT in four file formats.
 
