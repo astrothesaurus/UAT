@@ -28,11 +28,11 @@ path.link {
     </style>
   </head>
   <body>
-  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="d3.v3.js"></script>
     <div id="body">
       <div id="header">
        Unified Astronomy Thesaurus
-        <div class="hint">click a node to expand or collapse<br/><a href="http://astrothesaurus.org/dendrogram/">back to the UAT website</a></div>
+        <div class="hint">click a node to expand or collapse<br/>click & drag to move the dendrogram on the screen<br /><a href="http://astrothesaurus.org/dendrogram/">back to the UAT website</a></div>
       </div>
       <div id="footer">
         <div class="hint"></div>
@@ -40,13 +40,22 @@ path.link {
 
     <script type="text/javascript">
 
+var realWidth = window.innerWidth + 65;
+var realHeight = window.innerHeight - 65;
 
-var m = [20, 120, 20, 120],
-    w = 2080 - m[1] - m[3],
-    h = 800 - m[0] - m[2],
+var m = [20, 0, 0, 90],
+    w = realWidth - m[1] - m[3],
+    h = realHeight - m[0] - m[2],
     i = 0,
     root;
 
+/*
+var m = [0, 240, 100, 240],
+    w = realWidth -m[0] -m[0],
+    h = realHeight -m[0] -m[2],
+    i = 0,
+    root;
+*/
 
 var tree = d3.layout.tree()
     .size([h, w]);
@@ -58,11 +67,13 @@ var vis = d3.select("#body").append("svg:svg")
     .attr("width", w + m[1] + m[3])
     .attr("height", h + m[0] + m[2])
   .append("svg:g")
+    .attr("class","drawarea")
+  .append("svg:g")
     .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
 
 
 
-d3.json("uat4.json", function(json) {
+d3.json("uat.json", function(json) {
   root = json;
   root.x0 = h / 2;
   root.y0 = 0;
@@ -80,6 +91,7 @@ d3.json("uat4.json", function(json) {
       toggle(d);
     }
   }
+  
 
 
   // Initialize the display to show a few nodes.
@@ -93,18 +105,38 @@ d3.json("uat4.json", function(json) {
   // Initialize the display to show a few nodes.
   root.children.forEach(toggleAll);
   toggle(root.children[0]);
-  toggle(root.children[0].children[2]);
-  toggle(root.children[0].children[2].children[0]);
-  toggle(root.children[0].children[2].children[0].children[10]);
-  toggle(root.children[0].children[2].children[0].children[10].children[0]);
-  toggle(root.children[0].children[2].children[0].children[10].children[0].children[2]);
-  toggle(root.children[0].children[2].children[0].children[10].children[0].children[2].children[5]);
-  toggle(root.children[0].children[2].children[0].children[10].children[0].children[2].children[5].children[0]);
-  toggle(root.children[0].children[2].children[0].children[10].children[0].children[2].children[5].children[0].children[0]);
+  toggle(root.children[0].children[20]);
+  toggle(root.children[0].children[20].children[0]);
+  toggle(root.children[0].children[20].children[0].children[0]);
+  toggle(root.children[0].children[20].children[0].children[0].children[0]);
+  toggle(root.children[0].children[20].children[0].children[0].children[0].children[10]);
+  toggle(root.children[0].children[20].children[0].children[0].children[0].children[10].children[0]);
+  toggle(root.children[0].children[20].children[0].children[0].children[0].children[10].children[0].children[2]);
+  toggle(root.children[0].children[20].children[0].children[0].children[0].children[10].children[0].children[2].children[5]);
+  toggle(root.children[0].children[20].children[0].children[0].children[0].children[10].children[0].children[2].children[5].children[0]);
+  toggle(root.children[0].children[20].children[0].children[0].children[0].children[10].children[0].children[2].children[5].children[0].children[0]);
+
 */
 
   update(root);
 });
+
+function zoom() {
+    var scale = 1,
+        translation = d3.event.translate,
+        tbound = -h,
+        bbound = h,
+        lbound = (-w+ m[1]),
+        rbound = (w - m[3]);
+    // limit translation to thresholds
+    translation = [
+        Math.max(Math.min(translation[0], rbound), lbound),
+        Math.max(Math.min(translation[1], bbound), tbound)
+    ];
+    d3.select(".drawarea")
+        .attr("transform", "translate(" + translation + ")" +
+              " scale(" + scale + ")");
+}
 
 function update(source) {
   var duration = d3.event && d3.event.altKey ? 5000 : 500;
@@ -194,6 +226,12 @@ function update(source) {
     d.x0 = d.x;
     d.y0 = d.y;
   });
+  
+  d3.select("svg")
+    .call(d3.behavior.zoom()
+      .scaleExtent([0.5, 5])
+      .on("zoom", zoom));
+  
 }
 
 // Toggle children.
