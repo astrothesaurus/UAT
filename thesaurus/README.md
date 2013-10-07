@@ -4,7 +4,7 @@ The UAT in four formats: 1) RDF/SKOS, 2) XML, 3) CSV, 4) XML
 IMPORTANT NOTE: 
 --------------- 
 
-We are making available this DRAFT copy of the thesaurus to a limited set of collaborators and developers who are interested in previewing the product while we work on implementing the technical, social, and rights management infrastructure required for its maintenance.  Given these constraints, we ask you that you refrain from further redistributing this content to third parties without prior approval.  We are interested in your feedback, which should be sent to us via our submission form at http://astrothesaurus.org/contact-us/ 
+We are making available this DRAFT copy of the thesaurus mostly for the benefit of collaborators and developers who are interested in previewing the product while we work on implementing the technical, social, and rights management infrastructure required for its maintenance.  Given these constraints, we ask you that you refrain from further redistributing this content to third parties without prior approval.  We are interested in your feedback, which should be sent to us via our Google Group at https://groups.google.com/d/forum/uat-users or by using our submission form at http://astrothesaurus.org/contact-us/
 
 The current draft was released on 1/1/2013 and consists of a polyhierarchy with 2305 terms, 15 top concepts, and with the majority of the terms 2–4 levels down from the top. There are 224 'related' links in the thesaurus. 
 
