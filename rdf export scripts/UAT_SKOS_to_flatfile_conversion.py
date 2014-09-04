@@ -6,16 +6,16 @@ import rdflib
 import pandas as pd
 
 #assign this variable to the name of the exported UAT SKOS-RDF file, found in the same location as this script.
-rdf = "export_skos-xl_07052014030250.rdf"
+rdf = "export_skos-xl_04092014115052.rdf"
 
 print "Reading the SKOS file...this may take a few seconds."
-
 #reads the SKOS-RDF file into a RDFlib graph for use in this script
 g = rdflib.Graph()
 result = g.parse((rdf).encode('utf8'))
 
 #defines certain properties within the SKOS-RDF file
 litForm = rdflib.term.URIRef('http://www.w3.org/2008/05/skos-xl#literalForm')
+prefLabel = rdflib.term.URIRef('http://www.w3.org/2008/05/skos-xl#prefLabel')
 narrower = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#narrower')
 TopConcept = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#hasTopConcept')
 
@@ -36,11 +36,12 @@ def getnarrowerterms(term):
     except KeyError:
         pass   
 
-#a function to return the human readable form of a term.
+#a function to return the human readable form of the prefered version of a term.
 def lit(term):
     d = rdflib.term.URIRef(term)
-    for litterm in g.objects(subject=d, predicate=litForm):
-        return litterm
+    for prefterm in g.objects(subject=d, predicate=prefLabel):
+        for litterm in g.objects(subject=prefterm, predicate=litForm):
+            return litterm
 
 #a function to travel all the way down each path in the thesarus and return this information into a list.
 def descend(term, parents, out_list):

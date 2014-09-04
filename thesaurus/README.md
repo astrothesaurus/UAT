@@ -1,4 +1,4 @@
-The UAT in four formats: 1) RDF/SKOS, 2) XML, 3) CSV, 4) XML
+The UAT in various file formats.
 
 ======================================= 
 IMPORTANT NOTE: 
