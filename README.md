@@ -1,8 +1,8 @@
 Various bits and pieces for the Unified Astronomy Thesaurus.
 
-The browsers folder contains the files needed to create the alphabetical, hierarchical, and dendrogram browsers on the UAT website.
+The browsers folder contains files for the various browsers used to display the UAT on the website, including the alphabetical, hierarchical, and dendrogram browsers.
 
-The rdf export scripts folder contains scripts used to manipulate the RDF export of the UAT from VocBench.
+The scripts folder contains scripts used to manipulate the RDF export of the UAT from VocBench.
 
 The thesaurus folder contains the content of the UAT in various file formats.
 
