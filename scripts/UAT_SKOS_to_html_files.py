@@ -301,7 +301,7 @@ filetree.write("<script type='text/javascript'>\n")
 filetree.write("//ddtreemenu.createTree(treeid, enablepersist, opt_persist_in_days (default is 1))\n")
 filetree.write("ddtreemenu.createTree('treemenu1', false)\n")
 filetree.write("</script>\n")
-filetree.write("</body>")
+filetree.write("</body>\n</html>")
 
 filetree.close()
 
