@@ -6,9 +6,9 @@ import rdflib
 import json
 
 #assign this variable to the name of the exported UAT SKOS-RDF file, found in the same location as this script.
-rdf = "export_skos-xl_05092014050915.rdf"
+rdf = "export_skos-xl_04092014115052.rdf"
 
-print "Reading the SKOS file..."
+print "Reading the SKOS file... this may take a few seconds."
 #reads the SKOS-RDF file into a RDFlib graph for use in this script
 g = rdflib.Graph()
 result = g.parse((rdf).encode('utf8'))
@@ -108,10 +108,11 @@ def recurse_traverse(info_dict, name_of_dict, flat_j):
 
 astro_thes = {"children":[]}
 
+print "You can ignore the UnicodeWarning if you get one..."
 recurse_traverse(astro_thes, "astro_thes", flat_j)
 
 js_file = open("uat.json", "wb")
 js_file.write(json.dumps(astro_thes))
-js_file.close
+js_file.close()
 
 print "Finished!  See uat.json."
