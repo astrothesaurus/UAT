@@ -1,0 +1,89 @@
+/*============================ RESET ============================*/
+html, body, span, applet, object, iframe,
+h1, h2, h3, h5, h6, p, blockquote, pre,
+abbr, acronym, address, big, cite, code,
+del, dfn, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	margin-top: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+h4{
+margin: 0;
+margin-top: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-style: italic;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
+}
+
+div.advmenu{
+padding-left: 30px;
+padding-top: 2px;
+padding-bottom: 8px;
+font-weight: inherit;
+font-style: inherit;
+font-size: 70%;
+font-family: inherit;
+vertical-align: baseline;
+}
+
+.advmenu a:link, a:visited {
+	color: #24041b;
+	text-decoration: underline;
+}
+.advmenu a:hover, a:active {
+	text-decoration: none;
+}
+
+a,a:link,a:visited{
+/*color:#b4083a;*/
+color: #24041b;
+text-decoration:none;
+}
+a:hover,a:active{
+text-decoration:none;
+color: #24041b;
+}
+
+.treeview ul{
+margin-left: 0px;
+padding-left: 0px;
+}
+.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+background: white url(list.gif) no-repeat left center;
+list-style-type: none;
+padding-left: 15px;
+margin-left: 0px;
+margin-bottom: 3px;
+}
+
+.treeview li.submenu{ /* Style for LI that contains sub lists (other ULs). */
+background: white url(closed.gif) no-repeat left 1px;
+padding-left: 15px;
+cursor: hand !important;
+cursor: pointer !important;
+}
+
+
+.treeview li.submenu ul{ /*Style for ULs that are children of LIs (submenu) */
+display: none; /*Hide them by default. Don't delete. */
+}
+
+.treeview .submenu ul li{ /*Style for LIs of ULs that are children of LIs (submenu) */
+cursor: default;
+}

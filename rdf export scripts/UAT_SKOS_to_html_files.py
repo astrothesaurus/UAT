@@ -8,7 +8,7 @@ import rdflib
 import json
 
 #assign this variable to the name of the exported UAT SKOS-RDF file, found in the same location as this script.
-rdf = "export_skos-xl_04092014115052.rdf"
+rdf = "export_skos-xl_05092014050915.rdf"
 
 print "Reading the SKOS file... this may take a few seconds."
 #reads the SKOS-RDF file into a RDFlib graph for use in this script
@@ -112,6 +112,8 @@ def getstatus(term):
     for cstatus in g.objects(subject=d, predicate=status):
         return cstatus
 
+print "Writing term record files..."
+
 for t in allconcepts:
     urlterm = unicode(lit(t)).replace(" ", "+").replace("/", "_")
     #get all the info for each term to use below
@@ -204,6 +206,7 @@ for t in allconcepts:
     fileterm.write("</body>\n</html>\n")
     fileterm.close()
 
+print "Writing toplevelconcepts.html..."
 #creates toplevelconcepts.html
 filetop = open("termrecords\\toplevelconcepts.html", 'w')
 filetop.write("<html>\n")
@@ -217,10 +220,11 @@ for ut in alltopconcepts:
 st = sorted(ust)
 for t in st:
     urlterm = t.replace(" ", "+").replace("/", "_")
-    filetop.write("<a href='termrecords/"+urlterm+".html'>"+t.encode('utf-8')+"</a></br>\n")
+    filetop.write("<a href='"+urlterm+".html'>"+t.encode('utf-8')+"</a></br>\n")
 filetop.write("</body>\n</html>\n")
 filetop.close()
 
+print "Writing alphaleft.html..."
 #creates alphabetial list of terms with first letter headers.
 filealpha = open("alphaleft.html", 'w')
 filealpha.write("<html>\n")
@@ -241,3 +245,64 @@ for c in sac:
     filealpha.write("<a href='termrecords/"+curl+".html' target='rightframe'>"+c.encode('utf-8')+"</a></br>\n")
 filealpha.write("</body>\n</html>\n")
 filealpha.close()
+
+def sortlist(unsortedlist):
+    ustl = []
+    sl = []
+    for t in unsortedlist:
+        ustl.append(lit(t))
+    x = sorted(ustl)
+    for s in x:
+        for n in g.subjects(predicate=litForm, object=s):
+            for m in g.subjects(predicate=prefLabel, object=n):
+                sl.append(m)
+    #print sl
+    return sl
+
+
+def buildlist(termlist, filename):
+    for xt in sortlist(termlist):
+        xtr = lit(xt)
+        urlxt = xtr.replace(" ", "+").replace("/", "_").encode('utf-8')
+        filename.write("<li><a target='basefrm' href='termrecords/"+urlxt+".html'>"+lit(xt).encode('utf-8')+"</a>")
+        yt = getnarrowerterms(xt)
+        if yt != None:
+            filename.write("\n<ul class='treeview'>\n")
+            buildlist(yt, filename)
+        if yt == None:
+            filename.write("</li>\n")
+    filename.write("</ul></li>\n")
+
+print "Writing tree.html..."
+
+filetree = open("tree.html", 'w')
+filetree.write("<html>\n")
+filetree.write("<head>\n<title>UAT Hierarchy Tree View</title>\n")
+filetree.write("<script type='text/javascript' src='simpletreemenu.js'>\n")
+filetree.write("/***********************************************\n")
+filetree.write("* Simple Tree Menu- © Dynamic Drive DHTML code library (www.dynamicdrive.com)\n")
+filetree.write("* This notice MUST stay intact for legal use\n")
+filetree.write("* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code\n")
+filetree.write("***********************************************/\n")
+filetree.write("</script>\n")
+filetree.write("<link rel='stylesheet' type='text/css' href='simpletree.css' />\n")
+filetree.write("<meta charset='utf-8'></head>\n<body>\n")
+filetree.write("</head>\n")
+filetree.write("</body>\n")
+filetree.write("<h4>Unified Astronom Thesaurus</h4>\n")
+filetree.write("<div class='advmenu'>\n")
+filetree.write("<a href=\"javascript:ddtreemenu.flatten('treemenu1', 'expand')\">expand all</a> | <a href=\"javascript:ddtreemenu.flatten('treemenu1', 'collapse')\">collapse all</a>\n")
+filetree.write("</div>\n")
+filetree.write("<ul id='treemenu1' class='treeview'>\n")
+
+buildlist(alltopconcepts, filetree)
+
+filetree.write("<script type='text/javascript'>\n")
+filetree.write("//ddtreemenu.createTree(treeid, enablepersist, opt_persist_in_days (default is 1))\n")
+filetree.write("ddtreemenu.createTree('treemenu1', false)\n")
+filetree.write("</script>\n")
+filetree.write("</body>")
+
+filetree.close()
+
+print "Finished with everything!"
