@@ -31074,13 +31074,13 @@
 	<skos:inScheme rdf:resource="http://purl.org/astronomy/uat"/>
 	<skos:broader rdf:resource="http://purl.org/astronomy/uat/xl_en_sl3zwcam"/>
 	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat/xl_en_5ee4feb6"/>
-	<alpha xmlns="http://purl.org/astronomy/uat/meta#">Ethnosatronomy</alpha>
+	<alpha xmlns="http://purl.org/astronomy/uat/meta#">Ethnoastronomy</alpha>
 	<status xmlns="http://purl.org/astronomy/uat/meta#">Accepted</status>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/astronomy/uat/xl_en_5ee4feb6">
 	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
-	<skosxl:literalForm xml:lang="en">Ethnosatronomy</skosxl:literalForm>
+	<skosxl:literalForm xml:lang="en">Ethnoastronomy</skosxl:literalForm>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/astronomy/uat/xl_en_g6a0mh8d">
