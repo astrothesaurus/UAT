@@ -6,7 +6,7 @@ import rdflib
 import json
 
 #assign this variable to the name of the exported UAT SKOS-RDF file, found in the same location as this script.
-rdf = "export_skos-xl_04092014115052.rdf"
+rdf = "export_skos-xl_11092014124732.rdf"
 
 print "Reading the SKOS file... this may take a few seconds."
 #reads the SKOS-RDF file into a RDFlib graph for use in this script
@@ -16,26 +16,26 @@ result = g.parse((rdf).encode('utf8'))
 #defines certain properties within the SKOS-RDF file
 litForm = rdflib.term.URIRef('http://www.w3.org/2008/05/skos-xl#literalForm')
 prefLabel = rdflib.term.URIRef('http://www.w3.org/2008/05/skos-xl#prefLabel')
-narrower = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#narrower')
+#narrower = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#narrower')
 broader = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#broader')
 Concept = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#Concept')
 
 #a list of all concepts
 allconcepts = [gm for gm in g.subjects(rdflib.RDF.type, Concept)]
 
-#a function to get a list of all narrower terms under a term
+#find all terms that have the given term listed as a broader term, so they are therefore narrower terms
 def getnarrowerterms(term):
-    terminal = rdflib.term.URIRef(term)
     narrowerterms = {}
+    terminal = rdflib.term.URIRef(term)
     try:
-        for nts in g.objects(subject=terminal, predicate=narrower):
+        for nts in g.subjects(predicate=broader, object=terminal):
             try:
                 narrowerterms[terminal].append(nts)
             except KeyError:
                 narrowerterms[terminal] = [nts]
         return narrowerterms[terminal]
     except KeyError:
-        pass   
+        pass
 
 def getbroaderterms(term):
     terminal = rdflib.term.URIRef(term)

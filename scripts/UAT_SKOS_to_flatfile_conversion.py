@@ -6,7 +6,7 @@ import rdflib
 import pandas as pd
 
 #assign this variable to the name of the exported UAT SKOS-RDF file, found in the same location as this script.
-rdf = "export_skos-xl_04092014115052.rdf"
+rdf = "export_skos-xl_11092014124732.rdf"
 
 print "Reading the SKOS file...this may take a few seconds."
 #reads the SKOS-RDF file into a RDFlib graph for use in this script
@@ -16,25 +16,25 @@ result = g.parse((rdf).encode('utf8'))
 #defines certain properties within the SKOS-RDF file
 litForm = rdflib.term.URIRef('http://www.w3.org/2008/05/skos-xl#literalForm')
 prefLabel = rdflib.term.URIRef('http://www.w3.org/2008/05/skos-xl#prefLabel')
-narrower = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#narrower')
-TopConcept = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#hasTopConcept')
+TopConcept = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#topConceptOf')
+broader = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#broader')
 
 #a list of all top concepts
-alltopconcepts = [bv for bv in g.objects(predicate=TopConcept)]
+alltopconcepts = [bv for bv in g.subjects(predicate=TopConcept)]
 
-#a function to get a list of all narrower terms under a term
+#find all terms that have the given term listed as a broader term, so they are therefore narrower terms
 def getnarrowerterms(term):
-    terminal = rdflib.term.URIRef(term)
     narrowerterms = {}
+    terminal = rdflib.term.URIRef(term)
     try:
-        for nts in g.objects(subject=terminal, predicate=narrower):
+        for nts in g.subjects(predicate=broader, object=terminal):
             try:
                 narrowerterms[terminal].append(nts)
             except KeyError:
                 narrowerterms[terminal] = [nts]
         return narrowerterms[terminal]
     except KeyError:
-        pass   
+        pass
 
 #a function to return the human readable form of the prefered version of a term.
 def lit(term):
@@ -60,9 +60,7 @@ def descend(term, parents, out_list):
         if children not in out_list:
             out_list.append(children)
 
-
 print "Organizing the terms, almost finished."
-
 #runs the functions across all terms and outputs to pandas dataframe.
 timestamp = datetime.now().strftime("_%Y_%m%d_%H%M%S")
 GLOBAL_OUT_LIST = []

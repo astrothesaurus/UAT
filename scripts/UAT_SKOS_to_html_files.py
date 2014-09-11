@@ -6,9 +6,11 @@ from unidecode import unidecode
 import cStringIO
 import rdflib
 import json
+import os
+import shutil
 
 #assign this variable to the name of the exported UAT SKOS-RDF file, found in the same location as this script.
-rdf = "export_skos-xl_05092014050915.rdf"
+rdf = "EXAMPLEexport_skos-xl_11092014124732.rdf"
 
 print "Reading the SKOS file... this may take a few seconds."
 #reads the SKOS-RDF file into a RDFlib graph for use in this script
@@ -17,36 +19,40 @@ result = g.parse((rdf).encode('utf8'))
 
 #defines certain properties within the SKOS-RDF file
 litForm = rdflib.term.URIRef('http://www.w3.org/2008/05/skos-xl#literalForm')
-narrower = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#narrower')
-TopConcept = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#hasTopConcept')
+TopConcept = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#topConceptOf')
 broader = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#broader')
 Concept = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#Concept')
 altLabel = rdflib.term.URIRef('http://www.w3.org/2008/05/skos-xl#altLabel')
 prefLabel = rdflib.term.URIRef('http://www.w3.org/2008/05/skos-xl#prefLabel')
-notes = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#editorialNote')
+ednotes = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#editorialNote')
+changenotes = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#changeNote')
+scopenotes = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#scopeNote')
+example = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#example')
 status = rdflib.term.URIRef('http://purl.org/astronomy/uat/meta#status')
+vocstatus = rdflib.term.URIRef('http://art.uniroma2.it/ontologies/vocbench#hasStatus')
 related = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#related')
 
 #list of all top level concepts
-alltopconcepts = [bv for bv in g.objects(predicate=TopConcept)]
+alltopconcepts = [bv for bv in g.subjects(predicate=TopConcept)]
 
 #list of all concepts
 allconcepts = [gm for gm in g.subjects(rdflib.RDF.type, Concept)]
 
-#a function to get a list of all narrower terms under a term
+#find all terms that have the given term as a broader term, so they are therefore narrower terms
 def getnarrowerterms(term):
-    terminal = rdflib.term.URIRef(term)
     narrowerterms = {}
+    terminal = rdflib.term.URIRef(term)
     try:
-        for nts in g.objects(subject=terminal, predicate=narrower):
+        for nts in g.subjects(predicate=broader, object=terminal):
             try:
                 narrowerterms[terminal].append(nts)
             except KeyError:
                 narrowerterms[terminal] = [nts]
         return narrowerterms[terminal]
     except KeyError:
-        pass   
+        pass
 
+#gets all broader terms of a given term
 def getbroaderterms(term):
     terminal = rdflib.term.URIRef(term)
     broaderterms = {}
@@ -101,18 +107,46 @@ def altlit(term):
     for altterm in g.objects(subject=d, predicate=litForm):
         return altterm
 
-#a function to return the human readable form of a term.
-def getnotes(term):
+#a function to return editorial notes.
+def getednotes(term):
     d = rdflib.term.URIRef(term)
-    for noteterm in g.objects(subject=d, predicate=notes):
-        return noteterm
+    for ednoteterm in g.objects(subject=d, predicate=ednotes):
+        return ednoteterm
+
+#a function to return change notes.
+def getchangenotes(term):
+    d = rdflib.term.URIRef(term)
+    for chnoteterm in g.objects(subject=d, predicate=changenotes):
+        return chnoteterm
+
+#a function to return scope notes.
+def getscopenotes(term):
+    d = rdflib.term.URIRef(term)
+    for scnoteterm in g.objects(subject=d, predicate=scopenotes):
+        return scnoteterm
+
+#a function to return example notes.
+def getexample(term):
+    d = rdflib.term.URIRef(term)
+    for termex in g.objects(subject=d, predicate=example):
+        return termex
 
 def getstatus(term):
     d = rdflib.term.URIRef(term)
     for cstatus in g.objects(subject=d, predicate=status):
         return cstatus
 
+def getvocstatus(term):
+    d=rdflib.term.URIRef(term)
+    for vcstatus in g.objects(subject=d, predicate=vocstatus):
+        return vcstatus
+
 print "Writing term record files..."
+
+directory = 'termrecords'
+if os.path.exists(directory):
+    shutil.rmtree(directory)
+os.makedirs(directory)
 
 for t in allconcepts:
     urlterm = unicode(lit(t)).replace(" ", "+").replace("/", "_")
@@ -122,7 +156,12 @@ for t in allconcepts:
     usats = getaltterms(t)
     usrts = getrelatedterms(t)
     stats = getstatus(t)
-    notations = getnotes(t)
+    vocstats = getvocstatus(t)
+    ednotations = getednotes(t)
+    chnotations = getchangenotes(t)
+    scnotations = getscopenotes(t)
+    termexample = getexample(t)
+
     
     #create file for this particular term
     fileterm = open("termrecords\\"+urlterm+".html", 'w')
@@ -146,7 +185,7 @@ for t in allconcepts:
         for bt in sbt:
             bturl = bt.replace(" ", "+").replace("/", "")+".html"
             cbturl = bturl.encode('utf-8')
-            fileterm.write("<dd><a href='"+cbturl+"'>"+bt.encode('utf-8')+"</a></dd>\n")
+            fileterm.write("<dd><a href=\""+cbturl+"\">"+bt.encode('utf-8')+"</a></dd>\n")
         fileterm.write("</p>\n")
     else:
         fileterm.write("<br /><a href='toplevelconcepts.html'>view all top level concepts</a>\n") 
@@ -161,7 +200,7 @@ for t in allconcepts:
         for nt in snt:
             nturl = nt.replace(" ", "+").replace("/", "")+".html"
             cnturl = nturl.encode('utf-8')
-            fileterm.write("<dd><a href='"+cnturl+"'>"+nt.encode('utf-8')+"</a></dd>\n")
+            fileterm.write("<dd><a href=\""+cnturl+"\">"+nt.encode('utf-8')+"</a></dd>\n")
         fileterm.write("</p>\n")
     
     #related terms
@@ -174,7 +213,7 @@ for t in allconcepts:
         for rt in srt:
             rturl = rt.replace(" ", "+").replace("/", "")+".html"
             crturl = rturl.encode('utf-8')
-            fileterm.write("<dd><a href='"+crturl+"'>"+rt.encode('utf-8')+"</a></dd>\n")
+            fileterm.write("<dd><a href=\""+crturl+"\">"+rt.encode('utf-8')+"</a></dd>\n")
         fileterm.write("</p>\n")
 
     #alternate forms
@@ -188,18 +227,40 @@ for t in allconcepts:
             fileterm.write("<dd>"+at.encode('utf-8')+"</dd>\n")
         fileterm.write("</p>\n")
 
-    #notes
-    if notations != None:
-        fileterm.write("<p><dt><i>Editorial Notes</i>:</dt>\n")
-        fileterm.write("<dd>"+notations.encode('utf-8')+"</dd>\n")
+    #examples
+    if termexample != None:
+        fileterm.write("<p><dt><i>Exmaples</i>:</dt>\n")
+        fileterm.write("<dd>"+termexample.encode('utf-8')+"</dd>\n")
         fileterm.write("</p>\n")
-    
+
+    #editorial notes
+    if ednotations != None:
+        fileterm.write("<p><dt><i>Editorial Notes</i>:</dt>\n")
+        fileterm.write("<dd>"+ednotations.encode('utf-8')+"</dd>\n")
+        fileterm.write("</p>\n")
+
+    #change notes
+    if chnotations != None:
+        fileterm.write("<p><dt><i>Change Notes</i>:</dt>\n")
+        fileterm.write("<dd>"+chnotations.encode('utf-8')+"</dd>\n")
+        fileterm.write("</p>\n")
+
+    #scope notes
+    if scnotations != None:
+        fileterm.write("<p><dt><i>Scope Notes</i>:</dt>\n")
+        fileterm.write("<dd>"+scnotations.encode('utf-8')+"</dd>\n")
+        fileterm.write("</p>\n")
+   
     #status
-    fileterm.write("<p><dt><i>Status</i>:</dt>\n")
-    fileterm.write("<dd>"+stats.encode('utf-8')+"</dd></p>\n")
-    
+    if vocstats != None:
+        fileterm.write("<p><dt><i>Status</i>:</dt>\n")
+        fileterm.write("<dd>"+vocstats.encode('utf-8')+"</dd></p>\n")
+    if stats != None and vocstats == None:
+        fileterm.write("<p><dt><i>Status</i>:</dt>\n")
+        fileterm.write("<dd>"+stats.encode('utf-8')+"</dd></p>\n")
+
     #contribution link
-    fileterm.write("<p><a target='_top' href='http://astrothesaurus.org/contributeterm/?term="+lit(t).encode('utf-8')+"'>Contribute</a></p>\n")
+    fileterm.write("<p><a target='_top' href=\"http://astrothesaurus.org/contributeterm/?term="+lit(t).encode('utf-8')+"\">Contribute</a></p>\n")
     
     #finish off html and close file
     fileterm.write("</dl>\n")
@@ -220,7 +281,7 @@ for ut in alltopconcepts:
 st = sorted(ust)
 for t in st:
     urlterm = t.replace(" ", "+").replace("/", "_")
-    filetop.write("<a href='"+urlterm+".html'>"+t.encode('utf-8')+"</a></br>\n")
+    filetop.write("<a href=\""+urlterm+".html\">"+t.encode('utf-8')+"</a></br>\n")
 filetop.write("</body>\n</html>\n")
 filetop.close()
 
@@ -242,7 +303,7 @@ for c in sac:
         filealpha.write("<br /><b><a id='"+c[0]+"'>"+c[0]+"</a></b><br/><br/>")
     urlterm = c.replace(" ", "+").replace("/", "_")
     curl = urlterm.encode('utf-8')
-    filealpha.write("<a href='termrecords/"+curl+".html' target='rightframe'>"+c.encode('utf-8')+"</a></br>\n")
+    filealpha.write("<a href=\"termrecords/"+curl+".html\" target='rightframe'>"+c.encode('utf-8')+"</a></br>\n")
 filealpha.write("</body>\n</html>\n")
 filealpha.close()
 
@@ -256,15 +317,13 @@ def sortlist(unsortedlist):
         for n in g.subjects(predicate=litForm, object=s):
             for m in g.subjects(predicate=prefLabel, object=n):
                 sl.append(m)
-    #print sl
     return sl
-
 
 def buildlist(termlist, filename):
     for xt in sortlist(termlist):
         xtr = lit(xt)
         urlxt = xtr.replace(" ", "+").replace("/", "_").encode('utf-8')
-        filename.write("<li><a target='basefrm' href='termrecords/"+urlxt+".html'>"+lit(xt).encode('utf-8')+"</a>")
+        filename.write("<li><a target='basefrm' href=\"termrecords/"+urlxt+".html\">"+lit(xt).encode('utf-8')+"</a>")
         yt = getnarrowerterms(xt)
         if yt != None:
             filename.write("\n<ul class='treeview'>\n")
@@ -274,7 +333,6 @@ def buildlist(termlist, filename):
     filename.write("</ul></li>\n")
 
 print "Writing tree.html..."
-
 filetree = open("tree.html", 'w')
 filetree.write("<html>\n")
 filetree.write("<head>\n<title>UAT Hierarchy Tree View</title>\n")
