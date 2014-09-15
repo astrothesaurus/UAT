@@ -61,13 +61,19 @@ for term in allconcepts:
         deprecated.append(lit(term))   
 
 #a function to travel all the way down each path in the thesarus and return this information into a list.
+#a function to travel all the way down each path in the thesarus and return this information into a list.
 def descend(term, parents, out_list):
     lvln = getnarrowerterms(term)
     if lvln != None: #if there are narrower terms...
         for z in lvln:
             children = parents[:]
+            #w = lit(z)
+            #print lit(term)
             if lit(z) in deprecated:
-                pass
+                children = parents[:]
+                children.append(lit(term))
+                if children not in out_list:
+                    out_list.append(children)
             else:
                 children.append(lit(term))
                 if children not in out_list:
