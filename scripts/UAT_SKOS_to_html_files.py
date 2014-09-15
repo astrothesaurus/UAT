@@ -10,7 +10,7 @@ import os
 import shutil
 
 #assign this variable to the name of the exported UAT SKOS-RDF file, found in the same location as this script.
-rdf = "EXAMPLEexport_skos-xl_11092014124732.rdf"
+rdf = "export_skos-xl_15092014111447.rdf"
 
 print "Reading the SKOS file... this may take a few seconds."
 #reads the SKOS-RDF file into a RDFlib graph for use in this script
@@ -28,7 +28,6 @@ ednotes = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#editorialNote'
 changenotes = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#changeNote')
 scopenotes = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#scopeNote')
 example = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#example')
-status = rdflib.term.URIRef('http://purl.org/astronomy/uat/meta#status')
 vocstatus = rdflib.term.URIRef('http://art.uniroma2.it/ontologies/vocbench#hasStatus')
 related = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#related')
 
@@ -131,18 +130,20 @@ def getexample(term):
     for termex in g.objects(subject=d, predicate=example):
         return termex
 
-def getstatus(term):
-    d = rdflib.term.URIRef(term)
-    for cstatus in g.objects(subject=d, predicate=status):
-        return cstatus
-
+#a function to return the status of a term
 def getvocstatus(term):
     d=rdflib.term.URIRef(term)
     for vcstatus in g.objects(subject=d, predicate=vocstatus):
         return vcstatus
 
-print "Writing term record files..."
+#get all deprecated terms into a list
+deprecated = []
+for term in allconcepts:
+    termstats = getvocstatus(term)
+    if termstats == "Deprecated":
+        deprecated.append(lit(term)) 
 
+print "Writing term record files..."
 directory = 'termrecords'
 if os.path.exists(directory):
     shutil.rmtree(directory)
@@ -150,19 +151,18 @@ os.makedirs(directory)
 
 for t in allconcepts:
     urlterm = unicode(lit(t)).replace(" ", "+").replace("/", "_")
-    #get all the info for each term to use below
+    
+    #get all the info for each term
     usnts = getnarrowerterms(t)
     usbts = getbroaderterms(t)
     usats = getaltterms(t)
     usrts = getrelatedterms(t)
-    stats = getstatus(t)
     vocstats = getvocstatus(t)
     ednotations = getednotes(t)
     chnotations = getchangenotes(t)
     scnotations = getscopenotes(t)
     termexample = getexample(t)
 
-    
     #create file for this particular term
     fileterm = open("termrecords\\"+urlterm+".html", 'w')
     
@@ -185,7 +185,10 @@ for t in allconcepts:
         for bt in sbt:
             bturl = bt.replace(" ", "+").replace("/", "")+".html"
             cbturl = bturl.encode('utf-8')
-            fileterm.write("<dd><a href=\""+cbturl+"\">"+bt.encode('utf-8')+"</a></dd>\n")
+            if bt in deprecated:
+                fileterm.write("<dd><del><a href=\""+cbturl+"\">"+bt.encode('utf-8')+"</a></del></dd>\n")
+            else:
+                fileterm.write("<dd><a href=\""+cbturl+"\">"+bt.encode('utf-8')+"</a></dd>\n")
         fileterm.write("</p>\n")
     else:
         fileterm.write("<br /><a href='toplevelconcepts.html'>view all top level concepts</a>\n") 
@@ -194,13 +197,17 @@ for t in allconcepts:
     if usnts != None:
         fileterm.write("<p><dt><i>Narrower Term(s)</i>:</dt>\n")
         usnt = []
+        dusnt = []
         for unt in usnts:
             usnt.append(unicode(lit(unt)))
             snt = sorted(usnt)
         for nt in snt:
             nturl = nt.replace(" ", "+").replace("/", "")+".html"
             cnturl = nturl.encode('utf-8')
-            fileterm.write("<dd><a href=\""+cnturl+"\">"+nt.encode('utf-8')+"</a></dd>\n")
+            if nt in deprecated:
+                fileterm.write("<dd><del><a href=\""+cnturl+"\">"+nt.encode('utf-8')+"</a></del></dd>\n")
+            else:           
+                fileterm.write("<dd><a href=\""+cnturl+"\">"+nt.encode('utf-8')+"</a></dd>\n")
         fileterm.write("</p>\n")
     
     #related terms
@@ -213,7 +220,10 @@ for t in allconcepts:
         for rt in srt:
             rturl = rt.replace(" ", "+").replace("/", "")+".html"
             crturl = rturl.encode('utf-8')
-            fileterm.write("<dd><a href=\""+crturl+"\">"+rt.encode('utf-8')+"</a></dd>\n")
+            if rt in deprecated:
+                fileterm.write("<dd><del><a href=\""+crturl+"\">"+rt.encode('utf-8')+"</a></del></dd>\n")
+            else:
+                fileterm.write("<dd><a href=\""+crturl+"\">"+rt.encode('utf-8')+"</a></dd>\n")
         fileterm.write("</p>\n")
 
     #alternate forms
@@ -255,10 +265,7 @@ for t in allconcepts:
     if vocstats != None:
         fileterm.write("<p><dt><i>Status</i>:</dt>\n")
         fileterm.write("<dd>"+vocstats.encode('utf-8')+"</dd></p>\n")
-    if stats != None and vocstats == None:
-        fileterm.write("<p><dt><i>Status</i>:</dt>\n")
-        fileterm.write("<dd>"+stats.encode('utf-8')+"</dd></p>\n")
-
+        
     #contribution link
     fileterm.write("<p><a target='_top' href=\"http://astrothesaurus.org/contributeterm/?term="+lit(t).encode('utf-8')+"\">Contribute</a></p>\n")
     
@@ -281,7 +288,11 @@ for ut in alltopconcepts:
 st = sorted(ust)
 for t in st:
     urlterm = t.replace(" ", "+").replace("/", "_")
-    filetop.write("<a href=\""+urlterm+".html\">"+t.encode('utf-8')+"</a></br>\n")
+    curlterm = urlterm.encode('utf-8')
+    if t in deprecated:
+        filetop.write("<del><a href=\""+curlterm+".html\">"+t.encode('utf-8')+"</a></del></br>\n")
+    else:
+        filetop.write("<a href=\""+curlterm+".html\">"+t.encode('utf-8')+"</a></br>\n")
 filetop.write("</body>\n</html>\n")
 filetop.close()
 
@@ -303,7 +314,10 @@ for c in sac:
         filealpha.write("<br /><b><a id='"+c[0]+"'>"+c[0]+"</a></b><br/><br/>")
     urlterm = c.replace(" ", "+").replace("/", "_")
     curl = urlterm.encode('utf-8')
-    filealpha.write("<a href=\"termrecords/"+curl+".html\" target='rightframe'>"+c.encode('utf-8')+"</a></br>\n")
+    if c in deprecated:
+        filealpha.write("<del><a href=\"termrecords/"+curl+".html\" target='rightframe'>"+c.encode('utf-8')+"</a></del></br>\n")
+    else:
+        filealpha.write("<a href=\"termrecords/"+curl+".html\" target='rightframe'>"+c.encode('utf-8')+"</a></br>\n")
 filealpha.write("</body>\n</html>\n")
 filealpha.close()
 
@@ -323,7 +337,10 @@ def buildlist(termlist, filename):
     for xt in sortlist(termlist):
         xtr = lit(xt)
         urlxt = xtr.replace(" ", "+").replace("/", "_").encode('utf-8')
-        filename.write("<li><a target='basefrm' href=\"termrecords/"+urlxt+".html\">"+lit(xt).encode('utf-8')+"</a>")
+        if xtr in deprecated:
+            filename.write("<li><del><a target='basefrm' href=\"termrecords/"+urlxt+".html\">"+lit(xt).encode('utf-8')+"</a></del>")
+        else:
+            filename.write("<li><a target='basefrm' href=\"termrecords/"+urlxt+".html\">"+lit(xt).encode('utf-8')+"</a>")
         yt = getnarrowerterms(xt)
         if yt != None:
             filename.write("\n<ul class='treeview'>\n")
