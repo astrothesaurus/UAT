@@ -8,6 +8,11 @@
 * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
 ***********************************************/
 </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.min.css" id="rel">
+    <script src="http://astrothesaurus.org/wp-content/uat/uat_autocomplete.js"></script>
+
 <link rel='stylesheet' type='text/css' href='simpletree.css' />
 <meta charset='utf-8'></head>
 <body>
@@ -17,6 +22,10 @@
 <div class='advmenu'>
 <a href="javascript:ddtreemenu.flatten('treemenu1', 'expand')">expand all</a> | <a href="javascript:ddtreemenu.flatten('treemenu1', 'collapse')">collapse all</a>
 </div>
+<form name="testing1">
+<input type="text" id="uat-autocomplete-single" name="uatterm1"> <INPUT TYPE="button" value="Search" onClick="parent.basefrm.location='http://altbibl.io/astrothesaurus/uat/termrecords/' + uatterm1.value.split(' ').join('+') + '.html'">
+</form>
+
 <ul id='treemenu1' class='treeview'>
 <li><a target='basefrm' href="termrecords/Astronomical+objects.html">Astronomical objects</a>
 <ul class='treeview'>
@@ -5728,6 +5737,13 @@
 <script type='text/javascript'>
 //ddtreemenu.createTree(treeid, enablepersist, opt_persist_in_days (default is 1))
 ddtreemenu.createTree('treemenu1', false)
+
+$("#uat-autocomplete-single").uatAutocomplete()
+
+$("#uat-autocomplete-multi").uatAutocomplete({
+    multi: true
+})
+
 </script>
 </body>
 </html>

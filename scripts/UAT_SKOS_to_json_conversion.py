@@ -1,84 +1,22 @@
-
 # coding: utf-8
 
 from datetime import datetime
-import cStringIO
-import rdflib
 import json
 
-#assign this variable to the name of the exported UAT SKOS-RDF file, found in the same location as this script.
-rdf = "export_skos-xl_15092014111447.rdf"
-
 print "Reading the SKOS file...this may take a few seconds."
-#reads the SKOS-RDF file into a RDFlib graph for use in this script
-g = rdflib.Graph()
-result = g.parse((rdf).encode('utf8'))
 
-#defines certain properties within the SKOS-RDF file
-litForm = rdflib.term.URIRef('http://www.w3.org/2008/05/skos-xl#literalForm')
-prefLabel = rdflib.term.URIRef('http://www.w3.org/2008/05/skos-xl#prefLabel')
-broader = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#broader')
-Concept = rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#Concept')
-vocstatus = rdflib.term.URIRef('http://art.uniroma2.it/ontologies/vocbench#hasStatus')
+#all required rdf functions are found here
+import rdfdefs as z
 
-#a list of all concepts
-allconcepts = [gm for gm in g.subjects(rdflib.RDF.type, Concept)]
+print "Creating the json... You can ignore the UnicodeWarning if you get one..."
 
-#find all terms that have the given term listed as a broader term, so they are therefore narrower terms
-def getnarrowerterms(term):
-    narrowerterms = {}
-    terminal = rdflib.term.URIRef(term)
-    try:
-        for nts in g.subjects(predicate=broader, object=terminal):
-            try:
-                narrowerterms[terminal].append(nts)
-            except KeyError:
-                narrowerterms[terminal] = [nts]
-        return narrowerterms[terminal]
-    except KeyError:
-        pass
-
-def getbroaderterms(term):
-    terminal = rdflib.term.URIRef(term)
-    broaderterms = {}
-    try:
-        for bts in g.objects(subject=terminal, predicate=broader):
-            try:
-                broaderterms[terminal].append(bts)
-            except KeyError:
-                broaderterms[terminal] = [bts]
-        return broaderterms[terminal]
-    except KeyError:
-        pass
-
-#a function to return the human readable form of the prefered version of a term.
-def lit(term):
-    d = rdflib.term.URIRef(term)
-    for prefterm in g.objects(subject=d, predicate=prefLabel):
-        for litterm in g.objects(subject=prefterm, predicate=litForm):
-            return litterm
-    
-#a function to return the status of a term    
-def getvocstatus(term):
-    d=rdflib.term.URIRef(term)
-    for vcstatus in g.objects(subject=d, predicate=vocstatus):
-        return vcstatus
-
-#get all deprecated terms into a list
-deprecated = []
-for term in allconcepts:
-    termstats = getvocstatus(term)
-    if termstats == "Deprecated":
-        deprecated.append(lit(term))  
-
-print "Creating the json... this may take a while."
 #Alex's Script
 flat_j = {}
 
-for t in allconcepts:
-    litt = unicode(lit(t))
-    p = getbroaderterms(t)
-    c = getnarrowerterms(t)
+for t in z.allconcepts:
+    litt = unicode(z.lit(t))
+    p = z.getbroaderterms(t)
+    c = z.getnarrowerterms(t)
  
     pl = []
     rcl = []
@@ -87,14 +25,14 @@ for t in allconcepts:
         pl = ["astro_thes"]
     else:
         for x in p:
-            y = unicode(lit(x))
+            y = unicode(z.lit(x))
             pl.append(y)
 
     if c == None:
         pass
     else:
         for x in c:
-            y = unicode(lit(x))
+            y = unicode(z.lit(x))
             rcl.append(y)
  
     flat_j[litt] = {
@@ -107,7 +45,7 @@ for t in allconcepts:
 def recurse_traverse(info_dict, name_of_dict, flat_j):
     #step one: add all entries from flat_j to children dict that have parents that equal the key name from the dict
     for f in flat_j:
-        if f in deprecated:
+        if f in z.deprecated:
             pass
         else:
             if name_of_dict.encode("utf-8") in flat_j[f]["parents"]:
@@ -125,7 +63,7 @@ def recurse_traverse(info_dict, name_of_dict, flat_j):
 
 astro_thes = {"children":[]}
 
-print "You can ignore the UnicodeWarning if you get one..."
+print "It might be a long pause here..."
 recurse_traverse(astro_thes, "astro_thes", flat_j)
 
 js_file = open("uat.json", "wb")
