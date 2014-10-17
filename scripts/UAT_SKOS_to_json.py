@@ -1,22 +1,14 @@
 # coding: utf-8
 
-from datetime import datetime
-import json
+print "You can ignore the UnicodeWarning if you get one..."
 
-print "Reading the SKOS file...this may take a few seconds."
-
-#all required rdf functions are found here
-import rdfdefs as z
-
-print "Creating the json... You can ignore the UnicodeWarning if you get one..."
-
-#Alex's Script
+#Alex's script
 flat_j = {}
 
-for t in z.allconcepts:
-    litt = unicode(z.lit(t))
-    p = z.getbroaderterms(t)
-    c = z.getnarrowerterms(t)
+for t in allconcepts:
+    litt = unicode(lit(t))
+    p = getbroaderterms(t)
+    c = getnarrowerterms(t)
  
     pl = []
     rcl = []
@@ -25,14 +17,14 @@ for t in z.allconcepts:
         pl = ["astro_thes"]
     else:
         for x in p:
-            y = unicode(z.lit(x))
+            y = unicode(lit(x))
             pl.append(y)
 
     if c == None:
         pass
     else:
         for x in c:
-            y = unicode(z.lit(x))
+            y = unicode(lit(x))
             rcl.append(y)
  
     flat_j[litt] = {
@@ -45,7 +37,7 @@ for t in z.allconcepts:
 def recurse_traverse(info_dict, name_of_dict, flat_j):
     #step one: add all entries from flat_j to children dict that have parents that equal the key name from the dict
     for f in flat_j:
-        if f in z.deprecated:
+        if f in deprecated:
             pass
         else:
             if name_of_dict.encode("utf-8") in flat_j[f]["parents"]:
@@ -63,11 +55,11 @@ def recurse_traverse(info_dict, name_of_dict, flat_j):
 
 astro_thes = {"children":[]}
 
-print "It might be a long pause here..."
+print "It might be a long pause here as it loops through the UAT..."
 recurse_traverse(astro_thes, "astro_thes", flat_j)
 
 js_file = open("uat.json", "wb")
 js_file.write(json.dumps(astro_thes))
 js_file.close()
 
-print "Finished!  See uat.json."
+print "Finished. See uat.json"

@@ -1,11 +1,22 @@
 # coding: utf-8
 
+import os
+import json
+import shutil
 import rdflib
+import pandas as pd
 
-#assign this variable to the name of the exported UAT SKOS-RDF file, found in the same location as this script.
+print "Reading the SKOS file...this may take a few seconds."
+
+##### RDF File Location #####
+##### assign this variable to location of UAT SKOS-RDF file exported from VocBench ##### 
 rdf = "export_skos-xl_15092014111447.rdf"
 
-#reads the SKOS-RDF file into a RDFlib graph for use in this script
+##### Shared Functions and Variables #####
+##### do NOT edit this section #####
+##### scroll down for conversion scripts #####
+
+#reads SKOS-RDF file into a RDFlib graph for use in these scripts
 g = rdflib.Graph()
 result = g.parse((rdf).encode('utf8'))
 
@@ -128,22 +139,27 @@ def altlit(term):
     for altterm in g.objects(subject=d, predicate=litForm):
         return altterm
 
-#returns a sorted list of terms, used for the alphabetical browser
-def sortlist(unsortedlist):
-    ustl = []
-    sl = []
-    for t in unsortedlist:
-        ustl.append(lit(t))
-    x = sorted(ustl)
-    for s in x:
-        for n in g.subjects(predicate=litForm, object=s):
-            for m in g.subjects(predicate=prefLabel, object=n):
-                sl.append(m)
-    return sl
-
 #returns a list of all deprecated terms in the file
 deprecated = []
 for term in allconcepts:
     termstats = getvocstatus(term)
     if termstats == "Deprecated":
         deprecated.append(lit(term))
+
+
+##### Conversion Scripts #####
+##### comment out scripts you don't want to run at this time #####
+
+print "\nCreating HTML files for the web browsers..."
+execfile("UAT_SKOS_to_html.py")
+
+print "\nCreating CSV flatfile..."
+execfile("UAT_SKOS_to_flatfile.py")
+
+print "\nCreating json file for dendrogram..."
+execfile("UAT_SKOS_to_json.py")
+
+print "\nCreating javascript for autocomplete..."
+execfile("UAT_SKOS_to_autocomplete.py")
+
+print "\nFinished with all scripts!"
