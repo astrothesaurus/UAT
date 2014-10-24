@@ -3,7 +3,7 @@
 #lists terms and their preferred form in pairs
 pl = []
 for t in allconcepts:
-    litt = unicode(lit(t))
+    litt = lit(t)
     p = getaltterms(t)
     
     if p == None:
@@ -17,7 +17,7 @@ for t in allconcepts:
             pl.append(flat_j1)
             
 #joins this list of pairs into a string
-q = u','.join(pl).encode('utf-8').strip()
+q = u','.join(pl).encode('unicode_escape').strip()
 
 js_file = open("uat_autocomplete.js", "wb")
 
