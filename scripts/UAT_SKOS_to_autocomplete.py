@@ -6,11 +6,11 @@ for t in allconcepts:
     litt = lit(t)
     p = getaltterms(t)
     
-    if p == None:
-        flat_j = '{value:"'+litt+'",label:"'+litt+'"}'
-        pl.append(flat_j)
+
+    flat_j = '{value:"'+litt+'",label:"'+litt+'"}'
+    pl.append(flat_j)
         
-    else:
+    if p != None:
         for x in p:
             y = altlit(x)
             flat_j1 = '{value:"'+litt+'",label:"'+y+' ('+litt+')'+'"}'
