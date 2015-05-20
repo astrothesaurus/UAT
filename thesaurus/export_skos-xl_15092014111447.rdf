@@ -18784,7 +18784,7 @@
 	<skos:inScheme rdf:resource="http://purl.org/astronomy/uat"/>
 	<skos:broader rdf:resource="http://purl.org/astronomy/uat/xl_en_2sk917mz"/>
 	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat/xl_en_db01e65a"/>
-	<skosxl:altLabel rdf:resource="http://purl.org/astronomy/uat#xl-83f873b4-1c66-4ee0-8af1-33afabf694a3"/>
+	<skosxl:altLabel rdf:resource="http://purl.org/astronomy/uat/xl-83f873b4-1c66-4ee0-8af1-33afabf694a3"/>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-10T19:51:06Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-10T19:54:46Z</dct:modified>
@@ -18796,7 +18796,7 @@
 	<skosxl:literalForm xml:lang="en">Radio quiet quasars</skosxl:literalForm>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#xl-83f873b4-1c66-4ee0-8af1-33afabf694a3">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/xl-83f873b4-1c66-4ee0-8af1-33afabf694a3">
 	<skosxl:literalForm xml:lang="en">Radio-quiet quasars</skosxl:literalForm>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T15:05:17Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
@@ -19907,7 +19907,7 @@
 	<skos:broader rdf:resource="http://purl.org/astronomy/uat/xl_en_mcoi39la"/>
 	<skos:broader rdf:resource="http://purl.org/astronomy/uat/xl_en_u08jma5v"/>
 	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat/xl_en_dd1c843c"/>
-	<skosxl:altLabel rdf:resource="http://purl.org/astronomy/uat#xl-83355fb4-5d63-4b43-a15d-db0986467228"/>
+	<skosxl:altLabel rdf:resource="http://purl.org/astronomy/uat/xl-83355fb4-5d63-4b43-a15d-db0986467228"/>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-10T19:51:06Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-10T19:54:46Z</dct:modified>
@@ -19933,7 +19933,7 @@
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:59:27Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#xl-83355fb4-5d63-4b43-a15d-db0986467228">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/xl-83355fb4-5d63-4b43-a15d-db0986467228">
 	<skosxl:literalForm xml:lang="en">EP galaxies</skosxl:literalForm>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T15:09:13Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
@@ -37500,189 +37500,189 @@ There are also so-called "HYMOR" radio galaxies, meaning hybrid morphology: one 
 	<skosxl:literalForm xml:lang="en">Phase moon</skosxl:literalForm>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#c_1410273045144">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/c_1410273045144">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="http://purl.org/astronomy/uat"/>
 	<skos:broader rdf:resource="http://purl.org/astronomy/uat/xl_en_ikzfvg1w"/>
-	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat#xl-456a9c78-cc9a-4b51-a417-e8be914f5979"/>
+	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat/xl-456a9c78-cc9a-4b51-a417-e8be914f5979"/>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T14:30:46Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:54:55Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#xl-456a9c78-cc9a-4b51-a417-e8be914f5979">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/xl-456a9c78-cc9a-4b51-a417-e8be914f5979">
 	<skosxl:literalForm xml:lang="en">Megamasers</skosxl:literalForm>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T14:30:46Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:54:48Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#c_1410274989061">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/c_1410274989061">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="http://purl.org/astronomy/uat"/>
 	<skos:broader rdf:resource="http://purl.org/astronomy/uat/xl_en_2sk917mz"/>
-	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat#xl-8f56a247-9c12-4545-b31d-62c327fe8b48"/>
-	<skosxl:altLabel rdf:resource="http://purl.org/astronomy/uat#xl-85dd008e-bffb-44fe-a603-7f7d4862c2d7"/>
+	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat/xl-8f56a247-9c12-4545-b31d-62c327fe8b48"/>
+	<skosxl:altLabel rdf:resource="http://purl.org/astronomy/uat/xl-85dd008e-bffb-44fe-a603-7f7d4862c2d7"/>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T15:03:11Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:59:13Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#xl-8f56a247-9c12-4545-b31d-62c327fe8b48">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/xl-8f56a247-9c12-4545-b31d-62c327fe8b48">
 	<skosxl:literalForm xml:lang="en">Radio loud quasars</skosxl:literalForm>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T15:03:11Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:58:46Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#xl-85dd008e-bffb-44fe-a603-7f7d4862c2d7">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/xl-85dd008e-bffb-44fe-a603-7f7d4862c2d7">
 	<skosxl:literalForm xml:lang="en">Radio-loud quasars</skosxl:literalForm>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T15:04:45Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:59:07Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#c_1410275163871">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/c_1410275163871">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="http://purl.org/astronomy/uat"/>
 	<skos:broader rdf:resource="http://purl.org/astronomy/uat/xl_en_2sk917mz"/>
-	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat#xl-964459a8-438a-45b0-a6e4-800c3d6a82d1"/>
-	<skosxl:altLabel rdf:resource="http://purl.org/astronomy/uat#xl-0087638d-8506-4846-b767-555df25e9398"/>
+	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat/xl-964459a8-438a-45b0-a6e4-800c3d6a82d1"/>
+	<skosxl:altLabel rdf:resource="http://purl.org/astronomy/uat/xl-0087638d-8506-4846-b767-555df25e9398"/>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T15:06:05Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:56:01Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#xl-964459a8-438a-45b0-a6e4-800c3d6a82d1">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/xl-964459a8-438a-45b0-a6e4-800c3d6a82d1">
 	<skosxl:literalForm xml:lang="en">Broad-absorption line quasar</skosxl:literalForm>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T15:06:05Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:54:07Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#xl-0087638d-8506-4846-b767-555df25e9398">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/xl-0087638d-8506-4846-b767-555df25e9398">
 	<skosxl:literalForm xml:lang="en">BALQSO</skosxl:literalForm>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T15:06:18Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:55:55Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#c_1410275911574">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/c_1410275911574">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="http://purl.org/astronomy/uat"/>
 	<skos:changeNote xml:lang="en">added per Heinz Andernach</skos:changeNote>
 	<skos:broader rdf:resource="http://purl.org/astronomy/uat/xl_en_fpo5lde4"/>
-	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat#xl-b4caf562-e6f2-4ccb-9ef9-9abd6d736ba9"/>
+	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat/xl-b4caf562-e6f2-4ccb-9ef9-9abd6d736ba9"/>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T15:18:42Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T18:02:27Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#xl-b4caf562-e6f2-4ccb-9ef9-9abd6d736ba9">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/xl-b4caf562-e6f2-4ccb-9ef9-9abd6d736ba9">
 	<skosxl:literalForm xml:lang="en">Ultracompact dwarf galaxies</skosxl:literalForm>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T15:18:42Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T18:02:21Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#c_1410282361249">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/c_1410282361249">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="http://purl.org/astronomy/uat"/>
 	<skos:broader rdf:resource="http://purl.org/astronomy/uat/xl_en_ebh6gt0m"/>
-	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat#xl-616d00bc-d1d5-4183-8a0e-f302a0f5fc72"/>
+	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat/xl-616d00bc-d1d5-4183-8a0e-f302a0f5fc72"/>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:06:02Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T18:05:24Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#xl-616d00bc-d1d5-4183-8a0e-f302a0f5fc72">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/xl-616d00bc-d1d5-4183-8a0e-f302a0f5fc72">
 	<skosxl:literalForm xml:lang="en">Spokes</skosxl:literalForm>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:06:02Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T18:05:16Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#c_1410282559910">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/c_1410282559910">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:scopeNote xml:lang="en">Radio sources which pertain to our galaxy (the Milky Way)</skos:scopeNote>
 	<skos:inScheme rdf:resource="http://purl.org/astronomy/uat"/>
 	<skos:broader rdf:resource="http://purl.org/astronomy/uat/xl_en_sh0bwolc"/>
-	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat#xl-8e295afa-6657-4b99-90bd-aa20646801c1"/>
+	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat/xl-8e295afa-6657-4b99-90bd-aa20646801c1"/>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:09:21Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-15T14:35:31Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#xl-8e295afa-6657-4b99-90bd-aa20646801c1">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/xl-8e295afa-6657-4b99-90bd-aa20646801c1">
 	<skosxl:literalForm xml:lang="en">Galactic radio sources</skosxl:literalForm>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:09:21Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T18:03:53Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#c_1410282601745">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/c_1410282601745">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="http://purl.org/astronomy/uat"/>
 	<skos:broader rdf:resource="http://purl.org/astronomy/uat/xl_en_e4c9tm60"/>
-	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat#xl-8ff64d23-de2a-4d2b-9c5a-653ed4bad27f"/>
+	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat/xl-8ff64d23-de2a-4d2b-9c5a-653ed4bad27f"/>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:10:02Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T18:04:52Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#xl-8ff64d23-de2a-4d2b-9c5a-653ed4bad27f">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/xl-8ff64d23-de2a-4d2b-9c5a-653ed4bad27f">
 	<skosxl:literalForm xml:lang="en">Radio hot spots</skosxl:literalForm>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:10:02Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T18:04:43Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#c_1410283019661">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/c_1410283019661">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:example>Stonehenge</skos:example>
 	<skos:inScheme rdf:resource="http://purl.org/astronomy/uat"/>
 	<skos:broader rdf:resource="http://purl.org/astronomy/uat/xl_en_5t346pyb"/>
-	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat#xl-c9db6449-ce7f-4311-a15a-ae7629f21d10"/>
+	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat/xl-c9db6449-ce7f-4311-a15a-ae7629f21d10"/>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:17:00Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-10T19:54:46Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#xl-c9db6449-ce7f-4311-a15a-ae7629f21d10">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/xl-c9db6449-ce7f-4311-a15a-ae7629f21d10">
 	<skosxl:literalForm xml:lang="en">Stone circles</skosxl:literalForm>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:17:00Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-10T19:54:46Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#c_1410283127036">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/c_1410283127036">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="http://purl.org/astronomy/uat"/>
 	<skos:broader rdf:resource="http://purl.org/astronomy/uat/xl_en_p6e8sjt9"/>
-	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat#xl-14ccdd33-2d79-46a5-8041-74ff56c7f3c3"/>
+	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat/xl-14ccdd33-2d79-46a5-8041-74ff56c7f3c3"/>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:18:48Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-10T19:54:46Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#xl-14ccdd33-2d79-46a5-8041-74ff56c7f3c3">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/xl-14ccdd33-2d79-46a5-8041-74ff56c7f3c3">
 	<skosxl:literalForm xml:lang="en">Single-dish antennas</skosxl:literalForm>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:18:48Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-10T19:54:46Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#c_1410285107449">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/c_1410285107449">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="http://purl.org/astronomy/uat"/>
 	<skos:broader rdf:resource="http://purl.org/astronomy/uat/xl_en_1n5r7co0"/>
-	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat#xl-1e7c4ac5-69b0-4478-a307-9b91ad43dc8b"/>
+	<skosxl:prefLabel rdf:resource="http://purl.org/astronomy/uat/xl-1e7c4ac5-69b0-4478-a307-9b91ad43dc8b"/>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:51:48Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
 	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-10T19:54:46Z</dct:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://purl.org/astronomy/uat#xl-1e7c4ac5-69b0-4478-a307-9b91ad43dc8b">
+<rdf:Description rdf:about="http://purl.org/astronomy/uat/xl-1e7c4ac5-69b0-4478-a307-9b91ad43dc8b">
 	<skosxl:literalForm xml:lang="en">Mass-to-light ratio</skosxl:literalForm>
 	<dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2014-09-09T17:51:48Z</dct:created>
 	<hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
