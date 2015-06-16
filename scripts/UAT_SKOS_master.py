@@ -5,12 +5,15 @@ import json
 import shutil
 import rdflib
 import pandas as pd
+from datetime import datetime
 
 print "Reading the SKOS file...this may take a few seconds."
 
+timestamp = datetime.now().strftime("%Y_%m%d_%H%M")
+
 ##### RDF File Location #####
 ##### assign this variable to location of UAT SKOS-RDF file exported from VocBench ##### 
-rdf = "export_skos-xl_15092014111447.rdf"
+rdf = "export_skos-xl_20052015095058.rdf"
 
 ##### Shared Functions and Variables #####
 ##### do NOT edit this section #####
@@ -147,19 +150,42 @@ for term in allconcepts:
         deprecated.append(lit(term))
 
 
+def getallchilds(term, childlist):
+    childs = getnarrowerterms(term)
+    if childs != None:
+        for kids in childs:
+            if unicode(lit(kids)) in deprecated:
+                pass
+            else:
+                childlist.append(unicode(lit(kids)))
+                getallchilds(kids, childlist)
+
+
 ##### Conversion Scripts #####
 ##### comment out scripts you don't want to run at this time #####
 
+
+
+
+###############################################################
 print "\nCreating HTML files for the web browsers..."
-execfile("UAT_SKOS_to_html.py")
+#execfile("UAT_SKOS_to_html.py")
 
 print "\nCreating CSV flatfile..."
-execfile("UAT_SKOS_to_flatfile.py")
+#execfile("UAT_SKOS_to_flatfile.py")
 
 print "\nCreating json file for dendrogram..."
-execfile("UAT_SKOS_to_json.py")
+#execfile("UAT_SKOS_to_dendrogram.py")
+print "\nCreating json file for dendrogram with child term nums..."
+#execfile("UAT_SKOS_to_dendrogram-with-child-nums.py")
+
+print "\nCreating flat json file for all concepts API..."
+#execfile("UAT_SKOS_to_json_flat_for_allconcepts_api.py")
+
+print "\nCreating flat list csv file..."
+#execfile("UAT_SKOS_to_csv_flat.py")
 
 print "\nCreating javascript for autocomplete..."
-execfile("UAT_SKOS_to_autocomplete.py")
+#execfile("UAT_SKOS_to_autocomplete.py")
 
 print "\nFinished with all scripts!"

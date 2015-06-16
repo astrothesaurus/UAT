@@ -30,6 +30,11 @@ for term in alltopconcepts:
     descend(term, [],GLOBAL_OUT_LIST)
 out_df = pd.DataFrame.from_dict(GLOBAL_OUT_LIST)
 
+t_out_list = []
+for term in alltopconcepts:
+    descend(term, [], t_out_list)
+print t_out_list
+
 #counts the number of columns in the data frame and creates the header row.
 numofcol = len(out_df.columns)
 colnames = []
@@ -42,6 +47,6 @@ out_df.columns = [colnames]
 out_df_final = out_df.sort(colnames)
 
 #utf-8-sig encoding fixs umlauts, etc, in the output csv.
-out_df_final.to_csv('uat.csv', encoding='utf-8-sig',index=False)
+out_df_final.to_csv('uat'+timestamp+'.csv', encoding='utf-8-sig',index=False)
 
 print "Finished. See uat.csv"
