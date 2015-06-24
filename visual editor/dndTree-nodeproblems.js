@@ -350,7 +350,7 @@ var stellarphysics = "stellar_physics.json"
 
 function renderTree(j){
 treeJSON = d3.json(j, function(error, treeData) {
-
+    
     // Calculate total nodes, max label length
     var totalNodes = 0;
     var maxLabelLength = 0;
@@ -364,6 +364,7 @@ treeJSON = d3.json(j, function(error, treeData) {
     var i = 0;
     var duration = 750;
     var root;
+    var orig;
 
     // size of the diagram
     var viewerWidth = $(document).width();
@@ -870,6 +871,7 @@ treeJSON = d3.json(j, function(error, treeData) {
 
     // Define the root
     root = treeData;
+    orig=JSON.parse(JSON.stringify(treeData));
     root.x0 = viewerHeight / 2;
     root.y0 = 0;
 
@@ -899,6 +901,14 @@ function fullcollapse(d) {
             d.children = null;
         }
     };
+
+getRoot = function(){
+    return root;
+};
+
+getOrig = function(){
+    return orig;
+};
 
 finalize = function final2() {
     bugout.clear();
