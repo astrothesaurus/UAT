@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style type="text/css">
+  
+    .node {
+    cursor: pointer;
+  }
+
+  .overlay{
+      background-color:#EEE;
+  }
+   
+  .node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+  }
+   
+  .node text {
+    font-size:10px; 
+    font-family:sans-serif;
+  }
+   
+  .link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+  }
+
+  .templink {
+    fill: none;
+    stroke: red;
+    stroke-width: 3px;
+  }
+
+  .ghostCircle.show{
+      display:block;
+  }
+
+  .ghostCircle, .activeDrag .ghostCircle{
+       display: none;
+  }
+
+</style>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<body onLoad="document.getElementById('opts').options[0].selected = 'selected';">
+  Choose a branch: 
+<select id = "opts">
+<option value="blank" selected="selected" disabled="disabled">   </option>
+<option value="uat">Unified Astronomy Thesaurus</option>
+<option value="astronomicalobjects">--Astronomical objects</option>
+<option value="astrophysicalmagnetism">--Astrophysical magnetism</option>
+<option value="celestialmechanics">--Celestial mechanics</option>
+<option value="cosmology">--Cosmology</option>
+<option value="equipmentandapparatus">--Equipment and apparatus</option>
+<option value="galacticphysics">--Galactic physics</option>
+<option value="interdisciplinaryastronomy">--Interdisciplinary astronomy</option>
+<option value="lunarphysics">--Lunar physics</option>
+<option value="methodsandtechniques">--Methods and techniques</option>
+<option value="nuclearastrophysics">--Nuclear astrophysics</option>
+<option value="observationalastronomy">--Observational astronomy</option>
+<option value="planetaryscience">--Planetary science</option>
+<option value="positionalastronomy">--Positional astronomy</option>
+<option value="spaceexploration">--Space exploration</option>
+<option value="stellarphysics">--Stellar physics</option>
+  </select></br>
+
+<script src="dndTree-nodeproblems.js"></script>
+    <div id="tree-container"></div>
+    <script type="text/javascript">
+        var bugout = new debugout();
+        bugout.log(sanitizedNodes);</script>
+
+        <script type="text/javascript">
+        function DoAllThese() {
+        finalize();
+        bugout.downloadLog();
+        }
+        </script>
+
+
+    <div><input type="button" value="Download Changes" onClick="DoAllThese()"></div>
+</body>
+</html>
