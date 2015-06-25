@@ -87,10 +87,19 @@
            var diffStr = difftree(orig, root);
            downloadString(diffStr);
        }
+       function AddNode(){
+           var nodeName = document.getElementById('newnode').value;
+           if(!nodeName){
+               return;
+           }else{
+               addNode(nodeName);
+           }
+       }
         </script>
 
 
     <div><input type="button" value="Download Changes" onClick="DoAllThese()"></div>
     <div><input type="button" value="Download Diff" onClick="DoDiff()"></div>
+    <div><input type="text" id="newnode"/><input type="button" value="Add Node" onClick="AddNode()"/></div>
 </body>
 </html>

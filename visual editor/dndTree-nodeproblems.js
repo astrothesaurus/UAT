@@ -350,7 +350,14 @@ var stellarphysics = "stellar_physics.json"
 
 function renderTree(j){
 treeJSON = d3.json(j, function(error, treeData) {
-    
+    var treeDataExtend = {};
+    var orphans = {};
+    orphans["name"] = "orphans";
+    orphans["children"] = [];
+    orphans["_children"] = [];
+    treeDataExtend["name"] = "root";
+    treeDataExtend["children"] = [orphans, treeData];
+    treeData = treeDataExtend;
     // Calculate total nodes, max label length
     var totalNodes = 0;
     var maxLabelLength = 0;
@@ -369,7 +376,6 @@ treeJSON = d3.json(j, function(error, treeData) {
     // size of the diagram
     var viewerWidth = $(document).width();
     var viewerHeight = $(document).height();
-
     var tree = d3.layout.tree()
         .size([viewerHeight, viewerWidth]);
 
@@ -514,6 +520,9 @@ treeJSON = d3.json(j, function(error, treeData) {
             // it's important that we suppress the mouseover event on the node being dragged. Otherwise it will absorb the mouseover event and the underlying node will not detect it d3.select(this).attr('pointer-events', 'none');
         })
         .on("drag", function(d) {
+            if(d.name == "orphans"){
+                return;
+            }
             if (d == root) {
                 return;
             }
@@ -883,7 +892,7 @@ treeJSON = d3.json(j, function(error, treeData) {
     // Layout the tree initially and center on the root node.
     update(root);
     centerNode(root);
-
+    expand(orphans);
 function fullexpand(d) {
      //console.log("initial val of expand d", d)
         if (d._children) {
@@ -901,6 +910,14 @@ function fullcollapse(d) {
             d.children = null;
         }
     };
+
+addNode = function(nodeName){
+    var newNode = {};
+    newNode["name"] = nodeName;
+    newNode.children = [];
+    orphans.children.push(newNode);
+    update(root);
+}
 
 getRoot = function(){
     return root;
