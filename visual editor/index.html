@@ -67,21 +67,12 @@
 <option value="stellarphysics">--Stellar physics</option>
   </select></br>
 
-<script src="dndTree-nodeproblems.js"></script>
+<script src="dndTree.js"></script>
 <script src="difftree.js"></script>
     <div id="tree-container"></div>
-    <script type="text/javascript">
-        var bugout = new debugout();
-        bugout.log(sanitizedNodes);</script>
 
         <script type="text/javascript">
-        function DoAllThese() {
-        finalize();
-        bugout.downloadLog();
-        }
         function DoDiff(){    
-           finalize();
-
            var root = getRoot();
            var orig = getOrig();
            var diffStr = difftree(orig, root);
@@ -96,9 +87,6 @@
            }
        }
         </script>
-
-
-    <div><input type="button" value="Download Changes" onClick="DoAllThese()"></div>
     <div><input type="button" value="Download Diff" onClick="DoDiff()"></div>
     <div><input type="text" id="newnode"/><input type="button" value="Add Node" onClick="AddNode()"/></div>
 </body>
