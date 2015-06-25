@@ -68,6 +68,7 @@
   </select></br>
 
 <script src="dndTree-nodeproblems.js"></script>
+<script src="difftree.js"></script>
     <div id="tree-container"></div>
     <script type="text/javascript">
         var bugout = new debugout();
@@ -78,9 +79,18 @@
         finalize();
         bugout.downloadLog();
         }
+        function DoDiff(){    
+           finalize();
+
+           var root = getRoot();
+           var orig = getOrig();
+           var diffStr = difftree(orig, root);
+           downloadString(diffStr);
+       }
         </script>
 
 
     <div><input type="button" value="Download Changes" onClick="DoAllThese()"></div>
+    <div><input type="button" value="Download Diff" onClick="DoDiff()"></div>
 </body>
 </html>
