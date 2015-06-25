@@ -176,11 +176,15 @@ print "\nCreating CSV flatfile..."
 
 print "\nCreating json file for dendrogram..."
 #execfile("UAT_SKOS_to_dendrogram.py")
+
 print "\nCreating json file for dendrogram with child term nums..."
 #execfile("UAT_SKOS_to_dendrogram-with-child-nums.py")
 
 print "\nCreating flat json file for all concepts API..."
 #execfile("UAT_SKOS_to_json_flat_for_allconcepts_api.py")
+
+print "\nCreating uat.json file, can be used for dendrogram or sorting tool..."
+#execfile("UAT_SKOS_to_json.py")
 
 print "\nCreating flat list csv file..."
 #execfile("UAT_SKOS_to_csv_flat.py")
