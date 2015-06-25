@@ -8,6 +8,9 @@ function difftree(tree1, tree2){
     Object.keys(tree1Map).forEach(function(parent){
         if(!tree2Map[parent]){
             diffout += "-" + parent + "\n";
+            Object.keys(tree1Map[parent]).forEach(function(child){
+                diffout += "-" + parent + " NT " + child + "\n";
+            });
         }else{
             Object.keys(tree1Map[parent]).forEach(function(child){
                 if(!tree2Map[parent][child]){
@@ -19,6 +22,9 @@ function difftree(tree1, tree2){
     Object.keys(tree2Map).forEach(function(parent){
         if(!tree1Map[parent]){
             diffout += "+" + parent + "\n";
+            Object.keys(tree2Map[parent]).forEach(function(child){
+                diffout += "+" + parent + " NT " + child + "\n";
+            });
         }else{
             Object.keys(tree2Map[parent]).forEach(function(child){
                 if(!tree1Map[parent][child]){

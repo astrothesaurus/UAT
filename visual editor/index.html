@@ -40,6 +40,10 @@
   .ghostCircle, .activeDrag .ghostCircle{
        display: none;
   }
+  
+  .error{
+      color: red;
+  }
 
 </style>
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
@@ -78,7 +82,21 @@
            var diffStr = difftree(orig, root);
            downloadString(diffStr);
        }
+       function AddNode(){
+           var nodeName = document.getElementById('newnode').value;
+           var errorDiv = document.getElementById('error');
+           while(errorDiv.firstChild != null){
+               errorDiv.removeChild(errorDiv.firstChild);
+           }
+
+           if(!nodeName){
+               return;
+           }else{
+               addNode(nodeName,errorDiv);
+           }
+       }
         </script>
     <div><input type="button" value="Download Diff" onClick="DoDiff()"></div>
+    <div><input type="text" id="newnode"/><input type="button" value="Add Node" onClick="AddNode()"/><div id="error"></div></div>
 </body>
 </html>
