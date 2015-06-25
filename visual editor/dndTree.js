@@ -21,7 +21,13 @@ var stellarphysics = "stellar_physics.json"
 
 function renderTree(j){
 treeJSON = d3.json(j, function(error, treeData) {
-    
+    var treeDataExtend = {};
+    var orphans = {};
+    var nodeNames = {};
+    orphans["name"] = "orphans";
+    treeDataExtend["name"] = "root";
+    treeDataExtend["children"] = [orphans, treeData];
+    treeData = treeDataExtend;
     // Calculate total nodes, max label length
     var totalNodes = 0;
     var maxLabelLength = 0;
@@ -65,7 +71,13 @@ treeJSON = d3.json(j, function(error, treeData) {
             }
         }
     }
-
+    visit(treeData, function(d){
+       var downCaseName = d.name.toLowerCase();
+       nodeNames[downCaseName] = 1; 
+       return;
+    }, function(d){
+        return d.children;
+    });
     // Call visit function to establish maxLabelLength
     visit(treeData, function(d) {
         totalNodes++;
@@ -185,6 +197,9 @@ treeJSON = d3.json(j, function(error, treeData) {
             // it's important that we suppress the mouseover event on the node being dragged. Otherwise it will absorb the mouseover event and the underlying node will not detect it d3.select(this).attr('pointer-events', 'none');
         })
         .on("drag", function(d) {
+            if(d.name == "orphans"){
+                return;
+            }
             if (d == root) {
                 return;
             }
@@ -232,20 +247,7 @@ treeJSON = d3.json(j, function(error, treeData) {
                 if (index > -1) {
                     draggingNode.parent.children.splice(index, 1);
                 }
-                if (typeof selectedNode.children !== 'undefined' || typeof selectedNode._children !== 'undefined') {
-                    if (typeof selectedNode.children !== 'undefined') {
-                        selectedNode.children.push(draggingNode);
-                    } else {
-                        selectedNode._children.push(draggingNode);
-                    }
-                } else {
-                    selectedNode.children = [];
-                    selectedNode.children.push(draggingNode);
-                }
-                // Make sure that the node being added to is expanded so user can see added node is correctly moved
-                expand(selectedNode);
-                //collapse(selectedNode.children);
-                sortTree();
+                appendNode(selectedNode,draggingNode);
                 endDrag();
             } else {
                 endDrag();
@@ -253,6 +255,7 @@ treeJSON = d3.json(j, function(error, treeData) {
         });
 
     function endDrag() {
+        console.log("End drag");
         selectedNode = null;
         d3.selectAll('.ghostCircle').attr('class', 'ghostCircle');
         d3.select(domNode).attr('class', 'node');
@@ -286,10 +289,12 @@ treeJSON = d3.json(j, function(error, treeData) {
     }
 
     var overCircle = function(d) {
+        console.log("overCircle " + d.name);
         selectedNode = d;
         updateTempConnector();
     };
     var outCircle = function(d) {
+        console.log("outCircle " + d.name);
         selectedNode = null;
         updateTempConnector();
     };
@@ -549,7 +554,7 @@ treeJSON = d3.json(j, function(error, treeData) {
     // Layout the tree initially and center on the root node.
     update(root);
     centerNode(root);
-
+    
 function fullexpand(d) {
      //console.log("initial val of expand d", d)
         if (d._children) {
@@ -567,6 +572,40 @@ function fullcollapse(d) {
             d.children = null;
         }
     };
+
+function appendNode(selectedNode, appNode){
+    if (typeof selectedNode.children !== 'undefined' || typeof selectedNode._children !== 'undefined') {
+        if (typeof selectedNode.children !== 'undefined') {
+            selectedNode.children.push(appNode);
+        } else {
+            selectedNode._children.push(appNode);
+        }
+    } else {
+        selectedNode.children = [];
+        selectedNode.children.push(appNode);
+    }
+    // Make sure that the node being added to is expanded so user can see added node is correctly moved
+    expand(selectedNode);
+    //collapse(selectedNode.children);
+    sortTree();
+}
+
+addNode = function(nodeName,errorElement){
+    if(nodeNames[nodeName.toLowerCase()]){
+        var errorMsg = document.createTextNode("Name already exists");
+        errorElement.className += "error";
+        errorElement.appendChild(errorMsg);
+        return;
+    }
+    nodeNames[nodeName] = 1;
+    var newNode = {};
+    newNode["name"] = nodeName;
+    newNode.children = [];
+    appendNode(orphans,newNode);
+    update(root);
+    centerNode(newNode);
+
+}
 
 getRoot = function(){
     return root;
