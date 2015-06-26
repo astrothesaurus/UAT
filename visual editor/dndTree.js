@@ -180,7 +180,7 @@ treeJSON = d3.json(j, function(error, treeData) {
     // define the baseSvg, attaching a class for styling and the zoomListener
     var baseSvg = d3.select("#tree-container").html("").append("svg")
         .attr("width", viewerWidth-20)
-        .attr("height", viewerHeight-70)
+        .attr("height", viewerHeight-100)
         .attr("class", "overlay")
         .call(zoomListener);
 
