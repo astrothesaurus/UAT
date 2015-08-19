@@ -58,8 +58,8 @@ astro_thes = {"children":[]}
 print "It might be a long pause here as it loops through the UAT..."
 recurse_traverse(astro_thes, "astro_thes", flat_j)
 
-js_file = open("uat.json", "wb")
+js_file = open("uat"+timestamp+".json", "wb")
 js_file.write(json.dumps(astro_thes))
 js_file.close()
 
-print "Finished. See uat.json"
+print "Finished. See uat"+timestamp+".json"

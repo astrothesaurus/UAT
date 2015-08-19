@@ -28,10 +28,8 @@ class UnicodeWriter:
         for row in rows:
             self.writerow(row)
 
-timestamp = datetime.now().strftime("%Y_%m%d_%H%M")
-
-resultFile2 = open("uat_flat"+timestamp+".csv",'wb')
-resultFile = open("uat_flat_with_alts"+timestamp+".csv",'wb')
+resultFile2 = open("uat_list"+timestamp+".csv",'wb')
+resultFile = open("uat_list_with_alts"+timestamp+".csv",'wb')
 
 wr = UnicodeWriter(resultFile,dialect='excel',quoting=csv.QUOTE_ALL)
 wr2 = UnicodeWriter(resultFile2,dialect='excel',quoting=csv.QUOTE_ALL)
@@ -58,7 +56,7 @@ for iall in allconcepts:
 resultFile.close()
 resultFile2.close()
 
-print "Finished. See uat_flat.csv"
+print "Finished. See uat_list"+timestamp+".csv and uat_list_with_alts"+timestamp+".csv"
 
 #print allterms()
 

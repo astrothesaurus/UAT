@@ -3,21 +3,21 @@
 #lists terms and their preferred form in pairs
 pl = []
 for t in allconcepts:
-    litt = lit(t)
+    litt = unicode(lit(t))
     p = getaltterms(t)
     
-
-    flat_j = '{value:"'+litt+'",label:"'+litt+'"}'
-    pl.append(flat_j)
+    if p == None:
+        flat_j = '{value:"'+litt+'",label:"'+litt+'"}'
+        pl.append(flat_j)
         
-    if p != None:
+    else:
         for x in p:
             y = altlit(x)
             flat_j1 = '{value:"'+litt+'",label:"'+y+' ('+litt+')'+'"}'
             pl.append(flat_j1)
             
 #joins this list of pairs into a string
-q = u','.join(pl).encode('unicode_escape').strip()
+q = u','.join(pl).encode('utf-8').strip()
 
 js_file = open("uat_autocomplete.js", "wb")
 

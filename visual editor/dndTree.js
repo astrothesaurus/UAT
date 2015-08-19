@@ -1,21 +1,17 @@
 // Get JSON data
 
 var uat = "uat.json"
-var astronomicalobjects = "astronomical_objects.json"
-var astrophysicalmagnetism = "astrophysical_magnetism.json"
 var celestialmechanics = "celestial_mechanics.json"
 var cosmology = "cosmology.json"
-var equipmentandapparatus = "equipment_and_apparatus.json"
-var galacticphysics = "galactic_physics.json"
+var extrasolar = "extrasolar_planets.json"
+var instrumentation = "instrumentation_and_methods.json"
+var galactic = "galactic_and_extragalactic_astronomy.json"
 var interdisciplinaryastronomy = "interdisciplinary_astronomy.json"
-var lunarphysics = "lunar_physics.json"
-var methodsandtechniques = "methods_and_techniques.json"
-var nuclearastrophysics = "nuclear_astrophysics.json"
-var observationalastronomy = "observational_astronomy.json"
-var planetaryscience = "planetary_science.json"
-var positionalastronomy = "positional_astronomy.json"
-var spaceexploration = "space_exploration.json"
-var stellarphysics = "stellar_physics.json"
+var ism = "interstellar_medium.json"
+var solar = "solar_astronomy.json"
+var solarsystem = "solar_system_astronomy.json"
+var stellar = "stellar_astronomy.json"
+var theoretical = "theoretical_astrophysics.json"
 
 
 
