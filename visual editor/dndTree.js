@@ -243,16 +243,67 @@ treeJSON = d3.json(j, function(error, treeData) {
             domNode = this;
             if (selectedNode) {
                 // now remove the element from the parent, and insert it into the new elements children
-                var index = draggingNode.parent.children.indexOf(draggingNode);
-                if (index > -1) {
-                    draggingNode.parent.children.splice(index, 1);
-                }
-                appendNode(selectedNode,draggingNode);
-                endDrag();
+           // if(d.target.name == draggingNode.name && d.parent.name == draggingNode.parent.name){
+           //     return
+           // }
+           var foundNodes = [];
+           searchTree(root,draggingNode.parent.name,foundNodes);
+           foundNodes.forEach(function(d){
+               var children = (d.children) ? d.children : d._children;
+              var index = -1;
+              if(children !== null){
+                  for(var i=0;i<children.length;i++){
+                      if(children[i].name === draggingNode.name){
+                          index = i;
+                      }
+                  }
+              }
+              if (index > -1) {
+                  children.splice(index, 1);
+              }
+           });
+          //  var index = draggingNode.parent.children.indexOf(draggingNode);
+          //  if (index > -1) {
+          //      draggingNode.parent.children.splice(index, 1);
+         //   }
+         foundNodes = [];
+         searchTree(root,selectedNode.name,foundNodes);
+         foundNodes.forEach(function(d){
+            appendNode(d,draggingNode); 
+         });
+        //    appendNode(selectedNode,draggingNode);
+            endDrag();
             } else {
                 endDrag();
             }
         });
+        
+    function searchTree(obj,search,path){
+        if(obj.name === "Cataclysmic variable stars (31)"){
+            console.log("CVS");
+        }
+        if(obj.name === search){ //if search is found return, add the object to the path and return it
+            path.push(obj);
+        }
+        var doCollapse = false;
+        if(!(obj._children || obj.children)){
+            return;
+        }
+        if(obj._children){
+            expand(obj);
+            tree.nodes(obj);
+            doCollapse = true;
+        }
+        var children = obj.children;
+        for(var i=0;i<children.length;i++){
+            searchTree(children[i],search,path);
+        }
+        if(doCollapse){
+            collapse(obj);
+        }
+
+    }
+
 
     function endDrag() {
         console.log("End drag");
@@ -573,16 +624,39 @@ function fullcollapse(d) {
         }
     };
 
+function copyTree(tree,newtree){
+    newtree.name = tree.name;
+    if(!tree.children){
+        newtree.children = null;
+    }else{
+        newtree.children = [];
+        tree.children.forEach(function(c){
+           var newchild = {};
+           newtree.children.push(newchild);
+           copyTree(c,newchild);
+        });
+    }
+    if(!tree._children){
+        newtree._children = null;
+    }else{
+        newtree._children = [];
+        tree._children.forEach(function(c){
+            var newchild = {};
+            newtree._children.push(newchild);
+            copyTree(c,newchild);
+        });
+    }
+}
+
 function appendNode(selectedNode, appNode){
-    if (typeof selectedNode.children !== 'undefined' || typeof selectedNode._children !== 'undefined') {
-        if (typeof selectedNode.children !== 'undefined') {
-            selectedNode.children.push(appNode);
-        } else {
-            selectedNode._children.push(appNode);
-        }
-    } else {
-        selectedNode.children = [];
-        selectedNode.children.push(appNode);
+    var children = (selectedNode.children) ? selectedNode.children : selectedNode._children;
+    var newObject = {};
+    copyTree(appNode,newObject);
+    if(children){
+        children.push(newObject);
+    }else{
+        selectedNode._children = [];
+        selectedNode._children.push(newObject);
     }
     // Make sure that the node being added to is expanded so user can see added node is correctly moved
     expand(selectedNode);
@@ -591,12 +665,14 @@ function appendNode(selectedNode, appNode){
 }
 
 addNode = function(nodeName,errorElement){
+    /*
     if(nodeNames[nodeName.toLowerCase()]){
         var errorMsg = document.createTextNode("Name already exists");
         errorElement.className += "error";
         errorElement.appendChild(errorMsg);
         return;
     }
+    */
     nodeNames[nodeName] = 1;
     var newNode = {};
     newNode["name"] = nodeName;
