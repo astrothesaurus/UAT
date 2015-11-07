@@ -164,30 +164,21 @@ def getallchilds(term, childlist):
 ##### Conversion Scripts #####
 ##### comment out scripts you don't want to run at this time #####
 
-
-
-
-###############################################################
 print "\nCreating HTML files for the web browsers..."
 #execfile("UAT_SKOS_to_html.py")
 
 print "\nCreating CSV flatfile..."
 #execfile("UAT_SKOS_to_flatfile.py")
 
-print "\nCreating json file for dendrogram..."
-#execfile("UAT_SKOS_to_dendrogram.py")
-
-print "\nCreating json file for dendrogram with child term nums..."
-#execfile("UAT_SKOS_to_dendrogram-with-child-nums.py")
-
-print "\nCreating flat json file for all concepts API..."
-#execfile("UAT_SKOS_to_json_flat_for_allconcepts_api.py")
-
-print "\nCreating uat.json file, can be used for dendrogram or sorting tool..."
+print "\nCreating json file for dendrogram and sorting tool..."
 #execfile("UAT_SKOS_to_json.py")
 
-print "\nCreating flat list csv file..."
-#execfile("UAT_SKOS_to_csv_flat.py")
+print "\nCreating json file for dendrogram and sorting, includes # of child terms..."
+#execfile("UAT_SKOS_to_json-with-child-nums.py")
+
+print "\nCreating list of terms file..."
+#Creates two csv files, one is just a list of all terms in the UAT, and the other is a list of all terms with each terms alternative forms.
+#execfile("UAT_SKOS_to_csv_lists.py")
 
 print "\nCreating javascript for autocomplete..."
 #execfile("UAT_SKOS_to_autocomplete.py")
