@@ -12,7 +12,7 @@
     xmlns:ann="http://art.uniroma2.it/ontologies/annotation#"
     xmlns:sesame="http://www.openrdf.org/schema/sesame#"
     xmlns:fn="http://www.w3.org/2005/xpath-functions#">
-
+	
 <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <title xmlns="http://www.altbibl.io/dc/terms/" xml:lang="en">The Unified Astronomy Thesaurus</title>
@@ -40,8 +40,7 @@
     <identifier xmlns="http://www.altbibl.io/dc/terms/" rdf:resource="http://www.altbibl.io/astronomy/uat/2013-01-07"/>
     <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2012-12-17</dct:created>
     <rightsHolder xmlns="http://www.altbibl.io/dc/terms/" rdf:nodeID="genid-f35b65be39de41d1a1c8baf9f85f6530-genid-67c34f6d09e24be9a53e284d79c83782-genid-4b6679460c16446b93be7572fccc7b8d-node191ls425mx18"/>
-    <dct:versionOf rdf:resource="http://purl.org/astronomy/uat">v.1</dct:versionOf>
-</rdf:Description>
+    <versionOf xmlns="http://www.altbibl.io/dc/terms/" rdf:resource="http://www.altbibl.io/astronomy/uat"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid-f35b65be39de41d1a1c8baf9f85f6530-genid-67c34f6d09e24be9a53e284d79c83782-genid-4b6679460c16446b93be7572fccc7b8d-node191ls425mx8">
@@ -10863,6 +10862,14 @@
         <skosxl:literalForm xml:lang="en">Three-body problem</skosxl:literalForm>
     </rdf:Description>
 
+    <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_46f7cdba">
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+        <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
+        <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:13Z</dct:created>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:15Z</dct:modified>
+        <skosxl:literalForm xml:lang="en">Zeeman–Doppler imaging</skosxl:literalForm>
+    </rdf:Description>
+	
     <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_46i9uy5n">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
@@ -13336,7 +13343,7 @@
         <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
         <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-11-27T19:41:38Z</dct:created>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-27T19:41:44Z</dct:modified>
-        <skosxl:literalForm xml:lang="en">Arugment of perigee</skosxl:literalForm>
+        <skosxl:literalForm xml:lang="en">Argument of perigee</skosxl:literalForm>
     </rdf:Description>
 
     <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_5b7d3699">
@@ -16687,14 +16694,6 @@
         <skosxl:literalForm xml:lang="en">Jets</skosxl:literalForm>
     </rdf:Description>
 
-<rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_46f7cdba">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
-        <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
-        <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-12-16T16:09:22Z</dct:created>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-16T16:09:25Z</dct:modified>
-        <skosxl:literalForm xml:lang="en">Zeeman–Doppler imaging</skosxl:literalForm>
-</rdf:Description>
-
     <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_73qxzv2r">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
@@ -16737,7 +16736,7 @@
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:15Z</dct:modified>
         <skosxl:literalForm xml:lang="en">Beta Cephei stars</skosxl:literalForm>
 	</rdf:Description>
-
+	
     <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_745ae64b">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
         <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
@@ -24671,7 +24670,7 @@ f
         <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
         <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-09-15T17:59:09Z</dct:created>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-07T15:58:48Z</dct:modified>
-        <skosxl:literalForm xml:lang="en">Extrasolar rockey planets</skosxl:literalForm>
+        <skosxl:literalForm xml:lang="en">Extrasolar rocky planets</skosxl:literalForm>
     </rdf:Description>
 
     <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_af9d387f">
@@ -24703,7 +24702,7 @@ f
         <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
         <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-09-25T18:25:43Z</dct:created>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-25T18:25:45Z</dct:modified>
-        <skosxl:literalForm xml:lang="en">Stefan&apos;s quintent</skosxl:literalForm>
+        <skosxl:literalForm xml:lang="en">Stefan&apos;s quintet</skosxl:literalForm>
     </rdf:Description>
 
     <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_afe79028">
@@ -28143,7 +28142,7 @@ f
         <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
         <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-12-16T16:47:39Z</dct:created>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-16T16:47:42Z</dct:modified>
-        <skosxl:literalForm xml:lang="en">Astronomical coordinte systems</skosxl:literalForm>
+        <skosxl:literalForm xml:lang="en">Astronomical coordinate systems</skosxl:literalForm>
     </rdf:Description>
 
     <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_cawhqnjv">
@@ -31152,7 +31151,7 @@ xl_en_dd1c843c    <rdf:Description rdf:about="http://www.altbibl.io/astronomy/ua
         <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
         <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:13Z</dct:created>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:15Z</dct:modified>
-        <skosxl:literalForm xml:lang="en">Contiuum radio emission</skosxl:literalForm>
+        <skosxl:literalForm xml:lang="en">Continuum radio emission</skosxl:literalForm>
     </rdf:Description>
 
     <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_e3871a62">

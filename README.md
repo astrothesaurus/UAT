@@ -10,7 +10,7 @@ We are making available these versions of the Unified Astronomy Thesaurus for co
 VERSIONS:
 ---------
 
-UAT         --> Current version (v.1) of the UAT, released on 12/22/2015.
+UAT         --> Current version (v.1) of the UAT, released on 12/23/2015.
 The current version was released on 12/22/2015 and consists of a polyhierarchy with 1835 terms, 11 top concepts, and a depth of 10 levels. There are 319 'related' links in the thesaurus. 
 
 UAT_v.beta  --> Beta version of the UAT, released on 9/4/2014.
