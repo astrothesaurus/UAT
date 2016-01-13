@@ -2354,14 +2354,6 @@
         <skosxl:literalForm xml:lang="en">Conical singularities</skosxl:literalForm>
     </rdf:Description>
 
-    <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_0444cac8">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
-        <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
-        <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-09-15T17:45:51Z</dct:created>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-15T17:45:51Z</dct:modified>
-        <skosxl:literalForm xml:lang="en">Exoplanet astronomy</skosxl:literalForm>
-    </rdf:Description>
-
     <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_04593b96">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
         <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
@@ -2954,14 +2946,6 @@
         <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-11-27T20:50:56Z</dct:created>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-11-27T20:50:59Z</dct:modified>
         <skosxl:literalForm xml:lang="en">Atira group</skosxl:literalForm>
-    </rdf:Description>
-
-    <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_0a4505f3">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
-        <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
-        <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:13Z</dct:created>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:15Z</dct:modified>
-        <skosxl:literalForm xml:lang="en">Beta Cephei variables</skosxl:literalForm>
     </rdf:Description>
 
     <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_0a47a0d7">
@@ -23875,14 +23859,6 @@ f
         <skosxl:literalForm xml:lang="en">Stellar mass functions</skosxl:literalForm>
     </rdf:Description>
 
-    <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_a8754cd0">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
-        <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
-        <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:13Z</dct:created>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:15Z</dct:modified>
-        <skosxl:literalForm xml:lang="en">Strange stars</skosxl:literalForm>
-    </rdf:Description>
-
     <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_a87f32c9">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
         <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
@@ -27676,14 +27652,6 @@ f
         <skosxl:literalForm xml:lang="en">Stellar composition</skosxl:literalForm>
     </rdf:Description>
 
-    <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_c6da4abc">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
-        <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
-        <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-09-15T17:46:55Z</dct:created>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-09-15T17:46:55Z</dct:modified>
-        <skosxl:literalForm xml:lang="en">Exoplanet detection</skosxl:literalForm>
-    </rdf:Description>
-
     <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_c6dddffb">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
         <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
@@ -29903,14 +29871,6 @@ There are also so-called &quot;HYMOR&quot; radio galaxies, meaning hybrid morpho
         <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:13Z</dct:created>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:15Z</dct:modified>
         <skosxl:literalForm xml:lang="en">Solar wind termination</skosxl:literalForm>
-    </rdf:Description>
-
-    <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_d91fcbe9">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
-        <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
-        <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-12-02T22:11:52Z</dct:created>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-02T22:11:57Z</dct:modified>
-        <skosxl:literalForm xml:lang="en">Gravitational microlensing [Exoplanets]</skosxl:literalForm>
     </rdf:Description>
 
     <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_d93d45e1">
@@ -33428,14 +33388,6 @@ xl_en_dd1c843c    <rdf:Description rdf:about="http://www.altbibl.io/astronomy/ua
         <skosxl:literalForm xml:lang="en">Milky Way center</skosxl:literalForm>
     </rdf:Description>
 
-    <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_f5214ea4">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
-        <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
-        <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:13Z</dct:created>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:15Z</dct:modified>
-        <skosxl:literalForm xml:lang="en">Cool subdwarf stars</skosxl:literalForm>
-    </rdf:Description>
-
     <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_f54887ab">
         <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
         <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
@@ -33632,14 +33584,6 @@ xl_en_dd1c843c    <rdf:Description rdf:about="http://www.altbibl.io/astronomy/ua
         <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:13Z</dct:created>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:15Z</dct:modified>
         <skosxl:literalForm xml:lang="en">Maksutov telescopes</skosxl:literalForm>
-    </rdf:Description>
-
-    <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_f6909687">
-        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
-        <hasStatus xmlns="http://art.uniroma2.it/ontologies/vocbench#">Published</hasStatus>
-        <dct:created rdf:datatype="xsd:http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:13Z</dct:created>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-12-11T18:53:15Z</dct:modified>
-        <skosxl:literalForm xml:lang="en">Retardation of gravity</skosxl:literalForm>
     </rdf:Description>
 
     <rdf:Description rdf:about="http://www.altbibl.io/astronomy/uat/xl_en_f696fe76">
@@ -45363,7 +45307,6 @@ xl_en_dd1c843c    <rdf:Description rdf:about="http://www.altbibl.io/astronomy/ua
     <skos:inScheme rdf:resource="http://www.altbibl.io/astronomy/uat"/>
     <skos:broader rdf:resource="http://www.altbibl.io/astronomy/uat/xl_en_puqsvfjz"/>
     <skos:broader rdf:resource="http://www.altbibl.io/astronomy/uat/xl_en_hboz0k18"/>
-    <skos:broader rdf:resource="http://www.altbibl.io/astronomy/uat/xl_en_c6uq2bh7"/>
     <skosxl:prefLabel rdf:resource="http://www.altbibl.io/astronomy/uat/xl_en_c9c206cf"/>
     <skosxl:altLabel rdf:resource="http://www.altbibl.io/astronomy/uat/xl_en_0b95488d"/>
     <skosxl:altLabel rdf:resource="http://www.altbibl.io/astronomy/uat/xl_en_6a938ca4"/>
