@@ -1,6 +1,8 @@
+Please submit a new Issue via GitHub to contribute to the Unified Astronomy Thesaurus.
+
 This repository is meant to be used as an archive for current and past versions of the Unified Astronomy Thesaurus.
 
-We have several methods for providing contributions:
+Other methods for providing contributions:
 
 Contribution Form: http://astrothesaurus.org/contributeform/
 Textual feedback on specific concepts, including suggesting additions, modifications, or other.
