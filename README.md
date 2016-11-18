@@ -2,19 +2,7 @@
 IMPORTANT NOTE: 
 --------------- 
 
-We are making available these versions of the Unified Astronomy Thesaurus for collaborators and developers who are interested in using the controlled vocabulary.  We are interested in your feedback, which should be sent to us via the options listed in the CONTRIBUTING.md file.
-
-VERSIONS:
----------
-
-UAT         --> Current version (v.1.1) of the UAT, updated on 7/10/2016, consists of a polyhierarchy with 1836 terms, 11 top concepts, and a depth of 10 levels. There are 320 'related' links in the thesaurus. Published as skos.
-
-UAT_v.1.01  --> Version 1.01 (v.1.01) of the UAT, updated on 5/19/2016, consists of a polyhierarchy with 1838 terms, 11 top concepts, and a depth of 10 levels. There are 319 'related' links in the thesaurus. Published as skos-xl.  Note 7/11/2016: In this version, the terms "Galaxy evolution" and "Galaxy dynamics" are duplicated in error, this is fixed in the next version.
-
-UAT_v.1     --> Version 1 (v.1) of the UAT, released on 12/23/2015, consists of a polyhierarchy with 1836 terms, 11 top concepts, and a depth of 10 levels. There are 319 'related' links in the thesaurus. Published as skos-xl. 
-
-UAT_v.beta  --> Beta version of the UAT, released on 9/4/2014, consists of a polyhierarchy with 1910 terms, 15 top concepts, and a depth of 12 levels. There are 224 'related' links in the thesaurus. Published as skos-xl.
-
+Feedback on the UAT should be submitted via the options listed in the CONTRIBUTING.md file.
 
 
 ABOUT THE UAT: 
