@@ -237,7 +237,7 @@ Added 258 new concepts:
 | http://astrothesaurus.org/uat/2058 | Molecular physics |
 | http://astrothesaurus.org/uat/2059 | Electron impact ionization |
 | http://astrothesaurus.org/uat/2060 | Photoionization |
-| http://astrothesaurus.org/uat/2061 | Dielectronic reombination |
+| http://astrothesaurus.org/uat/2061 | Dielectronic recombination |
 | http://astrothesaurus.org/uat/2062 | Charge exchange recombination |
 | http://astrothesaurus.org/uat/2063 | Atomic physics |
 | http://astrothesaurus.org/uat/2064 | Atomic data benchmarking |
@@ -270,7 +270,7 @@ Added 258 new concepts:
 | http://astrothesaurus.org/uat/2091 | Ice destruction |
 | http://astrothesaurus.org/uat/2092 | Ice formation |
 | http://astrothesaurus.org/uat/2093 | Theoretical techniques |
-| http://astrothesaurus.org/uat/2094 | Mass spectrometery |
+| http://astrothesaurus.org/uat/2094 | Mass spectrometry |
 | http://astrothesaurus.org/uat/2095 | Molecular spectroscopy |
 | http://astrothesaurus.org/uat/2096 | High resolution spectroscropy |
 | http://astrothesaurus.org/uat/2097 | Photoelectron spectroscopy |

@@ -21932,7 +21932,7 @@
 	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://astrothesaurus.org/uat/2072"/>
-	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Dielectronic reombination</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Dielectronic recombination</prefLabel>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2062">
@@ -22440,7 +22440,7 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2096">
 	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">High resolution spectroscropy</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">High resolution spectroscopy</prefLabel>
 	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T20:04:30Z</created>
 	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -23448,7 +23448,7 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2094">
 	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Mass spectrometery</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Mass spectrometry</prefLabel>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2099">
