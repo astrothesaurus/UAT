@@ -1,0 +1,961 @@
+ASK / UAT Crosswalk by Katie Frey (https://orcid.org/0000-0001-9891-4465),,,,
+Subject Source: Astronomy Subject Keywords,,Version 2013,https://journals.aas.org/authors/keywords2013.html,
+Predicate Source: SKOS Simple Knowledge Organization System Reference,,Version 20090818,https://www.w3.org/TR/2009/REC-skos-reference-20090818/#mapping,
+Object Source: Unified Astronomy Thesaurus,,Version 3.0.0,https://github.com/astrothesaurus/UAT/releases/tag/v.3.0.0,
+,,,,
+ASK Heading,ASK Term,SKOS Mapping Property,UAT Concept,UAT URI
+Astro Databases,astronomical databases: miscellaneous,exactMatch,Astronomy databases,http://astrothesaurus.org/uat/83
+Astro Databases,atlases,narrowMatch,Star atlases,http://astrothesaurus.org/uat/1566
+Astro Databases,catalogs,exactMatch,Catalogs,http://astrothesaurus.org/uat/205
+Astro Databases,surveys,exactMatch,Surveys,http://astrothesaurus.org/uat/1671
+Astro Databases,virtual observatory tools,relatedMatch,Virtual observatories,http://astrothesaurus.org/uat/1774
+Celestial Mech,astrometry,exactMatch,Astrometry,http://astrothesaurus.org/uat/80
+Celestial Mech,celestial mechanics,exactMatch,Celestial mechanics,http://astrothesaurus.org/uat/211
+Celestial Mech,eclipses,exactMatch,Eclipses,http://astrothesaurus.org/uat/442
+Celestial Mech,ephemerides,exactMatch,Ephemerides,http://astrothesaurus.org/uat/464
+Celestial Mech,occultations,exactMatch,Occultation,http://astrothesaurus.org/uat/1148
+Celestial Mech,parallaxes,exactMatch,Parallax,http://astrothesaurus.org/uat/1197
+Celestial Mech,proper motions,exactMatch,Proper motions,http://astrothesaurus.org/uat/1295
+Celestial Mech,time,relatedMatch,E-folding time,http://astrothesaurus.org/uat/425
+Celestial Mech,time,relatedMatch,Hubble time,http://astrothesaurus.org/uat/762
+Celestial Mech,time,relatedMatch,Relaxation time,http://astrothesaurus.org/uat/1394
+Cosmology,(cosmology:) cosmic background radiation,exactMatch,Cosmic background radiation,http://astrothesaurus.org/uat/317
+Cosmology,(cosmology:) cosmic background radiation,relatedMatch,Cosmic microwave background radiation,http://astrothesaurus.org/uat/322
+Cosmology,(cosmology:) cosmological parameters,exactMatch,Cosmological parameters,http://astrothesaurus.org/uat/339
+Cosmology,"(cosmology:) dark ages, reionization, first stars",relatedMatch,Population III stars,http://astrothesaurus.org/uat/1285
+Cosmology,"(cosmology:) dark ages, reionization, first stars",relatedMatch,Reionization,http://astrothesaurus.org/uat/1383
+Cosmology,(cosmology:) dark energy,exactMatch,Dark energy,http://astrothesaurus.org/uat/351
+Cosmology,(cosmology:) dark matter,narrowMatch,Cold dark matter,http://astrothesaurus.org/uat/265
+Cosmology,(cosmology:) dark matter,exactMatch,Dark matter,http://astrothesaurus.org/uat/353
+Cosmology,(cosmology:) dark matter,narrowMatch,Hot dark matter,http://astrothesaurus.org/uat/750
+Cosmology,(cosmology:) dark matter,narrowMatch,Warm dark matter,http://astrothesaurus.org/uat/1787
+Cosmology,(cosmology:) diffuse radiation,exactMatch,Diffuse radiation,http://astrothesaurus.org/uat/383
+Cosmology,(cosmology:) distance scale,relatedMatch,Distance indicators,http://astrothesaurus.org/uat/394
+Cosmology,(cosmology:) distance scale,relatedMatch,Distance measure,http://astrothesaurus.org/uat/395
+Cosmology,(cosmology:) distance scale,exactMatch,Stellar distance,http://astrothesaurus.org/uat/1595
+Cosmology,(cosmology:) early universe,exactMatch,Early universe,http://astrothesaurus.org/uat/435
+Cosmology,(cosmology:) inflation,relatedMatch,Inflationary universe,http://astrothesaurus.org/uat/784
+Cosmology,(cosmology:) large-scale structure of universe,exactMatch,Large-scale structure of the universe,http://astrothesaurus.org/uat/902
+Cosmology,(cosmology:) primordial nucleosynthesis,relatedMatch,Big Bang nucleosynthesis,http://astrothesaurus.org/uat/151
+Cosmology,cosmology: miscellaneous,exactMatch,Cosmology,http://astrothesaurus.org/uat/343
+Cosmology,cosmology: observations,exactMatch,Observational cosmology,http://astrothesaurus.org/uat/1146
+Cosmology,cosmology: theory,relatedMatch,Big Bang theory,http://astrothesaurus.org/uat/152
+Cosmology,cosmology: theory,relatedMatch,Cosmological perturbation theory,http://astrothesaurus.org/uat/341
+Cosmology,cosmology: theory,relatedMatch,Steady-state theory,http://astrothesaurus.org/uat/1574
+Galaxies,(galaxies:) BL Lacertae objects: general,exactMatch,BL Lacertae objects,http://astrothesaurus.org/uat/158
+Galaxies,(galaxies:) BL Lacertae objects: individual,(no match),,
+Galaxies,(galaxies:) intergalactic medium,narrowMatch,Cool intergalactic medium,http://astrothesaurus.org/uat/303
+Galaxies,(galaxies:) intergalactic medium,narrowMatch,Hot intergalactic medium,http://astrothesaurus.org/uat/751
+Galaxies,(galaxies:) intergalactic medium,relatedMatch,Intergalactic gas,http://astrothesaurus.org/uat/812
+Galaxies,(galaxies:) intergalactic medium,exactMatch,Intergalactic medium,http://astrothesaurus.org/uat/813
+Galaxies,(galaxies:) intergalactic medium,relatedMatch,Intergalactic medium phases,http://astrothesaurus.org/uat/814
+Galaxies,(galaxies:) intergalactic medium,narrowMatch,Warm-hot intergalactic medium,http://astrothesaurus.org/uat/1786
+Galaxies,(galaxies:) Local Group,exactMatch,Local Group,http://astrothesaurus.org/uat/929
+Galaxies,(galaxies:) Magellanic Clouds,narrowMatch,Large Magellanic Cloud,http://astrothesaurus.org/uat/903
+Galaxies,(galaxies:) Magellanic Clouds,exactMatch,Magellanic Clouds,http://astrothesaurus.org/uat/990
+Galaxies,(galaxies:) Magellanic Clouds,relatedMatch,Magellanic Stream,http://astrothesaurus.org/uat/991
+Galaxies,(galaxies:) Magellanic Clouds,narrowMatch,Small Magellanic Cloud,http://astrothesaurus.org/uat/1468
+Galaxies,(galaxies:) quasars: absorption lines,partial match,Broad-absorption line quasar,http://astrothesaurus.org/uat/183
+Galaxies,(galaxies:) quasars: absorption lines,relatedMatch,Quasar absorption line spectroscopy,http://astrothesaurus.org/uat/1317
+Galaxies,(galaxies:) quasars: emission lines,(no match),,
+Galaxies,(galaxies:) quasars: general,exactMatch,Quasars,http://astrothesaurus.org/uat/1319
+Galaxies,(galaxies:) quasars: general,narrowMatch,Radio loud quasars,http://astrothesaurus.org/uat/1349
+Galaxies,(galaxies:) quasars: general,narrowMatch,Radio quiet quasars,http://astrothesaurus.org/uat/1354
+Galaxies,(galaxies:) quasars: general,narrowMatch,X-ray quasars,http://astrothesaurus.org/uat/1821
+Galaxies,(galaxies:) quasars: individual,relatedMatch,Double quasars,http://astrothesaurus.org/uat/406
+Galaxies,(galaxies:) quasars: individual,exactMatch,Individual quasars,http://astrothesaurus.org/uat/782
+Galaxies,(galaxies:) quasars: supermassive black holes,relatedMatch,Supermassive black holes,http://astrothesaurus.org/uat/1663
+Galaxies,galaxies: abundances,exactMatch,Galaxy abundances,http://astrothesaurus.org/uat/574
+Galaxies,galaxies: active,exactMatch,Active galaxies,http://astrothesaurus.org/uat/17
+Galaxies,galaxies: bulges,relatedMatch,Galactic bulge,http://astrothesaurus.org/uat/2041
+Galaxies,galaxies: bulges,exactMatch,Galaxy bulges,http://astrothesaurus.org/uat/578
+Galaxies,galaxies: clusters: general,exactMatch,Galaxy clusters,http://astrothesaurus.org/uat/584
+Galaxies,galaxies: clusters: individual,relatedMatch,Virgo Cluster,http://astrothesaurus.org/uat/1772
+Galaxies,galaxies: clusters: individual,relatedMatch,Virgo Supercluster,http://astrothesaurus.org/uat/1773
+Galaxies,galaxies: clusters: intracluster medium,exactMatch,Intracluster medium,http://astrothesaurus.org/uat/858
+Galaxies,galaxies: distances and redshifts,relatedMatch,Galaxy distances,http://astrothesaurus.org/uat/590
+Galaxies,galaxies: distances and redshifts,relatedMatch,High-redshift galaxies,http://astrothesaurus.org/uat/734
+Galaxies,galaxies: distances and redshifts,relatedMatch,High-redshift galaxy clusters,http://astrothesaurus.org/uat/2007
+Galaxies,galaxies: dwarf,narrowMatch,Blue compact dwarf galaxies,http://astrothesaurus.org/uat/165
+Galaxies,galaxies: dwarf,narrowMatch,Compact dwarf galaxies,http://astrothesaurus.org/uat/281
+Galaxies,galaxies: dwarf,narrowMatch,Draco dwarf galaxy,http://astrothesaurus.org/uat/408
+Galaxies,galaxies: dwarf,narrowMatch,Dwarf elliptical galaxies,http://astrothesaurus.org/uat/415
+Galaxies,galaxies: dwarf,exactMatch,Dwarf galaxies,http://astrothesaurus.org/uat/416
+Galaxies,galaxies: dwarf,narrowMatch,Dwarf irregular galaxies,http://astrothesaurus.org/uat/417
+Galaxies,galaxies: dwarf,narrowMatch,Dwarf spheroidal galaxies,http://astrothesaurus.org/uat/420
+Galaxies,galaxies: dwarf,narrowMatch,Nucleated dwarf galaxies,http://astrothesaurus.org/uat/1130
+Galaxies,"galaxies: elliptical and lenticular, cD",relatedMatch,cD galaxies,http://astrothesaurus.org/uat/209
+Galaxies,"galaxies: elliptical and lenticular, cD",relatedMatch,Dwarf elliptical galaxies,http://astrothesaurus.org/uat/415
+Galaxies,"galaxies: elliptical and lenticular, cD",relatedMatch,Elliptical galaxies,http://astrothesaurus.org/uat/456
+Galaxies,"galaxies: elliptical and lenticular, cD",relatedMatch,Giant elliptical galaxies,http://astrothesaurus.org/uat/651
+Galaxies,"galaxies: elliptical and lenticular, cD",relatedMatch,Lenticular galaxies,http://astrothesaurus.org/uat/915
+Galaxies,"galaxies: elliptical and lenticular, cD",relatedMatch,Sculptor dwarf elliptical galaxy,http://astrothesaurus.org/uat/1436
+Galaxies,galaxies: evolution,exactMatch,Galaxy evolution,http://astrothesaurus.org/uat/594
+Galaxies,galaxies: formation,exactMatch,Galaxy formation,http://astrothesaurus.org/uat/595
+Galaxies,galaxies: fundamental parameters,partial match,Galaxy physics,http://astrothesaurus.org/uat/612
+Galaxies,galaxies: general,exactMatch,Galaxies,http://astrothesaurus.org/uat/573
+Galaxies,galaxies: groups: general,exactMatch,Galaxy groups,http://astrothesaurus.org/uat/597
+Galaxies,galaxies: groups: individual,relatedMatch,Hickson compact group,http://astrothesaurus.org/uat/729
+Galaxies,galaxies: groups: individual,relatedMatch,Local Group,http://astrothesaurus.org/uat/929
+Galaxies,galaxies: groups: individual,relatedMatch,Stefan's quintet,http://astrothesaurus.org/uat/1575
+Galaxies,galaxies: halos,exactMatch,Galaxy stellar halos,http://astrothesaurus.org/uat/598
+Galaxies,galaxies: high-redshift,exactMatch,High-redshift galaxies,http://astrothesaurus.org/uat/734
+Galaxies,galaxies: individual,narrowMatch,Andromeda Galaxy,http://astrothesaurus.org/uat/39
+Galaxies,galaxies: individual,narrowMatch,Draco dwarf galaxy,http://astrothesaurus.org/uat/408
+Galaxies,galaxies: individual,narrowMatch,Fornax dwarf spheroidal galaxy,http://astrothesaurus.org/uat/548
+Galaxies,galaxies: individual,narrowMatch,Milky Way Galaxy,http://astrothesaurus.org/uat/1054
+Galaxies,galaxies: individual,narrowMatch,Sagittarius dwarf spheroidal galaxy,http://astrothesaurus.org/uat/1423
+Galaxies,galaxies: individual,narrowMatch,Sculptor dwarf elliptical galaxy,http://astrothesaurus.org/uat/1436
+Galaxies,galaxies: individual,narrowMatch,Triangulum Galaxy,http://astrothesaurus.org/uat/1712
+Galaxies,galaxies: individual,narrowMatch,Ursa Minor dwarf spheroidal galaxy,http://astrothesaurus.org/uat/1753
+Galaxies,galaxies: interactions,exactMatch,Galaxy interactions,http://astrothesaurus.org/uat/600
+Galaxies,galaxies: irregular,exactMatch,Irregular galaxies,http://astrothesaurus.org/uat/864
+Galaxies,galaxies: ISM,exactMatch,Interstellar medium,http://astrothesaurus.org/uat/847
+Galaxies,galaxies: jets,exactMatch,Galaxy jets,http://astrothesaurus.org/uat/601
+Galaxies,galaxies: kinematics and dynamics,relatedMatch,Galaxy dynamics,http://astrothesaurus.org/uat/591
+Galaxies,galaxies: kinematics and dynamics,relatedMatch,Galaxy kinematics,http://astrothesaurus.org/uat/602
+Galaxies,"galaxies: luminosity function, mass function",relatedMatch,Initial mass function,http://astrothesaurus.org/uat/796
+Galaxies,"galaxies: luminosity function, mass function",relatedMatch,Luminosity function,http://astrothesaurus.org/uat/942
+Galaxies,"galaxies: luminosity function, mass function",relatedMatch,Stellar mass functions,http://astrothesaurus.org/uat/1612
+Galaxies,galaxies: magnetic fields,exactMatch,Galaxy magnetic fields,http://astrothesaurus.org/uat/604
+Galaxies,galaxies: nuclei,exactMatch,Galaxy nuclei,http://astrothesaurus.org/uat/609
+Galaxies,galaxies: peculiar,(no match),,
+Galaxies,galaxies: photometry,exactMatch,Galaxy photometry,http://astrothesaurus.org/uat/611
+Galaxies,galaxies: Seyfert,exactMatch,Seyfert galaxies,http://astrothesaurus.org/uat/1447
+Galaxies,galaxies: spiral,narrowMatch,Barred spiral galaxies,http://astrothesaurus.org/uat/136
+Galaxies,galaxies: spiral,exactMatch,Spiral galaxies,http://astrothesaurus.org/uat/1560
+Galaxies,galaxies: spiral,narrowMatch,Unbarred spiral galaxies,http://astrothesaurus.org/uat/1745
+Galaxies,galaxies: star clusters: general,exactMatch,Star clusters,http://astrothesaurus.org/uat/1567
+Galaxies,galaxies: star clusters: general,relatedMatch,Stellar associations,http://astrothesaurus.org/uat/1582
+Galaxies,galaxies: star clusters: individual,(no match),,
+Galaxies,galaxies: star formation,relatedMatch,Star formation,http://astrothesaurus.org/uat/1569
+Galaxies,galaxies: starburst,exactMatch,Starburst galaxies,http://astrothesaurus.org/uat/1570
+Galaxies,galaxies: statistics,exactMatch,Galaxy counts,http://astrothesaurus.org/uat/588
+Galaxies,galaxies: stellar content,exactMatch,Galaxy stellar content,http://astrothesaurus.org/uat/621
+Galaxies,galaxies: structure,exactMatch,Galaxy structure,http://astrothesaurus.org/uat/622
+General,"editorials, notices",(no match),,
+General,"errata, addenda",(no match),,
+General,extraterrestrial intelligence,relatedMatch,Astrobiology,http://astrothesaurus.org/uat/74
+General,history and philosophy of astronomy,relatedMatch,History of astronomy,http://astrothesaurus.org/uat/1868
+General,history and philosophy of astronomy,relatedMatch,Philosophy of astronomy,http://astrothesaurus.org/uat/1222
+General,miscellaneous,(no match),,
+General,"obituaries, biographies",(no match),,
+General,"publications, bibliography",(no match),,
+General,sociology of astronomy,exactMatch,Sociology of astronomy,http://astrothesaurus.org/uat/1470
+General,standards,(no match),,
+"Inst, Meth, Tech",atmospheric effects,exactMatch,Atmospheric effects,http://astrothesaurus.org/uat/113
+"Inst, Meth, Tech",balloons,relatedMatch,High altitude balloons,http://astrothesaurus.org/uat/738
+"Instr, Meth, Tech",instrumentation: adaptive optics,(no match),,
+"Instr, Meth, Tech",instrumentation: detectors,exactMatch,Astronomical detectors,http://astrothesaurus.org/uat/84
+"Instr, Meth, Tech",instrumentation: detectors,narrowMatch,CMBR detectors,http://astrothesaurus.org/uat/259
+"Instr, Meth, Tech",instrumentation: detectors,narrowMatch,Cosmic ray detectors,http://astrothesaurus.org/uat/325
+"Instr, Meth, Tech",instrumentation: detectors,narrowMatch,Dark matter detectors,http://astrothesaurus.org/uat/355
+"Instr, Meth, Tech",instrumentation: detectors,narrowMatch,Gamma-ray detectors,http://astrothesaurus.org/uat/630
+"Instr, Meth, Tech",instrumentation: detectors,narrowMatch,Gravitational wave detectors,http://astrothesaurus.org/uat/676
+"Instr, Meth, Tech",instrumentation: detectors,narrowMatch,X-ray detectors,http://astrothesaurus.org/uat/1815
+"Instr, Meth, Tech",instrumentation: high angular resolution,(no match),,
+"Instr, Meth, Tech",instrumentation: interferometers,exactMatch,Interferometers,http://astrothesaurus.org/uat/805
+"Instr, Meth, Tech",instrumentation: miscellaneous,exactMatch,Astronomical instrumentation,http://astrothesaurus.org/uat/799
+"Instr, Meth, Tech",instrumentation: polarimeters,exactMatch,Polarimeters,http://astrothesaurus.org/uat/1277
+"Instr, Meth, Tech",instrumentation: spectrographs,relatedMatch,Spectrometers,http://astrothesaurus.org/uat/1554
+"Instr, Meth, Tech",instrumentation: spectrographs,relatedMatch,Spectrophotometry,http://astrothesaurus.org/uat/1556
+"Instr, Meth, Tech",instrumentation: spectrographs,relatedMatch,Spectroscopy,http://astrothesaurus.org/uat/1558
+"Instr, Meth, Tech",light pollution,relatedMatch,Astronomical site protection,http://astrothesaurus.org/uat/94
+"Instr, Meth, Tech",methods: analytical,relatedMatch,Analytical mathematics,http://astrothesaurus.org/uat/38
+"Instr, Meth, Tech",methods: data analysis,(no match),Astronomy data analysis,http://astrothesaurus.org/uat/1858
+"Instr, Meth, Tech",methods: laboratory: atomic,relatedMatch,Atomic physics,http://astrothesaurus.org/uat/2063
+"Instr, Meth, Tech",methods: laboratory: molecular,relatedMatch,Molecular physics,http://astrothesaurus.org/uat/2058
+"Instr, Meth, Tech",methods: laboratory: solid state,relatedMatch,Solid matter physics,http://astrothesaurus.org/uat/2090
+"Instr, Meth, Tech",methods: miscellaneous,exactMatch,Astronomical methods,http://astrothesaurus.org/uat/1043
+"Instr, Meth, Tech",methods: numerical,relatedMatch,Computational methods,http://astrothesaurus.org/uat/1965
+"Instr, Meth, Tech",methods: observational,exactMatch,Observational astronomy,http://astrothesaurus.org/uat/1145
+"Instr, Meth, Tech",methods: statistical,exactMatch,Astrostatistics,http://astrothesaurus.org/uat/1882
+"Instr, Meth, Tech",site testing,(no match),,
+"Instr, Meth, Tech",space vehicles,exactMatch,Space vehicles,http://astrothesaurus.org/uat/1549
+"Instr, Meth, Tech",space vehicles: instruments,exactMatch,Space vehicle instruments,http://astrothesaurus.org/uat/1548
+"Instr, Meth, Tech",techniques: high angular resolution,(no match),,
+"Instr, Meth, Tech",techniques: image processing,(no match),,
+"Instr, Meth, Tech",techniques: imaging spectroscopy,relatedMatch,Spectroscopy,http://astrothesaurus.org/uat/1558
+"Instr, Meth, Tech",techniques: interferometric,broadMatch,Interferometry,http://astrothesaurus.org/uat/808
+"Instr, Meth, Tech",techniques: miscellaneous,exactMatch,Astronomical techniques,http://astrothesaurus.org/uat/1684
+"Instr, Meth, Tech",techniques: photometric,broadMatch,Photometric systems,http://astrothesaurus.org/uat/1233
+"Instr, Meth, Tech",techniques: photometric,broadMatch,Photometry,http://astrothesaurus.org/uat/1234
+"Instr, Meth, Tech",techniques: polarimetric,broadMatch,Polarimetry,http://astrothesaurus.org/uat/1278
+"Instr, Meth, Tech",techniques: radar astronomy,exactMatch,Radar astronomy,http://astrothesaurus.org/uat/1329
+"Instr, Meth, Tech",techniques: radar astronomy,relatedMatch,Radar telescopes,http://astrothesaurus.org/uat/1330
+"Instr, Meth, Tech",techniques: radial velocities,exactMatch,Radial velocity,http://astrothesaurus.org/uat/1332
+"Instr, Meth, Tech",techniques: spectroscopic,broadMatch,Spectrophotometry,http://astrothesaurus.org/uat/1556
+"Instr, Meth, Tech",telescopes,exactMatch,Telescopes,http://astrothesaurus.org/uat/1689
+"ISM, Nebulae",(ISM:) cosmic rays,relatedMatch,Cosmic ray astronomy,http://astrothesaurus.org/uat/324
+"ISM, Nebulae",(ISM:) cosmic rays,exactMatch,Cosmic rays,http://astrothesaurus.org/uat/329
+"ISM, Nebulae",(ISM:) cosmic rays,relatedMatch,Galactic cosmic rays,http://astrothesaurus.org/uat/567
+"ISM, Nebulae",(ISM:) cosmic rays,relatedMatch,Secondary cosmic rays,http://astrothesaurus.org/uat/1438
+"ISM, Nebulae","(ISM:) dust, extinction",relatedMatch,Circumstellar dust,http://astrothesaurus.org/uat/236
+"ISM, Nebulae","(ISM:) dust, extinction",relatedMatch,Extinction,http://astrothesaurus.org/uat/505
+"ISM, Nebulae","(ISM:) dust, extinction",relatedMatch,Interstellar dust,http://astrothesaurus.org/uat/836
+"ISM, Nebulae","(ISM:) dust, extinction",exactMatch,Interstellar dust extinction,http://astrothesaurus.org/uat/837
+"ISM, Nebulae","(ISM:) dust, extinction",relatedMatch,Interstellar dust processes,http://astrothesaurus.org/uat/838
+"ISM, Nebulae","(ISM:) dust, extinction",relatedMatch,Interstellar extinction,http://astrothesaurus.org/uat/841
+"ISM, Nebulae",(ISM:) evolution,(no match),,
+"ISM, Nebulae",(ISM:) Herbig–Haro objects,exactMatch,Herbig-Haro objects,http://astrothesaurus.org/uat/722
+"ISM, Nebulae",(ISM:) HII regions,narrowMatch,Compact H II region,http://astrothesaurus.org/uat/286
+"ISM, Nebulae",(ISM:) HII regions,exactMatch,H II regions,http://astrothesaurus.org/uat/694
+"ISM, Nebulae",(ISM:) photon-dominated region (PDR),(no match),,
+"ISM, Nebulae",(ISM:) planetary nebulae: general,exactMatch,Planetary nebulae,http://astrothesaurus.org/uat/1249
+"ISM, Nebulae",(ISM:) planetary nebulae: general,relatedMatch,Protoplanetary nebulae,http://astrothesaurus.org/uat/1301
+"ISM, Nebulae",(ISM:) planetary nebulae: individual,(no match),,
+"ISM, Nebulae",ISM: abundances,relatedMatch,Interstellar abundances,http://astrothesaurus.org/uat/832
+"ISM, Nebulae",ISM: atoms,relatedMatch,Polycyclic aromatic hydrocarbons,http://astrothesaurus.org/uat/1280
+"ISM, Nebulae",ISM: bubbles,narrowMatch,Stellar wind bubbles,http://astrothesaurus.org/uat/1635
+"ISM, Nebulae",ISM: bubbles,narrowMatch,Superbubbles,http://astrothesaurus.org/uat/1656
+"ISM, Nebulae",ISM: clouds,narrowMatch,Circumstellar clouds,http://astrothesaurus.org/uat/234
+"ISM, Nebulae",ISM: clouds,narrowMatch,Collapsing clouds,http://astrothesaurus.org/uat/267
+"ISM, Nebulae",ISM: clouds,narrowMatch,Dark interstellar clouds,http://astrothesaurus.org/uat/352
+"ISM, Nebulae",ISM: clouds,narrowMatch,Dense interstellar clouds,http://astrothesaurus.org/uat/371
+"ISM, Nebulae",ISM: clouds,narrowMatch,Diffuse interstellar clouds,http://astrothesaurus.org/uat/380
+"ISM, Nebulae",ISM: clouds,narrowMatch,Giant molecular clouds,http://astrothesaurus.org/uat/653
+"ISM, Nebulae",ISM: clouds,narrowMatch,High-velocity clouds,http://astrothesaurus.org/uat/735
+"ISM, Nebulae",ISM: clouds,narrowMatch,Infrared dark clouds,http://astrothesaurus.org/uat/787
+"ISM, Nebulae",ISM: clouds,narrowMatch,Intercloud medium,http://astrothesaurus.org/uat/803
+"ISM, Nebulae",ISM: clouds,exactMatch,Interstellar clouds,http://astrothesaurus.org/uat/834
+"ISM, Nebulae",ISM: clouds,narrowMatch,Molecular clouds,http://astrothesaurus.org/uat/1072
+"ISM, Nebulae",ISM: clouds,narrowMatch,Neutral hydrogen clouds,http://astrothesaurus.org/uat/1099
+"ISM, Nebulae",ISM: general,exactMatch,Interstellar medium,http://astrothesaurus.org/uat/847
+"ISM, Nebulae",ISM: individual objects (except planetary nebulae),(no match),,
+"ISM, Nebulae",ISM: jets and outflows,relatedMatch,Jets,http://astrothesaurus.org/uat/870
+"ISM, Nebulae",ISM: jets and outflows,relatedMatch,Stellar winds,http://astrothesaurus.org/uat/1636
+"ISM, Nebulae",ISM: kinematics and dynamics,(no match),,
+"ISM, Nebulae",ISM: lines and bands,relatedMatch,Interstellar line emission,http://astrothesaurus.org/uat/844
+"ISM, Nebulae",ISM: magnetic fields,exactMatch,Interstellar magnetic fields,http://astrothesaurus.org/uat/845
+"ISM, Nebulae",ISM: molecules,exactMatch,Interstellar molecules,http://astrothesaurus.org/uat/849
+"ISM, Nebulae",ISM: structure,(no match),,
+"ISM, Nebulae",ISM: supernova remnants,exactMatch,Supernova remnants,http://astrothesaurus.org/uat/1667
+Phys Processes,acceleration of particles,relatedMatch,Interplanetary particle acceleration,http://astrothesaurus.org/uat/826
+Phys Processes,"accretion, accretion disks",narrowMatch,Galaxy accretion disks,http://astrothesaurus.org/uat/562
+Phys Processes,"accretion, accretion disks",relatedMatch,Accretion,http://astrothesaurus.org/uat/14
+Phys Processes,"accretion, accretion disks",narrowMatch,Bondi accretion,http://astrothesaurus.org/uat/174
+Phys Processes,"accretion, accretion disks",narrowMatch,Galaxy accretion,http://astrothesaurus.org/uat/575
+Phys Processes,"accretion, accretion disks",narrowMatch,Stellar accretion,http://astrothesaurus.org/uat/1578
+Phys Processes,"accretion, accretion disks",narrowMatch,Stellar accretion disks,http://astrothesaurus.org/uat/1579
+Phys Processes,asteroseismology,exactMatch,Asteroseismology,http://astrothesaurus.org/uat/73
+Phys Processes,astrobiology,exactMatch,Astrobiology,http://astrothesaurus.org/uat/74
+Phys Processes,astrochemistry,exactMatch,Astrochemistry,http://astrothesaurus.org/uat/75
+Phys Processes,astroparticle physics,exactMatch,Astroparticle physics,http://astrothesaurus.org/uat/96
+Phys Processes,atomic data,(no match),,
+Phys Processes,atomic processes,(no match),,
+Phys Processes,black hole physics,exactMatch,Black hole physics,http://astrothesaurus.org/uat/159
+Phys Processes,chaos,exactMatch,Chaos,http://astrothesaurus.org/uat/222
+Phys Processes,conduction,(no match),,
+Phys Processes,convection,relatedMatch,Solar convective zone,http://astrothesaurus.org/uat/1998
+Phys Processes,convection,relatedMatch,Stellar convection envelopes,http://astrothesaurus.org/uat/299
+Phys Processes,convection,relatedMatch,Stellar convective shells,http://astrothesaurus.org/uat/300
+Phys Processes,convection,relatedMatch,Stellar convective zones,http://astrothesaurus.org/uat/301
+Phys Processes,dense matter,relatedMatch,Matter density,http://astrothesaurus.org/uat/1014
+Phys Processes,dense matter,relatedMatch,Mean matter density,http://astrothesaurus.org/uat/1020
+Phys Processes,diffusion,relatedMatch,Stellar diffusion,http://astrothesaurus.org/uat/1593
+Phys Processes,dynamo,relatedMatch,Magnetic fields,http://astrothesaurus.org/uat/994
+Phys Processes,elementary particles,(no match),,
+Phys Processes,equation of state,(no match),,
+Phys Processes,gravitation,exactMatch,Gravitation,http://astrothesaurus.org/uat/661
+Phys Processes,gravitational lensing: micro,exactMatch,Gravitational microlensing,http://astrothesaurus.org/uat/672
+Phys Processes,gravitational lensing: strong,exactMatch,Strong gravitational lensing,http://astrothesaurus.org/uat/1643
+Phys Processes,gravitational lensing: weak,exactMatch,Weak gravitational lensing,http://astrothesaurus.org/uat/1797
+Phys Processes,gravitational waves,exactMatch,Gravitational waves,http://astrothesaurus.org/uat/678
+Phys Processes,hydrodynamics,exactMatch,Hydrodynamics,http://astrothesaurus.org/uat/1963
+Phys Processes,instabilities,relatedMatch,Gravitational instability,http://astrothesaurus.org/uat/668
+Phys Processes,line: formation,relatedMatch,Laboratory astrophysics,http://astrothesaurus.org/uat/2004
+Phys Processes,line: identification,exactMatch,Spectral line identification,http://astrothesaurus.org/uat/2073
+Phys Processes,line: profiles,relatedMatch,Laboratory astrophysics,http://astrothesaurus.org/uat/2004
+Phys Processes,magnetic fields,exactMatch,Magnetic fields,http://astrothesaurus.org/uat/994
+Phys Processes,magnetic reconnection,relatedMatch,Solar magnetic reconnection,http://astrothesaurus.org/uat/1504
+Phys Processes,magnetohydrodynamics (MHD),(no match),,
+Phys Processes,masers,narrowMatch,Astrophysical masers,http://astrothesaurus.org/uat/103
+Phys Processes,masers,narrowMatch,Circumstellar masers,http://astrothesaurus.org/uat/240
+Phys Processes,masers,narrowMatch,Hydroxyl masers,http://astrothesaurus.org/uat/771
+Phys Processes,masers,narrowMatch,Interstellar masers,http://astrothesaurus.org/uat/846
+Phys Processes,masers,narrowMatch,Megamasers,http://astrothesaurus.org/uat/1023
+Phys Processes,masers,narrowMatch,Silicon monoxide masers,http://astrothesaurus.org/uat/1458
+Phys Processes,masers,narrowMatch,Water masers,http://astrothesaurus.org/uat/1790
+Phys Processes,molecular data,relatedMatch,Molecular physics,http://astrothesaurus.org/uat/2058
+Phys Processes,molecular processes,relatedMatch,Molecular physics,http://astrothesaurus.org/uat/2058
+Phys Processes,neutrinos,relatedMatch,Neutrino astronomy,http://astrothesaurus.org/uat/1100
+Phys Processes,neutrinos,relatedMatch,Solar neutrinos,http://astrothesaurus.org/uat/1511
+Phys Processes,neutrinos,relatedMatch,Supernova neutrinos,http://astrothesaurus.org/uat/1666
+Phys Processes,"nuclear reactions, nucleosynthesis, abundances",relatedMatch,Big Bang nucleosynthesis,http://astrothesaurus.org/uat/151
+Phys Processes,"nuclear reactions, nucleosynthesis, abundances",relatedMatch,Cosmic ray nucleosynthesis,http://astrothesaurus.org/uat/326
+Phys Processes,"nuclear reactions, nucleosynthesis, abundances",relatedMatch,Explosive nucleosynthesis,http://astrothesaurus.org/uat/503
+Phys Processes,"nuclear reactions, nucleosynthesis, abundances",relatedMatch,Nuclear abundances,http://astrothesaurus.org/uat/1128
+Phys Processes,"nuclear reactions, nucleosynthesis, abundances",relatedMatch,Nuclear astrophysics,http://astrothesaurus.org/uat/1129
+Phys Processes,"nuclear reactions, nucleosynthesis, abundances",relatedMatch,Nucleosynthesis,http://astrothesaurus.org/uat/1131
+Phys Processes,"nuclear reactions, nucleosynthesis, abundances",relatedMatch,Stellar nucleosynthesis,http://astrothesaurus.org/uat/1616
+Phys Processes,opacity,relatedMatch,Stellar atmospheric opacity,http://astrothesaurus.org/uat/1585
+Phys Processes,plasmas,relatedMatch,Interstellar plasma,http://astrothesaurus.org/uat/851
+Phys Processes,plasmas,relatedMatch,Plasma astrophysics,http://astrothesaurus.org/uat/1261
+Phys Processes,plasmas,relatedMatch,Space plasmas,http://astrothesaurus.org/uat/1544
+Phys Processes,polarization,relatedMatch,Polarimetry,http://astrothesaurus.org/uat/1278
+Phys Processes,radiation mechanisms: general,(no match),,
+Phys Processes,radiation mechanisms: non-thermal,relatedMatch,Non-thermal radiation sources,http://astrothesaurus.org/uat/1119
+Phys Processes,radiation mechanisms: thermal,(no match),,
+Phys Processes,radiation: dynamics,(no match),,
+Phys Processes,radiative transfer,exactMatch,Radiative transfer,http://astrothesaurus.org/uat/1335
+Phys Processes,reference systems,(no match),,
+Phys Processes,relativistic processes,(no match),,
+Phys Processes,scattering,relatedMatch,Interstellar scattering,http://astrothesaurus.org/uat/854
+Phys Processes,shock waves,relatedMatch,Interplanetary shocks,http://astrothesaurus.org/uat/829
+Phys Processes,shock waves,relatedMatch,Planetary bow shocks,http://astrothesaurus.org/uat/1246
+Phys Processes,shock waves,relatedMatch,Stellar bow shocks,http://astrothesaurus.org/uat/1586
+Phys Processes,shock waves,relatedMatch,Termination shock,http://astrothesaurus.org/uat/1690
+Phys Processes,solid state: refractory,(no match),,
+Phys Processes,solid state: volatile,(no match),,
+Phys Processes,turbulence,relatedMatch,Interplanetary turbulence,http://astrothesaurus.org/uat/830
+Phys Processes,waves,relatedMatch,Alfven waves,http://astrothesaurus.org/uat/23
+Phys Processes,waves,relatedMatch,Gravitational waves,http://astrothesaurus.org/uat/678
+Phys Processes,waves,relatedMatch,Internal waves,http://astrothesaurus.org/uat/819
+Phys Processes,waves,relatedMatch,pp waves,http://astrothesaurus.org/uat/1288
+Planetary Systems,comets: general,exactMatch,Comets,http://astrothesaurus.org/uat/280
+Planetary Systems,comets: individual,(no match),,
+Planetary Systems,Earth,exactMatch,Earth (planet),http://astrothesaurus.org/uat/439
+Planetary Systems,interplanetary medium,exactMatch,Interplanetary medium,http://astrothesaurus.org/uat/825
+Planetary Systems,Kuiper belt objects: individual,relatedMatch,Classical Kuiper belt objects,http://astrothesaurus.org/uat/250
+Planetary Systems,Kuiper belt objects: individual,relatedMatch,Resonant Kuiper belt objects,http://astrothesaurus.org/uat/1396
+Planetary Systems,Kuiper belt: general,exactMatch,Kuiper belt,http://astrothesaurus.org/uat/893
+Planetary Systems,"meteorites, meteors, meteoroids",relatedMatch,Meteorites,http://astrothesaurus.org/uat/1038
+Planetary Systems,"meteorites, meteors, meteoroids",relatedMatch,Meteoroids,http://astrothesaurus.org/uat/1040
+Planetary Systems,"meteorites, meteors, meteoroids",relatedMatch,Meteors,http://astrothesaurus.org/uat/1041
+Planetary Systems,"minor planets, asteroids: general",relatedMatch,Asteroids,http://astrothesaurus.org/uat/72
+Planetary Systems,"minor planets, asteroids: general",relatedMatch,Main belt asteroids,http://astrothesaurus.org/uat/2036
+Planetary Systems,"minor planets, asteroids: general",relatedMatch,Minor planets,http://astrothesaurus.org/uat/1065
+Planetary Systems,"minor planets, asteroids: individual",narrowMatch,Ceres,http://astrothesaurus.org/uat/219
+Planetary Systems,"minor planets, asteroids: individual",narrowMatch,Eris,http://astrothesaurus.org/uat/473
+Planetary Systems,"minor planets, asteroids: individual",narrowMatch,Haumea,http://astrothesaurus.org/uat/702
+Planetary Systems,"minor planets, asteroids: individual",narrowMatch,Hilda group,http://astrothesaurus.org/uat/741
+Planetary Systems,"minor planets, asteroids: individual",narrowMatch,Hirayama families,http://astrothesaurus.org/uat/742
+Planetary Systems,"minor planets, asteroids: individual",narrowMatch,Hungaria group,http://astrothesaurus.org/uat/765
+Planetary Systems,"minor planets, asteroids: individual",narrowMatch,Makemake,http://astrothesaurus.org/uat/1002
+Planetary Systems,"minor planets, asteroids: individual",narrowMatch,Pluto,http://astrothesaurus.org/uat/1267
+Planetary Systems,"minor planets, asteroids: individual",narrowMatch,Plutoids,http://astrothesaurus.org/uat/1268
+Planetary Systems,"minor planets, asteroids: individual",narrowMatch,Quaoar,http://astrothesaurus.org/uat/1315
+Planetary Systems,"minor planets, asteroids: individual",narrowMatch,Sedna,http://astrothesaurus.org/uat/1440
+Planetary Systems,"minor planets, asteroids: individual",narrowMatch,Trojan asteroids,http://astrothesaurus.org/uat/1715
+Planetary Systems,Moon,exactMatch,The Moon,http://astrothesaurus.org/uat/1692
+Planetary Systems,Oort Cloud,exactMatch,Oort cloud,http://astrothesaurus.org/uat/1157
+Planetary Systems,planet–disk interactions,(no match),,
+Planetary Systems,planets and satellites: atmospheres,narrowMatch,Cometary atmospheres,http://astrothesaurus.org/uat/275
+Planetary Systems,planets and satellites: atmospheres,narrowMatch,Earth atmosphere,http://astrothesaurus.org/uat/437
+Planetary Systems,planets and satellites: atmospheres,narrowMatch,Exoplanet atmospheres,http://astrothesaurus.org/uat/487
+Planetary Systems,planets and satellites: atmospheres,narrowMatch,Lunar atmosphere,http://astrothesaurus.org/uat/947
+Planetary Systems,planets and satellites: atmospheres,narrowMatch,Planetary atmospheres,http://astrothesaurus.org/uat/1244
+Planetary Systems,planets and satellites: aurorae,(no match),,
+Planetary Systems,planets and satellites: composition,narrowMatch,Lunar composition,http://astrothesaurus.org/uat/948
+Planetary Systems,planets and satellites: composition,narrowMatch,Meteorite composition,http://astrothesaurus.org/uat/1037
+Planetary Systems,planets and satellites: detection,relatedMatch,Exoplanet detection methods,http://astrothesaurus.org/uat/489
+Planetary Systems,planets and satellites: dynamical evolution and stability,relatedMatch,Exoplanet dynamics,http://astrothesaurus.org/uat/490
+Planetary Systems,planets and satellites: dynamical evolution and stability,relatedMatch,Exoplanet evolution,http://astrothesaurus.org/uat/491
+Planetary Systems,planets and satellites: dynamical evolution and stability,relatedMatch,Lunar evolution,http://astrothesaurus.org/uat/952
+Planetary Systems,planets and satellites: formation,relatedMatch,Planet formation,http://astrothesaurus.org/uat/1241
+Planetary Systems,planets and satellites: formation,relatedMatch,Planetary system formation,http://astrothesaurus.org/uat/1257
+Planetary Systems,planets and satellites: formation,relatedMatch,Satellite formation,http://astrothesaurus.org/uat/1425
+Planetary Systems,planets and satellites: fundamental parameters,relatedMatch,Planetary theory,http://astrothesaurus.org/uat/1258
+Planetary Systems,planets and satellites: gaseous planets,partial match,Outer planets,http://astrothesaurus.org/uat/1191
+Planetary Systems,planets and satellites: general,partial match,Natural satellites (Solar system),http://astrothesaurus.org/uat/1089
+Planetary Systems,planets and satellites: general,partial match,Dwarf planets,http://astrothesaurus.org/uat/419
+Planetary Systems,planets and satellites: general,partial match,Exoplanets,http://astrothesaurus.org/uat/498
+Planetary Systems,planets and satellites: general,partial match,Habitable planets,http://astrothesaurus.org/uat/695
+Planetary Systems,planets and satellites: individual,narrowMatch,Galilean satellites,http://astrothesaurus.org/uat/627
+Planetary Systems,planets and satellites: individual,narrowMatch,Jovian satellites,http://astrothesaurus.org/uat/872
+Planetary Systems,planets and satellites: individual,narrowMatch,Martian satellites,http://astrothesaurus.org/uat/1009
+Planetary Systems,planets and satellites: individual,narrowMatch,Neptunian satellites,http://astrothesaurus.org/uat/1098
+Planetary Systems,planets and satellites: individual,narrowMatch,Saturnian satellites,http://astrothesaurus.org/uat/1427
+Planetary Systems,planets and satellites: individual,narrowMatch,Shepherd satellites,http://astrothesaurus.org/uat/1451
+Planetary Systems,planets and satellites: individual,narrowMatch,Uranian satellites,http://astrothesaurus.org/uat/1750
+Planetary Systems,planets and satellites: interiors,relatedMatch,Lunar interior,http://astrothesaurus.org/uat/959
+Planetary Systems,planets and satellites: interiors,relatedMatch,Planetary cores,http://astrothesaurus.org/uat/1247
+Planetary Systems,planets and satellites: interiors,relatedMatch,Planetary interior,http://astrothesaurus.org/uat/1248
+Planetary Systems,planets and satellites: magnetic fields,relatedMatch,Lunar magnetic fields,http://astrothesaurus.org/uat/960
+Planetary Systems,planets and satellites: terrestrial planets,relatedMatch,Extrasolar rocky planets,http://astrothesaurus.org/uat/511
+Planetary Systems,planets and satellites: terrestrial planets,relatedMatch,Inner planets,http://astrothesaurus.org/uat/797
+Planetary Systems,planet–star interactions,relatedMatch,Solar-planetary interactions,http://astrothesaurus.org/uat/1472
+Planetary Systems,planet–star interactions,relatedMatch,Solar-terrestrial interactions,http://astrothesaurus.org/uat/1473
+Planetary Systems,protoplanetary disks,exactMatch,Protoplanetary disks,http://astrothesaurus.org/uat/1300
+Planetary Systems,zodiacal dust,relatedMatch,Exozodiacal dust,http://astrothesaurus.org/uat/500
+Planetary Systems,zodiacal dust,exactMatch,Zodiacal cloud,http://astrothesaurus.org/uat/1845
+Sources,gamma rays: diffuse background,relatedMatch,Gamma-ray sources,http://astrothesaurus.org/uat/633
+Sources,gamma rays: galaxies,relatedMatch,Gamma-ray sources,http://astrothesaurus.org/uat/633
+Sources,gamma rays: galaxies: clusters,relatedMatch,Gamma-ray sources,http://astrothesaurus.org/uat/633
+Sources,gamma rays: general,exactMatch,Gamma-ray sources,http://astrothesaurus.org/uat/633
+Sources,gamma rays: ISM,relatedMatch,Gamma-ray sources,http://astrothesaurus.org/uat/633
+Sources,gamma rays: stars,relatedMatch,Gamma-ray sources,http://astrothesaurus.org/uat/633
+Sources,infrared: diffuse background,relatedMatch,Infrared sources,http://astrothesaurus.org/uat/793
+Sources,infrared: galaxies,exactMatch,Infrared galaxies,http://astrothesaurus.org/uat/790
+Sources,infrared: general,relatedMatch,Far infrared astronomy,http://astrothesaurus.org/uat/529
+Sources,infrared: general,relatedMatch,Infrared astronomy,http://astrothesaurus.org/uat/786
+Sources,infrared: general,exactMatch,Infrared sources,http://astrothesaurus.org/uat/793
+Sources,infrared: ISM,relatedMatch,Infrared sources,http://astrothesaurus.org/uat/793
+Sources,infrared: planetary systems,relatedMatch,Infrared sources,http://astrothesaurus.org/uat/793
+Sources,infrared: stars,relatedMatch,Infrared sources,http://astrothesaurus.org/uat/793
+Sources,radio continuum: galaxies,relatedMatch,Radio galaxies,http://astrothesaurus.org/uat/1343
+Sources,radio continuum: general,exactMatch,Radio continuum emission,http://astrothesaurus.org/uat/1340
+Sources,radio continuum: ISM,relatedMatch,Radio sources,http://astrothesaurus.org/uat/1358
+Sources,radio continuum: planetary systems,relatedMatch,Radio sources,http://astrothesaurus.org/uat/1358
+Sources,radio continuum: stars,relatedMatch,Radio sources,http://astrothesaurus.org/uat/1358
+Sources,radio lines: galaxies,relatedMatch,Radio galaxies,http://astrothesaurus.org/uat/1343
+Sources,radio lines: general,(no match),,
+Sources,radio lines: ISM,relatedMatch,Radio sources,http://astrothesaurus.org/uat/1358
+Sources,radio lines: planetary systems,relatedMatch,Radio sources,http://astrothesaurus.org/uat/1358
+Sources,radio lines: stars,relatedMatch,Radio sources,http://astrothesaurus.org/uat/1358
+Sources,submillimeter: diffuse background,relatedMatch,Submillimeter astronomy,http://astrothesaurus.org/uat/1647
+Sources,submillimeter: galaxies,relatedMatch,Submillimeter astronomy,http://astrothesaurus.org/uat/1647
+Sources,submillimeter: general,exactMatch,Submillimeter astronomy,http://astrothesaurus.org/uat/1647
+Sources,submillimeter: ISM,relatedMatch,Submillimeter astronomy,http://astrothesaurus.org/uat/1647
+Sources,submillimeter: planetary systems,relatedMatch,Submillimeter astronomy,http://astrothesaurus.org/uat/1647
+Sources,submillimeter: stars,relatedMatch,Submillimeter astronomy,http://astrothesaurus.org/uat/1647
+Sources,ultraviolet: galaxies,relatedMatch,Ultraviolet sources,http://astrothesaurus.org/uat/1741
+Sources,ultraviolet: general,exactMatch,Ultraviolet sources,http://astrothesaurus.org/uat/1741
+Sources,ultraviolet: ISM,relatedMatch,Ultraviolet sources,http://astrothesaurus.org/uat/1741
+Sources,ultraviolet: planetary systems,relatedMatch,Ultraviolet sources,http://astrothesaurus.org/uat/1741
+Sources,ultraviolet: stars,relatedMatch,Ultraviolet sources,http://astrothesaurus.org/uat/1741
+Sources,X-rays: binaries,exactMatch,X-ray binary stars,http://astrothesaurus.org/uat/1811
+Sources,X-rays: bursts,exactMatch,X-ray bursts,http://astrothesaurus.org/uat/1814
+Sources,X-rays: diffuse background,exactMatch,Diffuse x-ray background,http://astrothesaurus.org/uat/384
+Sources,X-rays: galaxies,relatedMatch,X-ray sources,http://astrothesaurus.org/uat/1822
+Sources,X-rays: galaxies: clusters,relatedMatch,X-ray sources,http://astrothesaurus.org/uat/1822
+Sources,X-rays: general,exactMatch,X-ray sources,http://astrothesaurus.org/uat/1822
+Sources,X-rays: individual,relatedMatch,X-ray sources,http://astrothesaurus.org/uat/1822
+Sources,X-rays: ISM,relatedMatch,X-ray sources,http://astrothesaurus.org/uat/1822
+Sources,X-rays: stars,exactMatch,X-ray stars,http://astrothesaurus.org/uat/1823
+Stars,(stars:) binaries (including multiple): close,relatedMatch,Close binary stars,http://astrothesaurus.org/uat/254
+Stars,(stars:) binaries (including multiple): close,relatedMatch,Multiple stars,http://astrothesaurus.org/uat/1081
+Stars,(stars:) binaries: eclipsing,exactMatch,Eclipsing binary stars,http://astrothesaurus.org/uat/444
+Stars,(stars:) binaries: general,exactMatch,Binary stars,http://astrothesaurus.org/uat/154
+Stars,(stars:) binaries: spectroscopic,exactMatch,Spectroscopic binary stars,http://astrothesaurus.org/uat/1557
+Stars,(stars:) binaries: symbiotic,exactMatch,Symbiotic binary stars,http://astrothesaurus.org/uat/1674
+Stars,(stars:) binaries: visual,exactMatch,Visual binary stars,http://astrothesaurus.org/uat/1777
+Stars,(stars:) blue stragglers,exactMatch,Blue straggler stars,http://astrothesaurus.org/uat/168
+Stars,(stars:) brown dwarfs,exactMatch,Brown dwarfs,http://astrothesaurus.org/uat/185
+Stars,(stars:) circumstellar matter,exactMatch,Circumstellar matter,http://astrothesaurus.org/uat/241
+Stars,(stars:) gamma-ray burst: general,exactMatch,Gamma-ray bursts,http://astrothesaurus.org/uat/629
+Stars,(stars:) gamma-ray burst: individual,(no match),,
+Stars,(stars:) Hertzsprung–Russell and C–M diagrams,exactMatch,Hertzsprung Russell diagram,http://astrothesaurus.org/uat/725
+Stars,"(stars:) novae, cataclysmic variables",relatedMatch,Cataclysmic variable stars,http://astrothesaurus.org/uat/203
+Stars,"(stars:) novae, cataclysmic variables",relatedMatch,Classical novae,http://astrothesaurus.org/uat/251
+Stars,"(stars:) novae, cataclysmic variables",relatedMatch,Dwarf novae,http://astrothesaurus.org/uat/418
+Stars,"(stars:) novae, cataclysmic variables",relatedMatch,Fast novae,http://astrothesaurus.org/uat/530
+Stars,"(stars:) novae, cataclysmic variables",relatedMatch,Hypernovae,http://astrothesaurus.org/uat/775
+Stars,"(stars:) novae, cataclysmic variables",relatedMatch,Novae,http://astrothesaurus.org/uat/1127
+Stars,"(stars:) novae, cataclysmic variables",relatedMatch,Nova-like variable stars,http://astrothesaurus.org/uat/1126
+Stars,"(stars:) novae, cataclysmic variables",relatedMatch,Recurrent novae,http://astrothesaurus.org/uat/1366
+Stars,"(stars:) novae, cataclysmic variables",relatedMatch,Symbiotic novae,http://astrothesaurus.org/uat/1675
+Stars,"(stars:) novae, cataclysmic variables",relatedMatch,X-ray novae,http://astrothesaurus.org/uat/1818
+Stars,(stars:) planetary systems,narrowMatch,Exoplanet systems,http://astrothesaurus.org/uat/484
+Stars,(stars:) planetary systems,narrowMatch,Solar system,http://astrothesaurus.org/uat/1528
+Stars,(stars:) pulsars: general,relatedMatch,Millisecond pulsars,http://astrothesaurus.org/uat/1062
+Stars,(stars:) pulsars: general,relatedMatch,Optical pulsars,http://astrothesaurus.org/uat/1173
+Stars,(stars:) pulsars: general,exactMatch,Pulsars,http://astrothesaurus.org/uat/1306
+Stars,(stars:) pulsars: general,relatedMatch,Radio pulsars,http://astrothesaurus.org/uat/1353
+Stars,(stars:) pulsars: general,relatedMatch,Rotation powered pulsars,http://astrothesaurus.org/uat/1408
+Stars,(stars:) pulsars: individual,(no match),,
+Stars,(stars:) starspots,exactMatch,Starspots,http://astrothesaurus.org/uat/1572
+Stars,(stars:) subdwarfs,exactMatch,Subdwarf stars,http://astrothesaurus.org/uat/2054
+Stars,(stars:) supergiants,exactMatch,Supergiant stars,http://astrothesaurus.org/uat/1661
+Stars,(stars:) supernovae: general,relatedMatch,Core-collapse supernovae,http://astrothesaurus.org/uat/304
+Stars,(stars:) supernovae: general,relatedMatch,Supernova dynamics,http://astrothesaurus.org/uat/1664
+Stars,(stars:) supernovae: general,relatedMatch,Supernova neutrinos,http://astrothesaurus.org/uat/1666
+Stars,(stars:) supernovae: general,relatedMatch,Supernova remnants,http://astrothesaurus.org/uat/1667
+Stars,(stars:) supernovae: general,exactMatch,Supernovae,http://astrothesaurus.org/uat/1668
+Stars,(stars:) supernovae: general,narrowMatch,Type Ia supernovae,http://astrothesaurus.org/uat/1728
+Stars,(stars:) supernovae: general,narrowMatch,Type Ib supernovae,http://astrothesaurus.org/uat/1729
+Stars,(stars:) supernovae: general,narrowMatch,Type Ic supernovae,http://astrothesaurus.org/uat/1730
+Stars,(stars:) supernovae: general,narrowMatch,Type II supernovae,http://astrothesaurus.org/uat/1731
+Stars,(stars:) supernovae: individual,(no match),,
+Stars,(stars:) white dwarfs,exactMatch,White dwarf stars,http://astrothesaurus.org/uat/1799
+Stars,stars: abundances,exactMatch,Stellar abundances,http://astrothesaurus.org/uat/1577
+Stars,stars: activity,exactMatch,Stellar activity,http://astrothesaurus.org/uat/1580
+Stars,stars: AGB and post-AGB,relatedMatch,Asymptotic giant branch,http://astrothesaurus.org/uat/108
+Stars,stars: AGB and post-AGB,relatedMatch,Asymptotic giant branch stars,http://astrothesaurus.org/uat/2100
+Stars,stars: AGB and post-AGB,relatedMatch,Post-asymptotic giant branch,http://astrothesaurus.org/uat/1287
+Stars,stars: atmospheres,exactMatch,Stellar atmospheres,http://astrothesaurus.org/uat/1584
+Stars,stars: black holes,exactMatch,Black holes,http://astrothesaurus.org/uat/162
+Stars,stars: carbon,exactMatch,Carbon stars,http://astrothesaurus.org/uat/199
+Stars,stars: chemically peculiar,exactMatch,Chemically peculiar stars,http://astrothesaurus.org/uat/226
+Stars,stars: chromospheres,exactMatch,Stellar chromospheres,http://astrothesaurus.org/uat/230
+Stars,stars: coronae,exactMatch,Stellar coronae,http://astrothesaurus.org/uat/305
+Stars,stars: distances,exactMatch,Stellar distance,http://astrothesaurus.org/uat/1595
+Stars,stars: dwarf novae,exactMatch,Dwarf novae,http://astrothesaurus.org/uat/418
+Stars,stars: early-type,exactMatch,Early-type stars,http://astrothesaurus.org/uat/430
+Stars,"stars: emission-line, Be",relatedMatch,Be stars,http://astrothesaurus.org/uat/142
+Stars,"stars: emission-line, Be",relatedMatch,Early-type emission stars,http://astrothesaurus.org/uat/428
+Stars,"stars: emission-line, Be",relatedMatch,Emission line stars,http://astrothesaurus.org/uat/460
+Stars,stars: evolution,exactMatch,Stellar evolution,http://astrothesaurus.org/uat/1599
+Stars,stars: flare,exactMatch,Stellar flares,http://astrothesaurus.org/uat/1603
+Stars,stars: formation,exactMatch,Star formation,http://astrothesaurus.org/uat/1569
+Stars,stars: fundamental parameters,exactMatch,Fundamental parameters of stars,http://astrothesaurus.org/uat/555
+Stars,stars: general,relatedMatch,Stellar types,http://astrothesaurus.org/uat/1634
+Stars,stars: horizontal-branch,relatedMatch,Extreme horizontal branch stars,http://astrothesaurus.org/uat/513
+Stars,stars: horizontal-branch,exactMatch,Horizontal branch stars,http://astrothesaurus.org/uat/746
+Stars,stars: horizontal-branch,relatedMatch,Zero-age horizontal branch stars,http://astrothesaurus.org/uat/1842
+Stars,stars: imaging,(no match),,
+Stars,stars: individual,(no match),,
+Stars,stars: interiors,exactMatch,Stellar interiors,http://astrothesaurus.org/uat/1606
+Stars,stars: jets,exactMatch,Stellar jets,http://astrothesaurus.org/uat/1607
+Stars,stars: kinematics and dynamics,relatedMatch,Stellar dynamics,http://astrothesaurus.org/uat/1596
+Stars,stars: kinematics and dynamics,relatedMatch,Stellar kinematics,http://astrothesaurus.org/uat/1608
+Stars,stars: late-type,exactMatch,Late-type stars,http://astrothesaurus.org/uat/909
+Stars,stars: low-mass,exactMatch,Low mass stars,http://astrothesaurus.org/uat/2050
+Stars,"stars: luminosity function, mass function",relatedMatch,Luminosity function,http://astrothesaurus.org/uat/942
+Stars,"stars: luminosity function, mass function",relatedMatch,Stellar mass functions,http://astrothesaurus.org/uat/1612
+Stars,stars: magnetars,exactMatch,Magnetars,http://astrothesaurus.org/uat/992
+Stars,stars: magnetic field,exactMatch,Stellar magnetic fields,http://astrothesaurus.org/uat/1610
+Stars,stars: massive,exactMatch,Massive stars,http://astrothesaurus.org/uat/732
+Stars,stars: mass-loss,exactMatch,Stellar mass loss,http://astrothesaurus.org/uat/1613
+Stars,stars: neutron,exactMatch,Neutron stars,http://astrothesaurus.org/uat/1108
+Stars,stars: oscillations (including pulsations),relatedMatch,Stellar oscillations,http://astrothesaurus.org/uat/1617
+Stars,stars: peculiar (except chemically peculiar),(no match),,
+Stars,stars: Population II,exactMatch,Population II stars,http://astrothesaurus.org/uat/1284
+Stars,stars: Population III,exactMatch,Population III stars,http://astrothesaurus.org/uat/1285
+Stars,stars: pre-main sequence,exactMatch,Pre-main sequence stars,http://astrothesaurus.org/uat/1290
+Stars,stars: protostars,exactMatch,Protostars,http://astrothesaurus.org/uat/1302
+Stars,stars: rotation,exactMatch,Stellar rotation,http://astrothesaurus.org/uat/1629
+Stars,stars: solar-type,exactMatch,Solar analog,http://astrothesaurus.org/uat/1941
+Stars,stars: statistics,exactMatch,Star counts,http://astrothesaurus.org/uat/1568
+Stars,stars: variables: Cepheids,exactMatch,Cepheid variable stars,http://astrothesaurus.org/uat/218
+Stars,stars: variables: delta Scuti,exactMatch,Delta Scuti variable stars,http://astrothesaurus.org/uat/370
+Stars,stars: variables: general,exactMatch,Variable stars,http://astrothesaurus.org/uat/1761
+Stars,stars: variables: RR Lyrae,exactMatch,RR Lyrae variable stars,http://astrothesaurus.org/uat/1410
+Stars,stars: variables: S Doradus,exactMatch,S Doradus stars,http://astrothesaurus.org/uat/1420
+Stars,"stars: variables: T Tauri, Herbig Ae/Be",relatedMatch,Herbig Ae/Be stars,http://astrothesaurus.org/uat/723
+Stars,"stars: variables: T Tauri, Herbig Ae/Be",relatedMatch,T Tauri stars,http://astrothesaurus.org/uat/1681
+Stars,"stars: winds, outflows",exactMatch,Stellar winds,http://astrothesaurus.org/uat/1636
+Stars,stars: Wolf–Rayet,exactMatch,Wolf-Rayet stars,http://astrothesaurus.org/uat/1806
+The Galaxy,(Galaxy:) globular clusters: general,exactMatch,Globular star clusters,http://astrothesaurus.org/uat/656
+The Galaxy,(Galaxy:) globular clusters: individual,(no match),,
+The Galaxy,(Galaxy:) local interstellar matter,(no match),,
+The Galaxy,(Galaxy:) open clusters and associations: general,relatedMatch,Open star clusters,http://astrothesaurus.org/uat/1160
+The Galaxy,(Galaxy:) open clusters and associations: general,relatedMatch,Stellar associations,http://astrothesaurus.org/uat/1582
+The Galaxy,(Galaxy:) solar neighborhood,exactMatch,Solar neighborhood,http://astrothesaurus.org/uat/1509
+The Galaxy,Galaxy: abundances,exactMatch,Galactic abundances,http://astrothesaurus.org/uat/2002
+The Galaxy,Galaxy: bulge,exactMatch,Galactic bulge,http://astrothesaurus.org/uat/2041
+The Galaxy,Galaxy: center,exactMatch,Galactic center,http://astrothesaurus.org/uat/565
+The Galaxy,Galaxy: disk,exactMatch,Milky Way disk,http://astrothesaurus.org/uat/1050
+The Galaxy,Galaxy: evolution,exactMatch,Milky Way evolution,http://astrothesaurus.org/uat/1052
+The Galaxy,Galaxy: formation,exactMatch,Milky Way formation,http://astrothesaurus.org/uat/1053
+The Galaxy,Galaxy: fundamental parameters,relatedMatch,Milky Way Galaxy physics,http://astrothesaurus.org/uat/1056
+The Galaxy,Galaxy: general,exactMatch,Milky Way Galaxy,http://astrothesaurus.org/uat/1054
+The Galaxy,Galaxy: halo,relatedMatch,Milky Way dark matter halo,http://astrothesaurus.org/uat/1049
+The Galaxy,Galaxy: halo,relatedMatch,Milky Way stellar halo,http://astrothesaurus.org/uat/1060
+The Galaxy,Galaxy: kinematics and dynamics,relatedMatch,Galaxy kinematics,http://astrothesaurus.org/uat/602
+The Galaxy,Galaxy: kinematics and dynamics,relatedMatch,Milky Way dynamics,http://astrothesaurus.org/uat/1051
+The Galaxy,Galaxy: nucleus,relatedMatch,Galaxy nuclei,http://astrothesaurus.org/uat/609
+The Galaxy,Galaxy: stellar content,relatedMatch,Galaxy stellar content,http://astrothesaurus.org/uat/621
+The Galaxy,Galaxy: structure,relatedMatch,Galaxy structure,http://astrothesaurus.org/uat/622
+The Sun,(Sun:) solar wind,exactMatch,Solar wind,http://astrothesaurus.org/uat/1534
+The Sun,(Sun:) solar–terrestrial relations,exactMatch,Solar-terrestrial interactions,http://astrothesaurus.org/uat/1473
+The Sun,(Sun:) sunspots,exactMatch,Sunspots,http://astrothesaurus.org/uat/1653
+The Sun,Sun: abundances,exactMatch,Solar abundances,http://astrothesaurus.org/uat/1474
+The Sun,Sun: activity,exactMatch,Solar activity,http://astrothesaurus.org/uat/1475
+The Sun,Sun: atmosphere,exactMatch,Solar atmosphere,http://astrothesaurus.org/uat/1477
+The Sun,Sun: chromosphere,exactMatch,Solar chromosphere,http://astrothesaurus.org/uat/1479
+The Sun,Sun: corona,exactMatch,Solar corona,http://astrothesaurus.org/uat/1483
+The Sun,Sun: coronal mass ejections (CMEs),exactMatch,Solar coronal mass ejections,http://astrothesaurus.org/uat/310
+The Sun,Sun: evolution,exactMatch,Solar evolution,http://astrothesaurus.org/uat/1492
+The Sun,"Sun: faculae, plages",relatedMatch,Plages,http://astrothesaurus.org/uat/1240
+The Sun,"Sun: faculae, plages",relatedMatch,Solar faculae,http://astrothesaurus.org/uat/1494
+The Sun,"Sun: filaments, prominences",relatedMatch,Solar filaments,http://astrothesaurus.org/uat/1495
+The Sun,"Sun: filaments, prominences",relatedMatch,Solar prominences,http://astrothesaurus.org/uat/1519
+The Sun,Sun: flares,exactMatch,Solar flares,http://astrothesaurus.org/uat/1496
+The Sun,Sun: fundamental parameters,relatedMatch,Solar physics,http://astrothesaurus.org/uat/1476
+The Sun,Sun: general,exactMatch,The Sun,http://astrothesaurus.org/uat/1693
+The Sun,Sun: granulation,exactMatch,Solar granulation,http://astrothesaurus.org/uat/1498
+The Sun,Sun: helioseismology,exactMatch,Helioseismology,http://astrothesaurus.org/uat/709
+The Sun,Sun: heliosphere,exactMatch,Heliosphere,http://astrothesaurus.org/uat/711
+The Sun,Sun: infrared,(no match),,
+The Sun,Sun: interior,exactMatch,Solar interior,http://astrothesaurus.org/uat/1500
+The Sun,Sun: magnetic fields,exactMatch,Solar magnetic fields,http://astrothesaurus.org/uat/1503
+The Sun,Sun: oscillations,exactMatch,Solar oscillations,http://astrothesaurus.org/uat/1515
+The Sun,Sun: particle emission,exactMatch,Solar particle emission,http://astrothesaurus.org/uat/1517
+The Sun,Sun: photosphere,exactMatch,Solar photosphere,http://astrothesaurus.org/uat/1518
+The Sun,Sun: radio radiation,exactMatch,Solar radio emission,http://astrothesaurus.org/uat/1522
+The Sun,Sun: rotation,exactMatch,Solar rotation,http://astrothesaurus.org/uat/1524
+The Sun,Sun: transition region,exactMatch,Solar transition region,http://astrothesaurus.org/uat/1532
+The Sun,Sun: UV radiation,exactMatch,Solar ultraviolet emission,http://astrothesaurus.org/uat/1533
+The Sun,"Sun: X-rays, gamma rays",exactMatch,Solar gamma-ray emission,http://astrothesaurus.org/uat/1497
+The Sun,"Sun: X-rays, gamma rays",exactMatch,Solar X-ray emission,http://astrothesaurus.org/uat/1536
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
