@@ -21,4 +21,4 @@ Release Date: 9/21/2018
 - Removed 20 related links, added 242 new related links.
 - Resolves Issues in [Milestone Baerlon](https://github.com/astrothesaurus/UAT/milestone/1?closed=1), [Milestone Stellar types reorganization](https://github.com/astrothesaurus/UAT/milestone/3?closed=1), and [Milestone Solar physics updates](https://github.com/astrothesaurus/UAT/milestone/4?closed=1)
 
-For a detailed list of changes see [full release notes](https://github.com/astrothesaurus/UAT/).
+For a detailed list of changes see [full release notes](https://github.com/astrothesaurus/UAT/blob/master/UAT_3.0.0_release_note_full.md).
