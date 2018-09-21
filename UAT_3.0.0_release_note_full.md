@@ -272,7 +272,7 @@ Added 258 new concepts:
 | http://astrothesaurus.org/uat/2093 | Theoretical techniques |
 | http://astrothesaurus.org/uat/2094 | Mass spectrometry |
 | http://astrothesaurus.org/uat/2095 | Molecular spectroscopy |
-| http://astrothesaurus.org/uat/2096 | High resolution spectroscropy |
+| http://astrothesaurus.org/uat/2096 | High resolution spectroscopy |
 | http://astrothesaurus.org/uat/2097 | Photoelectron spectroscopy |
 | http://astrothesaurus.org/uat/2098 | Experimental models |
 | http://astrothesaurus.org/uat/2099 | Atomic spectroscopy |
@@ -468,7 +468,7 @@ Added 242 new related concept links:
 | http://astrothesaurus.org/uat/1000 | Main sequence stars | http://astrothesaurus.org/uat/2047 | Main sequence |
 | http://astrothesaurus.org/uat/1007 | Mars | http://astrothesaurus.org/uat/1009 | Martian satellites |
 | http://astrothesaurus.org/uat/1009 | Martian satellites | http://astrothesaurus.org/uat/1007 | Mars |
-| http://astrothesaurus.org/uat/1013 | Mass spectrometers | http://astrothesaurus.org/uat/2094 | Mass spectrometery |
+| http://astrothesaurus.org/uat/1013 | Mass spectrometers | http://astrothesaurus.org/uat/2094 | Mass spectrometry |
 | http://astrothesaurus.org/uat/1017 | Me stars | http://astrothesaurus.org/uat/1066 | Mira variable stars |
 | http://astrothesaurus.org/uat/1049 | Milky Way dark matter halo | http://astrothesaurus.org/uat/1880 | Galaxy dark matter halos |
 | http://astrothesaurus.org/uat/1050 | Milky Way disk | http://astrothesaurus.org/uat/589 | Galaxy disks |
@@ -617,7 +617,7 @@ Added 242 new related concept links:
 | http://astrothesaurus.org/uat/2090 | Solid matter physics | http://astrothesaurus.org/uat/836 | Interstellar dust |
 | http://astrothesaurus.org/uat/2090 | Solid matter physics | http://astrothesaurus.org/uat/838 | Interstellar dust processes |
 | http://astrothesaurus.org/uat/2090 | Solid matter physics | http://astrothesaurus.org/uat/99 | Astrophysical dust processes |
-| http://astrothesaurus.org/uat/2094 | Mass spectrometery | http://astrothesaurus.org/uat/1013 | Mass spectrometers |
+| http://astrothesaurus.org/uat/2094 | Mass spectrometry | http://astrothesaurus.org/uat/1013 | Mass spectrometers |
 | http://astrothesaurus.org/uat/2095 | Molecular spectroscopy | http://astrothesaurus.org/uat/2058 | Molecular physics |
 | http://astrothesaurus.org/uat/2099 | Atomic spectroscopy | http://astrothesaurus.org/uat/2063 | Atomic physics |
 | http://astrothesaurus.org/uat/2100 | Asymptotic giant branch stars | http://astrothesaurus.org/uat/108 | Asymptotic giant branch |
