@@ -19,7 +19,7 @@ Release Date: 9/21/2018
 - Added or updated AltLabels for 196 concepts, remove AltLabels for 34 concepts.
 - Added 8 definitions, 15 scope notes, and 1 example.
 - Removed 20 related links, added 242 new related links.
-- Resolves Issues in [Milestone Baerlon](https://github.com/astrothesaurus/UAT/milestone/1?closed=1), [Milestone Stellar types reorganization](https://github.com/astrothesaurus/UAT/milestone/3?closed=1), and [Milestone Solar physics updates](https://github.com/astrothesaurus/UAT/milestone/4?closed=1)
+- Resolves Issues in [Milestone Baerlon](https://github.com/astrothesaurus/UAT/milestone/1?closed=1), [Milestone Stellar types reorganization](https://github.com/astrothesaurus/UAT/milestone/3?closed=1), and [Milestone Solar physics updates](https://github.com/astrothesaurus/UAT/milestone/4?closed=1) 
 
 ### Detailed List of Changes
 
