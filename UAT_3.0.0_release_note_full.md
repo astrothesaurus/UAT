@@ -17,7 +17,7 @@ Release Date: 9/21/2018
 - 51 concepts were deprecated.
 - The preferred label of 88 concepts were updated to add context, clarity, and consistency.
 - Added or updated AltLabels for 196 concepts, remove AltLabels for 34 concepts.
-- Added 6 defintions, 15 scope notes, and 1 example.
+- Added 8 defintions, 15 scope notes, and 1 example.
 - Removed 20 related links, added 242 new related links.
 - Resolves Issues in [Milestone Baerlon](https://github.com/astrothesaurus/UAT/milestone/1?closed=1), [Milestone Stellar types reorganization](https://github.com/astrothesaurus/UAT/milestone/3?closed=1), and [Milestone Solar physics updates](https://github.com/astrothesaurus/UAT/milestone/4?closed=1)
 
@@ -379,11 +379,6 @@ Updated the preferred label of 88 concepts:
 | http://astrothesaurus.org/uat/1827 | Y dwarf stars | Y dwarfs |
 | http://astrothesaurus.org/uat/1829 | Yellow stragglers | Yellow straggler stars |
 
-Moved ## concepts to new locations within the hierarchy:                 
-
-| Concept URI | Concept PrefLabel | Old Parent PrefLabel | New Parent PrefLabel |
-| --- | --- | --- | --- |
-
 Added 242 new related concept links:
 
 | Concept URI | Concept PrefLabel | Related Concept URI | Related Concept PrefLabel |
@@ -631,7 +626,6 @@ Added 242 new related concept links:
 | http://astrothesaurus.org/uat/2103 | Field stars | http://astrothesaurus.org/uat/1567 | Star clusters |
 | http://astrothesaurus.org/uat/2108 | Visible sources | http://astrothesaurus.org/uat/1776 | Visible astronomy |
 
-
 Removed 20 related concept links:
 
 | Concept URI | Concept PrefLabel | Related Concept URI | Related Concept PrefLabel |
@@ -859,6 +853,7 @@ Alternate Labels added or updated for 196 concepts:
 | http://astrothesaurus.org/uat/2108 | Visible sources | Visible radiation sources |
 
 Removed alternate labels for 34 concepts:
+
 | Concept URI | PrefLabel | Removed AltLabels |
 | --- | --- | --- |
 | http://astrothesaurus.org/uat/5 | A stars | A-type main sequence stars |
@@ -896,14 +891,16 @@ Removed alternate labels for 34 concepts:
 | http://astrothesaurus.org/uat/1830 | Yerkes classification | MK classification |
 | http://astrothesaurus.org/uat/1842 | Zero-age horizontal branch stars | Zero-age horizontal branch |
 
-Defintions added for 6 concepts:
+Defintions added for 8 concepts:
 
 | Concept URI | PrefLabel | Definition |
 | --- | --- | --- |
+ | http://astrothesaurus.org/uat/74 | Astrobiology | "The study of life throughout the Universe, also known as exobiology." - An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri. |
 | http://astrothesaurus.org/uat/221 | Chandrasekhar limit | The maximum mass limit for a white dwarf star, ~1.44 solar masses.  White dwarf stars in a binary system accreting mass from a companion will collapse in a Type II supernova once this limit is exceeded. |
 | http://astrothesaurus.org/uat/271 | Comas | The nebulous envelope around the nucleus of a comet, formed when the comet passes close to the Sun. |
 | http://astrothesaurus.org/uat/407 | DQ Herculis stars | "A type of cataclysmic variable binary star system with a white dwarf and a cool main-sequence secondary star." - Wikipedia |
 | http://astrothesaurus.org/uat/533 | Field galaxies | "A galaxy that lies in the direction of a cluster of galaxies, but is not a member of the cluster. Field galaxies are rare, less than about 5% of all galaxies." - An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri. |
+| http://astrothesaurus.org/uat/1826 | Xenobiology | "the study of synthesizing and manipulating biological devices and systems" - Wikipedia |
 | http://astrothesaurus.org/uat/2045 | Schonberg-Chandrasekhar limit | This represents the maximum fraction of a star's mass that can be contained within an isothermal core while still supporting the rest of the star in hydrostatic equilibrium.  Once the mass of an isothermal helium core exceeds this limit, the corse collapses and the star evolve rapidly.  The limit varies depending on the star. |
 | http://astrothesaurus.org/uat/2103 | Field stars | "A star that does not belong to a stellar cluster, but happens to be adjacent to it." - An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri. |
 

@@ -17,7 +17,7 @@ Release Date: 9/21/2018
 - 51 concepts were deprecated.
 - The preferred label of 88 concepts were updated to add context, clarity, and consistency.
 - Added or updated AltLabels for 196 concepts, remove AltLabels for 34 concepts.
-- Added 6 defintions, 15 scope notes, and 1 example.
+- Added 8 defintions, 15 scope notes, and 1 example.
 - Removed 20 related links, added 242 new related links.
 - Resolves Issues in [Milestone Baerlon](https://github.com/astrothesaurus/UAT/milestone/1?closed=1), [Milestone Stellar types reorganization](https://github.com/astrothesaurus/UAT/milestone/3?closed=1), and [Milestone Solar physics updates](https://github.com/astrothesaurus/UAT/milestone/4?closed=1)
 
