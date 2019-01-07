@@ -14,3 +14,9 @@ The UAT builds upon the existing IAU Thesaurus with major contributions from the
 While the AAS has assumed formal ownership of the UAT, the work will be available under a Creative Commons License, ensuring its widest use while protecting the intellectual property of the contributors. We envision that development and maintenance will be stewarded by a broad group of parties having a direct stake in it.  This includes professional associations (IVOA, IAU), learned societies (AAS, RAS), publishers (IOP, AIP), librarians and other curators working for major astronomy institutes and data archives. 
 
 More information and updates are available from http://astrothesaurus.org
+
+
+LICENSE:
+--------
+
+The Unified Astronomy Thesaurus is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.  See LICENSE.md for details.
