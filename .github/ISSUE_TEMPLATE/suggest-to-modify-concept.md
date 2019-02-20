@@ -1,7 +1,7 @@
 ---
-name: Modify Concept
+name: Suggest to Modify Concept
 about: Suggest a change to an existing concept
-title: 'Modigy Concept: [concept name here]'
+title: 'Modify Concept: [concept name here]'
 labels: modify concept
 assignees: katieefrey
 
