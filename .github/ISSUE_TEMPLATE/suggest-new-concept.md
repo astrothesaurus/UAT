@@ -11,7 +11,7 @@ assignees: katieefrey
 Provide your preferred label for the new concept
 
 **Describe the concept**
-Does this new concept relate to any other terms already found in the UAT?  Can you describe that relationship? What does the new concept mean?  Is it very generic or common?
+Does this new concept relate to any other terms already found in the UAT?  Can you describe that relationship? What does the new concept mean?  Is it more general or specific?
 
 **Describe where the concept fits within the existing hierarchy**
 Don't forget that concepts can exist in multiple locations within the UAT.
