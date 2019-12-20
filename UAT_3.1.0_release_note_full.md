@@ -158,7 +158,7 @@ Release Date: 12/20/2019
 | http://astrothesaurus.org/uat/2155 | Roche lobe overflow | http://astrothesaurus.org/uat/1405 | Roche lobe |
 | http://astrothesaurus.org/uat/2156 | Common envelope binary stars | http://astrothesaurus.org/uat/2154 | Common envelope evolution |
 
-#### Alternate Labels added or updated for ## concepts:
+#### Alternate Labels added or updated for 51 concepts:
 
 | Concept URI | PrefLabel | Alternate Labels |
 | --- | --- | --- |
