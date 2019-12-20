@@ -3,6 +3,8 @@ IMPORTANT NOTE:
 
 Feedback on the UAT should be submitted via the options listed in the CONTRIBUTING.md file.
 
+Please note that this project is released with a [Contributor Covenant Code of Conduct](https://github.com/astrothesaurus/UAT/blob/master/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+
 
 ABOUT THE UAT: 
 -------------- 
