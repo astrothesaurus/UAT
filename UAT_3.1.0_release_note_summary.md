@@ -7,8 +7,8 @@ Release Date: 12/20/2019
 ### Overview of Changes
 * [Contributor Covenant Code of Conduct](https://github.com/astrothesaurus/UAT/blob/master/CODE_OF_CONDUCT.md) has been added.
 * Minor revisions of two branches:
- * Gravitational lensing
- * Comets
+  * Gravitational lensing
+  * Comets
 * Added 54 new concepts.
 * Deprecated 7 concepts.
 * The preferred label of 18 concepts were updated to add context, clarity, and consistency.
