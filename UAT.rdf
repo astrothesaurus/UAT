@@ -27368,4 +27368,457 @@
 	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-13T21:39:17.809Z</created>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/661">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/104">
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/661">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-31T16:35:06.224Z</modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/104">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-31T16:35:06.224Z</modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/641">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-31T16:37:31.784Z</modified>
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1067">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Mira variable stars</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1103">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Neutrino oscillation</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1326">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">R Coronae Borealis stars</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/527">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Far-infrared astronomy</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/554">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">FU Orionis stars</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/934">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Long period variable stars</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/945">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Luminous blue variables</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/393">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Disk stars</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/482">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/579">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Galaxy chemical composition</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/132">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Bailey type stars</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/778">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">I galaxies</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1422">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1480">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Solar composition</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/926">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Lithium abundance</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1364">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">RC Aurigae stars</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/817">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Intermediate population stars</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1520">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/298">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Continuum radio emission</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1665">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Supernova evolution</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/393">
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/392">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Disk population</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1588">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Stellar chemical composition</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/282">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Compact binary components</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/284">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1414">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">RRb stars</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1448">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Seyfert's sextet</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/485">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Exoplanet astrometry</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/13">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Accreting binary stars</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1411">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">RR Telescopii stars</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/749">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Horseshoe mounts</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/357">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Darkrooms</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/146">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Beryllium abundance</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1726">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Two-spectrum binary stars</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1279">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Polarimetry [Exoplanets]</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/926">
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/713">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Helium abundance</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1831">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Yoke mounts</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1798">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">White dwarf evolution</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1598">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Stellar elemental abundances</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/462">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">English mounts</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/781">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Individual planetary nebulae</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1802">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Wilson-Bappu Effect</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1505">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Solar magnetism</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/547">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Fork mounts</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/471">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Equinox correction</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/749">
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/649">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">German equatorial mounts</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1591">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Stellar composition</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1414">
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1412">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">RRA stars</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/713">
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/176">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Boron abundance</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1333">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Radial velocity methods [Exoplanets]</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/143">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Be type stars</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/474">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Eruptive binary stars</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/782">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Individual quasars</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1279">
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1665">
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/636">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Gamma-ray telescopes</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/720">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Henry Draper Catalogue</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/587">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Galaxy components</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/454">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Elemental abundance</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1520">
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Solar properties</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/176">
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/284">
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Compact binary systems</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1422">
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">S Vulpeculae stars</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/284">
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/282">
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/673">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Gravitational microlensing [Exoplanets]</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1206">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Penumbral filaments</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/482">
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Exobiology</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2071">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Radiative processes</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2043">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Stellar M coronal regions</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/984">
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Solar M coronal region</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/625">
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Galaxy voids</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/815">
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Intergalactic voids</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/275">
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cometary atmospheres</label>
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/279">
+	<deprecated xmlns="http://www.w3.org/2002/07/owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</deprecated>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cometary studies</label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
 </rdf:RDF>
