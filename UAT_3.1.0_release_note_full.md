@@ -233,13 +233,10 @@ Release Date: 12/20/2019
 
 | Deprecated Concept URI | Deprecated Concept PrefLabel | Reason |
 | --- | --- | --- |
-| http://astrothesaurus.org/uat/275 | Cometary atmospheres | Duplicate concept, merged into Comae (
-http://astrothesaurus.org/uat/271) |
+| http://astrothesaurus.org/uat/275 | Cometary atmospheres | Duplicate concept, merged into Comae (http://astrothesaurus.org/uat/271) |
 | http://astrothesaurus.org/uat/279 | Cometary studies | Removed, vague concept |
-| http://astrothesaurus.org/uat/625 | Galaxy voids | Duplicate concept, merged into Voids (
-http://astrothesaurus.org/uat/1779) |
-| http://astrothesaurus.org/uat/815 | Intergalactic voids | Duplicate concept, merged into Voids (
-http://astrothesaurus.org/uat/1779) |
+| http://astrothesaurus.org/uat/625 | Galaxy voids | Duplicate concept, merged into Voids (http://astrothesaurus.org/uat/1779) |
+| http://astrothesaurus.org/uat/815 | Intergalactic voids | Duplicate concept, merged into Voids (http://astrothesaurus.org/uat/1779) |
 | http://astrothesaurus.org/uat/984 | Solar M coronal region | Duplicate concept, merged into Solar coronal holes (http://astrothesaurus.org/uat/1484) 
 | http://astrothesaurus.org/uat/2043 | Stellar M coronal regions | Duplicate concept, merged into Stellar coronal holes (http://astrothesaurus.org/uat/307)
 | http://astrothesaurus.org/uat/2071 | Radiative processes | Duplicate concept, merged into Radiative processes (http://astrothesaurus.org/uat/2055) |
