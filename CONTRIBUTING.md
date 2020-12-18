@@ -1,6 +1,6 @@
 This repository is meant to be used as an archive for current and past versions of the Unified Astronomy Thesaurus.
 
-Please note that this project is released with a [Contributor Covenant Code of Conduct](https://github.com/astrothesaurus/UAT/blob/master/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
 Methods for providing contributions:
 
