@@ -21,7 +21,7 @@ Release Date: 12/18/2020
 * Added definitions to 854 concepts, scope notes to 14 concepts, and examples to 9 concepts
 * About 40% of UAT concepts now have definitions, more expected in the next release.
 * Added 72 new related links, removed 2 related links.
-* Resolves Issues in [Milestone ###](https://github.com/astrothesaurus/UAT/milestone/10?closed=1).
+* Resolves Issues in [Milestone 2020 UAT Release](https://github.com/astrothesaurus/UAT/milestone/10?closed=1).
 
 ### Detailed List of Changes
 
