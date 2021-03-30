@@ -2848,7 +2848,13 @@
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1027">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Transit circles</altLabel>
-	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Transit telescopes</altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1039">
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Meteoroid dust</altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1027">
 	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://astrothesaurus.org/uat/1689"/>
 	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://astrothesaurus.org/uat/1708"/>
 	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Meridian circles</prefLabel>
@@ -5117,7 +5123,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1027">
-	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-10T19:24:58.230Z</modified>
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1030">
@@ -18773,8 +18779,11 @@
 	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://astrothesaurus.org/uat/719"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1356">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-17T16:25:57.624Z</modified>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/719">
-	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:55:51.469Z</modified>
 	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">HD system</altLabel>
 	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Harvard classification</altLabel>
 	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Henry Draper system</altLabel>
@@ -22199,8 +22208,11 @@
 	<related xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://astrothesaurus.org/uat/1244"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1428">
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Modified gravity</altLabel>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/221">
-	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chandrasekhar limit</prefLabel>
 </rdf:Description>
 
@@ -22218,7 +22230,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/221">
-	<definition xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">The maximum mass limit for a white dwarf star, ~1.44 solar masses.  White dwarf stars in a binary system accreting mass from a companion will collapse in a Type II supernova once this limit is exceeded.</definition>
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1165">
@@ -22445,7 +22457,10 @@
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2045">
 	<scopeNote xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Not to be confused with the Chandrasekhar limit.</scopeNote>
 	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Schoenberg-Chandrasekhar limit</altLabel>
-	<definition xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">This represents the maximum fraction of a star's mass that can be contained within an isothermal core while still supporting the rest of the star in hydrostatic equilibrium.  Once the mass of an isothermal helium core exceeds this limit, the core collapses and the star evolve rapidly.  The limit varies depending on the star.</definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1428">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-17T16:27:01.026Z</modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1799">
@@ -26809,8 +26824,8 @@
 	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/841">
-	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1039">
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-17T16:21:54.641Z</modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/852">
@@ -27938,7 +27953,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1027">
-	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-30T14:16:13.640Z</modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/753">
@@ -29576,11 +29591,14 @@
 	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1356">
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Cambridge Catalogue of Radio Sources</altLabel>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/837">
-	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Interstellar extinction</altLabel>
 	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<definition xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">The dimming of light traveling in the interstellar space due to the combined effects of absorption and scattering by interstellar dust particles. Interstellar extinction increases at shorter (bluer) wavelengths, resulting in interstellar reddening.</definition>
-	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T16:09:12.802Z</modified>
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-30T14:13:48.130Z</modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/845">
@@ -30147,7 +30165,7 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/221">
 	<definition xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">A limiting mass of about 1.44 Solar masses that the theory predicts a non-rotating white dwarf can attain without collapsing to become a neutron star or a black hole. Over this critical mass, the degeneracy pressure will be unable to bear the load of the bulk mass.</definition>
-	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T19:09:46.031Z</modified>
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-30T14:12:17.972Z</modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/224">
@@ -30774,7 +30792,7 @@
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2045">
 	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Schönberg-Chandrasekhar limit</altLabel>
-	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-17T16:43:39.060Z</modified>
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-30T14:11:50.521Z</modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1368">
@@ -32070,7 +32088,7 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/719">
 	<definition xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">A catalog of stars in which every star is classified by its stellar spectrum. This system is named for the astronomer Henry Draper, but was cataloged by Annie J. Cannon (225,300 stars), and later extended by Margaret W. Mayall.</definition>
-	<definition xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">A classification of stellar spectra published in the Henry Draper catalogue, which was prepared in the early twentieth century by E. C. Pickering and Miss Annie Canon. It is based on the characteristic lines and bands of the chemical elements. The most important classes in order of decreasing temperatures are as follows: O, B, A, F, G, K, M.</definition>
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-30T14:13:25.212Z</modified>
 	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 </rdf:Description>
 
@@ -32383,8 +32401,8 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/841">
-	<definition xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">The dimming of light traveling in the interstellar space due to the combined effects of absorption and scattering by interstellar dust particles. Interstellar extinction increases at shorter (bluer) wavelengths, resulting in interstellar reddening.</definition>
-	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-10T17:47:24.918Z</modified>
+	<contributor xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-30T14:14:17.118Z</modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/852">
@@ -33216,8 +33234,8 @@
 	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Minor planets</altLabel>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1469">
-	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Minor planets</altLabel>
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1255">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://astrothesaurus.org/uat/2214"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/860">
@@ -33414,7 +33432,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1469">
-	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:37:49.731Z</modified>
+	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-30T14:17:07.280Z</modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2209">
@@ -33579,25 +33597,6 @@
 	<created xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-11T18:53:39.323Z</created>
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<creator xmlns="http://purl.org/dc/terms/" rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1255">
-	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://astrothesaurus.org/uat/2214"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1039">
-	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Meteoroid dust</altLabel>
-	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-17T16:21:54.641Z</modified>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1356">
-	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Cambridge Catalogue of Radio Sources</altLabel>
-	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-17T16:25:57.624Z</modified>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1428">
-	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Modified gravity</altLabel>
-	<modified xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-17T16:27:01.026Z</modified>
 </rdf:Description>
 
 </rdf:RDF>
