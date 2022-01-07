@@ -7,7 +7,7 @@ Release Date: 01/07/2022
 ### Overview of Changes
 * Added en-GB language PrefLabels to 42 concepts.
 * Added 1 new concept, with alternate labels, related links, an example, and definition.
-* Updated alternate labels and defintion for 1 concept.
+* Updated alternate labels and definition for 1 concept.
 * Resolves Issues in [Milestone 4.2.0 UAT Release](https://github.com/astrothesaurus/UAT/milestone/15?closed=1).
 
 ### Detailed List of Changes
