@@ -3912,6 +3912,9 @@
                 "name": "Protoplanetary nebulae",
                 "uri": "http://astrothesaurus.org/uat/1301"
             }, {
+                "name": "Pulsar wind nebulae",
+                "uri": "http://astrothesaurus.org/uat/2215"
+            }, {
                 "name": "Reflection nebulae",
                 "uri": "http://astrothesaurus.org/uat/1381"
             }, {
@@ -3919,7 +3922,11 @@
                 "uri": "http://astrothesaurus.org/uat/1401"
             }, {
                 "name": "Supernova remnants",
-                "uri": "http://astrothesaurus.org/uat/1667"
+                "uri": "http://astrothesaurus.org/uat/1667",
+                "children": [{
+                    "name": "Pulsar wind nebulae",
+                    "uri": "http://astrothesaurus.org/uat/2215"
+                }]
             }]
         }, {
             "name": "Protostars",
@@ -4011,7 +4018,11 @@
             "uri": "http://astrothesaurus.org/uat/1656"
         }, {
             "name": "Supernova remnants",
-            "uri": "http://astrothesaurus.org/uat/1667"
+            "uri": "http://astrothesaurus.org/uat/1667",
+            "children": [{
+                "name": "Pulsar wind nebulae",
+                "uri": "http://astrothesaurus.org/uat/2215"
+            }]
         }, {
             "name": "Tidal tails",
             "uri": "http://astrothesaurus.org/uat/1701"
