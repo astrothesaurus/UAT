@@ -99,6 +99,9 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1002">
+	<rdfs:label xml:lang="en">Makemake</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx411"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx412"/>
@@ -751,6 +754,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-10T19:35:58.642Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1065">
+	<rdfs:label xml:lang="en">Minor planets</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:editorialNote rdf:nodeID="node1emrsetdcx429"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx430"/>
@@ -772,6 +778,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:43:34.765Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1067">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Mira variable stars</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:43:18.283Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx331"/>
@@ -1162,11 +1171,13 @@
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1100"/>
 	<skos:prefLabel xml:lang="en">Neutrino masses</skos:prefLabel>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1103">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/1103">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Neutrino oscillation</rdfs:label>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx332"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:44:32.674Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
+</skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1104">
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1251,12 +1262,14 @@
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/684"/>
 	<skos:prefLabel xml:lang="en">Nitrous oxide</skos:prefLabel>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1115">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/1115">
+	<rdfs:label xml:lang="en">Noctilucent clouds</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx404"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx405"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:53:59.530Z</dcterms:modified>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/1116">
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/343"/>
 	<skos:prefLabel xml:lang="en">Non-Gaussianity</skos:prefLabel>
@@ -2005,6 +2018,9 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1185">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Orcus</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx424"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:30:14.928Z</dcterms:modified>
@@ -2230,6 +2246,9 @@
 	<skos:editorialNote rdf:nodeID="node1emrsetdcx21"/>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1206">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Penumbral filaments</rdfs:label>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx432"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:39:35.083Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -2897,6 +2916,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-17T19:48:20.393Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1279">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Polarimetry [Exoplanets]</rdfs:label>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:16:49.912Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx378"/>
@@ -3146,11 +3168,13 @@
 	<skos:editorialNote rdf:nodeID="node1emrsetdcx47"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-17T19:54:52.864Z</dcterms:modified>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/13">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/13">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Accreting binary stars</rdfs:label>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx362"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T18:59:55.170Z</dcterms:modified>
-</rdf:Description>
+</skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/130">
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -3339,6 +3363,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-17T19:58:42.057Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1315">
+	<rdfs:label xml:lang="en">Quaoar</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx414"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx415"/>
@@ -3380,6 +3407,9 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/132">
+	<rdfs:label xml:lang="en">Bailey type stars</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:54:11.926Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx340"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -3443,6 +3473,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-05T20:27:55.187Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1326">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">R Coronae Borealis stars</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx334"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:47:28.238Z</dcterms:modified>
@@ -3511,11 +3544,13 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-17T20:03:19.834Z</dcterms:modified>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1333">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/1333">
+	<rdfs:label xml:lang="en">Radial velocity methods [Exoplanets]</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx379"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:17:50.883Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/1334">
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1629"/>
 	<skos:prefLabel xml:lang="en">Radiative braking</skos:prefLabel>
@@ -3829,6 +3864,9 @@
 	<skos:prefLabel xml:lang="en">Rapid stellar oscillations</skos:prefLabel>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1364">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">RC Aurigae stars</rdfs:label>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx366"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx367"/>
@@ -4290,11 +4328,17 @@
 	<skos:editorialNote rdf:nodeID="node1ell3dmacx326"/>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1411">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">RR Telescopii stars</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:06:23.896Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx368"/>
 </rdf:Description>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1412">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">RRA stars</rdfs:label>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx337"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:50:08.448Z</dcterms:modified>
@@ -4312,6 +4356,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:50:44.618Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1414">
+	<rdfs:label xml:lang="en">RRb stars</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx336"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:49:48.880Z</dcterms:modified>
@@ -4416,6 +4463,9 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1422">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">S Vulpeculae stars</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx374"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx375"/>
@@ -4500,6 +4550,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-17T20:35:19.665Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/143">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Be type stars</rdfs:label>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx382"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:21:28.604Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -4603,12 +4656,14 @@
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1686"/>
 	<skos:prefLabel xml:lang="en">Bediasites</skos:prefLabel>
 </rdf:Description>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1440">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/1440">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Sedna</rdfs:label>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx425"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx426"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:31:02.287Z</dcterms:modified>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/1441">
 	<skos:altLabel xml:lang="en">Geology of the Moon</skos:altLabel>
 	<skos:altLabel xml:lang="en">Lunar geology</skos:altLabel>
@@ -4686,6 +4741,9 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1448">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Seyfert's sextet</rdfs:label>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T16:32:10.178Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx349"/>
@@ -4800,6 +4858,9 @@
 	<skos:prefLabel xml:lang="en">Silicon stars</skos:prefLabel>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/146">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Beryllium abundance</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx385"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:24:30.250Z</dcterms:modified>
@@ -5056,6 +5117,9 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1480">
+	<rdfs:label xml:lang="en">Solar composition</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx344"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:59:22.573Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -5368,11 +5432,13 @@
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1503"/>
 	<skos:prefLabel xml:lang="en">Solar magnetic reconnection</skos:prefLabel>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1505">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/1505">
+	<rdfs:label xml:lang="en">Solar magnetism</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx345"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T16:00:34.908Z</dcterms:modified>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/1506">
 	<skos:prefLabel xml:lang="en">Solar mass</skos:prefLabel>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
@@ -5531,6 +5597,9 @@
 	<skos:editorialNote rdf:nodeID="node1ell3dmacx179"/>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1520">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Solar properties</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx440"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:48:53.888Z</dcterms:modified>
@@ -6123,6 +6192,9 @@
 	<skos:prefLabel xml:lang="en">Steady-state theory</skos:prefLabel>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1575">
+	<rdfs:label xml:lang="en">Stephan's quintet</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx350"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T16:35:30.249Z</dcterms:modified>
@@ -6242,6 +6314,9 @@
 	<skos:scopeNote xml:lang="en">Between galaxies</skos:scopeNote>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1588">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Stellar chemical composition</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T16:29:25.699Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx348"/>
@@ -6299,6 +6374,9 @@
 	<skos:prefLabel xml:lang="en-GB">Stellar colours</skos:prefLabel>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1591">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Stellar composition</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx347"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T16:29:10.363Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -6353,6 +6431,9 @@
 	<skos:prefLabel xml:lang="en">Stellar effective temperatures</skos:prefLabel>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1598">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Stellar elemental abundances</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx346"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T16:28:48.968Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -7117,13 +7198,15 @@
 	<skos:related rdf:resource="http://astrothesaurus.org/uat/1668"/>
 	<skos:related rdf:resource="http://astrothesaurus.org/uat/503"/>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1665">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/1665">
+	<rdfs:label xml:lang="en">Supernova evolution</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx369"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx370"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx371"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:08:46.450Z</dcterms:modified>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/1666">
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/96"/>
 	<skos:prefLabel xml:lang="en">Supernova neutrinos</skos:prefLabel>
@@ -7386,6 +7469,9 @@
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2191"/>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1685">
+	<rdfs:label xml:lang="en">Teharonhiawako</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx416"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:24:49.043Z</dcterms:modified>
@@ -7845,11 +7931,13 @@
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1118"/>
 	<skos:prefLabel xml:lang="en">Two-dimensional gravity</skos:prefLabel>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1726">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/1726">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Two-spectrum binary stars</rdfs:label>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T16:53:11.830Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx357"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/1727">
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1396"/>
 	<skos:prefLabel xml:lang="en">Twotinos</skos:prefLabel>
@@ -8061,11 +8149,13 @@
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/444"/>
 	<skos:prefLabel xml:lang="en">Upsilon Sagittarii stars</skos:prefLabel>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/175">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/175">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Borasisi</rdfs:label>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx408"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:21:26.686Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/1750">
 	<skos:altLabel xml:lang="en">Moons of Uranus</skos:altLabel>
 	<skos:altLabel xml:lang="en">Oberon</skos:altLabel>
@@ -8148,11 +8238,13 @@
 	<skos:prefLabel xml:lang="en">Variable radiation sources</skos:prefLabel>
 	<skos:related rdf:resource="http://astrothesaurus.org/uat/1755"/>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/176">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/176">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Boron abundance</rdfs:label>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:26:01.723Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx386"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/1760">
 	<skos:altLabel xml:lang="en">Period variation</skos:altLabel>
 	<skos:altLabel xml:lang="en">Period-change</skos:altLabel>
@@ -8177,6 +8269,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-25T18:32:59.659Z</dcterms:modified>
 </rdf:Description>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1762">
+	<rdfs:label xml:lang="en">Varuna</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:25:08.221Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx417"/>
@@ -8331,11 +8426,13 @@
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/154"/>
 	<skos:prefLabel xml:lang="en">Visual binary stars</skos:prefLabel>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1778">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/1778">
+	<rdfs:label xml:lang="en">Visual observation</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:46:23.926Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx438"/>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/1779">
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/902"/>
 	<skos:prefLabel xml:lang="en">Voids</skos:prefLabel>
@@ -8545,12 +8642,14 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-19T17:03:50.815Z</dcterms:modified>
 	<skos:editorialNote rdf:nodeID="node1emrsetdcx163"/>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1798">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/1798">
+	<rdfs:label xml:lang="en">White dwarf evolution</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx372"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx373"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:10:49.835Z</dcterms:modified>
-</rdf:Description>
+</skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1799">
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2052"/>
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -8615,11 +8714,13 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-04T21:09:57.836Z</dcterms:modified>
 	<skos:editorialNote rdf:nodeID="node1ell3dmacx422"/>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1802">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/1802">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Wilson-Bappu Effect</rdfs:label>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:47:50.224Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx439"/>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/1803">
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1653"/>
 	<skos:prefLabel xml:lang="en">Wilson effect</skos:prefLabel>
@@ -8895,11 +8996,17 @@
 	<skos:prefLabel xml:lang="en">Broad-absorption line quasar</skos:prefLabel>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1830">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Yerkes classification</rdfs:label>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:43:17.616Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx435"/>
 </rdf:Description>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1831">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Yoke mounts</rdfs:label>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T16:51:10.475Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx356"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -11322,11 +11429,13 @@
 	<skos:editorialNote rdf:nodeID="node1ell3dmacx358"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 </rdf:Description>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/2043">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/2043">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Stellar M coronal regions</rdfs:label>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx437"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:45:19.865Z</dcterms:modified>
-</rdf:Description>
+</skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2044">
 	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T22:18:43.000Z</dcterms:created>
 	<skos:related rdf:resource="http://astrothesaurus.org/uat/2051"/>
@@ -11731,6 +11840,9 @@
 	<skos:prefLabel xml:lang="en">Natural decay</skos:prefLabel>
 </rdf:Description>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2071">
+	<rdfs:label xml:lang="en">Radiative processes</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:42:20.946Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx389"/>
@@ -13530,11 +13642,13 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-04T22:08:21.350Z</dcterms:modified>
 	<skos:editorialNote rdf:nodeID="node1fmq73s8lx27"/>
 </rdf:Description>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/222">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/222">
+	<rdfs:label xml:lang="en">19521 Chaos (Kuiper Belt object)</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:16:48.525Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx406"/>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/223">
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/249"/>
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1384"/>
@@ -13779,41 +13893,57 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-26T19:49:06.945Z</dcterms:modified>
 </rdf:Description>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/243">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Cirrus castellanus</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx394"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx395"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:51:29.831Z</dcterms:modified>
 </rdf:Description>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/244">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Cirrus fibratus</rdfs:label>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx396"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx397"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:52:00.103Z</dcterms:modified>
 </rdf:Description>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/245">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Cirrus floccus</rdfs:label>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx398"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx399"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:52:31.577Z</dcterms:modified>
 </rdf:Description>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/246">
+	<rdfs:label xml:lang="en">Cirrus spissatus</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx400"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx401"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:52:55.895Z</dcterms:modified>
 </rdf:Description>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/247">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/247">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Cirrus uncinus</rdfs:label>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx402"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx403"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:53:24.324Z</dcterms:modified>
-</rdf:Description>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/248">
+</skos:Concept>
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/248">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Cirrus vertebratus</rdfs:label>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx392"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx393"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:51:09.339Z</dcterms:modified>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/249">
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/162"/>
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1121"/>
@@ -14081,6 +14211,9 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/275">
+	<rdfs:label xml:lang="en">Cometary atmospheres</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:40:38.814Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx433"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -14110,6 +14243,9 @@
 	<skos:prefLabel xml:lang="en">Cometary nebulae</skos:prefLabel>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/279">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Cometary studies</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:41:38.980Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx434"/>
@@ -14171,6 +14307,9 @@
 	<skos:prefLabel xml:lang="en">Compact dwarf galaxies</skos:prefLabel>
 </rdf:Description>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/282">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Compact binary components</rdfs:label>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T18:55:19.859Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx359"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -14189,11 +14328,13 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-26T20:17:53.114Z</dcterms:modified>
 	<skos:editorialNote rdf:nodeID="node1el8stt8ax65"/>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/284">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/284">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Compact binary systems</rdfs:label>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T18:54:57.714Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx358"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/285">
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/573"/>
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1084"/>
@@ -14321,6 +14462,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-27T13:21:27.738Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/298">
+	<rdfs:label xml:lang="en">Continuum radio emission</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:52:52.853Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx339"/>
@@ -14938,11 +15082,13 @@
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/902"/>
 	<skos:prefLabel xml:lang="en">Dark matter distribution</skos:prefLabel>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/357">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/357">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Darkrooms</rdfs:label>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx351"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T16:47:28.674Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/358">
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1799"/>
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/715"/>
@@ -15142,6 +15288,9 @@
 	<skos:prefLabel xml:lang="en">Detached objects</skos:prefLabel>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/377">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Deucalion</rdfs:label>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx409"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:21:37.309Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -15298,16 +15447,20 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-05T15:38:38.539Z</dcterms:modified>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/392">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/392">
+	<rdfs:label xml:lang="en">Disk population</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:01:20.987Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx363"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/393">
+</skos:Concept>
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/393">
+	<rdfs:label xml:lang="en">Disk stars</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:02:11.596Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx364"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/394">
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1595"/>
 	<skos:prefLabel xml:lang="en">Distance indicators</skos:prefLabel>
@@ -16035,6 +16188,9 @@
 	<skos:editorialNote rdf:nodeID="node1ell3dmacx277"/>
 </rdf:Description>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/454">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Elemental abundance</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx343"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:58:12.142Z</dcterms:modified>
@@ -16136,11 +16292,13 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-30T19:27:47.812Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/462">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/462">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">English mounts</rdfs:label>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx352"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T16:49:33.684Z</dcterms:modified>
-</rdf:Description>
+</skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/463">
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-27T19:48:50.000Z</dcterms:modified>
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -16224,6 +16382,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T20:56:19.087Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/471">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Equinox correction</rdfs:label>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T18:57:45.507Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx360"/>
@@ -16238,18 +16399,22 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T20:57:14.026Z</dcterms:modified>
 	<skos:editorialNote rdf:nodeID="node1ell3dmacx281"/>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/473">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/473">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Eris</rdfs:label>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx420"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx421"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx422"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:28:01.543Z</dcterms:modified>
-</rdf:Description>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/474">
+</skos:Concept>
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/474">
+	<rdfs:label xml:lang="en">Eruptive binary stars</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx361"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T18:59:26.953Z</dcterms:modified>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/475">
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1599"/>
 	<skos:prefLabel xml:lang="en">Eruptive phenomena</skos:prefLabel>
@@ -16322,6 +16487,9 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/482">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Exobiology</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:28:06.135Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx388"/>
@@ -16355,6 +16523,9 @@
 	<skos:editorialNote rdf:nodeID="node1ell3dmacx285"/>
 </rdf:Description>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/485">
+	<rdfs:label xml:lang="en">Exoplanet astrometry</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:22:30.421Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx383"/>
@@ -16821,6 +16992,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T21:10:13.562Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/527">
+	<rdfs:label xml:lang="en">Far-infrared astronomy</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:37:57.312Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx328"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -17023,6 +17197,9 @@
 	<skos:prefLabel xml:lang="en">Forbush effect</skos:prefLabel>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/547">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Fork mounts</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx353"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T16:49:56.297Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -17085,6 +17262,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:46:11.544Z</dcterms:modified>
 </rdf:Description>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/554">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">FU Orionis stars</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx333"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:45:56.976Z</dcterms:modified>
@@ -17382,6 +17562,9 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/579">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Galaxy chemical composition</rdfs:label>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx365"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:03:04.137Z</dcterms:modified>
@@ -17470,6 +17653,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-20T13:42:57.543Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/587">
+	<rdfs:label xml:lang="en">Galaxy components</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx342"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:56:56.989Z</dcterms:modified>
@@ -17837,6 +18023,9 @@
 	<skos:prefLabel xml:lang="en">Galaxy triplets</skos:prefLabel>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/625">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Galaxy voids</rdfs:label>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx391"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:47:18.300Z</dcterms:modified>
@@ -17983,6 +18172,9 @@
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/476"/>
 </rdf:Description>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/636">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Gamma-ray telescopes</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:51:35.243Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx338"/>
@@ -18134,6 +18326,9 @@
 	<skos:editorialNote rdf:nodeID="node1ell3dmacx63"/>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/649">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">German equatorial mounts</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx354"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T16:50:20.641Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -18420,6 +18615,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:15:33.423Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/673">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Gravitational microlensing [Exoplanets]</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:15:13.311Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx377"/>
@@ -18693,6 +18891,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-02T16:05:49.676Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/702">
+	<rdfs:label xml:lang="en">Haumea</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx418"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx419"/>
@@ -18810,16 +19011,20 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-02T16:08:54.676Z</dcterms:modified>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/713">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/713">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Helium abundance</rdfs:label>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx387"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:26:35.521Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/714">
+</skos:Concept>
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/714">
+	<rdfs:label xml:lang="en">Helium-poor stars</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:32:12.837Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx427"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/715">
 	<skos:altLabel xml:lang="en">Helium rich stars</skos:altLabel>
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/226"/>
@@ -18908,6 +19113,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-26T18:47:28.243Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/720">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Henry Draper Catalogue</rdfs:label>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx341"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:55:41.102Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -19248,11 +19456,13 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T16:43:08.200Z</dcterms:modified>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/749">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/749">
+	<rdfs:label xml:lang="en">Horseshoe mounts</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T16:50:47.088Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx355"/>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/75">
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/224"/>
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/232"/>
@@ -19450,6 +19660,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-09T15:41:32.193Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/766">
+	<rdfs:label xml:lang="en">Huya</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:32:34.010Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx327"/>
@@ -19575,6 +19788,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-13T21:25:22.394Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/778">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">I galaxies</rdfs:label>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx335"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:48:40.573Z</dcterms:modified>
@@ -19604,12 +19820,17 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T16:57:07.932Z</dcterms:modified>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/781">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/781">
+	<rdfs:label xml:lang="en">Individual planetary nebulae</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:19:15.808Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx380"/>
-</rdf:Description>
+</skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/782">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Individual quasars</rdfs:label>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:20:13.141Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx381"/>
@@ -20046,6 +20267,9 @@
 	<skos:prefLabel xml:lang="en">Intergalactic medium phases</skos:prefLabel>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/815">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Intergalactic voids</rdfs:label>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:46:50.525Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx390"/>
@@ -20055,6 +20279,9 @@
 	<skos:prefLabel xml:lang="en">Intermediate-mass black holes</skos:prefLabel>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/817">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Intermediate population stars</rdfs:label>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx376"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:14:11.702Z</dcterms:modified>
@@ -20579,6 +20806,9 @@
 	<skos:related rdf:resource="http://astrothesaurus.org/uat/860"/>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/862">
+	<rdfs:label xml:lang="en">IRAS galaxies</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx428"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:33:59.948Z</dcterms:modified>
@@ -20634,11 +20864,13 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 	<skos:prefLabel xml:lang="en">Isotopic abundances</skos:prefLabel>
 </rdf:Description>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/868">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/868">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Ixion</rdfs:label>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:29:42.365Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx423"/>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/869">
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/662"/>
 	<skos:prefLabel xml:lang="en">Jeans mass</skos:prefLabel>
@@ -21309,6 +21541,9 @@
 	<skos:prefLabel xml:lang="en">LINER galaxies</skos:prefLabel>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/926">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Lithium abundance</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:24:02.037Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx384"/>
@@ -21357,11 +21592,13 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:editorialNote rdf:nodeID="node1ell3dmacx464"/>
 </skos:Concept>
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/930">
+<skos:Concept rdf:about="http://astrothesaurus.org/uat/930">
+	<rdfs:label xml:lang="en">Logos</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:22:45.634Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx410"/>
-</rdf:Description>
+</skos:Concept>
 <skos:Concept rdf:about="http://astrothesaurus.org/uat/931">
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1345"/>
 	<skos:prefLabel xml:lang="en">Long baseline interferometers</skos:prefLabel>
@@ -21382,6 +21619,9 @@
 	<skos:editorialNote rdf:nodeID="node1ell3dmacx114"/>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/934">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Long period variable stars</rdfs:label>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:39:58.004Z</dcterms:modified>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx329"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -21508,6 +21748,9 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T16:51:17.071Z</dcterms:modified>
 </skos:Concept>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/945">
+	<rdfs:label xml:lang="en">Luminous blue variables</rdfs:label>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx330"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T15:41:38.652Z</dcterms:modified>
@@ -21870,6 +22113,9 @@
 	<skos:altLabel xml:lang="en">M-type giant stars</skos:altLabel>
 </rdf:Description>
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/984">
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:label xml:lang="en">Solar M coronal region</rdfs:label>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:changeNote rdf:nodeID="node1emrsetdcx436"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:44:46.875Z</dcterms:modified>
