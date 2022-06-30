@@ -45,6 +45,9 @@
                         "uri": "http://astrothesaurus.org/uat/1162"
                     }]
                 }, {
+                    "name": "Kepler's laws",
+                    "uri": "http://astrothesaurus.org/uat/2322"
+                }, {
                     "name": "Lunar theory",
                     "uri": "http://astrothesaurus.org/uat/975",
                     "children": [{
@@ -56,6 +59,9 @@
                     }, {
                         "name": "Lunar node regression",
                         "uri": "http://astrothesaurus.org/uat/964"
+                    }, {
+                        "name": "Lunation",
+                        "uri": "http://astrothesaurus.org/uat/2316"
                     }]
                 }, {
                     "name": "N-body problem",
@@ -165,6 +171,9 @@
                         "name": "Orbital motion",
                         "uri": "http://astrothesaurus.org/uat/1179",
                         "children": [{
+                            "name": "Analemma",
+                            "uri": "http://astrothesaurus.org/uat/2325"
+                        }, {
                             "name": "Apsidal motion",
                             "uri": "http://astrothesaurus.org/uat/62"
                         }, {
@@ -219,6 +228,12 @@
                         }, {
                             "name": "Polar orbit",
                             "uri": "http://astrothesaurus.org/uat/1275"
+                        }, {
+                            "name": "Prograde orbit",
+                            "uri": "http://astrothesaurus.org/uat/2326"
+                        }, {
+                            "name": "Retrograde orbit",
+                            "uri": "http://astrothesaurus.org/uat/2327"
                         }]
                     }, {
                         "name": "Orbital nodes",
@@ -244,6 +259,9 @@
                             "name": "Bode's law",
                             "uri": "http://astrothesaurus.org/uat/170"
                         }]
+                    }, {
+                        "name": "Spin-orbit resonances",
+                        "uri": "http://astrothesaurus.org/uat/2296"
                     }]
                 }, {
                     "name": "Perturbation methods",
@@ -536,6 +554,9 @@
                                     "name": "Polar tides",
                                     "uri": "http://astrothesaurus.org/uat/1276"
                                 }]
+                            }, {
+                                "name": "Solid body tides",
+                                "uri": "http://astrothesaurus.org/uat/2298"
                             }]
                         }]
                     }, {
@@ -623,6 +644,12 @@
                         "uri": "http://astrothesaurus.org/uat/1386"
                     }]
                 }]
+            }, {
+                "name": "Nuclear fission",
+                "uri": "http://astrothesaurus.org/uat/2323"
+            }, {
+                "name": "Nuclear fusion",
+                "uri": "http://astrothesaurus.org/uat/2324"
             }, {
                 "name": "Nucleosynthesis",
                 "uri": "http://astrothesaurus.org/uat/1131",
@@ -1133,8 +1160,14 @@
                 "name": "Friedmann universe",
                 "uri": "http://astrothesaurus.org/uat/551"
             }, {
+                "name": "Geocentric model",
+                "uri": "http://astrothesaurus.org/uat/2361"
+            }, {
                 "name": "G\u00f6del universe",
                 "uri": "http://astrothesaurus.org/uat/657"
+            }, {
+                "name": "Heliocentric model",
+                "uri": "http://astrothesaurus.org/uat/2362"
             }, {
                 "name": "Inflationary universe",
                 "uri": "http://astrothesaurus.org/uat/784"
@@ -1216,6 +1249,9 @@
         }, {
             "name": "Cosmological phase transitions",
             "uri": "http://astrothesaurus.org/uat/342"
+        }, {
+            "name": "Cosmological principle",
+            "uri": "http://astrothesaurus.org/uat/2363"
         }, {
             "name": "Hierarchical cosmology",
             "uri": "http://astrothesaurus.org/uat/730"
@@ -1427,6 +1463,9 @@
         "name": "Exoplanet astronomy",
         "uri": "http://astrothesaurus.org/uat/486",
         "children": [{
+            "name": "Exocomets",
+            "uri": "http://astrothesaurus.org/uat/2368"
+        }, {
             "name": "Exoplanet catalogs",
             "uri": "http://astrothesaurus.org/uat/488"
         }, {
@@ -1439,11 +1478,18 @@
                 "name": "Direct imaging",
                 "uri": "http://astrothesaurus.org/uat/387",
                 "children": [{
-                    "name": "Coronagraphic imaging",
-                    "uri": "http://astrothesaurus.org/uat/313"
-                }, {
                     "name": "Far infrared interferometry",
                     "uri": "http://astrothesaurus.org/uat/528"
+                }, {
+                    "name": "High contrast techniques",
+                    "uri": "http://astrothesaurus.org/uat/2369",
+                    "children": [{
+                        "name": "Coronagraphic imaging",
+                        "uri": "http://astrothesaurus.org/uat/313"
+                    }, {
+                        "name": "High contrast spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/2370"
+                    }]
                 }]
             }, {
                 "name": "Gravitational microlensing exoplanet detection",
@@ -1512,6 +1558,15 @@
                 "children": [{
                     "name": "Exoplanet atmospheric composition ",
                     "uri": "http://astrothesaurus.org/uat/2021"
+                }, {
+                    "name": "Exoplanet atmospheric dynamics",
+                    "uri": "http://astrothesaurus.org/uat/2307"
+                }, {
+                    "name": "Exoplanet atmospheric evolution",
+                    "uri": "http://astrothesaurus.org/uat/2308"
+                }, {
+                    "name": "Exoplanet atmospheric structure",
+                    "uri": "http://astrothesaurus.org/uat/2310"
                 }, {
                     "name": "Exoplanet atmospheric variability",
                     "uri": "http://astrothesaurus.org/uat/2020"
@@ -1864,7 +1919,11 @@
                         "uri": "http://astrothesaurus.org/uat/39"
                     }, {
                         "name": "Barred spiral galaxies",
-                        "uri": "http://astrothesaurus.org/uat/136"
+                        "uri": "http://astrothesaurus.org/uat/136",
+                        "children": [{
+                            "name": "Galaxy bars",
+                            "uri": "http://astrothesaurus.org/uat/2364"
+                        }]
                     }, {
                         "name": "Milky Way Galaxy",
                         "uri": "http://astrothesaurus.org/uat/1054"
@@ -2474,6 +2533,9 @@
                     "name": "Galactic archaeology",
                     "uri": "http://astrothesaurus.org/uat/2178"
                 }, {
+                    "name": "Galactic bar",
+                    "uri": "http://astrothesaurus.org/uat/2365"
+                }, {
                     "name": "Galactic bulge",
                     "uri": "http://astrothesaurus.org/uat/2041"
                 }, {
@@ -2970,16 +3032,6 @@
         "name": "Interdisciplinary astronomy",
         "uri": "http://astrothesaurus.org/uat/804",
         "children": [{
-            "name": "Archaeoastronomy",
-            "uri": "http://astrothesaurus.org/uat/64",
-            "children": [{
-                "name": "Ethnoastronomy",
-                "uri": "http://astrothesaurus.org/uat/477"
-            }, {
-                "name": "Megalithic astronomy",
-                "uri": "http://astrothesaurus.org/uat/1022"
-            }]
-        }, {
             "name": "Astrobiology",
             "uri": "http://astrothesaurus.org/uat/74",
             "children": [{
@@ -3388,11 +3440,17 @@
                     "name": "Astronomy data reduction",
                     "uri": "http://astrothesaurus.org/uat/1861"
                 }, {
+                    "name": "Astronomy data sonificaton",
+                    "uri": "http://astrothesaurus.org/uat/2305"
+                }, {
                     "name": "Astronomy data visualization",
                     "uri": "http://astrothesaurus.org/uat/1968"
                 }, {
                     "name": "Astronomy databases",
                     "uri": "http://astrothesaurus.org/uat/83"
+                }, {
+                    "name": "Astronomy image processing",
+                    "uri": "http://astrothesaurus.org/uat/2306"
                 }]
             }, {
                 "name": "Astronomy software",
@@ -3487,6 +3545,27 @@
                 }]
             }]
         }, {
+            "name": "Cultural astronomy",
+            "uri": "http://astrothesaurus.org/uat/2366",
+            "children": [{
+                "name": "Archaeoastronomy",
+                "uri": "http://astrothesaurus.org/uat/64",
+                "children": [{
+                    "name": "Megalithic astronomy",
+                    "uri": "http://astrothesaurus.org/uat/1022"
+                }]
+            }, {
+                "name": "Ethnoastronomy",
+                "uri": "http://astrothesaurus.org/uat/477",
+                "children": [{
+                    "name": "Indigenous astronomy",
+                    "uri": "http://astrothesaurus.org/uat/2367"
+                }]
+            }, {
+                "name": "Sociology of astronomy",
+                "uri": "http://astrothesaurus.org/uat/1470"
+            }]
+        }, {
             "name": "History of astronomy",
             "uri": "http://astrothesaurus.org/uat/1868"
         }, {
@@ -3496,11 +3575,57 @@
                 "name": "Atomic physics",
                 "uri": "http://astrothesaurus.org/uat/2063",
                 "children": [{
+                    "name": "Atomic data",
+                    "uri": "http://astrothesaurus.org/uat/2216"
+                }, {
                     "name": "Atomic data benchmarking",
                     "uri": "http://astrothesaurus.org/uat/2064"
                 }, {
-                    "name": "Collision processes",
-                    "uri": "http://astrothesaurus.org/uat/2065"
+                    "name": "Atomic reactions",
+                    "uri": "http://astrothesaurus.org/uat/2217",
+                    "children": [{
+                        "name": "Ionization",
+                        "uri": "http://astrothesaurus.org/uat/2068",
+                        "children": [{
+                            "name": "Charge exchange ionization",
+                            "uri": "http://astrothesaurus.org/uat/2056"
+                        }, {
+                            "name": "Electron impact ionization",
+                            "uri": "http://astrothesaurus.org/uat/2059"
+                        }, {
+                            "name": "Photoionization",
+                            "uri": "http://astrothesaurus.org/uat/2060"
+                        }]
+                    }, {
+                        "name": "Recombination",
+                        "uri": "http://astrothesaurus.org/uat/2072",
+                        "children": [{
+                            "name": "Charge exchange recombination",
+                            "uri": "http://astrothesaurus.org/uat/2062"
+                        }, {
+                            "name": "Dielectronic recombination",
+                            "uri": "http://astrothesaurus.org/uat/2061"
+                        }, {
+                            "name": "Radiative recombination",
+                            "uri": "http://astrothesaurus.org/uat/2057"
+                        }, {
+                            "name": "Radical-radical recombination",
+                            "uri": "http://astrothesaurus.org/uat/1071"
+                        }]
+                    }]
+                }, {
+                    "name": "Collision physics",
+                    "uri": "http://astrothesaurus.org/uat/2065",
+                    "children": [{
+                        "name": "Charge transfer",
+                        "uri": "http://astrothesaurus.org/uat/2218"
+                    }, {
+                        "name": "Electron impact excitation",
+                        "uri": "http://astrothesaurus.org/uat/2219"
+                    }, {
+                        "name": "Mutual neutralization",
+                        "uri": "http://astrothesaurus.org/uat/2220"
+                    }]
                 }, {
                     "name": "De-excitation rates",
                     "uri": "http://astrothesaurus.org/uat/2066"
@@ -3508,43 +3633,11 @@
                     "name": "Excitation rates",
                     "uri": "http://astrothesaurus.org/uat/2067"
                 }, {
-                    "name": "Ionization",
-                    "uri": "http://astrothesaurus.org/uat/2068",
-                    "children": [{
-                        "name": "Charge exchange ionization",
-                        "uri": "http://astrothesaurus.org/uat/2056"
-                    }, {
-                        "name": "Electron impact ionization",
-                        "uri": "http://astrothesaurus.org/uat/2059"
-                    }, {
-                        "name": "Photoionization",
-                        "uri": "http://astrothesaurus.org/uat/2060"
-                    }]
-                }, {
                     "name": "Isotope shifts",
                     "uri": "http://astrothesaurus.org/uat/2069"
                 }, {
-                    "name": "Natural decay",
-                    "uri": "http://astrothesaurus.org/uat/2070"
-                }, {
                     "name": "Radiative processes",
                     "uri": "http://astrothesaurus.org/uat/2055"
-                }, {
-                    "name": "Recombination",
-                    "uri": "http://astrothesaurus.org/uat/2072",
-                    "children": [{
-                        "name": "Charge exchange recombination",
-                        "uri": "http://astrothesaurus.org/uat/2062"
-                    }, {
-                        "name": "Dielectronic recombination",
-                        "uri": "http://astrothesaurus.org/uat/2061"
-                    }, {
-                        "name": "Radiative recombination",
-                        "uri": "http://astrothesaurus.org/uat/2057"
-                    }, {
-                        "name": "Radical-radical recombination",
-                        "uri": "http://astrothesaurus.org/uat/1071"
-                    }]
                 }, {
                     "name": "Spectral line identification",
                     "uri": "http://astrothesaurus.org/uat/2073"
@@ -3553,17 +3646,169 @@
                     "uri": "http://astrothesaurus.org/uat/2074"
                 }]
             }, {
-                "name": "Experimental models",
-                "uri": "http://astrothesaurus.org/uat/2098"
+                "name": "Experimental data",
+                "uri": "http://astrothesaurus.org/uat/2371"
             }, {
                 "name": "Experimental techniques",
-                "uri": "http://astrothesaurus.org/uat/2078"
+                "uri": "http://astrothesaurus.org/uat/2078",
+                "children": [{
+                    "name": "Ion trapping",
+                    "uri": "http://astrothesaurus.org/uat/2224"
+                }, {
+                    "name": "Ion-storage rings",
+                    "uri": "http://astrothesaurus.org/uat/2225"
+                }, {
+                    "name": "Mass spectrometry",
+                    "uri": "http://astrothesaurus.org/uat/2094",
+                    "children": [{
+                        "name": "Quadrupole mass spectrometry",
+                        "uri": "http://astrothesaurus.org/uat/2221"
+                    }, {
+                        "name": "Time-of-flight mass spectrometry",
+                        "uri": "http://astrothesaurus.org/uat/2222"
+                    }]
+                }, {
+                    "name": "Molecular beams",
+                    "uri": "http://astrothesaurus.org/uat/2223",
+                    "children": [{
+                        "name": "Crossed-beams",
+                        "uri": "http://astrothesaurus.org/uat/2240"
+                    }, {
+                        "name": "Merged-beams",
+                        "uri": "http://astrothesaurus.org/uat/2241"
+                    }, {
+                        "name": "Supersonic expansion",
+                        "uri": "http://astrothesaurus.org/uat/2242"
+                    }]
+                }, {
+                    "name": "Production techniques",
+                    "uri": "http://astrothesaurus.org/uat/2243",
+                    "children": [{
+                        "name": "Electric discharge",
+                        "uri": "http://astrothesaurus.org/uat/2244"
+                    }, {
+                        "name": "Laser ablation",
+                        "uri": "http://astrothesaurus.org/uat/2245"
+                    }, {
+                        "name": "Pyrolysis",
+                        "uri": "http://astrothesaurus.org/uat/2246"
+                    }]
+                }, {
+                    "name": "Spectroscopy",
+                    "uri": "http://astrothesaurus.org/uat/1558",
+                    "children": [{
+                        "name": "Atomic spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/2099",
+                        "children": [{
+                            "name": "Collisional broadening",
+                            "uri": "http://astrothesaurus.org/uat/2083"
+                        }, {
+                            "name": "Line intensities",
+                            "uri": "http://astrothesaurus.org/uat/2084"
+                        }, {
+                            "name": "Line positions",
+                            "uri": "http://astrothesaurus.org/uat/2085"
+                        }]
+                    }, {
+                        "name": "Electronic spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/2247"
+                    }, {
+                        "name": "Galaxy spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/2171"
+                    }, {
+                        "name": "Gamma-ray spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/2283"
+                    }, {
+                        "name": "Ice spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/2250"
+                    }, {
+                        "name": "Infrared spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/2285"
+                    }, {
+                        "name": "Lyman alpha forest",
+                        "uri": "http://astrothesaurus.org/uat/980"
+                    }, {
+                        "name": "Molecular spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/2095",
+                        "children": [{
+                            "name": "Collisional broadening",
+                            "uri": "http://astrothesaurus.org/uat/2083"
+                        }, {
+                            "name": "High resolution spectroscopy",
+                            "uri": "http://astrothesaurus.org/uat/2096"
+                        }, {
+                            "name": "Line intensities",
+                            "uri": "http://astrothesaurus.org/uat/2084"
+                        }, {
+                            "name": "Line positions",
+                            "uri": "http://astrothesaurus.org/uat/2085"
+                        }, {
+                            "name": "Photoelectron spectroscopy",
+                            "uri": "http://astrothesaurus.org/uat/2097"
+                        }]
+                    }, {
+                        "name": "Radio spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/1359"
+                    }, {
+                        "name": "Rotational spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/2248",
+                        "children": [{
+                            "name": "Microwave spectroscopy",
+                            "uri": "http://astrothesaurus.org/uat/2251",
+                            "children": [{
+                                "name": "Cavity-enhanced Fourier-transform",
+                                "uri": "http://astrothesaurus.org/uat/2253"
+                            }, {
+                                "name": "Chirped-pulse Fourier-transform",
+                                "uri": "http://astrothesaurus.org/uat/2254"
+                            }, {
+                                "name": "Direct absorption",
+                                "uri": "http://astrothesaurus.org/uat/2255"
+                            }]
+                        }, {
+                            "name": "Millimeter-wave spectroscopy",
+                            "uri": "http://astrothesaurus.org/uat/2252",
+                            "children": [{
+                                "name": "Cavity-enhanced Fourier-transform",
+                                "uri": "http://astrothesaurus.org/uat/2253"
+                            }, {
+                                "name": "Chirped-pulse Fourier-transform",
+                                "uri": "http://astrothesaurus.org/uat/2254"
+                            }, {
+                                "name": "Direct absorption",
+                                "uri": "http://astrothesaurus.org/uat/2255"
+                            }]
+                        }]
+                    }, {
+                        "name": "Transmission spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/2133"
+                    }, {
+                        "name": "Ultraviolet spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/2284"
+                    }, {
+                        "name": "Vibrational spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/2249"
+                    }]
+                }]
             }, {
                 "name": "Molecular physics",
                 "uri": "http://astrothesaurus.org/uat/2058",
                 "children": [{
-                    "name": "Collision processes",
-                    "uri": "http://astrothesaurus.org/uat/2065"
+                    "name": "Collision physics",
+                    "uri": "http://astrothesaurus.org/uat/2065",
+                    "children": [{
+                        "name": "Charge transfer",
+                        "uri": "http://astrothesaurus.org/uat/2218"
+                    }, {
+                        "name": "Electron impact excitation",
+                        "uri": "http://astrothesaurus.org/uat/2219"
+                    }, {
+                        "name": "Mutual neutralization",
+                        "uri": "http://astrothesaurus.org/uat/2220"
+                    }]
+                }, {
+                    "name": "Complex organic molecules",
+                    "uri": "http://astrothesaurus.org/uat/2256"
                 }, {
                     "name": "De-excitation rates",
                     "uri": "http://astrothesaurus.org/uat/2066"
@@ -3571,43 +3816,65 @@
                     "name": "Excitation rates",
                     "uri": "http://astrothesaurus.org/uat/2067"
                 }, {
-                    "name": "Ionization",
-                    "uri": "http://astrothesaurus.org/uat/2068",
+                    "name": "Fullerenes",
+                    "uri": "http://astrothesaurus.org/uat/2257"
+                }, {
+                    "name": "Metal-containing molecules",
+                    "uri": "http://astrothesaurus.org/uat/2258"
+                }, {
+                    "name": "Molecular data",
+                    "uri": "http://astrothesaurus.org/uat/2259",
                     "children": [{
-                        "name": "Charge exchange ionization",
-                        "uri": "http://astrothesaurus.org/uat/2056"
+                        "name": "Molecular spectroscopic constants",
+                        "uri": "http://astrothesaurus.org/uat/2260"
                     }, {
-                        "name": "Electron impact ionization",
-                        "uri": "http://astrothesaurus.org/uat/2059"
-                    }, {
-                        "name": "Photoionization",
-                        "uri": "http://astrothesaurus.org/uat/2060"
+                        "name": "Molecular structural parameters",
+                        "uri": "http://astrothesaurus.org/uat/2261"
                     }]
                 }, {
-                    "name": "Molecule destruction",
-                    "uri": "http://astrothesaurus.org/uat/2075"
-                }, {
-                    "name": "Molecule formation",
-                    "uri": "http://astrothesaurus.org/uat/2076"
-                }, {
-                    "name": "Radiative processes",
-                    "uri": "http://astrothesaurus.org/uat/2055"
-                }, {
-                    "name": "Recombination",
-                    "uri": "http://astrothesaurus.org/uat/2072",
+                    "name": "Molecular reactions",
+                    "uri": "http://astrothesaurus.org/uat/2226",
                     "children": [{
-                        "name": "Charge exchange recombination",
-                        "uri": "http://astrothesaurus.org/uat/2062"
+                        "name": "Electron recombination reactions",
+                        "uri": "http://astrothesaurus.org/uat/2262"
                     }, {
-                        "name": "Dielectronic recombination",
-                        "uri": "http://astrothesaurus.org/uat/2061"
+                        "name": "Ion-neutral reactions",
+                        "uri": "http://astrothesaurus.org/uat/2263"
                     }, {
-                        "name": "Radiative recombination",
-                        "uri": "http://astrothesaurus.org/uat/2057"
+                        "name": "Ionization",
+                        "uri": "http://astrothesaurus.org/uat/2068",
+                        "children": [{
+                            "name": "Charge exchange ionization",
+                            "uri": "http://astrothesaurus.org/uat/2056"
+                        }, {
+                            "name": "Electron impact ionization",
+                            "uri": "http://astrothesaurus.org/uat/2059"
+                        }, {
+                            "name": "Photoionization",
+                            "uri": "http://astrothesaurus.org/uat/2060"
+                        }]
+                    }, {
+                        "name": "Isomerization reactions",
+                        "uri": "http://astrothesaurus.org/uat/2264"
+                    }, {
+                        "name": "Neutral-neutral reactions",
+                        "uri": "http://astrothesaurus.org/uat/2265"
+                    }, {
+                        "name": "Photodissociation reactions",
+                        "uri": "http://astrothesaurus.org/uat/2266"
                     }, {
                         "name": "Radical-radical recombination",
                         "uri": "http://astrothesaurus.org/uat/1071"
                     }]
+                }, {
+                    "name": "Polycyclic aromatic hydrocarbons",
+                    "uri": "http://astrothesaurus.org/uat/1280"
+                }, {
+                    "name": "Radiative processes",
+                    "uri": "http://astrothesaurus.org/uat/2055"
+                }, {
+                    "name": "Small molecules",
+                    "uri": "http://astrothesaurus.org/uat/2267"
                 }, {
                     "name": "Spectral line identification",
                     "uri": "http://astrothesaurus.org/uat/2073"
@@ -3616,6 +3883,9 @@
                 "name": "Nuclear physics",
                 "uri": "http://astrothesaurus.org/uat/2077",
                 "children": [{
+                    "name": "Nuclear decay",
+                    "uri": "http://astrothesaurus.org/uat/2227"
+                }, {
                     "name": "Nuclear reaction cross sections",
                     "uri": "http://astrothesaurus.org/uat/2087"
                 }]
@@ -3629,25 +3899,102 @@
                 "name": "Solid matter physics",
                 "uri": "http://astrothesaurus.org/uat/2090",
                 "children": [{
-                    "name": "Ice destruction",
-                    "uri": "http://astrothesaurus.org/uat/2091"
+                    "name": "Dust physics",
+                    "uri": "http://astrothesaurus.org/uat/2229",
+                    "children": [{
+                        "name": "Dust composition",
+                        "uri": "http://astrothesaurus.org/uat/2271"
+                    }, {
+                        "name": "Dust destruction",
+                        "uri": "http://astrothesaurus.org/uat/2268"
+                    }, {
+                        "name": "Dust formation",
+                        "uri": "http://astrothesaurus.org/uat/2269"
+                    }, {
+                        "name": "Optical constants (Dust)",
+                        "uri": "http://astrothesaurus.org/uat/2270"
+                    }]
                 }, {
-                    "name": "Ice formation",
-                    "uri": "http://astrothesaurus.org/uat/2092"
+                    "name": "Ice physics",
+                    "uri": "http://astrothesaurus.org/uat/2228",
+                    "children": [{
+                        "name": "Ice composition",
+                        "uri": "http://astrothesaurus.org/uat/2272"
+                    }, {
+                        "name": "Ice destruction",
+                        "uri": "http://astrothesaurus.org/uat/2091"
+                    }, {
+                        "name": "Ice formation",
+                        "uri": "http://astrothesaurus.org/uat/2092"
+                    }, {
+                        "name": "Ice phases",
+                        "uri": "http://astrothesaurus.org/uat/2273"
+                    }, {
+                        "name": "Ice porosity",
+                        "uri": "http://astrothesaurus.org/uat/2274"
+                    }, {
+                        "name": "Ice spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/2250"
+                    }, {
+                        "name": "Optical constants (Ice)",
+                        "uri": "http://astrothesaurus.org/uat/2275"
+                    }, {
+                        "name": "Physical properties (Ice)",
+                        "uri": "http://astrothesaurus.org/uat/2276"
+                    }, {
+                        "name": "Radiation interactions (Ice)",
+                        "uri": "http://astrothesaurus.org/uat/2277"
+                    }, {
+                        "name": "Thermal properties (Ice)",
+                        "uri": "http://astrothesaurus.org/uat/2278"
+                    }]
+                }, {
+                    "name": "Mineral physics",
+                    "uri": "http://astrothesaurus.org/uat/2230"
                 }]
+            }, {
+                "name": "Theoretical data",
+                "uri": "http://astrothesaurus.org/uat/2372"
             }, {
                 "name": "Theoretical models",
                 "uri": "http://astrothesaurus.org/uat/2107"
             }, {
                 "name": "Theoretical techniques",
-                "uri": "http://astrothesaurus.org/uat/2093"
+                "uri": "http://astrothesaurus.org/uat/2093",
+                "children": [{
+                    "name": "Quantum-chemical calculations",
+                    "uri": "http://astrothesaurus.org/uat/2232",
+                    "children": [{
+                        "name": "Chemical kinetics",
+                        "uri": "http://astrothesaurus.org/uat/2233"
+                    }, {
+                        "name": "Chemical thermodynamics",
+                        "uri": "http://astrothesaurus.org/uat/2236"
+                    }, {
+                        "name": "Potential energy surfaces",
+                        "uri": "http://astrothesaurus.org/uat/2234"
+                    }, {
+                        "name": "Structure determination",
+                        "uri": "http://astrothesaurus.org/uat/2235"
+                    }]
+                }, {
+                    "name": "Reaction models",
+                    "uri": "http://astrothesaurus.org/uat/2231",
+                    "children": [{
+                        "name": "Chemical reaction network models",
+                        "uri": "http://astrothesaurus.org/uat/2237"
+                    }, {
+                        "name": "Monte Carlo methods",
+                        "uri": "http://astrothesaurus.org/uat/2238"
+                    }, {
+                        "name": "Reaction rate equations",
+                        "uri": "http://astrothesaurus.org/uat/2239"
+                    }]
+                }]
             }]
         }, {
             "name": "Philosophy of astronomy",
             "uri": "http://astrothesaurus.org/uat/1222"
-        }, {
-            "name": "Sociology of astronomy",
-            "uri": "http://astrothesaurus.org/uat/1470"
         }]
     }, {
         "name": "Interstellar medium",
@@ -4059,6 +4406,9 @@
                     "uri": "http://astrothesaurus.org/uat/1815"
                 }]
             }, {
+                "name": "Binoculars",
+                "uri": "http://astrothesaurus.org/uat/2329"
+            }, {
                 "name": "Early astronomical instruments",
                 "uri": "http://astrothesaurus.org/uat/433",
                 "children": [{
@@ -4074,11 +4424,21 @@
                     "name": "Photoheliographs",
                     "uri": "http://astrothesaurus.org/uat/1230"
                 }, {
+                    "name": "Planispheres",
+                    "uri": "http://astrothesaurus.org/uat/2334"
+                }, {
                     "name": "Ptolemy stones",
                     "uri": "http://astrothesaurus.org/uat/1303"
                 }, {
                     "name": "Stone circles",
                     "uri": "http://astrothesaurus.org/uat/1638"
+                }, {
+                    "name": "Sundails",
+                    "uri": "http://astrothesaurus.org/uat/2335",
+                    "children": [{
+                        "name": "Gnomons",
+                        "uri": "http://astrothesaurus.org/uat/2333"
+                    }]
                 }, {
                     "name": "Zenith tubes",
                     "uri": "http://astrothesaurus.org/uat/1841"
@@ -4117,6 +4477,9 @@
                     "children": [{
                         "name": "Infrared Astronomical Satellite",
                         "uri": "http://astrothesaurus.org/uat/785"
+                    }, {
+                        "name": "James Webb Space Telescope",
+                        "uri": "http://astrothesaurus.org/uat/2291"
                     }]
                 }, {
                     "name": "Optical observatories",
@@ -4124,6 +4487,9 @@
                     "children": [{
                         "name": "Hubble Space Telescope",
                         "uri": "http://astrothesaurus.org/uat/761"
+                    }, {
+                        "name": "Very Large Telescope",
+                        "uri": "http://astrothesaurus.org/uat/1767"
                     }]
                 }, {
                     "name": "Radio observatories",
@@ -4135,6 +4501,9 @@
                     "name": "Space observatories",
                     "uri": "http://astrothesaurus.org/uat/1543",
                     "children": [{
+                        "name": "Gaia",
+                        "uri": "http://astrothesaurus.org/uat/2360"
+                    }, {
                         "name": "Gamma-ray observatories",
                         "uri": "http://astrothesaurus.org/uat/632"
                     }, {
@@ -4143,6 +4512,9 @@
                     }, {
                         "name": "Infrared Astronomical Satellite",
                         "uri": "http://astrothesaurus.org/uat/785"
+                    }, {
+                        "name": "James Webb Space Telescope",
+                        "uri": "http://astrothesaurus.org/uat/2291"
                     }]
                 }, {
                     "name": "Ultraviolet observatories",
@@ -4185,6 +4557,9 @@
                     "name": "Hall thrusters",
                     "uri": "http://astrothesaurus.org/uat/698"
                 }, {
+                    "name": "Rockets",
+                    "uri": "http://astrothesaurus.org/uat/2355"
+                }, {
                     "name": "Space debris",
                     "uri": "http://astrothesaurus.org/uat/1542"
                 }, {
@@ -4211,6 +4586,13 @@
                     }, {
                         "name": "Rovers",
                         "uri": "http://astrothesaurus.org/uat/1409"
+                    }]
+                }, {
+                    "name": "Space stations",
+                    "uri": "http://astrothesaurus.org/uat/2348",
+                    "children": [{
+                        "name": "International Space Station",
+                        "uri": "http://astrothesaurus.org/uat/2349"
                     }]
                 }, {
                     "name": "Space vehicle instruments",
@@ -4301,6 +4683,9 @@
                             "uri": "http://astrothesaurus.org/uat/1431"
                         }]
                     }, {
+                        "name": "Eye pieces",
+                        "uri": "http://astrothesaurus.org/uat/2344"
+                    }, {
                         "name": "Multiple mirror telescopes",
                         "uri": "http://astrothesaurus.org/uat/1080"
                     }, {
@@ -4323,16 +4708,29 @@
                                 "name": "Dobsonian telescopes",
                                 "uri": "http://astrothesaurus.org/uat/398"
                             }]
+                        }, {
+                            "name": "Primary mirror",
+                            "uri": "http://astrothesaurus.org/uat/2345"
+                        }, {
+                            "name": "Secondary mirror",
+                            "uri": "http://astrothesaurus.org/uat/2346"
                         }]
                     }, {
                         "name": "Refracting telescopes",
-                        "uri": "http://astrothesaurus.org/uat/1382"
+                        "uri": "http://astrothesaurus.org/uat/1382",
+                        "children": [{
+                            "name": "Galilean telescopes",
+                            "uri": "http://astrothesaurus.org/uat/2357"
+                        }, {
+                            "name": "Keplerian telescopes",
+                            "uri": "http://astrothesaurus.org/uat/2356"
+                        }, {
+                            "name": "Lenses",
+                            "uri": "http://astrothesaurus.org/uat/2347"
+                        }]
                     }, {
                         "name": "Solar optical telescopes",
                         "uri": "http://astrothesaurus.org/uat/1514"
-                    }, {
-                        "name": "Very Large Telescope",
-                        "uri": "http://astrothesaurus.org/uat/1767"
                     }]
                 }, {
                     "name": "Radio telescopes",
@@ -4406,6 +4804,22 @@
                         "uri": "http://astrothesaurus.org/uat/468"
                     }]
                 }, {
+                    "name": "Telescope properties",
+                    "uri": "http://astrothesaurus.org/uat/2350",
+                    "children": [{
+                        "name": "Aperture",
+                        "uri": "http://astrothesaurus.org/uat/2351"
+                    }, {
+                        "name": "Focal length",
+                        "uri": "http://astrothesaurus.org/uat/2352"
+                    }, {
+                        "name": "Focal ratio",
+                        "uri": "http://astrothesaurus.org/uat/2353"
+                    }, {
+                        "name": "Prime focus",
+                        "uri": "http://astrothesaurus.org/uat/2354"
+                    }]
+                }, {
                     "name": "Wide-field telescopes",
                     "uri": "http://astrothesaurus.org/uat/1800",
                     "children": [{
@@ -4473,11 +4887,17 @@
                         "name": "Astronomy data reduction",
                         "uri": "http://astrothesaurus.org/uat/1861"
                     }, {
+                        "name": "Astronomy data sonificaton",
+                        "uri": "http://astrothesaurus.org/uat/2305"
+                    }, {
                         "name": "Astronomy data visualization",
                         "uri": "http://astrothesaurus.org/uat/1968"
                     }, {
                         "name": "Astronomy databases",
                         "uri": "http://astrothesaurus.org/uat/83"
+                    }, {
+                        "name": "Astronomy image processing",
+                        "uri": "http://astrothesaurus.org/uat/2306"
                     }]
                 }, {
                     "name": "Astronomy software",
@@ -4636,7 +5056,11 @@
                 }]
             }, {
                 "name": "Radar astronomy",
-                "uri": "http://astrothesaurus.org/uat/1329"
+                "uri": "http://astrothesaurus.org/uat/1329",
+                "children": [{
+                    "name": "Radar observations",
+                    "uri": "http://astrothesaurus.org/uat/2287"
+                }]
             }, {
                 "name": "Radio astronomy",
                 "uri": "http://astrothesaurus.org/uat/1338",
@@ -4835,8 +5259,26 @@
                     }]
                 }]
             }, {
-                "name": "Sociology of astronomy",
-                "uri": "http://astrothesaurus.org/uat/1470"
+                "name": "Cultural astronomy",
+                "uri": "http://astrothesaurus.org/uat/2366",
+                "children": [{
+                    "name": "Archaeoastronomy",
+                    "uri": "http://astrothesaurus.org/uat/64",
+                    "children": [{
+                        "name": "Megalithic astronomy",
+                        "uri": "http://astrothesaurus.org/uat/1022"
+                    }]
+                }, {
+                    "name": "Ethnoastronomy",
+                    "uri": "http://astrothesaurus.org/uat/477",
+                    "children": [{
+                        "name": "Indigenous astronomy",
+                        "uri": "http://astrothesaurus.org/uat/2367"
+                    }]
+                }, {
+                    "name": "Sociology of astronomy",
+                    "uri": "http://astrothesaurus.org/uat/1470"
+                }]
             }, {
                 "name": "Space research",
                 "uri": "http://astrothesaurus.org/uat/1546",
@@ -4955,6 +5397,9 @@
                         "name": "Ecliptic coordinate system",
                         "uri": "http://astrothesaurus.org/uat/445",
                         "children": [{
+                            "name": "Ecliptic",
+                            "uri": "http://astrothesaurus.org/uat/2336"
+                        }, {
                             "name": "Ecliptic latitude",
                             "uri": "http://astrothesaurus.org/uat/446"
                         }, {
@@ -4970,6 +5415,9 @@
                                 "name": "South ecliptic pole",
                                 "uri": "http://astrothesaurus.org/uat/1539"
                             }]
+                        }, {
+                            "name": "Zodiac",
+                            "uri": "http://astrothesaurus.org/uat/2337"
                         }]
                     }, {
                         "name": "Equatorial coordinate system",
@@ -4991,9 +5439,18 @@
                             "name": "Celestial sphere",
                             "uri": "http://astrothesaurus.org/uat/214",
                             "children": [{
+                                "name": "Asterisms",
+                                "uri": "http://astrothesaurus.org/uat/2332"
+                            }, {
                                 "name": "Constellations",
                                 "uri": "http://astrothesaurus.org/uat/296"
+                            }, {
+                                "name": "Star lore",
+                                "uri": "http://astrothesaurus.org/uat/2358"
                             }]
+                        }, {
+                            "name": "Circumpolar",
+                            "uri": "http://astrothesaurus.org/uat/2338"
                         }, {
                             "name": "Declination",
                             "uri": "http://astrothesaurus.org/uat/365"
@@ -5060,6 +5517,12 @@
                             "name": "Azimuth",
                             "uri": "http://astrothesaurus.org/uat/124"
                         }, {
+                            "name": "Cardinal directions",
+                            "uri": "http://astrothesaurus.org/uat/2340"
+                        }, {
+                            "name": "Horizon",
+                            "uri": "http://astrothesaurus.org/uat/2339"
+                        }, {
                             "name": "Meridian",
                             "uri": "http://astrothesaurus.org/uat/1026"
                         }, {
@@ -5071,6 +5534,9 @@
                         }, {
                             "name": "Zenith",
                             "uri": "http://astrothesaurus.org/uat/1838"
+                        }, {
+                            "name": "Zenith distance",
+                            "uri": "http://astrothesaurus.org/uat/2341"
                         }]
                     }, {
                         "name": "Supergalactic coordinate system",
@@ -5276,6 +5742,9 @@
                         "uri": "http://astrothesaurus.org/uat/1232"
                     }]
                 }, {
+                    "name": "Stellar aberration",
+                    "uri": "http://astrothesaurus.org/uat/2328"
+                }, {
                     "name": "Stellar distance",
                     "uri": "http://astrothesaurus.org/uat/1595",
                     "children": [{
@@ -5379,6 +5848,9 @@
                 "name": "Astronomical optics",
                 "uri": "http://astrothesaurus.org/uat/88",
                 "children": [{
+                    "name": "Adaptive optics",
+                    "uri": "http://astrothesaurus.org/uat/2281"
+                }, {
                     "name": "Astronomical seeing",
                     "uri": "http://astrothesaurus.org/uat/92"
                 }, {
@@ -5431,6 +5903,19 @@
                     "name": "Laser guide stars",
                     "uri": "http://astrothesaurus.org/uat/904"
                 }, {
+                    "name": "Optical aberration",
+                    "uri": "http://astrothesaurus.org/uat/2330",
+                    "children": [{
+                        "name": "Chromatic aberration",
+                        "uri": "http://astrothesaurus.org/uat/2342"
+                    }, {
+                        "name": "Spherical aberration",
+                        "uri": "http://astrothesaurus.org/uat/2343"
+                    }]
+                }, {
+                    "name": "Optical filters",
+                    "uri": "http://astrothesaurus.org/uat/2331"
+                }, {
                     "name": "Stellar atmospheric opacity",
                     "uri": "http://astrothesaurus.org/uat/1585"
                 }]
@@ -5451,11 +5936,18 @@
                 "name": "Direct imaging",
                 "uri": "http://astrothesaurus.org/uat/387",
                 "children": [{
-                    "name": "Coronagraphic imaging",
-                    "uri": "http://astrothesaurus.org/uat/313"
-                }, {
                     "name": "Far infrared interferometry",
                     "uri": "http://astrothesaurus.org/uat/528"
+                }, {
+                    "name": "High contrast techniques",
+                    "uri": "http://astrothesaurus.org/uat/2369",
+                    "children": [{
+                        "name": "Coronagraphic imaging",
+                        "uri": "http://astrothesaurus.org/uat/313"
+                    }, {
+                        "name": "High contrast spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/2370"
+                    }]
                 }]
             }, {
                 "name": "Doppler imaging",
@@ -5571,8 +6063,21 @@
                     "uri": "http://astrothesaurus.org/uat/1775"
                 }]
             }, {
+                "name": "Magnetogram",
+                "uri": "http://astrothesaurus.org/uat/2359"
+            }, {
                 "name": "Magnetospheric radio emissions",
                 "uri": "http://astrothesaurus.org/uat/998"
+            }, {
+                "name": "Mass spectrometry",
+                "uri": "http://astrothesaurus.org/uat/2094",
+                "children": [{
+                    "name": "Quadrupole mass spectrometry",
+                    "uri": "http://astrothesaurus.org/uat/2221"
+                }, {
+                    "name": "Time-of-flight mass spectrometry",
+                    "uri": "http://astrothesaurus.org/uat/2222"
+                }]
             }, {
                 "name": "Optical observation",
                 "uri": "http://astrothesaurus.org/uat/1169",
@@ -5777,14 +6282,23 @@
                         "uri": "http://astrothesaurus.org/uat/2085"
                     }]
                 }, {
+                    "name": "Electronic spectroscopy",
+                    "uri": "http://astrothesaurus.org/uat/2247"
+                }, {
                     "name": "Galaxy spectroscopy",
                     "uri": "http://astrothesaurus.org/uat/2171"
                 }, {
+                    "name": "Gamma-ray spectroscopy",
+                    "uri": "http://astrothesaurus.org/uat/2283"
+                }, {
+                    "name": "Ice spectroscopy",
+                    "uri": "http://astrothesaurus.org/uat/2250"
+                }, {
+                    "name": "Infrared spectroscopy",
+                    "uri": "http://astrothesaurus.org/uat/2285"
+                }, {
                     "name": "Lyman alpha forest",
                     "uri": "http://astrothesaurus.org/uat/980"
-                }, {
-                    "name": "Mass spectrometry",
-                    "uri": "http://astrothesaurus.org/uat/2094"
                 }, {
                     "name": "Molecular spectroscopy",
                     "uri": "http://astrothesaurus.org/uat/2095",
@@ -5808,8 +6322,44 @@
                     "name": "Radio spectroscopy",
                     "uri": "http://astrothesaurus.org/uat/1359"
                 }, {
+                    "name": "Rotational spectroscopy",
+                    "uri": "http://astrothesaurus.org/uat/2248",
+                    "children": [{
+                        "name": "Microwave spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/2251",
+                        "children": [{
+                            "name": "Cavity-enhanced Fourier-transform",
+                            "uri": "http://astrothesaurus.org/uat/2253"
+                        }, {
+                            "name": "Chirped-pulse Fourier-transform",
+                            "uri": "http://astrothesaurus.org/uat/2254"
+                        }, {
+                            "name": "Direct absorption",
+                            "uri": "http://astrothesaurus.org/uat/2255"
+                        }]
+                    }, {
+                        "name": "Millimeter-wave spectroscopy",
+                        "uri": "http://astrothesaurus.org/uat/2252",
+                        "children": [{
+                            "name": "Cavity-enhanced Fourier-transform",
+                            "uri": "http://astrothesaurus.org/uat/2253"
+                        }, {
+                            "name": "Chirped-pulse Fourier-transform",
+                            "uri": "http://astrothesaurus.org/uat/2254"
+                        }, {
+                            "name": "Direct absorption",
+                            "uri": "http://astrothesaurus.org/uat/2255"
+                        }]
+                    }]
+                }, {
                     "name": "Transmission spectroscopy",
                     "uri": "http://astrothesaurus.org/uat/2133"
+                }, {
+                    "name": "Ultraviolet spectroscopy",
+                    "uri": "http://astrothesaurus.org/uat/2284"
+                }, {
+                    "name": "Vibrational spectroscopy",
+                    "uri": "http://astrothesaurus.org/uat/2249"
                 }]
             }]
         }]
@@ -6306,6 +6856,9 @@
                 }, {
                     "name": "Lunar node regression",
                     "uri": "http://astrothesaurus.org/uat/964"
+                }, {
+                    "name": "Lunation",
+                    "uri": "http://astrothesaurus.org/uat/2316"
                 }]
             }, {
                 "name": "Selenology",
@@ -6365,10 +6918,18 @@
                         "uri": "http://astrothesaurus.org/uat/954"
                     }, {
                         "name": "Lunar impacts",
-                        "uri": "http://astrothesaurus.org/uat/958"
+                        "uri": "http://astrothesaurus.org/uat/958",
+                        "children": [{
+                            "name": "Lunar craters",
+                            "uri": "http://astrothesaurus.org/uat/949"
+                        }]
                     }, {
                         "name": "Lunar mineralogy",
-                        "uri": "http://astrothesaurus.org/uat/962"
+                        "uri": "http://astrothesaurus.org/uat/962",
+                        "children": [{
+                            "name": "Lunar regolith",
+                            "uri": "http://astrothesaurus.org/uat/2315"
+                        }]
                     }, {
                         "name": "Lunar petrology",
                         "uri": "http://astrothesaurus.org/uat/967"
@@ -6379,6 +6940,9 @@
             "name": "Planetary science",
             "uri": "http://astrothesaurus.org/uat/1255",
             "children": [{
+                "name": "Albedo",
+                "uri": "http://astrothesaurus.org/uat/2321"
+            }, {
                 "name": "Asteroid dynamics",
                 "uri": "http://astrothesaurus.org/uat/2210",
                 "children": [{
@@ -6406,6 +6970,9 @@
                             "children": [{
                                 "name": "Gegenschein",
                                 "uri": "http://astrothesaurus.org/uat/640"
+                            }, {
+                                "name": "Light pollution",
+                                "uri": "http://astrothesaurus.org/uat/2318"
                             }]
                         }, {
                             "name": "Twilight",
@@ -6414,14 +6981,14 @@
                     }]
                 }]
             }, {
+                "name": "Collisional processes",
+                "uri": "http://astrothesaurus.org/uat/2286"
+            }, {
                 "name": "Comet dynamics",
                 "uri": "http://astrothesaurus.org/uat/2213"
             }, {
                 "name": "Comet origins",
                 "uri": "http://astrothesaurus.org/uat/2203"
-            }, {
-                "name": "Impact phenomena",
-                "uri": "http://astrothesaurus.org/uat/779"
             }, {
                 "name": "Interplanetary magnetic fields",
                 "uri": "http://astrothesaurus.org/uat/824"
@@ -6463,6 +7030,9 @@
                 "name": "Natural satellite dynamics",
                 "uri": "http://astrothesaurus.org/uat/2212"
             }, {
+                "name": "Natural satellite evolution",
+                "uri": "http://astrothesaurus.org/uat/2297"
+            }, {
                 "name": "Natural satellite formation",
                 "uri": "http://astrothesaurus.org/uat/1425"
             }, {
@@ -6484,6 +7054,15 @@
                 }, {
                     "name": "Atmospheric composition",
                     "uri": "http://astrothesaurus.org/uat/2120"
+                }, {
+                    "name": "Atmospheric dynamics",
+                    "uri": "http://astrothesaurus.org/uat/2300"
+                }, {
+                    "name": "Atmospheric evolution",
+                    "uri": "http://astrothesaurus.org/uat/2301"
+                }, {
+                    "name": "Atmospheric structure",
+                    "uri": "http://astrothesaurus.org/uat/2309"
                 }, {
                     "name": "Atmospheric tides",
                     "uri": "http://astrothesaurus.org/uat/118"
@@ -6519,6 +7098,9 @@
                         "name": "Earth's clouds",
                         "uri": "http://astrothesaurus.org/uat/258"
                     }, {
+                        "name": "Earth's seasons",
+                        "uri": "http://astrothesaurus.org/uat/2311"
+                    }, {
                         "name": "Exosphere",
                         "uri": "http://astrothesaurus.org/uat/499",
                         "children": [{
@@ -6526,23 +7108,27 @@
                             "uri": "http://astrothesaurus.org/uat/644"
                         }]
                     }, {
-                        "name": "Greenhouse gases",
-                        "uri": "http://astrothesaurus.org/uat/684",
+                        "name": "Greenhouse effect",
+                        "uri": "http://astrothesaurus.org/uat/2314",
                         "children": [{
-                            "name": "Carbon dioxide",
-                            "uri": "http://astrothesaurus.org/uat/196"
-                        }, {
-                            "name": "Chlorofluorocarbons",
-                            "uri": "http://astrothesaurus.org/uat/227"
-                        }, {
-                            "name": "Methane",
-                            "uri": "http://astrothesaurus.org/uat/1042"
-                        }, {
-                            "name": "Nitrous oxide",
-                            "uri": "http://astrothesaurus.org/uat/1114"
-                        }, {
-                            "name": "Water vapor",
-                            "uri": "http://astrothesaurus.org/uat/1791"
+                            "name": "Greenhouse gases",
+                            "uri": "http://astrothesaurus.org/uat/684",
+                            "children": [{
+                                "name": "Carbon dioxide",
+                                "uri": "http://astrothesaurus.org/uat/196"
+                            }, {
+                                "name": "Chlorofluorocarbons",
+                                "uri": "http://astrothesaurus.org/uat/227"
+                            }, {
+                                "name": "Methane",
+                                "uri": "http://astrothesaurus.org/uat/1042"
+                            }, {
+                                "name": "Nitrous oxide",
+                                "uri": "http://astrothesaurus.org/uat/1114"
+                            }, {
+                                "name": "Water vapor",
+                                "uri": "http://astrothesaurus.org/uat/1791"
+                            }]
                         }]
                     }, {
                         "name": "Humidity",
@@ -6604,6 +7190,9 @@
                 "name": "Planetary dynamics",
                 "uri": "http://astrothesaurus.org/uat/2173",
                 "children": [{
+                    "name": "Glaciation",
+                    "uri": "http://astrothesaurus.org/uat/2302"
+                }, {
                     "name": "Tectonics",
                     "uri": "http://astrothesaurus.org/uat/2175",
                     "children": [{
@@ -6621,6 +7210,12 @@
                     "name": "Aurorae",
                     "uri": "http://astrothesaurus.org/uat/2192"
                 }, {
+                    "name": "Magnetic poles",
+                    "uri": "http://astrothesaurus.org/uat/2319"
+                }, {
+                    "name": "Magnetic storms",
+                    "uri": "http://astrothesaurus.org/uat/2320"
+                }, {
                     "name": "Magnetospheric radio emissions",
                     "uri": "http://astrothesaurus.org/uat/998"
                 }, {
@@ -6637,6 +7232,9 @@
                 "name": "Planetary structure",
                 "uri": "http://astrothesaurus.org/uat/1256",
                 "children": [{
+                    "name": "Glaciers",
+                    "uri": "http://astrothesaurus.org/uat/2303"
+                }, {
                     "name": "Hydrosphere",
                     "uri": "http://astrothesaurus.org/uat/770"
                 }, {
@@ -6652,6 +7250,16 @@
                     "name": "Planetary cores",
                     "uri": "http://astrothesaurus.org/uat/1247"
                 }, {
+                    "name": "Planetary geology",
+                    "uri": "http://astrothesaurus.org/uat/2288",
+                    "children": [{
+                        "name": "Geological processes",
+                        "uri": "http://astrothesaurus.org/uat/2289"
+                    }, {
+                        "name": "Planetary mineralogy",
+                        "uri": "http://astrothesaurus.org/uat/2304"
+                    }]
+                }, {
                     "name": "Planetary interior",
                     "uri": "http://astrothesaurus.org/uat/1248"
                 }, {
@@ -6661,6 +7269,19 @@
                     "name": "Planetary surfaces",
                     "uri": "http://astrothesaurus.org/uat/2113",
                     "children": [{
+                        "name": "Impact phenomena",
+                        "uri": "http://astrothesaurus.org/uat/779",
+                        "children": [{
+                            "name": "Craters",
+                            "uri": "http://astrothesaurus.org/uat/2282"
+                        }, {
+                            "name": "Impact gardening",
+                            "uri": "http://astrothesaurus.org/uat/2299"
+                        }]
+                    }, {
+                        "name": "Regolith",
+                        "uri": "http://astrothesaurus.org/uat/2294"
+                    }, {
                         "name": "Surface composition",
                         "uri": "http://astrothesaurus.org/uat/2115"
                     }, {
@@ -6679,6 +7300,13 @@
                 }, {
                     "name": "Volcanoes",
                     "uri": "http://astrothesaurus.org/uat/1780"
+                }]
+            }, {
+                "name": "Planetary system evolution",
+                "uri": "http://astrothesaurus.org/uat/2292",
+                "children": [{
+                    "name": "Solar system evolution",
+                    "uri": "http://astrothesaurus.org/uat/2293"
                 }]
             }, {
                 "name": "Planetary system formation",
@@ -6703,6 +7331,9 @@
             }, {
                 "name": "Planetary theory",
                 "uri": "http://astrothesaurus.org/uat/1258"
+            }, {
+                "name": "Planetary thermal histories",
+                "uri": "http://astrothesaurus.org/uat/2290"
             }, {
                 "name": "Planetary-disk interactions",
                 "uri": "http://astrothesaurus.org/uat/2204"
@@ -6914,6 +7545,9 @@
                         "name": "Galilean satellites",
                         "uri": "http://astrothesaurus.org/uat/627",
                         "children": [{
+                            "name": "Callisto",
+                            "uri": "http://astrothesaurus.org/uat/2279"
+                        }, {
                             "name": "Europa",
                             "uri": "http://astrothesaurus.org/uat/2189"
                         }, {
@@ -6941,6 +7575,9 @@
                     "name": "Saturnian satellites",
                     "uri": "http://astrothesaurus.org/uat/1427",
                     "children": [{
+                        "name": "Enceladus",
+                        "uri": "http://astrothesaurus.org/uat/2280"
+                    }, {
                         "name": "Titan",
                         "uri": "http://astrothesaurus.org/uat/2186"
                     }]
@@ -6967,6 +7604,9 @@
                 }, {
                     "name": "Planetary ring divisions",
                     "uri": "http://astrothesaurus.org/uat/1253"
+                }, {
+                    "name": "Ring resonance",
+                    "uri": "http://astrothesaurus.org/uat/2295"
                 }, {
                     "name": "Shepherd satellites",
                     "uri": "http://astrothesaurus.org/uat/1451"
@@ -7002,6 +7642,12 @@
                         "name": "Main belt asteroids",
                         "uri": "http://astrothesaurus.org/uat/2036",
                         "children": [{
+                            "name": "Ceres",
+                            "uri": "http://astrothesaurus.org/uat/219"
+                        }, {
+                            "name": "Pallas",
+                            "uri": "http://astrothesaurus.org/uat/2317"
+                        }, {
                             "name": "Vesta",
                             "uri": "http://astrothesaurus.org/uat/2183"
                         }]
@@ -7058,6 +7704,12 @@
                         "name": "Comet tails",
                         "uri": "http://astrothesaurus.org/uat/274",
                         "children": [{
+                            "name": "Comet dust tails",
+                            "uri": "http://astrothesaurus.org/uat/2312"
+                        }, {
+                            "name": "Comet ion tails",
+                            "uri": "http://astrothesaurus.org/uat/2313"
+                        }, {
                             "name": "Comet tail streamers",
                             "uri": "http://astrothesaurus.org/uat/273"
                         }]
