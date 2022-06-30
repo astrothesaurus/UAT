@@ -303,6 +303,6 @@ Release Date: 06/30/2022
 
 #### Removed related links from 2 concepts:
 | Concept URI | PrefLabel | Removed Related Concept URI | Removed Related PrefLabel |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 |   http://astrothesaurus.org/uat/219    |  Ceres    |  http://astrothesaurus.org/uat/2036   |  Main belt asteroids  |
 |   http://astrothesaurus.org/uat/2036   |  Main belt asteroids  |  http://astrothesaurus.org/uat/219    |  Ceres    |
