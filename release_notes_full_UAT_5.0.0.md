@@ -104,7 +104,7 @@ Release Date: 06/30/2022
 |   http://astrothesaurus.org/uat/2302   |  Glaciation   |
 |   http://astrothesaurus.org/uat/2303   |  Glaciers     |
 |   http://astrothesaurus.org/uat/2304   |  Planetary mineralogy     |
-|   http://astrothesaurus.org/uat/2305   |  Astronomy data sonificaton   |
+|   http://astrothesaurus.org/uat/2305   |  Astronomy data sonification   |
 |   http://astrothesaurus.org/uat/2306   |  Astronomy image processing   |
 |   http://astrothesaurus.org/uat/2307   |  Exoplanet atmospheric dynamics   |
 |   http://astrothesaurus.org/uat/2308   |  Exoplanet atmospheric evolution  |
@@ -134,7 +134,7 @@ Release Date: 06/30/2022
 |   http://astrothesaurus.org/uat/2332   |  Asterisms    |
 |   http://astrothesaurus.org/uat/2333   |  Gnomons  |
 |   http://astrothesaurus.org/uat/2334   |  Planispheres     |
-|   http://astrothesaurus.org/uat/2335   |  Sundails     |
+|   http://astrothesaurus.org/uat/2335   |  Sundials     |
 |   http://astrothesaurus.org/uat/2336   |  Ecliptic     |
 |   http://astrothesaurus.org/uat/2337   |  Zodiac   |
 |   http://astrothesaurus.org/uat/2338   |  Circumpolar  |

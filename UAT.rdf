@@ -35579,7 +35579,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2305">
-	<skos:prefLabel xml:lang="en">Astronomy data sonificaton</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Astronomy data sonification</skos:prefLabel>
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1858"/>
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 </rdf:Description>
@@ -36176,7 +36176,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2335">
-	<skos:prefLabel xml:lang="en">Sundails</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Sundials</skos:prefLabel>
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 </rdf:Description>
 

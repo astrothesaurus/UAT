@@ -3440,7 +3440,7 @@
                     "name": "Astronomy data reduction",
                     "uri": "http://astrothesaurus.org/uat/1861"
                 }, {
-                    "name": "Astronomy data sonificaton",
+                    "name": "Astronomy data sonification",
                     "uri": "http://astrothesaurus.org/uat/2305"
                 }, {
                     "name": "Astronomy data visualization",
@@ -4433,7 +4433,7 @@
                     "name": "Stone circles",
                     "uri": "http://astrothesaurus.org/uat/1638"
                 }, {
-                    "name": "Sundails",
+                    "name": "Sundials",
                     "uri": "http://astrothesaurus.org/uat/2335",
                     "children": [{
                         "name": "Gnomons",
@@ -4887,7 +4887,7 @@
                         "name": "Astronomy data reduction",
                         "uri": "http://astrothesaurus.org/uat/1861"
                     }, {
-                        "name": "Astronomy data sonificaton",
+                        "name": "Astronomy data sonification",
                         "uri": "http://astrothesaurus.org/uat/2305"
                     }, {
                         "name": "Astronomy data visualization",
