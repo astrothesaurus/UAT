@@ -1,0 +1,53 @@
+name: New Concept
+description: Recommend a new concept for the Unified Astronomy Thesaurus.
+title: "[New Concept]: "
+labels: ["add concept"]
+assignees:
+  - katieefrey
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to recommend a new concept for the UAT!
+        
+  - type: input
+    id: concept-description
+    attributes:
+      label: Describe the Concept
+      description: Does this new concept relate to any other terms already found in the UAT?  Can you describe that relationship? What does the new concept mean?  Is it more general or specific?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: concept-location
+    attributes:
+      label: Concept Location
+      description: Describe where this concept fits within the existing hierarchy. A concept can exist in multiple locations within the UAT.
+    validations:
+      required: false
+
+  - type: textarea
+    id: supporting-info
+    attributes:
+      label: Supporting Information
+      description: Please include 1 to 3 bibcodes or article references that support the use of this concept in literature. (optional)
+      placeholder: This helps us verify the concept recommendation.
+      validations:
+        required: false
+ 
+   - type: textarea
+    id: additional-comments
+    attributes:
+      label: Comments/Feedback
+      description: Please include any other thoughts or relevant details here. (optional)
+      validations:
+        required: false
+        
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/astrothesaurus/UAT/blob/master/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
