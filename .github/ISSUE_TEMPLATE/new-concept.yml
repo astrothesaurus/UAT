@@ -22,7 +22,7 @@ body:
       label: Concept Location
       description: Describe where this concept fits within the existing hierarchy. A concept can exist in multiple locations within the UAT.
     validations:
-      required: false
+      required: true
   - type: textarea
     id: supporting-info
     attributes:
