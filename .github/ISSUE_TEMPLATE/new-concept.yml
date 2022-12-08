@@ -8,36 +8,34 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to recommend a new concept for the UAT.
+        Thanks for taking the time to recommend a new concept!
   - type: input
     id: concept-description
     attributes:
       label: Describe the Concept
       description: Does this new concept relate to any other terms already found in the UAT?  Can you describe that relationship? What does the new concept mean?  Is it more general or specific?
     validations:
-      required: true      
+      required: true
   - type: textarea
     id: concept-location
     attributes:
       label: Concept Location
       description: Describe where this concept fits within the existing hierarchy. A concept can exist in multiple locations within the UAT.
-    validations:
-      required: false
   - type: textarea
     id: supporting-info
     attributes:
       label: Supporting Information
       description: Please include 1 to 3 bibcodes or article references that support the use of this concept in literature. (optional)
       placeholder: This helps us verify the concept recommendation.
-      validations:
-        required: false 
-   - type: textarea
+    validations:
+      required: false
+  - type: textarea
     id: additional-comments
     attributes:
       label: Comments/Feedback
       description: Please include any other thoughts or relevant details here. (optional)
-      validations:
-        required: false        
+    validations:
+      required: false
   - type: checkboxes
     id: terms
     attributes:
