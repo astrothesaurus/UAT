@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to recommend a new concept!
-  - type: input
+  - type: textarea
     id: concept-description
     attributes:
       label: Describe the Concept
