@@ -9,31 +9,30 @@ body:
     attributes:
       value: |
         Thanks for taking the time to recommend a new concept!
-  - type: textarea
+  - type: input
     id: concept-description
     attributes:
       label: Describe the Concept
-      description: Does this new concept relate to any other terms already found in the UAT?  Can you describe that relationship? What does the new concept mean?  Is it more general or specific?
+      description: Tell us about this new concept. What does it mean? Is it more general or specific?  How does it relate to the fields of astronomy and astrophysics? Can you describe the relationship this concept has with ones that already exist in the UAT?
     validations:
       required: true
   - type: textarea
     id: concept-location
     attributes:
       label: Concept Location
-      description: Describe where this concept fits within the existing hierarchy. A concept can exist in multiple locations within the UAT.
+      description: Under which main topic(s) would you categorize this concept? Can you describe a specific location where it fits within the current hierarchy? Should it be found in multiple locations?
   - type: textarea
     id: supporting-info
     attributes:
       label: Supporting Information
-      description: Please include 1 to 3 bibcodes or article references that support the use of this concept in literature. (optional)
-      placeholder: This helps us verify the concept recommendation.
+      description: To help us verify the recommended concept, please provide references to articles or reputable websites that support the use of this concept.  This could be a list of bibcodes, article citations, urls, etc. (optional)
     validations:
       required: false
   - type: textarea
     id: additional-comments
     attributes:
-      label: Comments/Feedback
-      description: Please include any other thoughts or relevant details here. (optional)
+      label: Additional Comments
+      description: Please include any other thoughts or relevant details related to this concept. (optional)
     validations:
       required: false
   - type: checkboxes
