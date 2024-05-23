@@ -3,7 +3,7 @@ name: Suggest New Concept
 about: Suggest a new concept for the UAT
 title: 'New Concept: [your new concept here]'
 labels: add concept
-assignees: katieefrey
+assignees: danielchivvis
 
 ---
 
