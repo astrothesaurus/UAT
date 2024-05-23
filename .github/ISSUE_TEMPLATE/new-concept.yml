@@ -3,7 +3,7 @@ description: Recommend a new concept for the Unified Astronomy Thesaurus.
 title: "[New Concept]: "
 labels: ["add concept"]
 assignees:
-  - katieefrey
+  - danielchivvis
 body:
   - type: markdown
     attributes:
