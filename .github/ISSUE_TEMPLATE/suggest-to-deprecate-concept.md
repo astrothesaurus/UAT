@@ -3,7 +3,7 @@ name: Suggest to Deprecate Concept
 about: Suggest that the UAT deprecate a concept
 title: 'Deprecate Concept: [concept name here]'
 labels: remove concept
-assignees: katieefrey
+assignees: danielchivvis
 
 ---
 
