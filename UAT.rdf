@@ -30942,7 +30942,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1177">
-	<skos:definition xml:lang="en">A fixed point in a body through which the resultant force of gravitational attraction acts.</skos:definition>
+	<skos:definition xml:lang="en">Orbital elements, also known as Keplerian elements, are a set of six parameters that uniquely define the orbit of a celestial object around another, typically a star or planet. These elements include the semi-major axis (a), eccentricity (e), inclination (i), longitude of the ascending node (Ω), argument of periapsis (ω), and mean anomaly (M). The semi-major axis determines the size of the orbit, while the eccentricity describes its shape. The inclination defines the angle between the orbital plane and a reference plane, usually the ecliptic for objects in the solar system. The longitude of the ascending node specifies the location where the orbit crosses the reference plane from south to north. The argument of periapsis indicates the angle between the ascending node and the point of closest approach (periapsis). Finally, the mean anomaly measures the object's position in its orbit relative to the periapsis. These elements provide a concise and complete description of an object's orbital motion, allowing for precise calculations of its position and velocity at any given time.</skos:definition>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-17T19:09:09.607Z</dcterms:modified>
 </rdf:Description>
 
