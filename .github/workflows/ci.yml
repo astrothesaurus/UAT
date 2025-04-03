@@ -1,0 +1,18 @@
+name: Update UAT on Web App
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  update-uat:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Make POST request to update UAT
+        run: curl --location --request POST 'https://uat.astrothesaurus.org/api/uat/update'
