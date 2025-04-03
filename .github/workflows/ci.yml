@@ -15,4 +15,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Make POST request to update UAT
-        run: curl --location --request POST 'https://uat.astrothesaurus.org/api/uat/update'
+        run: |
+          curl --fail --location --request POST 'https://uat.astrothesaurus.org/api/uat/update'
+          if [ $? -ne 0 ]; then
+            echo "POST request failed"
+            exit 1
+          fi
