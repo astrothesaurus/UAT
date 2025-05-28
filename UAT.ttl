@@ -48,7 +48,7 @@
     dcterms:modified "2020-11-03T17:44:54.488Z"^^xsd:dateTime, "2020-12-16T20:48:12.505Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/999> ;
-    skos:definition "The magnitude a star would have if it were at a distance of 10 parsecs in a void space, without interstellar absorption. The absolute magnitude is usually deduced from the visual magnitude, measured through a V filter (UBV system), when it is written as M_V. If it is defined for another wavelength, it gets another index (U, B, etc). If the radiation on all wavelengths is included, it becomes absolute bolometric magnitude, M_bol. The Sun has the absolute magnitude +4.8. Most of the stars have absolute magnitudes ranging between -9 (supergiants) and +19 (red dwarfs)."@en ;
+    skos:definition "The magnitude a star would have if it were at a distance of 10 parsecs in a void space, without interstellar absorption."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-03T17:44:54.457Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -144,13 +144,7 @@
     dcterms:modified "2020-11-10T19:15:28.771Z"^^xsd:dateTime, "2020-11-24T17:16:58.160Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/797> ;
-    skos:definition "Fourth planet from Sun and the seventh largest. Mass 6.42 x 10^26 g (0.11 Earth's); radius 3397 km. Mean distance from Sun 1.52 AU. Sidereal period 687 days; synodic period 779.9 days. Surface temperature 248 K., rotational period 24h 37m 22.66s. Obliquity 23°59'. Atmosphere more than 90% CO_2, traces of O_2, CO, H_{2}O. Two tiny satellites (Phobos and Deimos), both of which are locked in synchronous rotation with Mars."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-10T19:15:28.737Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "The solar system planet Mars."@en ;
     skos:prefLabel "Mars"@en ;
     skos:related <http://astrothesaurus.org/uat/1009> .
 
@@ -192,13 +186,7 @@
     a skos:Concept ;
     skos:altLabel "Mass concentration"@en ;
     skos:broader <http://astrothesaurus.org/uat/679> ;
-    skos:definition "A region on the surface of the Moon where the gravitational attraction is slightly higher than normal due to the presence of dense rock."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-10T19:18:30.130Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "A region on the surface of the Moon where the gravitational attraction is slightly higher than normal due to overdensities below the moon's surface."@en ;
     skos:prefLabel "Mascon"@en .
 
 <http://astrothesaurus.org/uat/1011>
@@ -231,7 +219,7 @@
     a skos:Concept ;
     skos:altLabel "Prolonged sunspot minimum"@en ;
     skos:broader <http://astrothesaurus.org/uat/1653> ;
-    skos:definition "A period from about 1645 to 1715 when the number of sunspots was unusually low. This solar activity minimum is attested also through the increased content of carbon-14 in tree rings in that period. The reason is that the cosmic rays which produce carbon-14 reach the Earth in a greater number when there is weak solar activity. The Maunder minimum occurred during a period of cooling of the Earth, called the Little Ice Age. The Maunder minimum is one of a number of periods of low solar activity, including the Dalton minimum, the Sporer minimum, the Wolf minimum, and the Oort minimum."@en ;
+    skos:definition "A period from about 1645 to 1715 when the number of sunspots was unusually low.  The Maunder minimum is one of a number of periods of low solar activity, including the Dalton minimum, the Sporer minimum, the Wolf minimum, and the Oort minimum."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-10T19:21:02.595Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -316,13 +304,7 @@
     a skos:Concept ;
     skos:altLabel "Mercury"@en ;
     skos:broader <http://astrothesaurus.org/uat/797> ;
-    skos:definition "The closest planet to the Sun and one of five planets visible with the naked eye. The greatest elongation of Mercury is about 28°, making it visible at most about 112 minutes after sunset or before sunrise. It lies at a mean distance of about 0.39 astronomical units from the Sun. Mercury is just 4,879 km in diameter, about 2.6 times smaller than the Earth. Its orbital period is 87.97 Earth days. Mercury has a high density, 5.4 g cm^-3, with only the Earth having a higher density among the planets. This is largely due to Mercury being composed mainly of heavy metals and rock. One solar day on Mercury lasts the equivalent of 176 Earth days while the sidereal day (the time for 1 rotation in relation to a fixed point) lasts 59 Earth days. Mercury is nearly tidally locked to the Sun and over time this has slowed the rotation of the planet to almost match its orbit around the Sun. Mercury also has the highest orbital eccentricity of all the planets with its distance from the Sun ranging from 46 to 70 million km. Mercury has just 38% the gravity of Earth, this is too little to maintain an atmosphere against solar winds, which blow it away. The surface of Mercury which faces the Sun has temperatures of up to 427°C, whilst on the alternate side this can be as low as -173°C. Mercury's core has more iron than any other planet in the solar system. This has to do with its formation and early life. If the planet formed quickly, increasing temperatures of the evolving Sun could have vaporized much of the existing surface, leaving only a thin shell."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-10T19:22:43.765Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "The solar system planet Mercury."@en ;
     skos:prefLabel "Mercury (planet)"@en .
 
 <http://astrothesaurus.org/uat/1025>
@@ -331,7 +313,7 @@
     a skos:Concept ;
     skos:altLabel "Mercury manganese stars"@en ;
     skos:broader <http://astrothesaurus.org/uat/128>, <http://astrothesaurus.org/uat/226>, <http://astrothesaurus.org/uat/995> ;
-    skos:definition "Chemically peculiar stars of late B-types. The most distinctive features of Mercury-manganese stars are extreme atmospheric overabundance of Hg (up to 5 dex) and of Mn (up to 3 dex). The origin of abundance anomalies observed in late B-type stars with HgMn peculiarity is still poorly understood. More than two thirds of the HgMn stars are known to belong to spectroscopic binaries with a preference of orbital periods ranging from 3 to 20 days."@en ;
+    skos:definition "Chemically peculiar stars of late B-types. The most distinctive features of Mercury-manganese stars are extreme atmospheric overabundance of Hg (up to 5 dex) and of Mn (up to 3 dex)."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-10T19:23:49.885Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -345,13 +327,7 @@
     dcterms:modified "2020-11-10T19:24:23.072Z"^^xsd:dateTime, "2020-11-10T19:24:32.358Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/747> ;
-    skos:definition "An imaginary great circle on the celestial sphere that passes through its poles and the observer's zenith."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-10T19:24:32.327Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "An imaginary great circle on the celestial sphere that passes through its poles and the observer's zenith.  This concept is not applicable to geographic meridians (which are any great circle passing through the poles)."@en ;
     skos:prefLabel "Meridian"@en .
 
 <http://astrothesaurus.org/uat/1027>
@@ -394,7 +370,7 @@
     dcterms:modified "2020-11-10T19:27:09.377Z"^^xsd:dateTime, "2020-11-10T19:27:18.639Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/437> ;
-    skos:definition "The layer of the atmosphere located between the stratosphere and the ionosphere, where temperature drops rapidly with increasing height. It extends between 17 to 80 kilometers above the Earth's surface."@en ;
+    skos:definition "The layer of the Earth atmosphere located between the stratosphere and the ionosphere, where temperature drops rapidly with increasing height. It extends between 17 to 80 kilometers above the Earth's surface."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-10T19:27:18.609Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -409,13 +385,7 @@
     a skos:Concept ;
     skos:altLabel "Metal abundances"@en ;
     skos:broader <http://astrothesaurus.org/uat/224> ;
-    skos:definition "In a star, nebula, or galaxy, the proportion of the material that is made up of metals, that is elements heavier than helium. It is generally denoted by Z. The term 'metallicity' is a misnomer used in astrophysics.  In practice, the metallicity of stars is usually expressed by the number ratio of iron atoms to hydrogen atoms per unit volume, with respect to the solar values: [Fe/H] = log10(NFe/NH)star - log10(NFe/NH)Sun, where NFe and NH are the numbers of iron and hydrogen atoms per unit volume. In fact it is taken to be equal to the iron abundance with respect to the solar value. The solar logarithmic iron abundance is 7.50 ± 0.04, with respect to that of hydrogen which, by convention, is 12.00. Stellar metallicity is often expressed in mass fraction.  Nebular metallicity is often defined as the relative abundance of oxygen: (NO/NH)neb/(NO/NH)Sun, where N_O and N_H represent the numbers of oxygen and hydrogen atoms per unit volume."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-10T19:28:44.215Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "The proportion of elements heavier than Helium, usually expressed as the log of the number ratio of such atoms to hydrogen atoms compared to the solar values: [Z/H] = log10(N_Z/N_H)_star - log10(N_Z/N_H)_Sun.  The concept applies to other measures (e.g., by mass, or in absolute values), too."@en ;
     skos:prefLabel "Metallicity"@en .
 
 <http://astrothesaurus.org/uat/1032>
@@ -433,13 +403,7 @@
     dcterms:modified "2020-11-03T18:35:45.108Z"^^xsd:dateTime, "2020-11-09T22:12:30.237Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1041> ;
-    skos:definition "An increased number of meteors all appearing to diverge from the direction of a single point, called radiant. Meteor showers occur annually on the same dates, when the Earth crosses through a meteoroid stream. Meteor showers are named after the constellation in which the radiant is located. For example, the Perseids's radiant lies near the top of the constellation Perseus. Most meteor showers are caused by comets. As a comet orbits the Sun it sheds an icy, dusty debris stream along its orbit. When the Earth's orbit intersects the dust trail, more meteors are seen as the cometary debris encounters our planet's atmosphere. In the case of the Geminids and Quadrantids, those meteor showers come from the debris scattered by orbiting asteroids. Typical meteor showers show 15 to 100 meteors per hour at their peak. On very rare occasions, during a meteor storm, thousands of meteors fall per hour. Prominent meteor showers are: Quadrantids, Lyrids, Eta Aquariids, Delta Aquariids, Perseids, Orionids, Taurids, Leonids, Geminids, Ursids, Alpha Capricornids."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-03T18:35:45.078Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "A concentration of meteors all appearing to diverge from the direction of a single point, its radiant."@en ;
     skos:narrower <http://astrothesaurus.org/uat/1033>, <http://astrothesaurus.org/uat/1839> ;
     skos:prefLabel "Meteor showers"@en .
 
@@ -477,7 +441,7 @@
     dcterms:modified "2020-11-03T18:54:42.711Z"^^xsd:dateTime, "2020-11-03T18:54:55.262Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1040> ;
-    skos:definition "An object of extraterrestrial origin that survives entry through the atmosphere to reach the Earth's surface. Meteors become meteorites if they reach the ground."@en ;
+    skos:definition "An object of extraterrestrial origin that survives entry through the atmosphere to reach the Earth's surface."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-03T18:54:55.236Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
@@ -509,7 +473,7 @@
     dcterms:modified "2020-11-03T18:50:36.164Z"^^xsd:dateTime, "2020-11-03T18:50:49.351Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1528> ;
-    skos:definition "A solid object in interplanetary space before it reaches the Earth's atmosphere. Meteoroids are of silicate and/or metallic matter having a size from tiniest grains up to that of the smallest asteroids."@en ;
+    skos:definition "A solid object in interplanetary space before it reaches the Earth's atmosphere. This concept applies objects ranging from microscopic grains up where the objects begin to count as asteroids."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-03T18:50:49.326Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
@@ -524,7 +488,7 @@
     dcterms:modified "2020-11-03T18:49:51.264Z"^^xsd:dateTime, "2020-11-03T18:50:05.771Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1040> ;
-    skos:definition "A streak of light caused when a meteoroid enters Earth's atmosphere and becomes incandescent, mostly from friction with the air at high speed. Meteors are also referred to as shooting stars. Very bright meteors are called fireball or bolide. Most of visible meteors arise from particles ranging in size from about that of a small pebble down to a grain of sand, and generally weigh less than 1-2 grams. The brilliant flash of light from a meteor is mainly caused by the meteoroid's high level of kinetic energy as it collides with the atmosphere at high speeds (11-72 km/s). The increase in the number of meteors visible toward the end of the night results from the fact that the Earth rotates about its axis in the same direction as it orbits the Sun. This means that the leading edge (morning side) of the Earth encounters more meteoroids than the trailing edge (evening side). In general, 2 to 3 times as many meteors can be seen in the hour or so just before morning twilight, than can be seen in the early evening. Moreover, the numbers of random, or sporadic, meteors vary from season to season, due to the tilt of the Earth on its axis and other factors."@en ;
+    skos:definition "A streak of light caused when a meteoroid enters Earth's atmosphere and becomes incandescent, mostly from friction with the air at high speed."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-03T18:50:05.735Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
@@ -617,13 +581,7 @@
     dcterms:modified "2020-11-04T22:11:45.408Z"^^xsd:dateTime, "2020-11-04T22:12:01.954Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/91> ;
-    skos:definition "A scientist who studies astrophysics."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-04T22:12:01.922Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "Scientists who studies astrophysics."@en ;
     skos:prefLabel "Astrophysicists"@en .
 
 <http://astrothesaurus.org/uat/1050>
@@ -668,13 +626,7 @@
     a skos:Concept ;
     skos:altLabel "Milky Way"@en, "Our galaxy"@en, "The Galaxy"@en ;
     skos:broader <http://astrothesaurus.org/uat/1560>, <http://astrothesaurus.org/uat/929> ;
-    skos:definition "A spiral galaxy, of which the solar system is a small part. It is the second largest in our Local Group of galaxies. The Milky Way is a disk-shaped system, with a diameter of between 80,000 and 100,000 light-years and a thickness of about 2,000 light-years, containing more than 10^11 stars. The stars are divided into two main categories, Population II stars and Population I stars. The core, or nucleus, of the Galaxy is surrounded by an ellipsoidal central bulge that measures some 15,000 light-years in diameter and about 6,000 light-years in the direction perpendicular to the plane of the disk. Surrounding the bulge and extending in a near spherical distribution above and below the Galactic plane is the Galactic halo. The halo contains about 200 globular clusters and an extremely thinly scattered population of individual stars. The Sun is located just over half way out from the center to the edge of the disk at a distance of about 25,000 light-years. In common with other stars, the Sun revolves around the Galactic Center. Its orbital velocity is about 220 km s^-1 and its orbital period is about 225 million years. Overall, the Galaxy exhibits differential rotation, that is stars and gas clouds closer to the center have shorter orbital periods than those that are located further out. The spiral arms of the Milky Way lie within its disk, where bright young stars, H II regions, and molecular clouds of gas and dust are concentrated into curved 'arms' that appear to radiate from the central bulge in a spiral pattern. The Galaxy's spiral pattern consists of several major arms and a number of shorter segments, one of which, the Orion arm, contains the Sun and the Orion star-forming region. Near-infrared observations have shown that the stars in the central bulge are arranged in an elongated galactic bar, about twice as long as it is wide, that is seen nearly end on from the present location of the solar system. The exact center, or nucleus, of the Galaxy coincides with a strong source of radio emission, called Sagittarius A, that is less than 15 astronomical units in diameter. Observations of the speeds at which clouds of ionized gas are revolving round the Galactic center imply that several million solar masses of material are concentrated within a region of about one light-year in radius. Since only about half of this mass can be accounted for by stars, it seems likely that the balance (about 2.5 million solar masses) is contained in a central black hole and that accretion onto this black hole is the underlying source of the energy radiated by Sagittarius A. The Milky Way also has a dark matter component. The Galactic rotation curve indicates that there is a large amount of invisible non-baryonic surrounding the whole Galaxy."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-03T18:57:42.353Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "The galaxy that hosts the solar system, including its disk, bulge, halo, and dark matter content."@en ;
     skos:prefLabel "Milky Way Galaxy"@en ;
     skos:related <http://astrothesaurus.org/uat/1056>, <http://astrothesaurus.org/uat/1159>, <http://astrothesaurus.org/uat/990> .
 
@@ -818,13 +770,8 @@
     dcterms:modified "2020-11-10T19:36:44.485Z"^^xsd:dateTime, "2020-11-10T19:36:54.947Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/813> ;
-    skos:definition "The unseen mass whose gravitational influence is needed to account for the way galaxies rotate, and also to bind clusters of galaxies together. It is thought to consist, in part, of giant halos of dark matter that surround the visible portions of galaxies, and similar material that invisibly occupies the intergalactic voids."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-10T19:36:54.921Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "Mass seen by its gravitational influence but not readily observed."@en ;
+# TODO: give some guidance as to when to use this rather than 353 dark-matter.
     skos:prefLabel "Missing mass"@en .
 
 <http://astrothesaurus.org/uat/1069>
@@ -884,13 +831,7 @@
     dcterms:modified "2020-11-04T16:36:22.490Z"^^xsd:dateTime, "2020-11-04T16:36:36.687Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1567> ;
-    skos:definition "A group of stars dynamically associated so that they have a common motion with respect to the local standard of rest."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-04T16:36:36.661Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "A group of stars dynamically associated so that they all have the same space motion (with a small velocity dispersion).."@en ;
     skos:prefLabel "Moving clusters"@en ;
     skos:related <http://astrothesaurus.org/uat/1075> .
 
@@ -928,13 +869,7 @@
     a skos:Concept ;
     skos:altLabel "AGB"@en ;
     skos:broader <http://astrothesaurus.org/uat/725> ;
-    skos:definition "A region of the Hertzsprung-Russell diagram populated by evolving low-mass to intermediate-mass stars. These stars have an electron degenerate core of carbon and oxygen surrounded by two burning shells of helium and hydrogen. The H and He-burning shells are activated alternately in the deep layers of the star. An extended and tenuous convection envelope, having a radius of 10^4 - 10^5 times the size of the core, lies above these shells. The loosely bound envelope is gradually eroded by the strong stellar wind, which forms a dusty circumstellar envelope out to several hundreds of stellar radii. The convective envelope, stellar atmosphere, and circumstellar envelope have a rich and changing chemical composition provided by nucleosynthesis processes in the burning shells in the deep interior."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-09T21:28:43.331Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "A region of the Hertzsprung-Russell diagram populated by evolving low-mass to intermediate-mass stars. These stars have an electron degenerate core of carbon and oxygen surrounded by two burning shells of helium and hydrogen. Such stars are generally characterized by a strong wind that forms a dusty circumstellar envelope and by a rich and changing chemical composition"@en ;
     skos:prefLabel "Asymptotic giant branch"@en ;
     skos:related <http://astrothesaurus.org/uat/2100> .
 
@@ -995,13 +930,7 @@
     dcterms:modified "2020-11-10T19:38:08.834Z"^^xsd:dateTime, "2020-11-10T19:38:21.956Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/747> ;
-    skos:definition "The point on the celestial sphere blocked from view by Earth and diametrically opposite to the zenith."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-10T19:38:21.928Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "The point on the celestial sphere opposite to the zenith."@en ;
     skos:prefLabel "Nadir"@en .
 
 <http://astrothesaurus.org/uat/1087>
@@ -1055,7 +984,7 @@
     a skos:Concept ;
     skos:altLabel "NECs"@en, "NEOs"@en, "Near Earth objects"@en, "Near-Earth asteroids"@en, "Near-Earth comets"@en ;
     skos:broader <http://astrothesaurus.org/uat/1469> ;
-    skos:definition "An asteroid, comet, or large meteoroid whose orbit brings it exceptionally close to the Earth, and which may therefore pose a collision danger. Most such objects are in orbits around the Sun with perihelion distance less than 1.3 astronomical units. "@en ;
+    skos:definition "An asteroid, comet, or large meteoroid whose orbit brings it close to the Earth, and which may therefore pose a collision danger. Most such objects are in orbits around the Sun with perihelion distance less than 1.3 astronomical units. "@en ;
     skos:editorialNote [
         dcterms:created "2020-11-03T19:29:51.462Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
@@ -1084,13 +1013,7 @@
     a skos:Concept ;
     skos:altLabel "Nebula"@en ;
     skos:broader <http://astrothesaurus.org/uat/847> ;
-    skos:definition "A cloud of gas and dust in the interstellar space."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-02T16:30:32.609Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "A cloud of gas and dust in the interstellar space.  Note that this concept does not include Galaxies that were sometimes called nebulae,too."@en ;
     skos:narrower <http://astrothesaurus.org/uat/1291>, <http://astrothesaurus.org/uat/1301>, <http://astrothesaurus.org/uat/1381>, <http://astrothesaurus.org/uat/1401>, <http://astrothesaurus.org/uat/155>, <http://astrothesaurus.org/uat/1667>, <http://astrothesaurus.org/uat/180>, <http://astrothesaurus.org/uat/2215>, <http://astrothesaurus.org/uat/278>, <http://astrothesaurus.org/uat/287>, <http://astrothesaurus.org/uat/352>, <http://astrothesaurus.org/uat/382>, <http://astrothesaurus.org/uat/413>, <http://astrothesaurus.org/uat/461>, <http://astrothesaurus.org/uat/535>, <http://astrothesaurus.org/uat/639>, <http://astrothesaurus.org/uat/693> ;
     skos:prefLabel "Nebulae"@en .
 
@@ -1099,13 +1022,7 @@
     dcterms:modified "2020-11-10T19:41:43.352Z"^^xsd:dateTime, "2020-11-24T17:19:05.278Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1191> ;
-    skos:definition "The eighth planet from the Sun and the fourth largest by size in the solar system. The equatorial radius of Neptune is 24,764 km (3.883 Earths), its semi-major axis is 30.11 astronomical units (4.50 x 10^9 km), and its orbital period is 164.8 yr. Neptune has at least 14 moons, the largest ones are Triton, Proteus, and Nereid, whereas its smaller moons are: Naiad, Thalassa, Despina, Galatea, Larissa, Halimede, Sao, Laomedeia, Psamathe, and Neso. Neptune has an incredibly thick atmosphere comprised of 74% hydrogen, 25% helium, and approximately 1% methane. Particles of icy methane in its upper atmosphere give Neptune its deep blue color. Large storms whirl through Neptune's upper atmosphere, and high-speed winds track around the planet at up 600 m/s, fastest recorded in the solar system. One of the largest storms ever seen was recorded in 1989. Called the Great Dark Spot, it lasted about five years. Neptune has a very thin collection of rings. They are likely made up of ice particles mixed with dust grains and possibly coated with a carbon-based substance."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-10T19:41:43.320Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "The solar system planet Neptune"@en ;
     skos:prefLabel "Neptune"@en ;
     skos:related <http://astrothesaurus.org/uat/1098> .
 
@@ -1151,7 +1068,7 @@
     a skos:Concept ;
     skos:altLabel "Aten asteroids"@en, "Atens"@en ;
     skos:broader <http://astrothesaurus.org/uat/1092> ;
-    skos:definition "A member of a class of near-Earth asteroids with perihelion distances between 0.983 and 1.0 astronomical units. It is estimated that 6% of the total number of NEAs are Atens."@en ;
+    skos:definition "A member of a class of near-Earth asteroids with perihelion distances between 0.983 and 1.0 astronomical units."@en ;
     skos:editorialNote [
         dcterms:created "2020-10-26T18:58:53.901Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -1226,6 +1143,7 @@
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/337> ;
     skos:definition "The use of Newtonian mechanics to derive homogeneous and isotropic solutions of Einstein's field equations, which represent models of expanding Universe. The Newtonian cosmology deviates from the prediction of general relativity in the general case of anisotropic and inhomogeneous models."@en ;
+# TODO: what does that mean?  Does "Newtonian" imply isotropic and homogeneous?  Ask a specialist!
     skos:editorialNote [
         dcterms:created "2020-11-10T19:42:26.867Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -1317,13 +1235,7 @@
     dcterms:modified "2020-11-03T18:32:42.399Z"^^xsd:dateTime, "2020-11-03T18:32:58.064Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/437> ;
-    skos:definition "The large-scale movements of air around areas of high and low pressure whereby heat is distributed on the surface of the Earth. Atmospheric motion is driven by uneven heating of the planet. The atmosphere (and ocean) transfers the excess heat from tropics to poles. The flow is determined by balance between pressure gradients and the Coriolis effect."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-03T18:32:58.032Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "The large-scale movements in an object's atmosphere."@en ;
     skos:prefLabel "Atmospheric circulation"@en .
 
 <http://astrothesaurus.org/uat/1120>
@@ -1350,7 +1262,8 @@
     a skos:Concept ;
     skos:altLabel "N.C.P."@en, "NCP"@en ;
     skos:broader <http://astrothesaurus.org/uat/213> ;
-    skos:definition "The point in the northern hemisphere where the rotation axis of Earth touches the celestial sphere. The star Polaris, also called the Pole Star, is located very near this point, at an angular separation of 42 arcminutes (about 1.4 lunar diameters)."@en ;
+    skos:definition "The point in the northern hemisphere where the rotation axis of Earth touches the celestial sphere."@en ;
+# TODO: do we really want to restrict this to Earth?
     skos:editorialNote [
         dcterms:created "2020-11-10T19:43:34.092Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -1481,13 +1394,7 @@
     a skos:Concept ;
     skos:altLabel "Class O stars"@en, "O-type stars"@en ;
     skos:broader <http://astrothesaurus.org/uat/2051>, <http://astrothesaurus.org/uat/430> ;
-    skos:definition "A luminous, hot, blue star whose spectrum is dominated by the lines of hydrogen, atomic helium, and ionized helium; also known as O-type star. This is the earliest spectral type and the only main sequence star in which ionized helium is present. The effective temperatures of these stars range from about 30,000 K to 50,000 K, their luminosities from 50,000 to 1,000,000 times that of solar luminosity, and their masses from about 20 to 100 solar masses. The hottest O-type stars display high ionization emission features such as N III and He II, Of star. They are divided into subtypes O2, the hottest, to O9.7, the coldest. O-type stars are relatively rare, for each star of 100 solar masses there are 10^6 stars of solar mass. They are relatively short-lived since they spend only a few million years on the main sequence. The brightest O-type star in the sky visible with naked eye is Alnitak."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-03T19:47:07.351Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "A star of spectral class (MK system or otherwise) O, i.e., a luminous, hot (30'000 .. 50'000 K surface temperature), blue star whose spectrum is dominated by the lines of hydrogen, atomic helium, and ionized helium."@en ;
     skos:narrower <http://astrothesaurus.org/uat/1132>, <http://astrothesaurus.org/uat/1135>, <http://astrothesaurus.org/uat/1136>, <http://astrothesaurus.org/uat/1138>, <http://astrothesaurus.org/uat/1139>, <http://astrothesaurus.org/uat/1153>, <http://astrothesaurus.org/uat/1154>, <http://astrothesaurus.org/uat/1155> ;
     skos:prefLabel "O stars"@en ;
     skos:related <http://astrothesaurus.org/uat/1589> .
@@ -1513,7 +1420,7 @@
     dcterms:modified "2020-11-03T18:34:08.347Z"^^xsd:dateTime, "2020-11-03T18:34:30.966Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/505> ;
-    skos:definition "The decrease in the intensity of light from a celestial body due to absorption and scattering by Earth's atmosphere. It increases from the zenith to the horizon and affects short wavelengths more than long wavelengths, so that objects near the horizon appear redder than they do at the zenith."@en ;
+    skos:definition "The decrease in the intensity of light from a celestial body due to absorption and scattering by Earth's atmosphere."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-03T18:34:30.935Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -1530,7 +1437,7 @@
     dcterms:modified "2020-11-05T20:24:25.080Z"^^xsd:dateTime, "2020-11-05T20:24:41.107Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1582> ;
-    skos:definition "A loosely bound grouping of O and B stars that typically stretches up to several hundred light-years and may contain between a dozen and several hundred O stars and B stars. The members of an OB association are young and of roughly the same age. OB associations dissipate in a few tens of millions of years."@en ;
+    skos:definition "A loosely bound grouping of O and B stars that typically stretches up to several hundred light-years and may contain between a dozen and several hundred O stars and B stars. The members of an OB association are young and of roughly the same age."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-05T20:24:41.071Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
@@ -1546,6 +1453,7 @@
     skos:altLabel "OB-type stars"@en ;
     skos:broader <http://astrothesaurus.org/uat/2051>, <http://astrothesaurus.org/uat/430> ;
     skos:definition "A collective designation for massive O and B stars."@en ;
+# TODO: Should we state that we want *massive* (i.e., not how white dwarfs?)
     skos:editorialNote [
         dcterms:created "2020-10-26T19:01:09.089Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -1570,13 +1478,7 @@
     a skos:Concept ;
     skos:altLabel "Ellipticity"@en, "Flattening"@en ;
     skos:broader <http://astrothesaurus.org/uat/1256> ;
-    skos:definition "The property possessed by a round body that is flattened at the poles."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-17T19:00:48.952Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "The compression of a spheroidal body at the poles, typically due to rotation."@en ;
     skos:prefLabel "Oblateness"@en .
 
 <http://astrothesaurus.org/uat/1144>
@@ -1622,7 +1524,7 @@
     dcterms:modified "2020-11-17T19:02:13.945Z"^^xsd:dateTime, "2020-11-17T19:02:25.898Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1677> ;
-    skos:definition "The blocking of light from an astronomical object, such as a star, by another object, such as the Moon or an asteroid, that passes in front of it. Also, the period of time for which this blocking takes place. A solar eclipse is a particular case of occultation. Determining the moment of stellar occultation by the Moon is used to improve our knowledge of the lunar orbit. Moreover, the occultation of stars by asteroids or planetary satellites provide important data for better measuring the sizes of the occulting bodies."@en ;
+    skos:definition "The blocking of light from an astronomical object, such as a star, by another object, such as the Moon or an asteroid, that passes in front of it. Also, the period of time for which this blocking takes place."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-17T19:02:25.872Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -1644,7 +1546,7 @@
     dcterms:modified "2020-11-03T18:35:15.617Z"^^xsd:dateTime, "2020-11-03T18:35:27.334Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/88> ;
-    skos:definition "The shift in apparent direction of a celestial object caused by the bending of light while passing through the Earth's atmosphere. Since the density of the atmosphere decreases with altitude, the starlight will bend more as it continues down through the atmosphere. As a result, a star will appear higher in the sky than its true direction."@en ;
+    skos:definition "The shift in apparent direction of a celestial object caused by the bending of light while passing through the Earth's atmosphere."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-03T18:35:27.294Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -1664,13 +1566,7 @@
     a skos:Concept ;
     skos:altLabel "Water worlds"@en ;
     skos:broader <http://astrothesaurus.org/uat/498> ;
-    skos:definition "A hypothetical exoplanet covered by a water envelope. The presence of such a planet stems from the implicit assumption of Habitable Zone temperatures and a liquid water surface."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-03T19:54:01.085Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "An exoplanet (almost) entirely covered by a water envelope."@en ;
     skos:prefLabel "Ocean planets"@en .
 
 <http://astrothesaurus.org/uat/1152>
@@ -1702,7 +1598,7 @@
     a skos:Concept ;
     skos:altLabel "Of type stars"@en, "Of-type stars"@en ;
     skos:broader <http://astrothesaurus.org/uat/1137>, <http://astrothesaurus.org/uat/428> ;
-    skos:definition "An O star whose spectrum displays strong N III 4634-4640-4642 emission and strong He II 4686 emission. The N III lines are always much stronger than C III 4647-4650-4651 when the latter are present. Historically, Of stars were considered to belong to the peculiar category, hence the f notation (see below). In his thesis work, Walborn removed them from that category and established them as the normal O-type supergiants. He also used the notation ((f)), (f), and f to describe the progression from strong He II 4686 absorption, through weakened/absent, to emission, respectively, correlated with increasing N III emission strength, subsequently showing that it is a luminosity sequence -- the first such for stars earlier than O9."@en ;
+    skos:definition "An O star whose spectrum displays strong N III 4634-4640-4642 emission and strong He II 4686 emission. The N III lines are always much stronger than C III 4647-4650-4651 when the latter are present."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-05T20:26:46.329Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
@@ -1733,13 +1629,7 @@
     a skos:Concept ;
     skos:altLabel "Oort Cloud"@en, "Opik-Oort Cloud"@en, "Öpik–Oort cloud"@en ;
     skos:broader <http://astrothesaurus.org/uat/1528>, <http://astrothesaurus.org/uat/933> ;
-    skos:definition "A huge theoretical cloud of comets surrounding the Sun between about 50,000 and 100,000 astronomical units and thought to be the reservoir of long-period comets entering the inner solar system."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-17T19:04:16.728Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "The cloud of comets surrounding the Sun on orbits with major half-axes of some 50,000 to 100,000 astronomical units."@en ;
     skos:narrower <http://astrothesaurus.org/uat/1158> ;
     skos:prefLabel "Oort cloud"@en .
 
@@ -1754,13 +1644,7 @@
     dcterms:modified "2020-11-03T20:00:36.974Z"^^xsd:dateTime, "2020-11-03T20:00:49.209Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/618>, <http://astrothesaurus.org/uat/86> ;
-    skos:definition "Two parameters, denoted A and B, that describe the major features of our Galaxy's differential rotation in the Sun's neighbourhood. A is one-half of the shear and equal to +14.4 ± 1.2 km s^-1 kpc^-1, and B, one-half of the vorticity, equal to -12.0 ± 2.8 km s^-1 pc^-1."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-03T20:00:49.180Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "Two parameters, denoted A and B, that describe the major features of our Galaxy's differential rotation in the Sun's neighbourhood. A is one-half of the shear.  B is one-half of the vorticity"@en ;
     skos:prefLabel "Oort constants"@en ;
     skos:related <http://astrothesaurus.org/uat/1054>, <http://astrothesaurus.org/uat/565> .
 
@@ -1779,13 +1663,7 @@
     a skos:Concept ;
     skos:altLabel "Open clusters"@en ;
     skos:broader <http://astrothesaurus.org/uat/1567> ;
-    skos:definition "A loose grouping of dozens or hundreds of young stars distributed in a region a few light-years across. Open clusters are relatively young, typically containing many hot, highly luminous stars. They are located within the disk of the Galaxy, whence their older name Galactic clusters."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-03T19:55:00.400Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "A loose, but gravitationally bound grouping of dozens or hundreds of young stars distributed in a region a few light-years across."@en ;
     skos:narrower <http://astrothesaurus.org/uat/1134>, <http://astrothesaurus.org/uat/1833> ;
     skos:prefLabel "Open star clusters"@en .
 
@@ -1814,7 +1692,8 @@
     dcterms:modified "2020-11-17T19:06:23.648Z"^^xsd:dateTime, "2020-11-17T19:06:33.643Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/85> ;
-    skos:definition "The position of a solar system body having its orbit outside that of the Earth when the Earth is in a line between the Sun and the body. At opposition the body has a solar elongation of 180°, and is closest to the Earth. It will, in principle, be visible throughout the night. It will rise in the east as the Sun sets in the west and it will set as the Sun rises. This is because, at opposition, the body and the Sun are 12 hours apart. The inner planets can never be in opposition. The opposite of opposition is conjunction."@en ;
+    skos:definition "The position of a solar system body having its orbit outside that of the Earth when the Earth is in a line between the Sun and the body."@en ;
+# TODO: MD thinks this should be a generic term rather than just for Earth
     skos:editorialNote [
         dcterms:created "2020-11-17T19:06:33.610Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -1910,13 +1789,7 @@
     dcterms:modified "2020-11-03T19:56:37.818Z"^^xsd:dateTime, "2020-11-03T19:56:49.373Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1306> ;
-    skos:definition "A member of a rare class of pulsars, such as the Crab pulsar and Vela pulsar, which can be detected in the visible spectrum."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-03T19:56:49.342Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "A pulsar whole pulsed emission can be detected in the visible spectrum."@en ;
     skos:prefLabel "Optical pulsars"@en .
 
 <http://astrothesaurus.org/uat/1174>
@@ -1945,13 +1818,7 @@
     a skos:Concept ;
     skos:altLabel "Keplerian elements"@en ;
     skos:broader <http://astrothesaurus.org/uat/1184> ;
-    skos:definition "A fixed point in a body through which the resultant force of gravitational attraction acts."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-17T19:09:19.702Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "A set of parameters describing an orbit.  In the Keplerian case, six parameters uniquely determine an orbit; more complex potentials may require more elements."@en ;
     skos:narrower <http://astrothesaurus.org/uat/1176>, <http://astrothesaurus.org/uat/1190>, <http://astrothesaurus.org/uat/1286>, <http://astrothesaurus.org/uat/1676>, <http://astrothesaurus.org/uat/216>, <http://astrothesaurus.org/uat/441>, <http://astrothesaurus.org/uat/457>, <http://astrothesaurus.org/uat/63>, <http://astrothesaurus.org/uat/65>, <http://astrothesaurus.org/uat/66>, <http://astrothesaurus.org/uat/780>, <http://astrothesaurus.org/uat/936>, <http://astrothesaurus.org/uat/937> ;
     skos:prefLabel "Orbital elements"@en .
 
@@ -2020,13 +1887,7 @@
     a skos:Concept ;
     skos:altLabel "Orbital dynamics"@en ;
     skos:broader <http://astrothesaurus.org/uat/211> ;
-    skos:definition "The path followed by a body moving in a gravitational field. For bodies moving under the influence of a centrally directed force, without significant perturbation, the shape of the orbit must be one of the conic section family of curves (circle, ellipse, parabola, or hyperbola)."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-03T20:01:53.075Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "Paths followed by bodies moving in gravitational fields."@en ;
     skos:narrower <http://astrothesaurus.org/uat/1175>, <http://astrothesaurus.org/uat/1177>, <http://astrothesaurus.org/uat/1179>, <http://astrothesaurus.org/uat/1180>, <http://astrothesaurus.org/uat/1181>, <http://astrothesaurus.org/uat/1182>, <http://astrothesaurus.org/uat/2296> ;
     skos:prefLabel "Orbits"@en .
 
@@ -2056,7 +1917,7 @@
     a skos:Concept ;
     skos:altLabel "Orrery"@en ;
     skos:broader <http://astrothesaurus.org/uat/433> ;
-    skos:definition "A mechanical device that illustrates the relative positions and motions of the planets and moons in the solar system in heliocentric model."@en ;
+    skos:definition "A mechanical device that illustrates the relative positions and motions of the planets and moons in the solar system."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-03T20:17:51.848Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
@@ -2113,13 +1974,7 @@
     a skos:Concept ;
     skos:altLabel "Gas giants"@en, "Jovian planets"@en, "Outer planets"@en ;
     skos:broader <http://astrothesaurus.org/uat/1260> ;
-    skos:definition "A planet that revolves around the Sun beyond the asteroid belt, namely Jupiter, Saturn, Uranus, and Neptune."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-03T20:18:44.583Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "One or more of Jupiter, Saturn, Uranus, or Neptune."@en ;
     skos:narrower <http://astrothesaurus.org/uat/1096>, <http://astrothesaurus.org/uat/1426>, <http://astrothesaurus.org/uat/1751>, <http://astrothesaurus.org/uat/873> ;
     skos:prefLabel "Solar system gas giant planets"@en ;
     skos:related <http://astrothesaurus.org/uat/509> .
@@ -2136,7 +1991,7 @@
     dcterms:modified "2020-11-17T19:15:12.334Z"^^xsd:dateTime, "2020-11-17T19:15:22.183Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1131> ;
-    skos:definition "The stage when a star fuses oxygen into silicon and sulfur. It occurs only in massive stars, with a mass over eight solar masses."@en ;
+    skos:definition "The stage when a star fuses oxygen into silicon and sulfur."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-17T19:15:22.154Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -2207,7 +2062,7 @@
     a skos:Concept ;
     skos:altLabel "Parallax second"@en ;
     skos:broader <http://astrothesaurus.org/uat/395> ;
-    skos:definition "A basic unit of astronomical distances, corresponding to a trigonometric parallax of one second of arc. In other words, it is the distance at which one astronomical unit (the mean radius of the Earth's orbit) subtends an angle of 1 arcsecond. 1 pc = 3.2616 light-years = 206,265 astronomical units = 30.857 x 10^12 km."@en ;
+    skos:definition "A basic unit of astronomical distances, corresponding to a trigonometric parallax of one second of arc."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-03T20:20:43.476Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
@@ -2221,13 +2076,7 @@
     dcterms:modified "2020-11-03T17:45:49.551Z"^^xsd:dateTime, "2020-11-03T17:46:10.529Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/364> ;
-    skos:definition "The deduction based on the observation that the most distant Type Ia supernovae are fainter than that expected from their redshifts in a matter-only dominated expanding Universe. The faintness is attributed to larger distances resulting from an accelerating Universe driven by presence of a new component with strongly negative pressure. This component that makes the Universe accelerate is named dark energy."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-03T17:46:10.501Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "A universe in which the rate of expansion increases."@en ;
     skos:prefLabel "Accelerating universe"@en .
 
 <http://astrothesaurus.org/uat/120>
@@ -2275,7 +2124,7 @@
     a skos:Concept ;
     skos:altLabel "Penrose mechanism"@en ;
     skos:broader <http://astrothesaurus.org/uat/159> ;
-    skos:definition "A hypothetical means of extracting energy from a rotating black hole. If a particle spirals into the ergosphere of a black hole in a direction counter to the rotation of the black hole, and if the particle then breaks up into two fragments inside the ergosphere, one of the fragments can escape with energy greater than the energy of the original particle."@en ;
+    skos:definition "A means of extracting energy from a rotating black hole. If a particle spirals into the ergosphere of a black hole in a direction counter to the rotation of the black hole, and if the particle then breaks up into two fragments inside the ergosphere, one of the fragments can escape with energy greater than the energy of the original particle."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-17T19:18:26.609Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -2290,13 +2139,7 @@
     a skos:Concept ;
     skos:altLabel "Penumbras"@en ;
     skos:broader <http://astrothesaurus.org/uat/442> ;
-    skos:definition "The portion of a shadow in which light from an extended source is partially but not completely cut off by an intervening body; the area of partial shadow surrounding the umbra.  The lighter part of a shadow during an eclipse. An observer standing in the penumbra of a Solar eclipse will see a partial eclipse."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-17T19:20:06.798Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "The portion of a shadow in which light from an extended source is partially but not completely cut off by an intervening body; the area of partial shadow surrounding the umbra.  This concept explicitly does not comprise sunspot penumbrae (use 1653 instead)."@en ;
     skos:prefLabel "Penumbra"@en .
 
 <http://astrothesaurus.org/uat/1206>
@@ -2318,7 +2161,7 @@
     a skos:Concept ;
     skos:altLabel "Pericenter"@en ;
     skos:broader <http://astrothesaurus.org/uat/63> ;
-    skos:definition "The point in an orbit of a body where it is closest to its primary; opposite of apoapsis."@en ;
+    skos:definition "The point in an orbit of a body where it is closest to its primary."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-17T19:20:48.889Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -2332,7 +2175,7 @@
     dcterms:modified "2020-11-17T19:23:32.595Z"^^xsd:dateTime, "2020-11-17T19:23:41.910Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/63> ;
-    skos:definition "In a binary system, the point in the orbit where a component is nearest the other component; opposite of apastron."@en ;
+    skos:definition "In a binary system, the point in the orbit where a component is nearest the other component."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-17T19:23:41.878Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -2346,7 +2189,7 @@
     dcterms:modified "2020-11-17T19:24:09.933Z"^^xsd:dateTime, "2020-11-17T19:24:20.547Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/63> ;
-    skos:definition "The point in the orbit of a body revolving around the Earth at which it is nearest to the Earth; opposite of apogee."@en ;
+    skos:definition "The point in the orbit of a body revolving around the Earth at which it is nearest to the Earth."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-17T19:24:20.521Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -2367,7 +2210,7 @@
     dcterms:modified "2020-11-17T19:24:45.569Z"^^xsd:dateTime, "2020-11-17T19:24:59.170Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/63> ;
-    skos:definition "The nearest point to the Sun in an orbit around the Sun; opposite of aphelion."@en ;
+    skos:definition "The nearest point to the Sun in an orbit around the Sun"@en ;
     skos:editorialNote [
         dcterms:created "2020-11-17T19:24:59.145Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -2399,7 +2242,7 @@
     dcterms:modified "2020-11-17T19:25:30.789Z"^^xsd:dateTime, "2020-11-17T19:25:43.603Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/584> ;
-    skos:definition "A galaxy cluster of about 12,000 members about 250 million light-years (redshift z = 0.0176) away, covering 4° of sky in the constellation Perseus. It is dominated by elliptical galaxies. At its center lies the radio source Perseus A. Also known as Abell 426 (Abell catalog)."@en ;
+    skos:definition "A galaxy cluster of about 12,000 members about 250 million light-years (redshift z = 0.0176) away, covering 4° of sky in the constellation Perseus. Also known as Abell 426."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-17T19:25:43.575Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -2426,7 +2269,7 @@
     dcterms:modified "2020-11-17T19:26:13.256Z"^^xsd:dateTime, "2020-11-17T19:26:27.003Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/80> ;
-    skos:definition "For an object in the solar system, the angle \"Sun-object-Earth\" that is, the angle between the Sun and the observer as seen from the given object. It is 0° when the object is fully illuminated, 90° when the object is half-illuminated (like the Moon at first quarter and last quarter), and 180° when the object is between Earth and the Sun."@en ;
+    skos:definition "For an object in the solar system, the angle \"Sun-object-Earth\" that is, the angle between the Sun and the observer as seen from the given object."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-17T19:26:26.973Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -2520,13 +2363,7 @@
     dcterms:modified "2020-11-17T19:29:41.014Z"^^xsd:dateTime, "2020-11-17T19:29:50.914Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/59> ;
-    skos:definition "The apparent magnitude of a star as determined by measuring its brightness on a photographic plate. The photographic magnitude scale is now considered obsolete."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-17T19:29:50.887Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "The apparent magnitude of a star as determined by measuring its brightness on a classic, blue-sensitive photographic plate."@en ;
     skos:prefLabel "Photographic magnitude"@en .
 
 <http://astrothesaurus.org/uat/1229>
@@ -2540,7 +2377,7 @@
     dcterms:modified "2020-11-03T18:36:03.800Z"^^xsd:dateTime, "2020-11-03T18:36:17.481Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/470> ;
-    skos:definition "One of the two points where the ecliptic crosses the celestial equator. At the autumnal equinox the Sun appears to be moving across the equator from the northern celestial hemisphere to the southern celestial hemisphere. The instant of the event."@en ;
+    skos:definition "One of the two points where the ecliptic crosses the celestial equator. At the autumnal equinox the Sun appears to be moving across the equator from the northern celestial hemisphere to the southern celestial hemisphere."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-03T18:36:17.450Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -2588,13 +2425,7 @@
     dcterms:modified "2020-11-17T19:32:27.638Z"^^xsd:dateTime, "2020-11-17T19:32:37.730Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1684> ;
-    skos:definition "In astronomy, the measurement of the light of astronomical objects, generally in the visible or infrared bands, in which a wavelength band is normally specified."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-17T19:32:37.703Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "The determination of the intensity of radiation received from astronomical objects."@en ;
     skos:narrower <http://astrothesaurus.org/uat/1225>, <http://astrothesaurus.org/uat/1229>, <http://astrothesaurus.org/uat/1232>, <http://astrothesaurus.org/uat/1233>, <http://astrothesaurus.org/uat/1556>, <http://astrothesaurus.org/uat/1620>, <http://astrothesaurus.org/uat/1670>, <http://astrothesaurus.org/uat/1709>, <http://astrothesaurus.org/uat/1724>, <http://astrothesaurus.org/uat/1792>, <http://astrothesaurus.org/uat/208>, <http://astrothesaurus.org/uat/2129>, <http://astrothesaurus.org/uat/611>, <http://astrothesaurus.org/uat/918> ;
     skos:prefLabel "Photometry"@en .
 
@@ -2608,7 +2439,7 @@
     dcterms:modified "2020-11-17T19:33:55.212Z"^^xsd:dateTime, "2020-11-17T19:34:04.939Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/159> ;
-    skos:definition "A surface where if a photon is emitted from one of its points the photon follows a closed orbit and returns periodically to its departure point. Such a surface exists only near sufficiently compact objects where the curvature of space-time is very important. In other words, a body can take a stable orbit around a black hole provided that it moves with the speed of light. However, only photons can have such a velocity; hence the term 'photon sphere.' For a non-rotating Schwarzschild black hole, the photon sphere has a radius of R = 3GM/c2 = 3 RS/2, where G is the gravitational constant, M is the mass, c is the speed of light, and RS is the Schwarzschild radius. For a rotating, Kerr black hole, the situation is much more complex due to the Lense-Thirring effect. In that case circular paths exist for radii whose values depend on the rotation direction. More specifically, in the equatorial plane there are two possible circular light paths: a smaller one in the direction of the rotation, and a larger one in the opposite direction."@en ;
+    skos:definition "A surface where if a photon is emitted from one of its points the photon follows a closed orbit and returns periodically to its departure point.  For a non-rotating Schwarzschild black hole, the photon sphere has a radius of R = 3GM/c^2, for a rotating, Kerr black hole, the situation is much more complex due to the Lense-Thirring effect."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-17T19:34:04.907Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -2632,7 +2463,7 @@
     dcterms:modified "2020-11-17T19:34:32.633Z"^^xsd:dateTime, "2020-11-17T19:34:42.314Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/59> ;
-    skos:definition "Magnitude defined for the combination of a photographic plate and a yellow filter, approximating the spectral sensitivity of the eye."@en ;
+    skos:definition "Magnitude defined for the combination of a blue-sensitive photographic plate and a yellow filter, approximating the spectral sensitivity of the eye."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-17T19:34:42.285Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -2653,7 +2484,7 @@
     a skos:Concept ;
     skos:altLabel "Bearing"@en ;
     skos:broader <http://astrothesaurus.org/uat/747> ;
-    skos:definition "The angular distance from the North point eastward to the intersection of the horizon with the vertical circle passing through the object. Azimuth is 0° for an object due north, 90° due east, 180° due south, and 270° due west.  Altitude and azimuth constitute the horizon coordinate system."@en ;
+    skos:definition "The angular distance from the North point eastward to the intersection of the horizon with the vertical circle passing through the object.  Altitude and azimuth constitute the horizon coordinate system."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-03T18:37:31.259Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -2668,7 +2499,7 @@
     dcterms:modified "2020-11-03T20:24:03.807Z"^^xsd:dateTime, "2020-11-03T20:24:18.014Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1479> ;
-    skos:definition "A bright cloud-like feature that appears in the vicinity of a sunspot. Plages represent regions of higher temperature and density within the chromosphere. They are particularly visible when photographed through filters passing the spectral light of hydrogen or calcium."@en ;
+    skos:definition "A bright cloud-like feature that appears in the vicinity of a sunspot. Plages represent regions of higher temperature and density within the chromosphere."@en ;
     skos:editorialNote [
         dcterms:created "2020-11-03T20:24:17.985Z"^^xsd:dateTime ;
         dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin> ;
@@ -2875,13 +2706,8 @@
     a skos:Concept ;
     skos:altLabel "Continental drift"@en ;
     skos:broader <http://astrothesaurus.org/uat/2175> ;
-    skos:definition "The theory supported by a wide range of evidence in which the Earth's crust is composed of several large, thin, relatively rigid plates that move relative to one another. The interaction of the plates at their boundaries causes seismic and tectonic activity along these boundaries."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-17T19:37:26.922Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "The long-term dynamics of a planetary surface consisting of several large, thin, relatively rigid plates that move relative to one another. The interaction of the plates at their boundaries causes seismic and tectonic activity along these boundaries."@en ;
+    # Note: dropped the restriction to Earth in 2025
     skos:prefLabel "Plate tectonics"@en ;
     skos:related <http://astrothesaurus.org/uat/493> .
 
@@ -2898,13 +2724,7 @@
     a skos:Concept ;
     skos:altLabel "(134340) Pluto"@en, "134340 Pluto"@en ;
     skos:broader <http://astrothesaurus.org/uat/419> ;
-    skos:definition "A dwarf planet in the solar system which until 2006 was known as the 9th major planet. Pluto revolves around the Sun in a highly elliptical orbit at a mean distance of 39.5 astronomical units once every about 248 years. The orbit eccentricity is 0.25 (compare with the Earth's 0.02) yielding a perihelion distance of 29.66 astronomical units and an aphelion distance of 48.87 AU. Its orbital inclination is 17 degrees, which is much higher than those of the other planets. Pluto's mass is 1.308 x 10^22 kg, that is 0.00218 Earth mass (0.177 Moon mass), its equatorial radius is 0.19 Earth radius, and its rotation period is equal to 6.39 Earth days. It has five known satellites, in order of distance from Pluto: Charon, Styx, Nix, Kerberos, and Hydra. Pluto's radius is estimated to be about 1150 km (0.18 Earths). Pluto is smaller than seven of the solar system's satellites (the Moon, Io, Europa, Ganymede, Callisto, Titan, and Triton). Pluto's surface has an estimated temperature of 37.5 K and is composed of more than 98% nitrogen  ice, with traces of methane and carbon monoxide."@en ;
-    skos:editorialNote [
-        dcterms:created "2020-11-17T19:45:15.117Z"^^xsd:dateTime ;
-        dcterms:creator <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
-        dcterms:title "Definition Provenance" ;
-        rdfs:comment "An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri"
-    ] ;
+    skos:definition "The solar system dwarf planet Pluto."@en ;
     skos:prefLabel "Pluto"@en .
 
 <http://astrothesaurus.org/uat/1268>
