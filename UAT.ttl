@@ -1210,6 +1210,7 @@
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/343> ;
     skos:prefLabel "Non-Gaussianity"@en ;
+    skos:definition "The property of a distribution, in particular an observed distribution, to have a shape significantly different from a normal distribution's."@en ;
     skos:related <http://astrothesaurus.org/uat/322> .
 
 <http://astrothesaurus.org/uat/1117>
@@ -3921,6 +3922,7 @@
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/152>, <http://astrothesaurus.org/uat/435> ;
     skos:narrower <http://astrothesaurus.org/uat/317> ;
+    skos:definition "The cosmological era when the temperature of the universe became low enough to admit netral hydrogen to be stable." ;
     skos:prefLabel "Recombination (cosmology)"@en .
 
 <http://astrothesaurus.org/uat/1366>
@@ -7369,6 +7371,7 @@
     dcterms:contributor <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
     dcterms:modified "2018-09-06T15:15:41.000Z"^^xsd:dateTime ;
     a skos:Concept ;
+    skos:definition "Due to inverse Compton scattering with electrons from hot gas in galaxy clusters, the cosmic microwave background towards these clusters is missing low-energy photons; this spectral distortion is known as the Sunyaev-Zeldovich effect"@en ;
     skos:altLabel "SZ effect"@en ;
     skos:broader <http://astrothesaurus.org/uat/1338>, <http://astrothesaurus.org/uat/322> ;
     skos:prefLabel "Sunyaev-Zeldovich effect"@en .
@@ -15925,6 +15928,7 @@
     skos:altLabel "Cosmic microwave background radiation detectors"@en ;
     skos:broader <http://astrothesaurus.org/uat/84> ;
     skos:prefLabel "CMBR detectors"@en ;
+    skos:definition "Devices designed to measure or capable of measuring the cosmic microwave background and its properties"@en ;
     skos:related <http://astrothesaurus.org/uat/322> .
 
 <http://astrothesaurus.org/uat/26>
@@ -16612,8 +16616,8 @@
     skos:altLabel "CBR"@en ;
     skos:broader <http://astrothesaurus.org/uat/1365> ;
     skos:narrower <http://astrothesaurus.org/uat/322> ;
-    skos:prefLabel "Cosmic background radiation"@en ;
-    skos:scopeNote "Use for cosmic background radiations other than microwave, i.e. Cosmic gamma-ray background radiation or Cosmic ultraviolet background radiation, etc."@en .
+    skos:definition "Any sort of roughly isotropic radiation that has an unresolved, cosmological source, whether or not directly related to the big bang.  For the big band microwave background, use 322 instead."@en;
+    skos:prefLabel "Cosmic background radiation"@en .
 
 <http://astrothesaurus.org/uat/318>
     a skos:Concept ;
@@ -16649,6 +16653,7 @@
 <http://astrothesaurus.org/uat/320>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/322> ;
+    skos:definition "The property of a phenomenon to, on a given scale, have no significant directional dependence because its sources are at cosomological distances"@en ;
     skos:prefLabel "Cosmic isotropy"@en .
 
 <http://astrothesaurus.org/uat/321>
@@ -16664,6 +16669,7 @@
     skos:broader <http://astrothesaurus.org/uat/317>, <http://astrothesaurus.org/uat/323> ;
     skos:narrower <http://astrothesaurus.org/uat/1654>, <http://astrothesaurus.org/uat/316>, <http://astrothesaurus.org/uat/320> ;
     skos:prefLabel "Cosmic microwave background radiation"@en ;
+    skos:definition "The microwave radiation that almost uniformly fills the current universe as the afterglow of the big bang."@en;
     skos:related <http://astrothesaurus.org/uat/1116>, <http://astrothesaurus.org/uat/1379>, <http://astrothesaurus.org/uat/259> .
 
 <http://astrothesaurus.org/uat/323>
@@ -16672,6 +16678,7 @@
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1338> ;
     skos:narrower <http://astrothesaurus.org/uat/322> ;
+    skos:definition "Radio-frequency electromagnetic radiation from sources outside of the Earth's atmosphere with characteristics are comparable to those of thermal noise."@en ;
     skos:prefLabel "Cosmic noise"@en .
 
 <http://astrothesaurus.org/uat/324>
