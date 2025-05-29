@@ -61,7 +61,7 @@
     a skos:Concept ;
     skos:altLabel "Explosive astronomical burning"@en, "Explosive astrophysical burning"@en ;
     skos:broader <http://astrothesaurus.org/uat/1129> ;
-    skos:note "AI?X definition round 1: Nuclear processes in extreme astrophysical events, such as supernovae, where rapid fusion reactions occur. Citation: Woosley, S. E., et al., "Thermonuclear Supernovae," Annual Review of Astronomy and Astrophysics, 2007.";
+    skos:description "Nuclear processes in extreme astrophysical events, such as supernovae, where rapid fusion reactions occur.";
     skos:prefLabel "Astrophysical explosive burning"@en .
 
 <http://astrothesaurus.org/uat/1000>
@@ -71,7 +71,7 @@
     skos:altLabel "Stars on the main sequence"@en ;
     skos:broader <http://astrothesaurus.org/uat/2052> ;
     skos:narrower <http://astrothesaurus.org/uat/1843> ;
-    skos:note "Wikipedia definition round 1: Continuous band of stars that appears on plots of stellar color versus brightness" ;
+    skos:definition "Stars sitting in the main band of stars in a Hertzsprung-Russell  Diagram" ;
     skos:prefLabel "Main sequence stars"@en ;
     skos:related <http://astrothesaurus.org/uat/148>, <http://astrothesaurus.org/uat/2047>, <http://astrothesaurus.org/uat/2053> .
 
@@ -115,13 +115,13 @@
 <http://astrothesaurus.org/uat/1003>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/204> ;
-    skos:note "Wikipedia definition round 1: Catadioptric telescope design" ;
+    skos:definition "A catadioptric telescope design due to Maksutov, Penning and Bouwers." ;
     skos:prefLabel "Maksutov telescopes"@en .
 
 <http://astrothesaurus.org/uat/1004>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/226>, <http://astrothesaurus.org/uat/50>, <http://astrothesaurus.org/uat/705> ;
-    skos:note "AI?X definition round 1: Chemically peculiar stars showing enhanced manganese spectral lines, often classified as HgMn stars. Citation: Smith, K. C., & Dworetsky, M. M., "Manganese Abundances in HgMn Stars," Astronomy & Astrophysics, 1993.";
+    skos:definition "Chemically peculiar stars showing enhanced manganese spectral lines, often classified as HgMn stars.";
     skos:prefLabel "Manganese stars"@en .
 
 <http://astrothesaurus.org/uat/1005>
@@ -141,7 +141,7 @@
 <http://astrothesaurus.org/uat/1006>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/17>, <http://astrothesaurus.org/uat/459> ;
-    skos:note "Wikipedia definition round 1: Galaxy with a nucleus emitting exceptionally large amounts of ultraviolet" ;
+    skos:definition "Galaxies with a nucleus emitting exceptionally large amounts of ultraviolet" ;
     skos:prefLabel "Markarian galaxies"@en .
 
 <http://astrothesaurus.org/uat/1007>
@@ -174,7 +174,7 @@
     skos:altLabel "Deimos"@en, "Martian moons"@en, "Moons of Mars"@en, "Phobos"@en ;
     skos:broader <http://astrothesaurus.org/uat/1089> ;
     skos:example "Deimos"@en, "Phobos"@en ;
-    skos:note "Wikipedia definition round 1: Natural satellites orbiting Mars" ;
+    skos:definition "Natural satellites orbiting the solar system planet Mars" ;
     skos:prefLabel "Martian satellites"@en ;
     skos:related <http://astrothesaurus.org/uat/1007> .
 
@@ -184,7 +184,7 @@
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/804> ;
     skos:narrower <http://astrothesaurus.org/uat/1963>, <http://astrothesaurus.org/uat/1964>, <http://astrothesaurus.org/uat/2009>, <http://astrothesaurus.org/uat/819> ;
-    skos:note "AI?X definition round 1: The study of fluid motion in astrophysical contexts, such as star formation, accretion disks, and galactic evolution. Citation: Shu, F. H., "The Physics of Astrophysical Fluids," University Science Books, 1992." ;
+    skos:definition "The study of fluid motion in astrophysical contexts, such as star formation, accretion disks, and galactic evolution." ;
     skos:prefLabel "Astrophysical fluid dynamics"@en .
 
 <http://astrothesaurus.org/uat/1010>
@@ -199,14 +199,14 @@
 <http://astrothesaurus.org/uat/1011>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/86> ;
-    skos:note "Wikipedia definition round 1: Ratio of total mass of a galaxy or cluster to its luminosity" ;
+    skos:definition "Ratio of total mass of an astronomical object to its luminosity" ;
     skos:prefLabel "Mass-to-light ratio"@en .
 
 <http://astrothesaurus.org/uat/1012>
     a skos:Concept ;
     skos:altLabel "Mass-ratio"@en ;
     skos:broader <http://astrothesaurus.org/uat/1695> ;
-    skos:note "AI?X definition round 1: The ratio of the masses of two components in a binary system, crucial for understanding orbital dynamics and evolution. Citation: Eggleton, P. P., "Mass Ratios in Binary Stars," Annual Review of Astronomy and Astrophysics, 2006." ;
+    skos:definition "The ratio of the masses of two components in a binary system" ;
     skos:prefLabel "Mass ratio"@en .
 
 <http://astrothesaurus.org/uat/1013>
@@ -214,14 +214,14 @@
     dcterms:modified "2018-09-20T15:33:26.000Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1554> ;
-    skos:note "Wikipedia definition round 1: Analytical technique based on determining mass to charge ratio of ions" ;
+    skos:definition "Devices used for determining masses of atoms and molecules making up a laboratory sample" ;
     skos:prefLabel "Mass spectrometers"@en ;
     skos:related <http://astrothesaurus.org/uat/2094> .
 
 <http://astrothesaurus.org/uat/1014>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/372> ;
-    skos:note "Wikipedia definition round 1: Mass per unit volume" ;
+    skos:definition "Mass per unit volume; in astrophyics, it is typically obtained with the observation of kinematic properties or via gravitational lensing." ;
     skos:prefLabel "Matter density"@en .
 
 <http://astrothesaurus.org/uat/1015>
@@ -242,7 +242,7 @@
 <http://astrothesaurus.org/uat/1016>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/886> ;
-    skos:note "AI?X definition round 1: Rotating black holes spinning at the theoretical maximum rate, where the spin parameter equals unity. Citation: Kerr, R. P., "Gravitational Field of a Rotating Mass," Physical Review Letters, 1963.";
+    skos:definition "Rotating black holes spinning at the theoretical maximum rate (spin parameter=1).";
     skos:prefLabel "Maximal Kerr black holes"@en .
 
 <http://astrothesaurus.org/uat/1017>
@@ -252,7 +252,7 @@
     skos:altLabel "Me-type stars"@en ;
     skos:broader <http://astrothesaurus.org/uat/460>, <http://astrothesaurus.org/uat/985> ;
     skos:narrower <http://astrothesaurus.org/uat/1018> ;
-    skos:note "Wikipedia definition round 1: Format for weather reports used in aviation" ;
+    skos:definition "M stars showing emission lines typically indicating chromospheric activity.";
     skos:prefLabel "Me stars"@en ;
     skos:related <http://astrothesaurus.org/uat/1066> .
 
@@ -262,9 +262,8 @@
     a skos:Concept ;
     skos:altLabel "Me variables"@en, "Me-type variable stars"@en, "Me-type variables"@en ;
     skos:broader <http://astrothesaurus.org/uat/1017>, <http://astrothesaurus.org/uat/983> ;
-    skos:note "AI?X definition round 1: Variable stars of spectral type M with emission lines, exhibiting changes in brightness due to stellar activity or pulsations. Citation: Eggen, O. J., "Light Variability in Emission-Line M Stars," Astronomical Journal, 1973.";
-    skos:prefLabel "Me variable stars"@en ;
-    skos:scopeNote "Used for the subset of Me stars that are variable stars.  Not all Me stars are variable stars."@en .
+    skos:definition "Me stars showing photometric variability, not necessarily restricted to flares",
+    skos:prefLabel "Me variable stars"@en .
 
 <http://astrothesaurus.org/uat/1019>
     dcterms:contributor <http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie> ;
@@ -284,21 +283,21 @@
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/104> ;
     skos:narrower <http://astrothesaurus.org/uat/321>, <http://astrothesaurus.org/uat/458>, <http://astrothesaurus.org/uat/994> ;
-    skos:note "AI?X definition round 1: The study of magnetic fields in astrophysical settings, including stars, galaxies, and interstellar matter. Citation: Parker, E. N., "Cosmic Magnetic Fields," Oxford University Press, 1979.";
+    skos:definition "The study of magnetic fields in astrophysical settings, including stars, galaxies, and interstellar matter.";
     skos:prefLabel "Astrophysical magnetism"@en .
 
 <http://astrothesaurus.org/uat/1020>
     a skos:Concept ;
     skos:altLabel "Mean density"@en, "Mean mass density"@en ;
     skos:broader <http://astrothesaurus.org/uat/902> ;
-    skos:note "AI?X definition round 1: The average density of matter in the universe, crucial for understanding its geometry and evolution. Citation: Weinberg, S., "Cosmology," Oxford University Press, 2008.";
+    skos:definition "The average density of matter in the universe";
     skos:prefLabel "Mean matter density"@en .
 
 <http://astrothesaurus.org/uat/1021>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1233> ;
     skos:narrower <http://astrothesaurus.org/uat/1641>, <http://astrothesaurus.org/uat/1771>, <http://astrothesaurus.org/uat/1785>, <http://astrothesaurus.org/uat/360>, <http://astrothesaurus.org/uat/642> ;
-    skos:note "AI?X definition round 1: Photometry performed using filters of intermediate width, providing a balance between spectral resolution and light throughput. Citation: Straižys, V., "Multicolor Stellar Photometry," Pachart Publishing House, 1977.";
+    skos:definition "Photometry performed using filters of intermediate width (nanometers to 10s of nanometers in the optical).";
     skos:prefLabel "Medium band photometry"@en ;
     skos:related <http://astrothesaurus.org/uat/792> .
 
@@ -307,14 +306,14 @@
     dcterms:modified "2022-06-24T17:47:42.113Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/64> ;
-    skos:note "AI?X definition round 1: The study of ancient structures and their alignments to celestial phenomena, often reflecting early astronomical practices. Citation: Ruggles, C. L. N., "Astronomy in Prehistoric Britain and Ireland," Yale University Press, 1999.";
+    skos:definition "The study of the remains of structures erected by megalithic cultures to observe celestial phenomena.";
     skos:prefLabel "Megalithic astronomy"@en ;
     skos:related <http://astrothesaurus.org/uat/1638> .
 
 <http://astrothesaurus.org/uat/1023>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/103> ;
-    skos:note "Wikipedia definition round 1: Astrophysical maser, source of stimulated spectral line emission" ;
+    skos:definition "Extremely luminous astrophysical masers typically found in the vicinity of active galactic nuclei." ;
     skos:prefLabel "Megamasers"@en .
 
 <http://astrothesaurus.org/uat/1024>
@@ -367,13 +366,13 @@
 <http://astrothesaurus.org/uat/1028>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1498> ;
-    skos:note "AI?X definition round 1: Intermediate-scale convective patterns observed on the Sun's surface, larger than granulation but smaller than supergranulation. Citation: Simon, G. W., et al., "The Mesogranulation of the Solar Photosphere," Astrophysical Journal, 1988.";
+    skos:definition "Intermediate-scale convective patterns observed on the Sun's surface, larger than granulation but smaller than supergranulation.";
     skos:prefLabel "Mesogranulation"@en .
 
 <http://astrothesaurus.org/uat/1029>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/437> ;
-    skos:note "Wikipedia definition round 1: The temperature minimum at the boundary between the mesosphere and the thermosphere" ;
+    skos:definition "The boundary layer between the mesosphere and the thermosphere, typically exhibiting a temperature minimum in atmospheres." ;
     skos:prefLabel "Mesopause"@en .
 
 <http://astrothesaurus.org/uat/103>
@@ -383,7 +382,7 @@
     skos:altLabel "Super-radiant emission"@en, "Superradiant emission"@en ;
     skos:broader <http://astrothesaurus.org/uat/506>, <http://astrothesaurus.org/uat/847> ;
     skos:narrower <http://astrothesaurus.org/uat/1023>, <http://astrothesaurus.org/uat/1458>, <http://astrothesaurus.org/uat/1790>, <http://astrothesaurus.org/uat/771> ;
-    skos:note "Wikipedia definition round 1: Source of energy spectrum emission" ;
+    skos:definition "Naturally occurring sources of stimulated microwave emission in space." ;
     skos:prefLabel "Astrophysical masers"@en ;
     skos:related <http://astrothesaurus.org/uat/1072>, <http://astrothesaurus.org/uat/1244>, <http://astrothesaurus.org/uat/1584>, <http://astrothesaurus.org/uat/280> .
 
@@ -413,13 +412,13 @@
 <http://astrothesaurus.org/uat/1032>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/809> ;
-    skos:note "AI?X definition round 1: Interstellar or intergalactic gas clouds exhibiting absorption lines from metals, used to study chemical enrichment and ionization states. Citation: Pettini, M., et al., "Metal Absorption Systems in QSO Spectra," Astrophysical Journal, 1997.";
+    skos:definition "Interstellar or intergalactic gas clouds exhibiting readily accessible absorption lines from elements heavier than Helium." ;
     skos:prefLabel "Metal line absorbers"@en .
 
 <http://astrothesaurus.org/uat/1033>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1034> ;
-    skos:note "Wikipedia definition round 1: Celestial point in the sky from which meteors appear to originate" ;
+    skos:definition "Celestial point in the sky from which meteors appear to originate." ;
     skos:prefLabel "Meteor radiants"@en .
 
 <http://astrothesaurus.org/uat/1034>
@@ -450,7 +449,7 @@
     a skos:Concept ;
     skos:altLabel "Trail of meteors"@en, "Trails of meteors"@en ;
     skos:broader <http://astrothesaurus.org/uat/1041> ;
-    skos:note "Wikipedia definition round 1: Radio propagation mode" ;
+    skos:definition "Ionized paths left by meteoroids as they travel through a planet's atmosphere." ;
     skos:prefLabel "Meteor trails"@en .
 
 <http://astrothesaurus.org/uat/1037>
@@ -459,7 +458,7 @@
     a skos:Concept ;
     skos:altLabel "Composition of meteorites"@en ;
     skos:broader <http://astrothesaurus.org/uat/1038> ;
-    skos:note "AI?X definition round 1: The elemental and mineralogical makeup of meteorites, providing insights into the early solar system. Citation: Wasson, J. T., "Meteorites: Their Record of Early Solar System History," Freeman, 1985.";
+    skos:definition "The elemental and mineralogical makeup of meteorites.";
     skos:prefLabel "Meteorite composition"@en .
 
 <http://astrothesaurus.org/uat/1038>
@@ -484,7 +483,7 @@
     a skos:Concept ;
     skos:altLabel "Meteoric clouds"@en, "Meteoric dust"@en, "Meteoroid dust"@en ;
     skos:broader <http://astrothesaurus.org/uat/821> ;
-    skos:note "AI?X definition round 1: Clouds of dust particles released by meteoroids, often forming zodiacal light or cometary tails. Citation: Mann, I., et al., "Dust in the Solar System," Space Science Reviews, 2004.";
+    skos:definition "Clouds of dust particles released by meteoroids.";
     skos:prefLabel "Meteoroid dust clouds"@en .
 
 <http://astrothesaurus.org/uat/104>
@@ -492,7 +491,7 @@
     dcterms:modified "2022-03-29T17:21:25.592Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:narrower <http://astrothesaurus.org/uat/102>, <http://astrothesaurus.org/uat/1129>, <http://astrothesaurus.org/uat/1393>, <http://astrothesaurus.org/uat/661> ;
-    skos:note "AI?X definition round 1: The physical phenomena and interactions that govern the behavior of celestial objects and systems. Citation: Frank, J., et al., "Accretion Power in Astrophysics," Cambridge University Press, 2002.";
+    skos:definition "The physical phenomena and interactions that govern the behavior of celestial objects and systems.";
     skos:prefLabel "Astrophysical processes"@en ;
     skos:topConceptOf <http://astrothesaurus.org/uat/1> .
 
@@ -549,20 +548,21 @@
     skos:altLabel "Methods"@en, "Observation methods"@en ;
     skos:broader <http://astrothesaurus.org/uat/1145> ;
     skos:narrower <http://astrothesaurus.org/uat/1100>, <http://astrothesaurus.org/uat/1146>, <http://astrothesaurus.org/uat/1329>, <http://astrothesaurus.org/uat/1338>, <http://astrothesaurus.org/uat/1736>, <http://astrothesaurus.org/uat/1776>, <http://astrothesaurus.org/uat/1810>, <http://astrothesaurus.org/uat/2109>, <http://astrothesaurus.org/uat/293>, <http://astrothesaurus.org/uat/324>, <http://astrothesaurus.org/uat/35>, <http://astrothesaurus.org/uat/628>, <http://astrothesaurus.org/uat/675>, <http://astrothesaurus.org/uat/686>, <http://astrothesaurus.org/uat/786>, <http://astrothesaurus.org/uat/97> ;
-    skos:note "AI?X definition round 1: The diverse techniques and procedures employed in observational and theoretical astronomy. Citation: Cromwell, R., "Introduction to Observational Astronomy," Cambridge University Press, 1995.";
+    skos:definition "Techniques and procedures employed in observational and theoretical astronomy.";
     skos:prefLabel "Astronomical methods"@en .
 
 <http://astrothesaurus.org/uat/1044>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/805> ;
-    skos:note "Wikipedia definition round 1: Common configuration for optical interferometry" ;
+    skos:definition "Optical interferometers with perpendicular arms originally designed to detect Earth's motion through the hypotheical luminiferous aether." ;
+
     skos:prefLabel "Michelson interferometers"@en ;
     skos:related <http://astrothesaurus.org/uat/1045> .
 
 <http://astrothesaurus.org/uat/1045>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1171> ;
-    skos:note "AI?X definition round 1: A technique utilizing Michelson interferometers to measure wavelengths, distances, and angular separations with high precision. Citation: Michelson, A. A., & Morley, E. W., "On the Relative Motion of the Earth and the Luminiferous Ether," American Journal of Science, 1887.";
+    skos:definition "A technique utilizing Michelson interferometers to measure wavelengths, distances, and angular separations with high precision.";
     skos:prefLabel "Michelson interferometry"@en ;
     skos:related <http://astrothesaurus.org/uat/1044> .
 
@@ -597,7 +597,7 @@
 <http://astrothesaurus.org/uat/1048>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1040> ;
-    skos:note "Wikipedia definition round 1: Meteoroid with a mass of less than one gram" ;
+    skos:definition "Meteoroid with a mass of less than one gram" ;
     skos:prefLabel "Micrometeoroids"@en .
 
 <http://astrothesaurus.org/uat/1049>
@@ -605,7 +605,7 @@
     dcterms:modified "2018-08-30T21:01:50.000Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1056> ;
-    skos:note "AI?X definition round 1: The extended, invisible mass of dark matter surrounding the Milky Way, inferred from its gravitational effects. Citation: Rubin, V. C., "Dark Matter in the Milky Way," Annual Review of Astronomy and Astrophysics, 1983.";
+    skos:definition "Dark matter within the Milky Way system; the concept also includes the extended dark matter halo.";
     skos:prefLabel "Milky Way dark matter halo"@en ;
     skos:related <http://astrothesaurus.org/uat/1880> .
 
@@ -623,7 +623,7 @@
     a skos:Concept ;
     skos:altLabel "Disc of the Milky Way"@en, "Disk of the Milky Way"@en, "Milky Way Galaxy disc"@en, "Milky Way Galaxy disk"@en, "Milky Way disc"@en, "Milky Way galactic disc"@en, "Milky Way galactic disk"@en ;
     skos:broader <http://astrothesaurus.org/uat/1056> ;
-    skos:note "Wikipedia definition round 1: Topics referred to by the same term" ;
+    skos:definition "The relatively young component of the Milky Way galaxy gathered in the shape of a disk; the concept includes both the thin and the thick disk." ;
     skos:prefLabel "Milky Way disk"@en ;
     skos:related <http://astrothesaurus.org/uat/589> .
 
@@ -633,7 +633,7 @@
     a skos:Concept ;
     skos:altLabel "Dynamics of the Milky Way"@en, "Milky Way Galaxy dynamics"@en ;
     skos:broader <http://astrothesaurus.org/uat/1056> ;
-    skos:note "AI?X definition round 1: The study of the motion of stars, gas, and dark matter within the Milky Way, revealing its mass distribution and evolution. Citation: Binney, J., & Merrifield, M., "Galactic Astronomy," Princeton University Press, 1998.";
+    skos:definition " The study of the motion of stars, gas, and dark matter within the Milky Way, revealing its mass distribution and evolution.";
     skos:prefLabel "Milky Way dynamics"@en ;
     skos:related <http://astrothesaurus.org/uat/591> .
 
@@ -643,7 +643,7 @@
     a skos:Concept ;
     skos:altLabel "Evolution of the Milky Way"@en, "Milky Way Galaxy evolution"@en ;
     skos:broader <http://astrothesaurus.org/uat/1056> ;
-    skos:note "AI?X definition round 1: The processes driving changes in the structure and composition of the Milky Way over cosmic time. Citation: Bland-Hawthorn, J., & Gerhard, O., "The Galaxy in Context," Annual Review of Astronomy and Astrophysics, 2016.";
+    skos:definition "Changes in the structure and composition of the Milky Way over cosmic time.";
     skos:prefLabel "Milky Way evolution"@en ;
     skos:related <http://astrothesaurus.org/uat/594> .
 
@@ -653,7 +653,7 @@
     a skos:Concept ;
     skos:altLabel "Formation of the Milky Way"@en, "Milky Way Galaxy formation"@en, "Milky Way Galaxy origin"@en, "Milky Way origin"@en, "Origin of the Milky Way"@en ;
     skos:broader <http://astrothesaurus.org/uat/1056> ;
-    skos:note "AI?X definition round 1: Theories describing the Milky Way's origin, including hierarchical assembly and disk formation from cooling gas. Citation: White, S. D. M., & Rees, M. J., "Galaxy Formation by Cooling Gas," Monthly Notices of the Royal Astronomical Society, 1978.";
+    skos:definition "The Milky Way's origin and early evolution, including hierarchical assembly and disk formation from cooling gas.";
     skos:prefLabel "Milky Way formation"@en ;
     skos:related <http://astrothesaurus.org/uat/595> .
 
@@ -670,7 +670,7 @@
 <http://astrothesaurus.org/uat/1055>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1056> ;
-    skos:note "AI?X definition round 1: Gas expelled from the Galactic disk by stellar feedback processes, later cooling and raining back onto the disk. Citation: Shapiro, P. R., & Field, G. B., "Galactic Fountains," Astrophysical Journal, 1976.";
+    skos:definition "Gas vertically expelled from the Galactic disk by stellar feedback processes.";
     skos:prefLabel "Milky Way Galaxy fountains"@en ;
     skos:related <http://astrothesaurus.org/uat/596> .
 
@@ -680,7 +680,7 @@
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/612> ;
     skos:narrower <http://astrothesaurus.org/uat/1049>, <http://astrothesaurus.org/uat/1050>, <http://astrothesaurus.org/uat/1051>, <http://astrothesaurus.org/uat/1052>, <http://astrothesaurus.org/uat/1053>, <http://astrothesaurus.org/uat/1055>, <http://astrothesaurus.org/uat/1057>, <http://astrothesaurus.org/uat/1058>, <http://astrothesaurus.org/uat/1059>, <http://astrothesaurus.org/uat/1060>, <http://astrothesaurus.org/uat/1509>, <http://astrothesaurus.org/uat/2002>, <http://astrothesaurus.org/uat/2041>, <http://astrothesaurus.org/uat/2178>, <http://astrothesaurus.org/uat/2365>, <http://astrothesaurus.org/uat/564>, <http://astrothesaurus.org/uat/565>, <http://astrothesaurus.org/uat/572>, <http://astrothesaurus.org/uat/658> ;
-    skos:note "AI?X definition round 1: The study of the physical processes governing the structure, dynamics, and evolution of the Milky Way. Citation: Binney, J., & Tremaine, S., "Galactic Dynamics," Princeton University Press, 2008.";
+    skos:definition "The study of the physical processes governing the structure, dynamics, and evolution of the Milky Way.";
     skos:prefLabel "Milky Way Galaxy physics"@en ;
     skos:related <http://astrothesaurus.org/uat/1054> .
 
@@ -690,7 +690,7 @@
     a skos:Concept ;
     skos:altLabel "Magnetic fields in the Milky Way"@en, "Milky Way Galaxy magnetic fields"@en ;
     skos:broader <http://astrothesaurus.org/uat/1056> ;
-    skos:note "AI?X definition round 1: The magnetic fields threading the Milky Way, influencing star formation, cosmic ray propagation, and gas dynamics. Citation: Beck, R., "Magnetic Fields in the Milky Way," Annual Review of Astronomy and Astrophysics, 2001.";
+    skos:definition "Magnetic fields pervading the Milky Way.";
     skos:prefLabel "Milky Way magnetic fields"@en ;
     skos:related <http://astrothesaurus.org/uat/604> .
 
@@ -700,7 +700,7 @@
     a skos:Concept ;
     skos:altLabel "Mass of the Milky Way"@en, "Milky Way Galaxy mass"@en ;
     skos:broader <http://astrothesaurus.org/uat/1056> ;
-    skos:note "AI?X definition round 1: The total mass of the Milky Way, including stars, gas, and dark matter, estimated to be around ​1.5 trillion solar masses. Citation: Bland-Hawthorn, J., & Peebles, P. J. E., "The Mass of the Milky Way," Astrophysical Journal, 2006.";
+    skos:definition "The total mass of the Milky Way, including stars, gas, and dark matter.";
     skos:prefLabel "Milky Way mass"@en ;
     skos:related <http://astrothesaurus.org/uat/607> .
 
@@ -710,7 +710,7 @@
     a skos:Concept ;
     skos:altLabel "Milky Way Galaxy rotation"@en, "Rotation of the Milky Way"@en ;
     skos:broader <http://astrothesaurus.org/uat/1056> ;
-    skos:note "AI?X definition round 1: The angular velocity of the Milky Way’s disk, studied through the rotation curve and revealing the presence of dark matter. Citation: Sofue, Y., & Rubin, V., "Rotation Curves of Spiral Galaxies," Annual Review of Astronomy and Astrophysics, 2001.";
+    skos:definition "The directed motion of Milky Way components around the galactic center.";
     skos:prefLabel "Milky Way rotation"@en ;
     skos:related <http://astrothesaurus.org/uat/618> .
 
@@ -718,7 +718,7 @@
     a skos:Concept ;
     skos:altLabel "Astrosphere-interstellar medium interactions"@en, "Astrosphere/interstellar medium interactions"@en ;
     skos:broader <http://astrothesaurus.org/uat/1619> ;
-    skos:note "AI?X definition round 1: The dynamic interaction between a star's astrosphere and the surrounding interstellar medium, influencing stellar winds and cosmic ray propagation. Citation: Zank, G. P., "Interactions between Stellar Winds and the ISM," Annual Review of Astronomy and Astrophysics, 1999.";
+    skos:definition "The dynamic interaction between a star's astrosphere and the surrounding interstellar medium, influencing stellar winds and cosmic ray propagation.";
     skos:prefLabel "Astrosphere interstellar medium interactions"@en ;
     skos:related <http://astrothesaurus.org/uat/711> .
 
@@ -728,7 +728,7 @@
     a skos:Concept ;
     skos:altLabel "Galactic halo of the Milky Way"@en, "Halo of the Milky Way"@en, "Milky Way Galaxy halo"@en, "Milky Way galactic halo"@en, "Milky Way halo"@en ;
     skos:broader <http://astrothesaurus.org/uat/1056> ;
-    skos:note "AI?X definition round 1: A diffuse, spherical distribution of old stars surrounding the Milky Way, often enriched with accreted material. Citation: Helmi, A., "The Stellar Halo of the Galaxy," Annual Review of Astronomy and Astrophysics, 2008.";
+    skos:definition "A diffuse, spherical distribution stars within the Milky Way galaxy, also containing remainders of dwarf galaxies disrupted by the Milky Way.";
     skos:prefLabel "Milky Way stellar halo"@en ;
     skos:related <http://astrothesaurus.org/uat/598> .
 
@@ -737,19 +737,19 @@
     dcterms:modified "2021-08-24T15:42:20.353Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1338> ;
-    skos:note "AI?X definition round 1: The observation of astronomical phenomena in millimeter wavelengths, providing insights into cold gas, dust, and star formation. Citation: Wilson, T. L., et al., "Tools of Radio Astronomy," Springer, 2009.";
+    skos:definition "The observation of astronomical phenomena in the millimeter range of the radio spectrum.";
     skos:prefLabel "Millimeter astronomy"@en, "Millimetre astronomy"@en-gb .
 
 <http://astrothesaurus.org/uat/1062>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1306> ;
-    skos:note "Wikipedia definition round 1: Pulsar with a rotational period less than about 10 milliseconds" ;
+    skos:definition "Pulsars with rotational periods of less than about 10 milliseconds" ;
     skos:prefLabel "Millisecond pulsars"@en .
 
 <http://astrothesaurus.org/uat/1063>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/498> ;
-    skos:note "Wikipedia definition round 1: Planet smaller than Neptune with a gas atmosphere" ;
+    skos:definition "Exoplanets smaller than Neptune but with a comparable, gas-dominated inner structure." ;
     skos:prefLabel "Mini Neptunes"@en .
 
 <http://astrothesaurus.org/uat/1064>
@@ -796,7 +796,7 @@
     a skos:Concept ;
     skos:altLabel "Mira variables"@en, "Miras"@en, "Omicron ceti stars"@en, "Zeta aurigae stars"@en ;
     skos:broader <http://astrothesaurus.org/uat/1307>, <http://astrothesaurus.org/uat/460>, <http://astrothesaurus.org/uat/908>, <http://astrothesaurus.org/uat/935> ;
-    skos:note "Wikipedia definition round 1: Type of variable star" ;
+    skos:definition "A type of long-period, semiregular, large-amplitude variable red giant star often undergoing mass loss." ;
     skos:prefLabel "Mira variable stars"@en ;
     skos:related <http://astrothesaurus.org/uat/1017> .
 
@@ -826,13 +826,13 @@
     a skos:Concept ;
     skos:altLabel "M o n d"@en ;
     skos:broader <http://astrothesaurus.org/uat/1118> ;
-    skos:note "Wikipedia definition round 1: Hypothesis proposing a modification of Newtons laws" ;
+    skos:definition "A theory proposing minor modifications to Newtonian gravity to explain galactic rotation curves and other phenomena conventionally explained by dark matter." ;
     skos:prefLabel "Modified Newtonian dynamics"@en .
 
 <http://astrothesaurus.org/uat/107>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1576> ;
-    skos:note "Wikipedia definition round 1: Cavity of hot gas blown from a star" ;
+    skos:definition "The regions of space around stars dominated by their stellar winds and magnetic fields." ;
     skos:prefLabel "Astrospheres"@en .
 
 <http://astrothesaurus.org/uat/1070>
@@ -840,7 +840,7 @@
     dcterms:modified "2018-09-06T16:46:17.000Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1686> ;
-    skos:note "Wikipedia definition round 1: Green natural glass possibly formed by a meteorite impact" ;
+    skos:definition "Greenish natural glass generally attributed to strong impact events." ;
     skos:prefLabel "Moldavites"@en .
 
 <http://astrothesaurus.org/uat/1071>
@@ -848,7 +848,7 @@
     dcterms:modified "2022-06-11T22:56:51.935Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/2072>, <http://astrothesaurus.org/uat/2226> ;
-    skos:note "AI?X definition round 1: The process where two reactive radicals combine to form a more stable molecule, crucial in interstellar chemistry and combustion. Citation: Smith, I. W. M., "Reactions Between Radicals in Astrochemistry," Annual Review of Physical Chemistry, 2011.";
+    skos:definition "The process where two radicals combine to form a less reactive molecule.";
     skos:prefLabel "Radical-radical recombination"@en .
 
 <http://astrothesaurus.org/uat/1072>
@@ -856,14 +856,14 @@
     skos:altLabel "H2 clouds"@en ;
     skos:broader <http://astrothesaurus.org/uat/834> ;
     skos:narrower <http://astrothesaurus.org/uat/1223>, <http://astrothesaurus.org/uat/267>, <http://astrothesaurus.org/uat/381>, <http://astrothesaurus.org/uat/653>, <http://astrothesaurus.org/uat/787> ;
-    skos:note "Wikipedia definition round 1: Type of interstellar cloud" ;
+    skos:definition "Dense regions of interstellar gas and dust where molecular hydrogen and other molecules can form." ;
     skos:prefLabel "Molecular clouds"@en ;
     skos:related <http://astrothesaurus.org/uat/103> .
 
 <http://astrothesaurus.org/uat/1073>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/850> ;
-    skos:note "Wikipedia definition round 1: Scientific study of cuisine" ;
+    skos:definition "Interstellar gas with large fractions of molecules such as H2 or CO." ;
     skos:prefLabel "Molecular gas"@en .
 
 <http://astrothesaurus.org/uat/1074>
@@ -871,14 +871,14 @@
     dcterms:modified "2018-08-27T21:07:15.000Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1525> ;
-    skos:note "AI?X definition round 1: Short-lived, small-scale structures in the chromosphere, often associated with spicules or magnetic activity. Citation: Tsiropoula, G., et al., "Solar Spicules and Mottles," Space Science Reviews, 2012.";
+    skos:definition "Short-lived, small-scale structures in the chromosphere, often associated with spicules or magnetic activity.";
     skos:prefLabel "Solar mottles"@en .
 
 <http://astrothesaurus.org/uat/1075>
     a skos:Concept ;
     skos:altLabel "Cluster parallax"@en ;
     skos:broader <http://astrothesaurus.org/uat/1197> ;
-    skos:note "AI?X definition round 1: A method of determining distances to star clusters by measuring their proper motion and radial velocity. Citation: Eggen, O. J., "Parallax Measurements Using Moving Clusters," Astrophysical Journal, 1955." ;
+    skos:definition "A distances to star clusters measured by obtaining its member's proper motions and radial velocities and extrapolating them to their vanishing point." ;
     skos:prefLabel "Moving cluster parallax"@en ;
     skos:related <http://astrothesaurus.org/uat/1076> .
 
@@ -897,7 +897,7 @@
     a skos:Concept ;
     skos:altLabel "Multicolor photometry"@en ;
     skos:broader <http://astrothesaurus.org/uat/1233> ;
-    skos:note "AI?X definition round 1: Photometric measurements taken in multiple wavelength bands to determine the properties of celestial objects. Citation: Bessell, M. S., "Photometric Systems," Annual Review of Astronomy and Astrophysics, 2005.";
+    skos:definition "Photometric measurements of a set of objects taken in multiple spectral bands.";
     skos:prefLabel "Multi-color photometry"@en, "Multi-colour photometry"@en-gb .
 
 <http://astrothesaurus.org/uat/1078>
@@ -907,7 +907,7 @@
     skos:altLabel "Multiperiodic pulsation"@en ;
     skos:broader <http://astrothesaurus.org/uat/1625> ;
     skos:narrower <http://astrothesaurus.org/uat/403> ;
-    skos:note "AI?X definition round 1: Stellar pulsations with more than one oscillation period, often observed in variable stars such as Cepheids and Delta Scuti stars. Citation: Handler, G., "Multi-Periodic Pulsators in the Instability Strip," Astronomical Journal, 1999.";
+    skos:definition "Stellar pulsations with more than one oscillation period, often observed in variable stars such as Cepheids and Delta Scuti stars.";
     skos:prefLabel "Multi-periodic pulsation"@en ;
     skos:related <http://astrothesaurus.org/uat/1079> .
 
@@ -918,7 +918,7 @@
     skos:altLabel "Multiperiodic variable stars"@en ;
     skos:broader <http://astrothesaurus.org/uat/1213>, <http://astrothesaurus.org/uat/1307> ;
     skos:narrower <http://astrothesaurus.org/uat/1216>, <http://astrothesaurus.org/uat/148>, <http://astrothesaurus.org/uat/1673>, <http://astrothesaurus.org/uat/1847>, <http://astrothesaurus.org/uat/2111>, <http://astrothesaurus.org/uat/2123>, <http://astrothesaurus.org/uat/370>, <http://astrothesaurus.org/uat/404> ;
-    skos:note "AI?X definition round 1: Variable stars exhibiting multiple pulsation frequencies, providing insights into stellar interiors and evolutionary states. Citation: Kurtz, D. W., "Multi-Periodic Pulsations in Stars," Monthly Notices of the Royal Astronomical Society, 1982.";
+    skos:definition "Variable stars exhibiting multi-periodic pulsation.";
     skos:prefLabel "Multi-periodic variable stars"@en ;
     skos:related <http://astrothesaurus.org/uat/1078> .
 
@@ -938,14 +938,14 @@
     a skos:Concept ;
     skos:altLabel "MM"@en ;
     skos:broader <http://astrothesaurus.org/uat/1174> ;
-    skos:note "Wikipedia definition round 1: Part of the Fred Lawrence Whipple Observatory" ;
+    skos:definition "Telescopes in which the primary mirror consists of multiple independent segments." ;
     skos:prefLabel "Multiple mirror telescopes"@en .
 
 <http://astrothesaurus.org/uat/1081>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1634> ;
     skos:narrower <http://astrothesaurus.org/uat/154>, <http://astrothesaurus.org/uat/1714> ;
-    skos:note "Wikipedia definition round 1: Small number of stars that orbit each other" ;
+    skos:definition "Gravitationally bound systems of two or more stars smaller than a star cluster." ;
     skos:prefLabel "Multiple stars"@en .
 
 <http://astrothesaurus.org/uat/1082>
@@ -970,14 +970,14 @@
     dcterms:modified "2018-08-27T19:24:15.000Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1857>, <http://astrothesaurus.org/uat/669> ;
-    skos:note "Wikipedia definition round 1: Simulation of a dynamical system of particles" ;
+    skos:definition "Simulation of a dynamical system of particles experiencing mutual graviational attraction." ;
     skos:prefLabel "N-body simulations"@en ;
     skos:related <http://astrothesaurus.org/uat/1082> .
 
 <http://astrothesaurus.org/uat/1084>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/285> ;
-    skos:note "AI?X definition round 1: Galaxies exhibiting strong nuclear emission lines, often associated with active galactic nuclei. Citation: Osterbrock, D. E., "The Emission Spectra of N Galaxies," Astrophysical Journal, 1963.";
+    skos:definition "Galaxies having brilliant, starlike nuclei emitting most of the light of the system." ;
     skos:prefLabel "N galaxies"@en .
 
 <http://astrothesaurus.org/uat/1085>
@@ -986,7 +986,7 @@
     a skos:Concept ;
     skos:altLabel "N-type stars"@en ;
     skos:broader <http://astrothesaurus.org/uat/199>, <http://astrothesaurus.org/uat/909> ;
-    skos:note "Wikipedia definition round 1: Binary star system in the constellation Andromeda" ;
+    skos:definition "Cool stars with strong carbon molecular bands in their spectra associated with late stellar evolutionary stages." ;
     skos:prefLabel "N stars"@en .
 
 <http://astrothesaurus.org/uat/1086>
@@ -1000,14 +1000,14 @@
 <http://astrothesaurus.org/uat/1087>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/674> ;
-    skos:note "Wikipedia definition round 1: Hypothetical phenomenon" ;
+    skos:definition "Hypothetical singularities in the gravitational field not enclosed by an event horizon." ;
     skos:prefLabel "Naked singularities"@en .
 
 <http://astrothesaurus.org/uat/1088>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1233> ;
     skos:narrower <http://astrothesaurus.org/uat/691>, <http://astrothesaurus.org/uat/692> ;
-    skos:note "AI?X definition round 1: Photometric measurements made using filters with very narrow wavelength ranges, useful for studying specific spectral features. Citation: Bessell, M. S., "Photometric Systems," Annual Review of Astronomy and Astrophysics, 2005.";
+    skos:definition "Photometric measurements made using filters with narrow wavelength ranges (below a few nanometers in the optical), useful for studying specific spectral features.";
     skos:prefLabel "Narrow band photometry"@en .
 
 <http://astrothesaurus.org/uat/1089>
@@ -1030,20 +1030,20 @@
 <http://astrothesaurus.org/uat/109>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1038> ;
-    skos:note "Wikipedia definition round 1: Structural class of iron meteorites" ;
+    skos:definition "A rare class of iron meteorites with high nickel content and lacking visible Widmanstätten patterns." ;
     skos:prefLabel "Ataxites"@en .
 
 <http://astrothesaurus.org/uat/1090>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/26> ;
-    skos:note "Wikipedia definition round 1: American noise music group" ;
+    skos:definition "Publications providing astronomical data for navigation, including positions of celestial objects and tidal information." ;
     skos:prefLabel "Nautical almanacs"@en .
 
 <http://astrothesaurus.org/uat/1091>
     a skos:Concept ;
     skos:altLabel "NFW"@en, "NFW profile"@en, "NFW-profile"@en ;
     skos:broader <http://astrothesaurus.org/uat/606> ;
-    skos:note "Wikipedia definition round 1: Spatial mass distribution of dark matter" ;
+    skos:definition "A model describing the density distribution of dark matter in halos, characterized by a central cusp and outer slope." ;
     skos:prefLabel "Navarro-Frenk-White profile"@en ;
     skos:related <http://astrothesaurus.org/uat/353> .
 
@@ -1068,14 +1068,14 @@
     a skos:Concept ;
     skos:altLabel "Near infrared astronomical observations"@en, "Near infrared telescopes"@en, "Near ir astronomical observations"@en, "Near ir astronomy"@en, "Near-infrared astronomical observations"@en, "Near-infrared astronomy"@en, "Near-infrared telescopes"@en, "Near-ir astronomical observations"@en, "Near-ir astronomy"@en ;
     skos:broader <http://astrothesaurus.org/uat/786> ;
-    skos:note "AI?X definition round 1: The study of celestial objects in the near-infrared wavelength range (0.7–2.5 µm), revealing cooler stars, dust, and galaxies. Citation: Glass, I. S., "Infrared Astronomy," Cambridge University Press, 1999.";
+    skos:definition "The study of celestial objects in the near-infrared wavelength range (0.7–2.5 µm)." ;
     skos:prefLabel "Near infrared astronomy"@en .
 
 <http://astrothesaurus.org/uat/1094>
     a skos:Concept ;
     skos:altLabel "Near ultraviolet astronomical observations"@en, "Near ultraviolet telescopes"@en, "Near uv astronomical observations"@en, "Near uv astronomy"@en, "Near-ultraviolet astronomical observations"@en, "Near-ultraviolet astronomy"@en, "Near-ultraviolet telescopes"@en, "Near-uv astronomical observations"@en, "Near-uv astronomy"@en ;
     skos:broader <http://astrothesaurus.org/uat/1736> ;
-    skos:note "AI?X definition round 1: Astronomy focusing on wavelengths just below visible light (180–400 nm), useful for studying young stars and hot gas. Citation: Kinney, A. L., et al., "The Ultraviolet Universe," Annual Review of Astronomy and Astrophysics, 1993.";
+    skos:definition "Astronomy focusing on wavelengths just below visible light (180–400 nm).";
     skos:prefLabel "Near ultraviolet astronomy"@en .
 
 <http://astrothesaurus.org/uat/1095>
@@ -1100,7 +1100,7 @@
 <http://astrothesaurus.org/uat/1097>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1705>, <http://astrothesaurus.org/uat/1715> ;
-    skos:note "Wikipedia definition round 1: Asteroid orbiting the Sun near one of the stable Lagrangian points of Neptune" ;
+    skos:definition "Asteroids orbiting the Sun near one of the stable Lagrangian points of Neptune." ;
     skos:prefLabel "Neptune trojans"@en .
 
 <http://astrothesaurus.org/uat/1098>
@@ -1111,7 +1111,7 @@
     skos:broader <http://astrothesaurus.org/uat/1089> ;
     skos:example "Naiad"@en, "Nereid"@en, "Thalassa"@en ;
     skos:narrower <http://astrothesaurus.org/uat/2187> ;
-    skos:note "Wikipedia definition round 1: Natural satellites of the planet Neptune" ;
+    skos:definition "Natural satellites of the solar-system planet Neptune" ;
     skos:prefLabel "Neptunian satellites"@en ;
     skos:related <http://astrothesaurus.org/uat/1096> .
 
@@ -1119,7 +1119,7 @@
     a skos:Concept ;
     skos:altLabel "HI clouds"@en, "Neutral atomic hydrogen clouds"@en ;
     skos:broader <http://astrothesaurus.org/uat/834> ;
-    skos:note "AI?X definition round 1: Regions of interstellar space dominated by neutral hydrogen, detectable via the 21 cm emission line. Citation: Kulkarni, S. R., & Heiles, C., "Atomic Hydrogen in the Galaxy," Annual Review of Astronomy and Astrophysics, 1988.";
+    skos:definition "Regions of interstellar space dominated by neutral hydrogen, typically detected via the 21 cm emission line.";
     skos:prefLabel "Neutral hydrogen clouds"@en .
 
 <http://astrothesaurus.org/uat/11>
@@ -1155,19 +1155,19 @@
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1043>, <http://astrothesaurus.org/uat/739> ;
     skos:narrower <http://astrothesaurus.org/uat/1102>, <http://astrothesaurus.org/uat/1510>, <http://astrothesaurus.org/uat/1752> ;
-    skos:note "Wikipedia definition round 1: Observing low-mass stellar particles" ;
+    skos:definition "The study of astrophysical sources via neutrinos." ;
     skos:prefLabel "Neutrino astronomy"@en .
 
 <http://astrothesaurus.org/uat/1101>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/435> ;
-    skos:note "AI?X definition round 1: The separation of neutrinos from matter and radiation in the early universe, occurring approximately 1 second after the Big Bang. Citation: Lesgourgues, J., & Pastor, S., "Neutrino Cosmology," Physics Reports, 2006." ;
+    skos:definition "The thermodynamic separation of neutrinos from matter and radiation in the early universe." ;
     skos:prefLabel "Neutrino decoupling"@en .
 
 <http://astrothesaurus.org/uat/1102>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1100> ;
-    skos:note "AI?X definition round 1: The small but non-zero masses of neutrinos, inferred from oscillation experiments and cosmological constraints. Citation: Fukuda, Y., et al., "Evidence for Neutrino Mass," Physical Review Letters, 1998.";
+    skos:definition "The small but non-zero masses of the various species of neutrinos.";
     skos:prefLabel "Neutrino masses"@en .
 
 <http://astrothesaurus.org/uat/1103>
@@ -1188,26 +1188,26 @@
     dcterms:modified "2020-12-16T15:44:57.600Z"^^xsd:dateTime ;
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1129>, <http://astrothesaurus.org/uat/96> ;
-    skos:note "Wikipedia definition round 1: Phenomenon in which a neutrino changes lepton flavor as it travels" ;
+    skos:definition "The change of lepton flavors neutrinos undergo as they travel." ;
     skos:prefLabel "Neutrino oscillations"@en .
 
 <http://astrothesaurus.org/uat/1105>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1689> ;
-    skos:note "Wikipedia definition round 1: Physics apparatus which is designed to study neutrinos" ;
+    skos:definition "Devices designed to observe neutrinos emitted by astrophysical sources." ;
     skos:prefLabel "Neutrino telescopes"@en .
 
 <http://astrothesaurus.org/uat/1106>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/808> ;
-    skos:note "Wikipedia definition round 1: Interferometer using neutron diffraction to make precise measurements" ;
+    skos:definition "The study of neutron wave interference to investigate quantum mechanical effects and material properties.",
     skos:prefLabel "Neutron interferometry"@en .
 
 <http://astrothesaurus.org/uat/1107>
     a skos:Concept ;
     skos:altLabel "Neutron star core"@en ;
     skos:broader <http://astrothesaurus.org/uat/1108> ;
-    skos:note "AI?X definition round 1: The dense central regions of neutron stars, possibly containing exotic states of matter like quark-gluon plasma. Citation: Glendenning, N. K., "Compact Stars: Nuclear Physics, Particle Physics, and General Relativity," Springer, 2000.";
+    skos:definition "The dense central regions of neutron stars, possibly containing exotic states of matter like quark-gluon plasma.";
     skos:prefLabel "Neutron star cores"@en .
 
 <http://astrothesaurus.org/uat/1108>
@@ -1216,7 +1216,7 @@
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1129>, <http://astrothesaurus.org/uat/288> ;
     skos:narrower <http://astrothesaurus.org/uat/1107>, <http://astrothesaurus.org/uat/1306>, <http://astrothesaurus.org/uat/1392>, <http://astrothesaurus.org/uat/992> ;
-    skos:note "Wikipedia definition round 1: Collapsed core of a massive star" ;
+    skos:definition "Compact remnants of massive stars that have undergone supernovae, composed primarily of neutrons." ;
     skos:prefLabel "Neutron stars"@en .
 
 <http://astrothesaurus.org/uat/1109>
@@ -1238,21 +1238,21 @@
     a skos:Concept ;
     skos:altLabel "Apohele asteroids"@en, "Apohele group"@en, "Atiras"@en ;
     skos:broader <http://astrothesaurus.org/uat/1092> ;
-    skos:note "AI?X definition round 1: A population of near-Earth asteroids with orbits entirely within Earth's orbit, also known as Apohele asteroids. Citation: Bottke, W. F., et al., "Near-Earth Objects," Asteroids III, University of Arizona Press, 2002.";
+    skos:definition "A population of near-Earth asteroids with orbits entirely within Earth's orbit, also known as Apohele asteroids.";
     skos:prefLabel "Atira group"@en .
 
 <http://astrothesaurus.org/uat/1110>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/661> ;
     skos:narrower <http://astrothesaurus.org/uat/14>, <http://astrothesaurus.org/uat/664>, <http://astrothesaurus.org/uat/665>, <http://astrothesaurus.org/uat/666>, <http://astrothesaurus.org/uat/667>, <http://astrothesaurus.org/uat/668>, <http://astrothesaurus.org/uat/669>, <http://astrothesaurus.org/uat/679> ;
-    skos:note "Wikipedia definition round 1: Classical statement of gravity as force" ;
+    skos:definition "The classical theory of gravity formulated by Isaac Newton, neglecting contributions by general relativity." ;
     skos:prefLabel "Newtonian gravitation"@en .
 
 <http://astrothesaurus.org/uat/1111>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1380> ;
     skos:narrower <http://astrothesaurus.org/uat/398> ;
-    skos:note "Wikipedia definition round 1: Type of reflecting telescope" ;
+    skos:definition "Reflecting telescopes designed by Isaac Newton, using a parabolic primary mirror and a flat secondary mirror." ;
     skos:prefLabel "Newtonian telescopes"@en .
 
 <http://astrothesaurus.org/uat/1112>
@@ -1260,20 +1260,20 @@
     skos:altLabel "Night sky background"@en ;
     skos:broader <http://astrothesaurus.org/uat/1462> ;
     skos:narrower <http://astrothesaurus.org/uat/2318>, <http://astrothesaurus.org/uat/640> ;
-    skos:note "Wikipedia definition round 1: Visual perception of the sky and how it scatters and diffuses light" ;
+    skos:definition "The measure of diffuse light on the night sky by natural and artificial sources, including the Milky Way, airglow, and light pollution." ;
     skos:prefLabel "Night sky brightness"@en .
 
 <http://astrothesaurus.org/uat/1113>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/35> ;
-    skos:note "Wikipedia definition round 1: Ability to see in low light conditions" ;
+    skos:definition "The ability to see in low light conditions." ;
     skos:prefLabel "Night vision"@en .
 
 <http://astrothesaurus.org/uat/1114>
     a skos:Concept ;
     skos:altLabel "Laughing gas"@en, "N2O"@en, "Sweet air"@en ;
     skos:broader <http://astrothesaurus.org/uat/684> ;
-    skos:note "Wikipedia definition round 1: Colourless non-flammable greenhouse gas" ;
+    skos:definition "Chemical compounds exclusively composed of nitrogen and oxygene, including, but not limited to, NO, N₂O, NO₂, N₂O₃, and N₂O₄" ;
     skos:prefLabel "Nitrous oxide"@en .
 
 <http://astrothesaurus.org/uat/1115>
@@ -1305,21 +1305,21 @@
     a skos:Concept ;
     skos:altLabel "Nonradial pulsation"@en ;
     skos:broader <http://astrothesaurus.org/uat/1625> ;
-    skos:note "AI?X definition round 1: Stellar oscillations where surface displacements occur in directions not aligned with the star’s radius, providing insights into stellar interiors. Citation: Unno, W., et al., "Nonradial Oscillations of Stars," University of Tokyo Press, 1989.";
+    skos:definition "Stellar oscillations where surface displacements occur in directions not aligned with the star’s radius, providing insights into stellar interiors. Citation: Unno, W., et al., "Nonradial Oscillations of Stars," University of Tokyo Press, 1989.";
     skos:prefLabel "Non-radial pulsations"@en .
 
 <http://astrothesaurus.org/uat/1118>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/661> ;
     skos:narrower <http://astrothesaurus.org/uat/1069>, <http://astrothesaurus.org/uat/1314>, <http://astrothesaurus.org/uat/1428>, <http://astrothesaurus.org/uat/1725> ;
-    skos:note "AI?X definition round 1: Alternative gravitational theories, such as MOND or f(R) gravity, proposed to explain phenomena like dark matter and cosmic acceleration. Citation: Clifton, T., et al., "Modified Gravity and Cosmology," Physics Reports, 2012.";
+    skos:definition "Alternative gravitational theories, such as MOND or f(R) gravity, proposed to explain phenomena like dark matter and cosmic acceleration.";
     skos:prefLabel "Non-standard theories of gravity"@en .
 
 <http://astrothesaurus.org/uat/1119>
     a skos:Concept ;
     skos:altLabel "Non-thermal sources"@en, "Nonthermal sources"@en ;
     skos:broader <http://astrothesaurus.org/uat/89> ;
-    skos:note "AI?X definition round 1: Sources emitting radiation not due to thermal processes, such as synchrotron radiation or inverse Compton scattering. Citation: Rybicki, G. B., & Lightman, A. P., "Radiative Processes in Astrophysics," Wiley, 1979.";
+    skos:definition "Sources emitting radiation not due to thermal processes. Examples for non-termal emission processes include synchrotron radiation, inverse Compton scattering, and stimulated emission.";
     skos:prefLabel "Non-thermal radiation sources"@en .
 
 <http://astrothesaurus.org/uat/112>
@@ -1334,7 +1334,7 @@
     a skos:Concept ;
     skos:altLabel "Non-classical interferometry"@en ;
     skos:broader <http://astrothesaurus.org/uat/808> ;
-    skos:note "AI?X definition round 1: Quantum-enhanced interferometry exploiting phenomena like entanglement to improve precision beyond classical limits. Citation: Giovannetti, V., et al., "Advances in Quantum Metrology," Nature Photonics, 2011.";
+    skos:definition "Quantum-enhanced interferometry exploiting phenomena like entanglement to improve precision beyond classical limits.";
     skos:prefLabel "Nonclassical interferometry"@en .
 
 <http://astrothesaurus.org/uat/1121>
@@ -1342,13 +1342,13 @@
     skos:altLabel "Non-rotating black holes"@en ;
     skos:broader <http://astrothesaurus.org/uat/249> ;
     skos:narrower <http://astrothesaurus.org/uat/1384>, <http://astrothesaurus.org/uat/1433> ;
-    skos:note "AI?X definition round 1: Black holes with no angular momentum, described by the Schwarzschild solution of Einstein's field equations. Citation: Schwarzschild, K., "On the Gravitational Field of a Point Mass," Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften, 1916.";
+    skos:definition "Black holes with no angular momentum as described by the Schwarzschild solution of Einstein's field equations.";
     skos:prefLabel "Nonrotating black holes"@en .
 
 <http://astrothesaurus.org/uat/1122>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/1599> ;
-    skos:note "AI?X definition round 1: Deviations from standard stellar or cosmological evolution models, often invoked to explain observed anomalies. Citation: Weinberg, S., "Cosmology," Oxford University Press, 2008.";
+    skos:definition "Deviations from standard stellar or cosmological evolution models and their effects.";
     skos:prefLabel "Nonstandard evolution"@en .
 
 <http://astrothesaurus.org/uat/1123>
@@ -1371,14 +1371,14 @@
     a skos:Concept ;
     skos:altLabel "N.E.P."@en, "NEP"@en ;
     skos:broader <http://astrothesaurus.org/uat/448> ;
-    skos:note "Wikipedia definition round 1: Celestial coordinate system" ;
+    skos:definition "The point in the sky where the axis of the Earth's motion around the sun meets the celestial sphere in the northen hemisphere." ;
     skos:prefLabel "North ecliptic pole"@en .
 
 <http://astrothesaurus.org/uat/1125>
     a skos:Concept ;
     skos:altLabel "N.G.P."@en, "NGP"@en ;
     skos:broader <http://astrothesaurus.org/uat/570> ;
-    skos:note "Wikipedia definition round 1: Celestial coordinate system in spherical coordinates, with the Sun as its center" ;
+    skos:definition "The point in the sky where the normal vector of the Galactic plane meets the celestial sphere in the northen hemisphere." ;
     skos:prefLabel "North galactic pole"@en .
 
 <http://astrothesaurus.org/uat/1126>
@@ -1388,7 +1388,7 @@
     skos:altLabel "Nova-like variables"@en ;
     skos:broader <http://astrothesaurus.org/uat/1627>, <http://astrothesaurus.org/uat/203> ;
     skos:narrower <http://astrothesaurus.org/uat/1757>, <http://astrothesaurus.org/uat/1782> ;
-    skos:note "AI?X definition round 1: Close binary systems resembling classical novae but without observed eruptions, often exhibiting accretion-driven variability. Citation: Warner, B., "Cataclysmic Variable Stars," Cambridge University Press, 1995.";
+    skos:definition "Close binary systems resembling classical novae but without observed eruptions, often exhibiting accretion-driven variability.";
     skos:prefLabel "Nova-like variable stars"@en .
 
 <http://astrothesaurus.org/uat/1127>
@@ -1410,7 +1410,7 @@
 <http://astrothesaurus.org/uat/1128>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/224> ;
-    skos:note "AI?X definition round 1: The relative quantities of different atomic nuclei in a given astrophysical environment, providing insights into nucleosynthesis. Citation: Clayton, D. D., "Principles of Stellar Evolution and Nucleosynthesis," University of Chicago Press, 1968.";
+    skos:definition "The relative quantities of different atomic nuclei in a given astrophysical environment, providing insights into nucleosynthesis.";
     skos:prefLabel "Nuclear abundances"@en .
 
 <http://astrothesaurus.org/uat/1129>
@@ -1419,7 +1419,7 @@
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/104> ;
     skos:narrower <http://astrothesaurus.org/uat/100>, <http://astrothesaurus.org/uat/1104>, <http://astrothesaurus.org/uat/1108>, <http://astrothesaurus.org/uat/1131>, <http://astrothesaurus.org/uat/1511>, <http://astrothesaurus.org/uat/2323>, <http://astrothesaurus.org/uat/2324> ;
-    skos:note "Wikipedia definition round 1: Field of nuclear physics and astrophysics" ;
+    skos:definition "The study of nuclear processes in astronomical environments, including stellar nucleosynthesis and supernovae explosions." ;
     skos:prefLabel "Nuclear astrophysics"@en ;
     skos:related <http://astrothesaurus.org/uat/2077> .
 
@@ -1427,13 +1427,13 @@
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/116> ;
     skos:narrower <http://astrothesaurus.org/uat/1437>, <http://astrothesaurus.org/uat/1462> ;
-    skos:note "Wikipedia definition round 1: Atmospheric radiative transfer algorithm" ;
+    skos:definition "The influence of atmospheric conditions on observational data, such as seeing, extinction, and scintillation." ;
     skos:prefLabel "Atmospheric effects"@en .
 
 <http://astrothesaurus.org/uat/1130>
     a skos:Concept ;
     skos:broader <http://astrothesaurus.org/uat/416> ;
-    skos:note "AI?X definition round 1: Dwarf galaxies with dense, bright central regions, often hosting star clusters or intermediate-mass black holes. Citation: Lotz, J. M., et al., "Properties of Nucleated Dwarf Galaxies," Astrophysical Journal, 2004.";
+    skos:definition "Dwarf galaxies with dense, bright central regions, often hosting star clusters or intermediate-mass black holes.";
     skos:prefLabel "Nucleated dwarf galaxies"@en .
 
 <http://astrothesaurus.org/uat/1131>
@@ -1460,14 +1460,14 @@
     a skos:Concept ;
     skos:altLabel "O subgiants"@en, "O-type subgiant stars"@en, "O-type subgiants"@en ;
     skos:broader <http://astrothesaurus.org/uat/1137>, <http://astrothesaurus.org/uat/1646> ;
-    skos:note "AI?X definition round 1: Intermediate O-type stars transitioning from the main sequence to the giant phase. Citation: Gray, R. O., & Corbally, C. J., "Stellar Spectral Classification," Princeton University Press, 2009.";
+    skos:definition "Intermediate O-type stars transitioning from the main sequence to the giant phase.";
     skos:prefLabel "O subgiant stars"@en .
 
 <http://astrothesaurus.org/uat/1133>
     a skos:Concept ;
     skos:altLabel "O-association"@en ;
     skos:broader <http://astrothesaurus.org/uat/1582> ;
-    skos:note "AI?X definition round 1: Groups of young, massive O-type stars formed together in a loose association, often embedded in giant molecular clouds. Citation: Blaauw, A., "OB Associations and the Evolution of Stars," Annual Review of Astronomy and Astrophysics, 1964.";
+    skos:definition "Groups of young, massive O-type stars formed together in a loose association, often embedded in giant molecular clouds.";
     skos:prefLabel "O associations"@en .
 
 <http://astrothesaurus.org/uat/1134>
