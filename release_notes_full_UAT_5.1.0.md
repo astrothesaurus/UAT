@@ -47,3 +47,7 @@ Release Date: 06/20/2024
 | Deprecated Concept URI | Deprecated Concept PrefLabel | Reason |
 | --- | --- | --- |
 |   http://astrothesaurus.org/uat/1470   | Sociology of astronomy | Duplicate concept, merged into http://astrothesaurus.org/uat/477 |
+
+
+### Cite As:
+Chivvis D, Frey K, Bartlett JL, et al. Unified Astronomy Thesaurus, V.5.1.0. [revised 2024 June]. [Internet]. Washington, DC: American Astronomical Society; 2016. SKOS thesaurus for space science research. Available from: https://github.com/astrothesaurus/UAT
