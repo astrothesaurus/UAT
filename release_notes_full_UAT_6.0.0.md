@@ -8,7 +8,7 @@ Release Date: 12/16/2025
 * Added 39 new concepts.
 * Added or updated AltLabels for 3 concepts.
 * Edited 12 definitions.
-* Resolves Issues in [Milestone Release 5.1.1](https://github.com/astrothesaurus/UAT/milestone/17?closed=1).
+* Resolves Issues in [Milestone Release 5.1.1](https://github.com/astrothesaurus/UAT/milestone/20).
 * Resolves Issues in [Milestone Release 6.0.0](https://github.com/astrothesaurus/UAT/milestone/21?closed=1).
 
 ### Detailed List of Changes
