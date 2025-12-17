@@ -1094,10 +1094,6 @@
 	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-20T21:22:19.000Z</dcterms:created>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1">
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-06T03:28:18.000Z</dcterms:modified>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/119">
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-20T16:49:15.000Z</dcterms:modified>
 </rdf:Description>
@@ -1428,10 +1424,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1491">
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-06T18:48:28.000Z</dcterms:modified>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1496">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1526">
@@ -2282,10 +2274,6 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-20T16:50:23.000Z</dcterms:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1246">
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-20T16:50:30.000Z</dcterms:modified>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1997">
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-20T16:50:38.000Z</dcterms:modified>
 </rdf:Description>
@@ -2367,7 +2355,6 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
 	<skos:hasTopConcept rdf:resource="http://astrothesaurus.org/uat/104"/>
 	<skos:hasTopConcept rdf:resource="http://astrothesaurus.org/uat/1145"/>
-	<skos:hasTopConcept rdf:resource="http://astrothesaurus.org/uat/1476"/>
 	<skos:hasTopConcept rdf:resource="http://astrothesaurus.org/uat/1529"/>
 	<skos:hasTopConcept rdf:resource="http://astrothesaurus.org/uat/1583"/>
 	<skos:hasTopConcept rdf:resource="http://astrothesaurus.org/uat/343"/>
@@ -4743,7 +4730,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1264">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:broader rdf:resource="http://astrothesaurus.org/uat/997"/>
 	<skos:prefLabel xml:lang="en">Plasmapause</skos:prefLabel>
 </rdf:Description>
 
@@ -6470,7 +6456,6 @@
 	<skos:related rdf:resource="http://astrothesaurus.org/uat/1693"/>
 	<skos:scopeNote xml:lang="en">Specifically the study of the Sun.</skos:scopeNote>
 	<skos:scopeNote xml:lang="en">The Sun is not primarily thought of as a subclass of star, because it is discussed with different words in a different literature by a different group of scientists. - jegpeek</skos:scopeNote>
-	<skos:topConceptOf rdf:resource="http://astrothesaurus.org/uat/1"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1477">
@@ -8980,7 +8965,6 @@
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1758">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:altLabel xml:lang="en">Radiation belts</skos:altLabel>
-	<skos:broader rdf:resource="http://astrothesaurus.org/uat/997"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1759">
@@ -11841,7 +11825,6 @@
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/258"/>
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/499"/>
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/764"/>
-	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/860"/>
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/900"/>
 	<skos:prefLabel xml:lang="en">Earth atmosphere</skos:prefLabel>
 	<skos:related rdf:resource="http://astrothesaurus.org/uat/114"/>
@@ -15201,7 +15184,6 @@
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1246"/>
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1491"/>
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1535"/>
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/314"/>
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/820"/>
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/826"/>
@@ -15547,7 +15529,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/860">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:broader rdf:resource="http://astrothesaurus.org/uat/437"/>
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/347"/>
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/427"/>
 	<skos:related rdf:resource="http://astrothesaurus.org/uat/861"/>
@@ -16615,7 +16596,6 @@
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/985">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:altLabel xml:lang="en">Class M stars</skos:altLabel>
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:altLabel xml:lang="en">M-type stars</skos:altLabel>
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/909"/>
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1017"/>
@@ -16736,8 +16716,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1264"/>
-	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1758"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/998">
@@ -16753,10 +16731,6 @@
 	<skos:prefLabel xml:lang="en">Magnitude</skos:prefLabel>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1653">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1974">
 	<skos:altLabel xml:lang="en">Active solar regions</skos:altLabel>
 </rdf:Description>
@@ -16767,10 +16741,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1854">
 	<skos:prefLabel xml:lang="en">Ultraviolet transient sources</skos:prefLabel>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1840">
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-04T20:51:54.981Z</dcterms:modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/693">
@@ -16843,10 +16813,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/460">
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/165">
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-26T20:18:37.095Z</dcterms:modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1476">
@@ -16961,10 +16927,6 @@
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/493"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2100">
 	<skos:altLabel xml:lang="en">AGB stars</skos:altLabel>
 </rdf:Description>
@@ -17005,16 +16967,8 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/437">
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-21T18:19:17.357Z</dcterms:modified>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/732">
 	<skos:prefLabel xml:lang="en">Massive stars</skos:prefLabel>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1319">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/944">
@@ -19345,10 +19299,6 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1653"/>
 	<skos:prefLabel xml:lang="en">Delta sunspots</skos:prefLabel>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1483">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1475">
@@ -21803,10 +21753,6 @@
 	<skos:related rdf:resource="http://astrothesaurus.org/uat/407"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1127">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1467">
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 </rdf:Description>
@@ -21953,10 +21899,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2052">
 	<skos:prefLabel xml:lang="en">Stellar evolutionary types</skos:prefLabel>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1799">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1829">
@@ -23334,7 +23276,6 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1246">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2086"/>
 </rdf:Description>
 
@@ -24467,10 +24408,6 @@
 	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1041"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/827">
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-11T20:50:50.206Z</dcterms:modified>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/383">
 	<skos:altLabel xml:lang="en">Skylight</skos:altLabel>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-12T21:44:23.913Z</dcterms:modified>
@@ -25081,10 +25018,6 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/53">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/54">
 	<skos:altLabel xml:lang="en">Solar apex</skos:altLabel>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
@@ -25649,10 +25582,6 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1030">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1031">
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 </rdf:Description>
@@ -25815,10 +25744,6 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1264">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1898">
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 </rdf:Description>
@@ -25910,10 +25835,6 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1516">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1534">
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 </rdf:Description>
 
@@ -26411,10 +26332,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/22">
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T17:41:20.275Z</dcterms:modified>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/53">
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T18:05:27.537Z</dcterms:modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/57">
@@ -27052,11 +26969,6 @@
 	<skos:definition xml:lang="en">A binary star system which is composed of a collapsed object (degenerate dwarf, neutron star, or black hole) in orbit with a low-mass (≤ 0.5 M_sol) secondary star, wherein the collapsed star accretes matter from its companion. These two objects form a binary system of overall dimensions 10^6 km with an orbital period of only hours or less.</skos:definition>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/165">
-	<skos:definition xml:lang="en">An small irregular galaxy undergoing violent star formation activity. These objects appear blue by reason of containing clusters of hot, massive stars which ionize the surrounding interstellar gas. They are chemically unevolved since their metallicity is only 1/3 to 1/30 of the solar value.</skos:definition>
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/285">
 	<skos:definition xml:lang="en">A galaxy with no disk or nebulous background and a high surface brightness that appears only barely larger than a star-like point on a sky survey photograph.</skos:definition>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
@@ -27083,7 +26995,6 @@
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
 	<skos:prefLabel xml:lang="en">Planetary magnetospheres</skos:prefLabel>
 	<skos:altLabel xml:lang="en">Planetary magnetosphere</skos:altLabel>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-26T21:34:22.213Z</dcterms:modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1092">
@@ -27564,8 +27475,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/824">
 	<skos:definition xml:lang="en">The magnetic field that is carried along with the solar wind and fills the solar system space. It is wound into a spiral structure by the rotation of the Sun. At the Earth's distance from the Sun, it has a strength of about 5 x 10^-5 gauss.</skos:definition>
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T16:06:26.504Z</dcterms:modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/834">
@@ -27764,11 +27673,6 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T16:55:33.484Z</dcterms:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/985">
-	<skos:definition xml:lang="en">A cool, red star of spectral type M with a surface temperatures of less than 3600 K. The spectra of M stars are dominated by molecular bands, especially those of TiO. Naked-eye examples are Betelgeuse and Antares.</skos:definition>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T16:56:23.335Z</dcterms:modified>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/39">
 	<skos:definition xml:lang="en">The nearest spiral galaxy to our own and a major member of the Local Group. It lies in the constellation Andromeda and is the most remote object normally visible to the naked eye. The earliest known reference to this galaxy is by the Iranian astronomer Sufi who called it 'the little cloud' in his Book of Fixed Stars (A.D. 964).</skos:definition>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T17:40:10.991Z</dcterms:modified>
@@ -27858,10 +27762,6 @@
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/51">
 	<skos:definition xml:lang="en">The point at which a binary star is furthest from its companion.</skos:definition>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T18:03:54.448Z</dcterms:modified>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/53">
-	<skos:definition xml:lang="en">The method of combining the signals received by several smaller telescopes distributed over a very large area or baseline to provide the high angular resolution of a much large telescope.</skos:definition>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/54">
@@ -28182,11 +28082,6 @@
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/295">
 	<skos:definition xml:lang="en">A position of two bodies in the solar system when they have the same celestial longitude, seen from the Earth. The bodies can be a planet and the Sun, two planets or the Moon and a planet. The superior planets are in conjunction with the Sun, when, seen from the Earth, they are right behind the Sun. The inferior planets, such as Mercury and Venus, have two conjunctions with the Sun: inferior conjunction, when they are between the Earth and the Sun, and superior conjunction, when they are on the other side of the Sun.</skos:definition>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T19:39:03.840Z</dcterms:modified>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1127">
-	<skos:definition xml:lang="en">A star that experiences a sudden increase in luminosity, by a s much as 10^6. The outburst ejects a shell of matter but does not disrupt the star.</skos:definition>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-03T19:43:17.433Z</dcterms:modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/330">
@@ -28541,10 +28436,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/477">
 	<skos:definition xml:lang="en">The study of the beliefs, interpretations, and practices of specific cultures regarding celestial objects or phenomena. Ethnoastronomy uses the tools and methodologies of ethnology in the study of astronomical conceptions.</skos:definition>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1319">
-	<skos:definition xml:lang="en">An compact, extragalactic object which is highly luminous and looks like a star. Their redshifts can be large and their brightness varies. Quasars have an intrinsic luminosity which can reach some 100 times that of bright galaxies. They are thought to be active galactic nuclei with a size a little larger than the solar system. The first quasar to be identified as such, in 1963, was the radio source 3C 273 at a redshift of 0.158. With its 13th magnitude, it is the optically brightest quasar as observed from Earth. Some quasars are strong radio sources.</skos:definition>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/484">
@@ -29126,10 +29017,6 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-04T18:48:04.006Z</dcterms:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1653">
-	<skos:definition xml:lang="en">An area seen as a dark patch on the Sun's surface. Sunspots appear dark because they are cooler (of about 4000 °C) than the surrounding photosphere (about 6000 °C). They range in size from a few hundred kilometers to several times the Earth's diameter and last from a few hours to a few months. Very small sunspots are called pores. The number of sunspots varies from maximum to minimum in about 11 years, the sunspot cycle. Their appearance during a cycle follows the Sporer law. A typical spot has a central umbra surrounded by a penumbra, although either features can exist without the other. Sunspots are associated with strong magnetic fields of 0.2 to 0.4 tesla. A given sunspot has a single magnetic polarity. The opposite polarity may be found in other sunspots or in the bright and diffuse facular region adjacent to the sunspot. The first recorded naked-eye sightings of sunspots were by Chinese astronomers in the first century B.C. Johannes Fabricius (1587-1617) was the first to argue that sunspots are areas on the solar surface.</skos:definition>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1656">
 	<skos:definition xml:lang="en">A cavity hundreds of light-years across filled with a hot gas blown into the interstellar medium by multiple supernovae and stellar winds. Examples are the Local Bubble in the Orion Arm of the Milky Way and the N44 Superbubble in the Large Magellanic Cloud.</skos:definition>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -29235,11 +29122,6 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-04T20:49:02.035Z</dcterms:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1840">
-	<skos:definition xml:lang="en">A telescope that is mounted on a vertical axis or moves only a small amount from the vertical. It is primarily used to determine positional measurement of stars moving near the zenith. The advantage is that there is no atmospheric refraction occurring at the zenith. If a star on one night passes through the center of eyepiece, one must observe it six month later, and see if the star has been offset by the center. A shift would mean a measure of parallax.</skos:definition>
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1839">
 	<skos:altLabel xml:lang="en">Zenith hour rate</skos:altLabel>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -29326,11 +29208,6 @@
 	<skos:definition xml:lang="en">A binary system with semi-major axis as large as 10,000 astronomical units.</skos:definition>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-04T21:09:47.096Z</dcterms:modified>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1799">
-	<skos:definition xml:lang="en">A compact star of high surface temperature, low luminosity, and high density (10^5 - 10^8 g cm^-3), with roughly the mass of the Sun (mean mass ~ 0.6 M_sun) and the radius of the Earth (R ~ 0.01 R_sun), representing the end-point of the evolution of all stars with masses less then ~ 5-9 solar masses. A white dwarf is what remains after the central star of a planetary nebula fades and becomes cool. The Chandrasekhar limit of 1.43 solar masses is the highest mass that a white dwarf can achieve before electron degeneracy pressure is unable to support it. In the Hertzsprung-Russell diagram, white dwarfs form a well-defined sequence around 8 magnitudes fainter than the main sequence. They are composed of a core of carbon and oxygen nuclei and degenerate electrons surrounded by a thin shell of helium and an outer skin of hydrogen. White dwarf's radiation is the leftover heat from the star's past when its core was an active nuclear reactor. The star slowly cools as heat escapes through the non-degenerate envelope. The first white dwarf to be discovered was Sirius B, the companion of Sirius. White dwarfs are divided into several types, according to their spectral features, which depend on the type of shell burning that dominated as it became a planetary nebula: DA white dwarf; DB white dwarf; DC white dwarf; DO white dwarf; DZ white dwarf; DQ white dwarf.</skos:definition>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-04T21:11:39.147Z</dcterms:modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/348">
@@ -29434,9 +29311,7 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1758">
 	<skos:altLabel xml:lang="en">Van Allen belts</skos:altLabel>
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:prefLabel xml:lang="en">Van Allen radiation belts</skos:prefLabel>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-04T21:35:50.051Z</dcterms:modified>
 	<skos:definition xml:lang="en">The ring-shaped regions of charged particles surrounding the Earth from 1 to 6 Earth radii into space. The charged particles are trapped in by the Earth's magnetic field. The inner belt is between 1.2 and 4.5 Earth radii and contains high-energy electrons and protons which originate mainly from interactions between cosmic rays and the upper atmosphere. The outer belt, located between 4.5 and 6.0 Earth radii, contains lower-energy charged particles mainly coming from the solar wind.</skos:definition>
 </rdf:Description>
 
@@ -29681,8 +29556,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1273">
 	<skos:definition xml:lang="en">Either of the regions around the poles of a planet.</skos:definition>
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-05T20:15:45.862Z</dcterms:modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/982">
@@ -30408,11 +30281,6 @@
 	<skos:definition xml:lang="en">A telescope with a graduated vertical scale, used to measure the declinations of heavenly bodies and sometimes to determine the time of meridian transits.</skos:definition>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1030">
-	<skos:definition xml:lang="en">The layer of the atmosphere located between the stratosphere and the ionosphere, where temperature drops rapidly with increasing height. It extends between 17 to 80 kilometers above the Earth's surface.</skos:definition>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-10T19:27:09.377Z</dcterms:modified>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1031">
 	<skos:definition xml:lang="en">In a star, nebula, or galaxy, the proportion of the material that is made up of metals, that is elements heavier than helium. It is generally denoted by Z. The term 'metallicity' is a misnomer used in astrophysics.  In practice, the metallicity of stars is usually expressed by the number ratio of iron atoms to hydrogen atoms per unit volume, with respect to the solar values: [Fe/H] = log10(NFe/NH)star - log10(NFe/NH)Sun, where NFe and NH are the numbers of iron and hydrogen atoms per unit volume. In fact it is taken to be equal to the iron abundance with respect to the solar value. The solar logarithmic iron abundance is 7.50 ± 0.04, with respect to that of hydrogen which, by convention, is 12.00. Stellar metallicity is often expressed in mass fraction.  Nebular metallicity is often defined as the relative abundance of oxygen: (NO/NH)neb/(NO/NH)Sun, where N_O and N_H represent the numbers of oxygen and hydrogen atoms per unit volume.</skos:definition>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-10T19:28:29.949Z</dcterms:modified>
@@ -30608,13 +30476,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2177">
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1472">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/2177">
 	<skos:scopeNote xml:lang="en">Interactions between exoplanets and their stars.  The similar concept "Solar-planetary interactions" is specific to interactions between the Sun and Solar system planets.</skos:scopeNote>
 	<skos:altLabel xml:lang="en">Stellar-planetary interactions</skos:altLabel>
 </rdf:Description>
@@ -30624,7 +30485,6 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1473">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<skos:scopeNote xml:lang="en">Specific to interactions between the Sun and Earth.  The similar concept "Solar-planetary interactions" is about interactions between the Sun and other Solar system planets, or all of them more generally.</skos:scopeNote>
 </rdf:Description>
 
@@ -30786,7 +30646,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1264">
 	<skos:definition xml:lang="en">The sharp outer boundary of the plasmasphere, at which the plasma density decreases by a factor of 100 or more.</skos:definition>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-17T19:36:40.468Z</dcterms:modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1265">
@@ -30954,11 +30813,6 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-19T15:29:53.786Z</dcterms:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1483">
-	<skos:definition xml:lang="en">The outermost atmosphere of the Sun immediately above the chromosphere, which can be seen during a total solar eclipse. It consists of hot, extremely tenuous gas extending for millions of kilometer from the Sun's surface.</skos:definition>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-19T15:39:17.521Z</dcterms:modified>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1487">
 	<skos:definition xml:lang="en">The periodic variation in frequency or number of solar active events (sunspots, prominences, flares, and other solar activity) occurring with an interval of about 11 years. The solar cycle was discovered in 1843 by Samuel Heinrich Schwabe (1789-1875), a German apothecary and amateur astronomer, who after 17 years of observations noticed a periodic variation in the average number of sunspots seen from year to year on the solar disk. Solar cycle numbering goes back to the 18th century, when the Cycle 1 peak occurred in 1760. Cycle 23 peaked in 2000, and the following Cycle 24 will reach its maximum in 2013.</skos:definition>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-19T15:46:01.601Z</dcterms:modified>
@@ -31014,7 +30868,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1534">
 	<skos:definition xml:lang="en">A mass outflow, consisting of protons, electrons, and other subatomic particles, expelled constantly from the solar corona at about 500 km per second. The solar mass-loss rate in this phenomenon amounts to about 2 x 10^-14 solar masses per year, or about 106 tons per second.</skos:definition>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-19T16:00:57.493Z</dcterms:modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1537">
@@ -31538,12 +31391,6 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1781">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-	<skos:definition xml:lang="en">A theorem that establishes a relation between the radiative flux at some colatitude on the surface of a rotating star and the local effective gravity (which is a function of the angular velocity and colatitude). For a rotating star in which centrifugal forces are not negligible, the equipotentials where gravity, centrifugal force, and pressure are balanced will no longer be spheres. The theorem states that the radiative flux is proportional to the local effective gravity at the considered colatitude, F(θ) ∝ g_eff (θ)α, where α is the gravity darkening coefficient. As a consequence, the stellar surface will not be uniformly bright, because there is a much larger flux and a higher effective temperature at the pole than at the equator (T_eff (θ) ∝ g_eff (θ)β, where β is the gravity darkening exponent. In massive stars this latitudinal dependence of the temperature leads to asymmetric mass loss and also to enhanced average mass loss rates.</skos:definition>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-24T17:31:52.824Z</dcterms:modified>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1547">
 	<skos:definition xml:lang="en">A telescope which is placed in an orbit around the Earth and operates through commands from sent from the control center on Earth, such as Hubble space telescope, Herschel satellite, Infrared Astronomical Satellite (IRAS), Infrared Space Observatory (ISO), International Ultraviolet Explorer (IUE), Planck Satellite, Spitzer Space Telescope.</skos:definition>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
@@ -31570,11 +31417,6 @@
 	<skos:definition xml:lang="en">A colorless, odorless, inflammable gas of formula CH4; the simplest hydrocarbon.</skos:definition>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-24T17:36:48.209Z</dcterms:modified>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1496">
-	<skos:definition xml:lang="en">A bright eruption form the Sun's chromosphere in the vicinity of a sunspot. Solar flares are caused by tremendous explosions on the surface of the Sun. In a matter of just a few minutes they heat the material to many millions of degrees and release as much energy as a billion megatons of TNT.</skos:definition>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-24T17:38:19.329Z</dcterms:modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/439">
@@ -31827,24 +31669,11 @@
 	<skos:related rdf:resource="http://astrothesaurus.org/uat/1244"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1244">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/860">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2185">
-	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1244"/>
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dcterms:creator rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-02T22:01:27.987Z</dcterms:created>
 	<skos:prefLabel xml:lang="en">Planetary ionospheres</skos:prefLabel>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1244">
-	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2185"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2184">
@@ -32172,12 +32001,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2037">
 	<skos:related rdf:resource="http://astrothesaurus.org/uat/1472"/>
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-04T15:09:19.406Z</dcterms:modified>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1472">
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-04T15:09:19.406Z</dcterms:modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1684">
@@ -32202,10 +32025,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2191">
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-04T16:22:55.352Z</dcterms:modified>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1255">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2192">
@@ -32610,7 +32429,6 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/860">
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-09T19:19:15.838Z</dcterms:modified>
 	<skos:prefLabel xml:lang="en">Earth ionosphere</skos:prefLabel>
 	<skos:altLabel xml:lang="en">Earth's ionosphere</skos:altLabel>
 </rdf:Description>
@@ -32905,7 +32723,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1244">
 	<skos:related rdf:resource="http://astrothesaurus.org/uat/116"/>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-11T18:31:08.727Z</dcterms:modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/116">
@@ -33129,10 +32946,6 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:19:28.596Z</dcterms:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1319">
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:20:23.826Z</dcterms:modified>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/142">
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T19:21:36.032Z</dcterms:modified>
 </rdf:Description>
@@ -33175,10 +32988,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/946">
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:34:05.579Z</dcterms:modified>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1653">
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T20:39:45.185Z</dcterms:modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/271">
@@ -33255,7 +33064,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1473">
 	<skos:altLabel xml:lang="en">Solar terrestrial relation</skos:altLabel>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-17T16:27:56.610Z</dcterms:modified>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1853">
@@ -33623,14 +33431,6 @@
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/104">
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1476">
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-03-29T17:21:25.592Z</dcterms:modified>
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/104">
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-03-29T17:21:25.592Z</dcterms:modified>
 </rdf:Description>
 
@@ -35479,10 +35279,6 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-21T17:54:09.432Z</dcterms:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1255">
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-21T17:54:09.433Z</dcterms:modified>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2311">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 </rdf:Description>
@@ -35570,10 +35366,6 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-21T18:19:17.357Z</dcterms:modified>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/437">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/962">
 	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2315"/>
 </rdf:Description>
@@ -35653,14 +35445,9 @@
 	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-21T18:32:01.067Z</dcterms:created>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
-	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2319"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/2319">
 	<skos:prefLabel xml:lang="en">Magnetic poles</skos:prefLabel>
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:broader rdf:resource="http://astrothesaurus.org/uat/997"/>
 	<dcterms:creator rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
 	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-21T18:32:25.565Z</dcterms:created>
 </rdf:Description>
@@ -36814,6 +36601,933 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-20T13:24:39.951Z</dcterms:modified>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2373">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:01:47.909Z</dcterms:created>
+	<skos:topConceptOf rdf:resource="http://astrothesaurus.org/uat/1"/>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1">
+	<skos:hasTopConcept rdf:resource="http://astrothesaurus.org/uat/2373"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2373">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Heliophysics</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1476">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2373"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2373">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1476"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1476">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2373">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1476">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:03:09.441Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:03:09.441Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2373">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2037"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2037">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2373"/>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1473">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1528">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2374"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2374">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1528"/>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:08:44.018Z</dcterms:created>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/824">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2373"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2373">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/824"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/824">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:09:35.674Z</dcterms:modified>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/827">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2373"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2373">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/827"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/827">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1472">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2373"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2373">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1472"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1472">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1246"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1246">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1472"/>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/997"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1246"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1246">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:13:10.111Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2185">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1472"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1472">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2185"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2185">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1472">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/997"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1472"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1472">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:14:37.730Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2375"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2375">
+	<skos:prefLabel xml:lang="en">Alfven wings</skos:prefLabel>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/997"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:15:47.930Z</dcterms:created>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2376">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/997"/>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:16:43.474Z</dcterms:created>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2376"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2377">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:17:14.072Z</dcterms:created>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2377"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2377">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/997"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2378">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2378"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2378">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:17:35.437Z</dcterms:created>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/997"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2379"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2379">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/997"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:18:06.830Z</dcterms:created>
+	<skos:prefLabel xml:lang="en">Magnetodisk</skos:prefLabel>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2380">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<skos:prefLabel xml:lang="en">Magnetopause</skos:prefLabel>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/997"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2380"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2380">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:18:24.216Z</dcterms:created>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2381">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:18:47.481Z</dcterms:created>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2381"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2381">
+	<skos:prefLabel xml:lang="en">Magnetosheath</skos:prefLabel>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/997"/>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2382">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/997"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2382"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2382">
+	<skos:prefLabel xml:lang="en">Magnetotail</skos:prefLabel>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:19:11.428Z</dcterms:created>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2383">
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:19:32.397Z</dcterms:created>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/997"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2383"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2384">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Inner magnetosphere</skos:prefLabel>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:19:59.416Z</dcterms:created>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2384"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2384">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/997"/>
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2319"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2319">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2384"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2384">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2319">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:21:02.271Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2384">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1264"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1264">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2384"/>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:21:31.138Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2384">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1758"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1758">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2384"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2384">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:21:47.663Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1758">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:22:06.291Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/997">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:22:06.291Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2385">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:22:24.922Z</dcterms:created>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1758"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1758">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2385"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2385">
+	<skos:prefLabel xml:lang="en">Inner radiation belts</skos:prefLabel>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2386">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:23:12.956Z</dcterms:created>
+	<skos:prefLabel xml:lang="en">Outer radiation belts</skos:prefLabel>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1758">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2386"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2386">
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1758"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2387">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2384"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2384">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2387"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2387">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:23:51.174Z</dcterms:created>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2384">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2388"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2388">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:24:20.141Z</dcterms:created>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2384"/>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<skos:prefLabel xml:lang="en">Warm plasma cloak</skos:prefLabel>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2389">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:24:40.464Z</dcterms:created>
+	<skos:prefLabel xml:lang="en">Plasmasphere</skos:prefLabel>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2384"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2384">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2389"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2389">
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2390">
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<skos:prefLabel xml:lang="en">Ring current</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2384">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2390"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2390">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2384"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:25:25.023Z</dcterms:created>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2391">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2382"/>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Magnetotail current sheet</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2382">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2391"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2391">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:26:00.045Z</dcterms:created>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2392">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2382">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2392"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2392">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2382"/>
+	<skos:prefLabel xml:lang="en">Magnetotail kink</skos:prefLabel>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:26:28.649Z</dcterms:created>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2185">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1255"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1255">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2185"/>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:27:22.986Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2185">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/860"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/860">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2185"/>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/437">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:28:42.462Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2185">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:29:05.132Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1244">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2376">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/860"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/860">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2376"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2376">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2393">
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/860">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2393"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2393">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/860"/>
+	<skos:prefLabel xml:lang="en">Mid-latitude ionosphere</skos:prefLabel>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:34:35.862Z</dcterms:created>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2394">
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/860">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2394"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2394">
+	<skos:prefLabel xml:lang="en">Low-latitude ionosphere</skos:prefLabel>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/860"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:34:51.880Z</dcterms:created>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<skos:altLabel xml:lang="en">Equatorial ionosphere</skos:altLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:35:16.131Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/860">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1273"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1273">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/860"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/860">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:35:44.233Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1273">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:35:44.233Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2395">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:36:22.822Z</dcterms:created>
+	<skos:prefLabel xml:lang="en">Auroral region</skos:prefLabel>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/860">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2395"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2395">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/860"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2396">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/860"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:36:51.962Z</dcterms:created>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Subauroral ionosphere</skos:prefLabel>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/860">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2396"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2397">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/860">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2397"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2397">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/860"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:37:20.116Z</dcterms:created>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2395">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2398"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2398">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:37:59.781Z</dcterms:created>
+	<skos:prefLabel xml:lang="en">Poleward boundary</skos:prefLabel>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2395"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2399">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2395"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2395">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2399"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2399">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:38:17.920Z</dcterms:created>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Equatorward boundary</skos:prefLabel>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2400">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2395"/>
+	<skos:prefLabel xml:lang="en">Auroral oval</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2395">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2400"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2400">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:38:33.516Z</dcterms:created>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2397">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2401"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2401">
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2397"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:39:10.438Z</dcterms:created>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2402">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2397"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2397">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2402"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2402">
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:39:28.174Z</dcterms:created>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2403">
+	<skos:prefLabel xml:lang="en">Sq current</skos:prefLabel>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2397"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2397">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2403"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2403">
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:39:47.523Z</dcterms:created>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2404">
+	<skos:prefLabel xml:lang="en">Auroral electrojet</skos:prefLabel>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:40:12.284Z</dcterms:created>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2397"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2397">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2404"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2404">
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2397">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2405"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2405">
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:40:32.491Z</dcterms:created>
+	<skos:prefLabel xml:lang="en">Equatorial electrojet</skos:prefLabel>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2397"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2406">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2397"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2397">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2406"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2406">
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:41:03.598Z</dcterms:created>
+	<skos:prefLabel xml:lang="en">Substorm current wedge</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2407">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:42:41.986Z</dcterms:created>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2397"/>
+	<skos:prefLabel xml:lang="en">Region 1 current</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2397">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2407"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2407">
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:42:56.630Z</dcterms:modified>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<skos:altLabel xml:lang="en">Region 1 field-aligned current</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2408">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:43:13.468Z</dcterms:created>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2397"/>
+	<skos:prefLabel xml:lang="en">Region 2 current</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2397">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2408"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2408">
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:43:30.642Z</dcterms:modified>
+	<skos:altLabel xml:lang="en">Region 2 field-aligned current</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2409">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/1640"/>
+	<skos:prefLabel xml:lang="en">Polar vortex</skos:prefLabel>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1640">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/2409"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2409">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T18:44:23.724Z</dcterms:created>
+	<dcterms:creator rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2374">
+	<skos:prefLabel xml:lang="en">Unmagnetized Solar System bodies</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T19:22:31.236Z</dcterms:modified>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2376">
+	<skos:prefLabel xml:lang="en">Magnetosphere cusps</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T19:23:09.426Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2377">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<skos:prefLabel xml:lang="en">Magnetosphere foreshocks</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T19:23:50.985Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2378">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<skos:prefLabel xml:lang="en">Magnetosphere lobes</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T19:24:08.170Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2387">
+	<skos:prefLabel xml:lang="en">Magnetosphere plasma toruses</skos:prefLabel>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T19:24:38.085Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2037">
+	<skos:related rdf:resource="http://astrothesaurus.org/uat/1473"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1473">
+	<skos:related rdf:resource="http://astrothesaurus.org/uat/2037"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T19:25:52.170Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2397">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2401">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T19:26:55.995Z</dcterms:modified>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<skos:prefLabel xml:lang="en">Pedersen current (Ionospheric)</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2402">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T19:27:08.801Z</dcterms:modified>
+	<skos:prefLabel xml:lang="en">Hall current (Ionospheric)</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2383">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T19:27:23.813Z</dcterms:modified>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<skos:prefLabel xml:lang="en">Natural satellite wakes</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2397">
+	<skos:prefLabel xml:lang="en">Ionosphere current systems</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T19:30:00.538Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2037">
+	<skos:related rdf:resource="http://astrothesaurus.org/uat/827"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/827">
+	<skos:related rdf:resource="http://astrothesaurus.org/uat/2037"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2037">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T19:30:46.924Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/827">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T19:30:46.924Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1244">
+	<skos:broader rdf:resource="http://astrothesaurus.org/uat/2373"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2373">
+	<skos:narrower rdf:resource="http://astrothesaurus.org/uat/1244"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1244">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T19:34:28.947Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2373">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T19:34:28.947Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/851">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T19:52:52.071Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1534">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T19:53:20.251Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1127">
+	<skos:definition xml:lang="en">A star that experiences a sudden increase in luminosity, by as much as 10^6. The outburst ejects a shell of matter but does not disrupt the star.</skos:definition>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T20:14:08.896Z</dcterms:modified>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/985">
+	<skos:definition xml:lang="en">A cool, red star of spectral type M with a surface temperature less than 3600 K. The spectra of M stars are dominated by molecular bands, especially those of TiO. Naked-eye examples are Betelgeuse and Antares.</skos:definition>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T20:14:48.873Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1799">
+	<skos:definition xml:lang="en">A compact star of high surface temperature, low luminosity, and high density (10^5 - 10^8 g cm^-3), with roughly the mass of the Sun (mean mass ~ 0.6 M_sun) and the radius of the Earth (R ~ 0.01 R_sun), representing the end-point of the evolution of all stars with masses less than ~ 5-9 solar masses. A white dwarf is what remains after the central star of a planetary nebula fades and becomes cool. The Chandrasekhar limit of 1.43 solar masses is the highest mass that a white dwarf can achieve before electron degeneracy pressure is unable to support it. In the Hertzsprung-Russell diagram, white dwarfs form a well-defined sequence around 8 magnitudes fainter than the main sequence. They are composed of a core of carbon and oxygen nuclei and degenerate electrons surrounded by a thin shell of helium and an outer skin of hydrogen. White dwarf's radiation is the leftover heat from the star's past when its core was an active nuclear reactor. The star slowly cools as heat escapes through the non-degenerate envelope. The first white dwarf to be discovered was Sirius B, the companion of Sirius. White dwarfs are divided into several types, according to their spectral features, which depend on the type of shell burning that dominated as it became a planetary nebula: DA white dwarf; DB white dwarf; DC white dwarf; DO white dwarf; DZ white dwarf; DQ white dwarf.</skos:definition>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T20:15:33.422Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1319">
+	<skos:definition xml:lang="en">A compact, extragalactic object which is highly luminous and looks like a star. Their redshifts can be large and their brightness varies. Quasars have an intrinsic luminosity which can reach some 100 times that of bright galaxies. They are thought to be active galactic nuclei with a size a little larger than the solar system. The first quasar to be identified as such, in 1963, was the radio source 3C 273 at a redshift of 0.158. With its 13th magnitude, it is the optically brightest quasar as observed from Earth. Some quasars are strong radio sources.</skos:definition>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T20:16:12.345Z</dcterms:modified>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1030">
+	<skos:definition xml:lang="en">The layer of the atmosphere located between the stratosphere and the ionosphere, where temperature drops rapidly with increasing height. It extends between 17 and 80 kilometers above the Earth's surface.</skos:definition>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T20:16:48.260Z</dcterms:modified>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1653">
+	<skos:definition xml:lang="en">An area seen as a dark patch on the Sun's surface. Sunspots appear dark because they are cooler (of about 4000 °C) than the surrounding photosphere (about 6000 °C). They range in size from a few hundred kilometers to several times the Earth's diameter and last from a few hours to a few months. Very small sunspots are called pores. The number of sunspots varies from maximum to minimum in about 11 years, the sunspot cycle. Their appearance during a cycle follows the Sporer law. A typical spot has a central umbra surrounded by a penumbra, although either feature can exist without the other. Sunspots are associated with strong magnetic fields of 0.2 to 0.4 tesla. A given sunspot has a single magnetic polarity. The opposite polarity may be found in other sunspots or in the bright and diffuse facular region adjacent to the sunspot. The first recorded naked-eye sightings of sunspots were by Chinese astronomers in the first century B.C. Johannes Fabricius (1587-1617) was the first to argue that sunspots are areas on the solar surface.</skos:definition>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T20:17:24.057Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1483">
+	<skos:definition xml:lang="en">The outermost atmosphere of the Sun immediately above the chromosphere, which can be seen during a total solar eclipse. It consists of hot, extremely tenuous gas extending for millions of kilometers from the Sun's surface.</skos:definition>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T20:18:01.909Z</dcterms:modified>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1496">
+	<skos:definition xml:lang="en">A bright eruption from the Sun's chromosphere in the vicinity of a sunspot. Solar flares are caused by tremendous explosions on the surface of the Sun. In a matter of just a few minutes they heat the material to many millions of degrees and release as much energy as a billion megatons of TNT.</skos:definition>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T20:18:37.183Z</dcterms:modified>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/53">
+	<skos:definition xml:lang="en">The method of combining the signals received by several smaller telescopes distributed over a very large area or baseline to provide the high angular resolution of a much larger telescope.</skos:definition>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T20:19:11.695Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1781">
+	<skos:definition xml:lang="en">A theorem that establishes a relation between the radiative flux at some colatitude on the surface of a rotating star and the local effective gravity (which is a function of the angular velocity and colatitude). For a rotating star in which centrifugal forces are not negligible, the equipotentials where gravity, centrifugal force, and pressure are balanced will no longer be spheres. The theorem states that the radiative flux is proportional to the local effective gravity at the considered colatitude, F(θ) ∝ g_eff (θ)α, where α is the gravity darkening coefficient. As a consequence, the stellar surface will not be uniformly bright, because there is a much larger flux and a higher effective temperature at the pole than at the equator (T_eff (θ) ∝ g_eff (θ)β, where β is the gravity darkening exponent). In massive stars this latitudinal dependence of the temperature leads to asymmetric mass loss and also to enhanced average mass loss rates.</skos:definition>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T20:19:42.229Z</dcterms:modified>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1840">
+	<skos:definition xml:lang="en">A telescope that is mounted on a vertical axis or moves only a small amount from the vertical. It is primarily used to determine positional measurement of stars moving near the zenith. The advantage is that there is no atmospheric refraction occurring at the zenith. If a star on one night passes through the center of eyepiece, one must observe it six months later, and see if the star has been offset by the center. A shift would mean a measure of parallax.</skos:definition>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T20:20:12.954Z</dcterms:modified>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/165">
+	<skos:definition xml:lang="en">A small irregular galaxy undergoing violent star formation activity. These objects appear blue by reason of containing clusters of hot, massive stars which ionize the surrounding interstellar gas. They are chemically unevolved since their metallicity is only 1/3 to 1/30 of the solar value.</skos:definition>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ardc.edu.au/user/829848bd-c5e5-4a4f-8dab-a4a93998df19"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-16T20:20:41.746Z</dcterms:modified>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1575">
 	<rdfs:label xml:lang="en">Stephan's quintet</rdfs:label>
 	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -37409,6 +38123,18 @@
 	<rdfs:label xml:lang="en">Sociology of astronomy</rdfs:label>
 	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2410">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Solar wind heating</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/2411">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<rdfs:label xml:lang="en">Stochastic heating</rdfs:label>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="node1c3g820jex29">
@@ -49602,18 +50328,6 @@ https://en.wikipedia.org/wiki/Diffuse_sky_radiation</rdfs:comment>
 	<dcterms:title>Definition Provenance</dcterms:title>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/786">
-	<skos:editorialNote rdf:nodeID="node1ell3dmacx543"/>
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1ell3dmacx543">
-	<rdfs:comment>An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri</rdfs:comment>
-	<dcterms:creator rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
-	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T16:58:12.767Z</dcterms:created>
-	<dcterms:title>Definition Provenance</dcterms:title>
-</rdf:Description>
-
 <rdf:Description rdf:nodeID="node1ell3dmacx544">
 	<dcterms:title>Definition Provenance</dcterms:title>
 </rdf:Description>
@@ -49725,20 +50439,6 @@ https://en.wikipedia.org/wiki/Diffuse_sky_radiation</rdfs:comment>
 
 <rdf:Description rdf:nodeID="node1ell3dmacx548">
 	<rdfs:comment>An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1ell3dmacx549">
-	<dcterms:title>Definition Provenance</dcterms:title>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1776">
-	<skos:editorialNote rdf:nodeID="node1ell3dmacx549"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1ell3dmacx549">
-	<dcterms:creator rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
-	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-09T22:18:03.463Z</dcterms:created>
-	<rdfs:comment>Wikipedia</rdfs:comment>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="node1emrsetdcx80">
@@ -52360,21 +53060,6 @@ https://en.wikipedia.org/wiki/Diffuse_sky_radiation</rdfs:comment>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1336">
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-17T20:06:37.739Z</dcterms:modified>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1emrsetdcx59">
-	<dcterms:title>Definition Provenance</dcterms:title>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1338">
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
-	<skos:editorialNote rdf:nodeID="node1emrsetdcx59"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1emrsetdcx59">
-	<rdfs:comment>An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri</rdfs:comment>
-	<dcterms:creator rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
-	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-17T20:08:53.728Z</dcterms:created>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="node1emrsetdcx60">
@@ -58011,10 +58696,6 @@ https://en.wikipedia.org/wiki/Diffuse_sky_radiation</rdfs:comment>
 	<dcterms:title>Definition Provenance</dcterms:title>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/786">
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-20T12:22:01.410Z</dcterms:modified>
-</rdf:Description>
-
 <rdf:Description rdf:nodeID="genid-start-32099a6a65e03e9fd">
 	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-20T12:27:02.849Z</dcterms:created>
 	<dcterms:creator rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
@@ -58024,8 +58705,6 @@ https://en.wikipedia.org/wiki/Diffuse_sky_radiation</rdfs:comment>
 
 <rdf:Description rdf:about="http://astrothesaurus.org/uat/1776">
 	<skos:editorialNote rdf:nodeID="genid-start-32099a6a65e03e9fd"/>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-20T12:27:02.855Z</dcterms:modified>
-	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid-start-32099a6a65e03e9fc">
@@ -58040,10 +58719,6 @@ https://en.wikipedia.org/wiki/Diffuse_sky_radiation</rdfs:comment>
 	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-20T12:28:36.539Z</dcterms:created>
 	<rdfs:comment>Modified from An Etymological Dictionary of Astronomy and Astrophysics, by M. Heydari-Malayeri</rdfs:comment>
 	<dcterms:creator rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://astrothesaurus.org/uat/1338">
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-20T12:28:36.545Z</dcterms:modified>
 </rdf:Description>
 
 <rdf:Description rdf:nodeID="genid-start-32099a6a65e03e9fb">
@@ -58128,6 +58803,21 @@ https://en.wikipedia.org/wiki/Diffuse_sky_radiation</rdfs:comment>
 
 <rdf:Description rdf:nodeID="genid-start-32099a6a65e03e9f8">
 	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-20T13:23:54.016Z</dcterms:created>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/786">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-20T15:27:47.656Z</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1338">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-20T15:28:10.805Z</dcterms:modified>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://astrothesaurus.org/uat/1776">
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/AAS_Frey.Katie_Admin"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-20T15:28:25.685Z</dcterms:modified>
 </rdf:Description>
 
 </rdf:RDF>
