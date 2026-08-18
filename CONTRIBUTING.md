@@ -2,6 +2,8 @@ This repository is meant to be used as an archive for current and past versions 
 
 Please note that this project is released with a [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
+The UAT's [curation policies](./Documentation/curation_policies/curation_policies) will be used to assess and resolve change requests.
+
 Methods for providing contributions:
 
 Raise a GitHub Issue: https://github.com/astrothesaurus/UAT/issues
