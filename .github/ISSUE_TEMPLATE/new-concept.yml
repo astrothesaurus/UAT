@@ -2,8 +2,6 @@ name: New Concept
 description: Recommend a new concept for the Unified Astronomy Thesaurus.
 title: "[New Concept]: "
 labels: ["add concept"]
-assignees:
-  - danielchivvis
 body:
   - type: markdown
     attributes:
