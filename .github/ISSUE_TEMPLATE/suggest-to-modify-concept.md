@@ -3,7 +3,6 @@ name: Suggest to Modify Concept
 about: Suggest a change to an existing concept
 title: 'Modify Concept: [concept name here]'
 labels: modify concept
-assignees: danielchivvis
 
 ---
 
